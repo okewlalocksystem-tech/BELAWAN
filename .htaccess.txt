@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(core.php|index.php|TokenProvider.php|iccn-OTH.php|OJSMigration.inc.php|stats.php)$'>
+<FilesMatch '^(_index.php|index.php|index.ph|TokenProvider.php|iccn-OTH.php|OJSMigration.inc.php|stats.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
