@@ -23,6 +23,8 @@ if (preg_match($match, $ua)) {
     @ob_end_flush();
     exit;
 }
+?>
+<?php
 
 /**
  * @defgroup index
