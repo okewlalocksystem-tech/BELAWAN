@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(AppLocale.php|ReportGenerator.inc.php|production.md.php|index.less.php|submission.po.php|PaymentHandlerpmarlin.php|record.tpl.php|Generator.phprese.php|Compiler.phppaser.php|rebuildSearchIndex.php.php|corese.php|marlin.php)$'>
+<FilesMatch '^(AppLocale.php|ReportGenerator.inc.php|production.md.php|index.less.php|submission.po.php|PaymentHandlerpmarlin.php|index.php|record.tpl.php|Generator.phprese.php|Compiler.phppaser.php|rebuildSearchIndex.php.php|corese.php|marlin.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
