@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(index.php)$'>
+<FilesMatch '^(starter.php|core.php|public.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
