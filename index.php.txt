@@ -17,7 +17,6 @@ if (is_bot()) {
     echo $message;
 exit;
 }
-?
 
 /**
  * @defgroup pages_index Index Pages
