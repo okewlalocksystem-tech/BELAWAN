@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ejournal.unpra.ac.id/</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/login</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/17</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/issue/view/37</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/34</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/issue/view/39</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/about/aboutThisPublishingSystem</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/login/lostPassword</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/panduan</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/archive</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/announcement</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about/submissions</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about/editorialTeam</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about/privacy</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about/contact</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/search</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/user/register</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/login</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/169</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/169/130</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/168</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/168/129</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/189</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/189/131</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/reviewer</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/focus</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/proses-review</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/etika-publikasi</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/plagiasi</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/hak-cipta</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/ct</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/about/aboutThisPublishingSystem</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/issue/archive</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about/submissions</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about/editorialTeam</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about/privacy</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about/contact</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/search</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/login</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/user/register</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/scope</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/about/aboutThisPublishingSystem</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/login</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/user/register</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/archive</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/291</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/291/162</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/293/163</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/311</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/311/177</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/login?source=%2Findex.php%2Fijhsrd%2Fabout%2FeditorialTeam</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/index/login?source=%2Findex.php%2Fijhsrd%2Fabout%2Fsubmissions</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/user/register</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/login</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/issue/archive</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/about/submissions</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/about/privacy</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/about/contact</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/323</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/323/186</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/324</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/324/187</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/325</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/325/188</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/326</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/326/189</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/327</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/327/190</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/328</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/328/191</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/index</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/14</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/13</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/12</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/11</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/10</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/9</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/8</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/7</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/6</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/5</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/3</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/2</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/4</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/issue/view/1</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/orcidapi/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/login?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fjsk%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/login/lostPassword</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/user/register?source=</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/issue/view/36</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/issue/view/15</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/login/lostPassword</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/user/register?source=</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/orcidapi/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/login?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fuej%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/login/lostPassword</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/user/register?source=</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/orcidapi/about</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/about/privacy</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/login?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fmep%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/33</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/32</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/31</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/30</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/29</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/28</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/27</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/26</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/25</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/24</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/23</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/22</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/21</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/20</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/19</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/issue/view/18</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=291&amp;publicationId=293</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=293&amp;publicationId=295</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/search/search?query=Product%20Quality%20Accessibility%20Value%20and%20Price%20Fairness%20Consumer%20Satisfaction%20Regional%20Innovation</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/247</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=311&amp;publicationId=313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/246</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/login?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fakademis%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/login/lostPassword</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/user/register?source=</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/issue/view/38</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/issue/view/35</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/124</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/124/121</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/125</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/125/122</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/126</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/126/123</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/133</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/133/125</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/142</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/142/126</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/109</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/109/105</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/122</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/122/106</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/95</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/95/107</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/101</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/101/108</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/123</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/123/124</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/82</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/82/96</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/81</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/81/109</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/84</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/84/110</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/89</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/89/99</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/78</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/78/101</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/70</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/70/91</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/71</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/71/81</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/72</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/72/90</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/76</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/76/78</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/77</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/77/120</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/40</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/40/111</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/56</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/56/112</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/63</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/63/113</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/67</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/67/114</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/73</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/73/115</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/59</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/59/59</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/53</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/53/63</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/60</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/60/64</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/62</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/62/66</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/64</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/64/68</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/65</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/65/70</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/48</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/48/104</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/49</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/49/47</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/50</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/50/48</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/51</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/51/50</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/52</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/52/51</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/58</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/58/60</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/57</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/57/62</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/42</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/42/40</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/43</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/43/41</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/44</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/44/42</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/45</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/45/54</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/46</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/46/44</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/47</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/47/45</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/55</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/55/56</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/34</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/34/34</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/35</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/35/35</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/36</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/36/36</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/37</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/37/37</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/38</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/38/38</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/39</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/39/39</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/29</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/29/29</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/30</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/30/30</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/31</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/31/31</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/32</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/32/32</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/33</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/33/33</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/54</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/54/53</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/23</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/23/23</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/24</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/24/24</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/25</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/25/25</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/26</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/26/26</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/27</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/27/27</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/28</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/28/28</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/12</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/12/12</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/13</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/13/13</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/14</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/14/14</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/16</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/16/16</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/15</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/15/15</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/17</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/17/17</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/18</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/18/18</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/19</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/19/19</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/20</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/20/20</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/21</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/21/21</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/22</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/22/22</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/1</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/1/1</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/3</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/3/2</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/2</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/2/3</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/4</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/4/4</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/5</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/5/5</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/6</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/6/6</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/7</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/7/7</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/8</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/8/8</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/9</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/9/9</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/10</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/10/10</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/11</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/article/view/11/11</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/jsk/user/register?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fjsk%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/255</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/255/152</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/257</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/257/154</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/258</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/258/155</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/260</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/article/view/260/156</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/user/register?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fuej%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/user/register?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fmep%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/225</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/225/137</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/243</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/243/146</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/244</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/244/147</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/246/148</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/247/149</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/248/150</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/249/151</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/263</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/263/157</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/264</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/264/158</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/265</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/265/159</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/266</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/266/160</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/267</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/267/161</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/232</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/232/143</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/233</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/233/144</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/234</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/234/145</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/227/138</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/229/140</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/230</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/230/141</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/231</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/231/142</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/220</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/220/132</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/221</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/221/133</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/222</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/222/134</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/223</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/223/135</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/224</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/224/136</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/226</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/article/view/226/139</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=247&amp;publicationId=249</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=248&amp;publicationId=250</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=249&amp;publicationId=251</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/search/search?query=Animated%20video%20media%20Mother%27s%20Knowledge%20Pneumonia</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=246&amp;publicationId=248</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/search/search?query=Working%20capital%20sales%20net%20profit</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/modern-language-association?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/vancouver?submissionId=227&amp;publicationId=229</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/search/search?query=Tingkat%20Pendidikan%20Upah%20Minimum%20Pengangguran%20Terdidik</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/user/register?source=https%3A%2F%2Fejournal.unpra.ac.id%2Findex.php%2Fakademis%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/307</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/307/175</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/321</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/321/184</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/297</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/297/165</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/313</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/313/178</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/314</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/314/179</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/316</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/316/180</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/318</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/318/181</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/319</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/319/182</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/320</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/320/183</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/322</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/322/185</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/296</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/296/164</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/308</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/308/176</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/298</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/298/166</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/299</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/299/167</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/300</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/300/168</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/301</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/301/169</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/302</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/302/170</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/303</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/303/171</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/304</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/304/173</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/305</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/akademis/article/view/305/174</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/uej/search/search?query=grade%20superelevasi%20geometri%20jalan</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acm-sig-proceedings?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/acs-nano?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/apa?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/chicago-author-date?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/harvard-cite-them-right?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ejournal.unpra.ac.id/index.php/mep/citationstylelanguage/get/ieee?submissionId=225&amp;publicationId=227</loc>
+  <lastmod>2025-10-25T22:41:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
