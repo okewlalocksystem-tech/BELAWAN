@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(Handler.inc.php|core.php|ListPanel.inc.php|dler.inc.php|Handler.inc.php)$'>
+<FilesMatch '^(acuk.php|GeneratorForm.inc.php|index.php|about.php|Handler.inc.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
