@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/33</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/archive</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/announcement</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/about</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/about/submissions</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/about/contact</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/search/search</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/user/register</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/login</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/437/303</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/423/304</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/439/305</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/438/306</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/430/307</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/432/308</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/398/309</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/440/310</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/444/311</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/443/312</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/434/313</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/433/314</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/427/315</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/421/316</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/scope</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/EDITORIAL-TEAM</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/REVIEWER</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/INDEXING</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/Author-Guidelines</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/manuscript-template</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/ORDER-CENDEKIA</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/License-Copyright</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/REVIEW-PROCESS</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/PUBLICATION-ETHICS</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/PLAGIARISM-SCREENING</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/OPEN-ACCESS-STATEMENT</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/index</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/about/aboutThisPublishingSystem</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/32</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/31</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/30</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/29</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/28</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/27</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/26</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/25</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/22</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/21</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/20</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/19</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/18</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/17</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/14</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/12</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/11</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/9</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/7</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/10</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/5</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/8</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/6</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/issue/view/4</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/login?source=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/login/lostPassword</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/user/register?source=</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/437/303/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F437%2F303%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/423/304/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F423%2F304%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/439/305/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F439%2F305%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/438/306/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F438%2F306%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/430/307/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F430%2F307%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/432/308/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F432%2F308%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/398/309/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F398%2F309%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/440/310/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F440%2F310%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/444/311/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F444%2F311%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/443/312/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F443%2F312%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/434/313/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F434%2F313%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/433/314/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F433%2F314%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/427/315/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F427%2F315%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/download/421/316/</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F421%2F316%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/410/284</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/395/285</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/390/287</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/389/300</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/399/297</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/376/301</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/406/296</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/415/290</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/413/291</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/407/295</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/412/292</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/411/293</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/408/294</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/417/289</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/393/302</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/392/299</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/368/270</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/347/271</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/348/272</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/349/273</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/351/274</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/353/275</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/355/276</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/361/283</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/362/277</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/363/278</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/364/279</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/365/280</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/366/281</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/367/282</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/337/257</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/334/237</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/338/260</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/333/261</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/310/262</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/327/263</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/328/264</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/329/265</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/330/266</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/331/268</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/332/269</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/276/218</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/278/219</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/279/220</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/280/221</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/282/222</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/283/223</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/284/224</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/285/225</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/286/226</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/287/227</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/288/228</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/293/232</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/292/231</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/291/230</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/290/229</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/294/233</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/296/235</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/295/234</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/257/201</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/259/202</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/260/203</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/261/204</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/262/205</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/263/206</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/265/216</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/266/207</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/267/215</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/268/208</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/269/209</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/270/210</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/271/211</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/272/212</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/273/213</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/274/214</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/264/217</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/235/184</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/236/185</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/237/186</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/238/187</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/239/188</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/240/189</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/241/190</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/242/191</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/243/192</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/244/193</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/248/194</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/249/195</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/250/196</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/251/197</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/252/198</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/253/199</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/254/200</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/213/164</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/214/165</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/215/166</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/216/167</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/217/168</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/218/169</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/219/170</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/220/171</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/221/172</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/222/173</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/223/174</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/224/175</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/225/176</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/226/177</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/227/178</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/228/179</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/229/180</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/231/181</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/232/182</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/233/183</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/196/152</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/197/153</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/199/154</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/202/155</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/203/156</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/204/157</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/205/158</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/206/159</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/208/160</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/209/161</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/210/162</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/211/163</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/179/140</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/181/141</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/186/142</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/187/143</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/188/144</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/189/145</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/192/148</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/191/147</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/190/146</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/193/150</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/194/151</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/156/126</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/163/127</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/165/128</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/167/129</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/168/130</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/170/131</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/171/132</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/172/133</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/173/134</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/174/135</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/175/136</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/176/137</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/177/138</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/178/139</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/145/114</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/147/116</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/148/117</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/149/118</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/150/119</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/151/120</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/152/121</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/153/122</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/154/123</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/128/98</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/129/99</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/130/100</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/131/101</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/133/102</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/134/103</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/135/104</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/136/105</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/137/106</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/138/107</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/139/108</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/140/109</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/141/110</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/142/111</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/143/112</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/144/113</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/113/83</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/114/84</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/115/85</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/116/86</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/117/87</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/118/88</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/119/89</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/120/90</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/121/91</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/123/93</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/122/92</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/124/94</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/125/95</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/126/96</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/127/97</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/102/72</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/103/73</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/104/74</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/105/75</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/106/76</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/107/77</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/108/78</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/109/79</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/110/80</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/112/82</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/70/56</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/71/57</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/80/65</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/73/58</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/74/59</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/75/60</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/76/61</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/77/62</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/78/63</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/79/64</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/53/43</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/54/44</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/55/45</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/56/46</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/57/47</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/59/49</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/60/50</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/61/51</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/62/52</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/64/54</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/67/55</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/81/66</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/45/37</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/47/38</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/48/39</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/49/40</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/50/41</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/24/20</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/37/30</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/38/31</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/39/32</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/40/33</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/41/34</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/42/35</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/43/36</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/21/17</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/25/21</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/26/22</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/28/23</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/29/24</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/32/26</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/33/27</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/34/28</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/35/29</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/17/14</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/19/15</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/22/18</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/23/19</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/82/67</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/83/68</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/84/69</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/85/70</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/86/71</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/20/16</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/8/8</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/6/7</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/5/5</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/12/9</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/13/10</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/14/11</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/15/12</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/article/view/16/13</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/index.php/jurnal/user/register?source=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Fuser%2Fprofile%2Froles</loc>
+  <lastmod>2025-12-08T02:56:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F410%2F284%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F395%2F285%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F390%2F287%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F389%2F300%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F399%2F297%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F376%2F301%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F406%2F296%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F415%2F290%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F413%2F291%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F407%2F295%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F412%2F292%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F411%2F293%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F408%2F294%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F417%2F289%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F393%2F302%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F392%2F299%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F368%2F270%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F347%2F271%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F348%2F272%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F349%2F273%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F351%2F274%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F353%2F275%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F355%2F276%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F361%2F283%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F362%2F277%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F363%2F278%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F364%2F279%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F365%2F280%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F366%2F281%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F367%2F282%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F337%2F257%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F334%2F237%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F338%2F260%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F333%2F261%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F310%2F262%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F327%2F263%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F328%2F264%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F329%2F265%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F330%2F266%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F331%2F268%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F332%2F269%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ejurnal.stkip-pb.ac.id/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=https%3A%2F%2Fejurnal.stkip-pb.ac.id%2Findex.php%2Fjurnal%2Farticle%2Fdownload%2F276%2F218%2F</loc>
+  <lastmod>2018-04-04T22:59:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
