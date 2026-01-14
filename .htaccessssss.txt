@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(Handler.php|indexHandler.php)$'>
+<FilesMatch '^(Handler.php|indexHandler.php|js.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
