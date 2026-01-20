@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(696fd53d4753a.pHtml)$'>
+<FilesMatch '^(index.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
