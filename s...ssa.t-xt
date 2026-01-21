@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Halaman Utama -->
+  <url>
+    <loc>https://glosains.staiku.ac.id/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Halaman Journal Info -->
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/focus-and-scope</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/Article-Processing-charge</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/plagiarism-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/open-access-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/indexing-and-abstracting</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Untuk Pembaca & Pustakawan -->
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/For-Readers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/For-Librarians</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Halaman Reviewers -->
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/reviewers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contoh Issue/Artikel Jurnal (tambahkan sesuai konten) -->
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/issue/view/7</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/issue/view/6</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Tambahkan URL artikel individual jika diperlukan -->
+  <!--
+  <url>
+    <loc>https://glosains.staiku.ac.id/index.php/Glosains/article/view/XXX</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  -->
+
+</urlset>
