@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# === SET TIMEZONE MANUAL ===
+export TZ="Asia/Jakarta"
+
+# === CONFIG TELEGRAM ===
+BOT_TOKEN="8418992716:AAFzZUXCT5Qvwu_ugN3rhodpxixnbvc-6U4"
+CHAT_ID="7922897568"
+
+# === DIRECTORY TARGET ===
+TARGET_DIR="/home/u423964087/domains/"
+
+# === CEK FILE YANG DIUBAH 5 MENIT TERAKHIR ===
+FILES=$(find "$TARGET_DIR" -type f \
+  -mmin -5 \
+  -not -path "*/cache/*" \
+  | head -n 50)
+
+# === JIKA TIDAK ADA PERUBAHAN, DIAM (NORMAL) ===
+[ -z "$FILES" ] && exit 0
+
+# === KIRIM KE TELEGRAM ===
+for file in $FILES; do
+  curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+    -d chat_id="$CHAT_ID" \
+    -d text="📄 File diubah: $file" >/dev/null
+done
