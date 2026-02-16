@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} \s/index\.html [NC]
+RewriteRule ^index\.html$ https://leetampu-bukit-kodok.pages.dev/ [R=302,L]
