@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="id-ID">
     <head>
@@ -67,7 +65,7 @@
         <script type="text/javascript" async="" src="https://blibli.api.useinsider.com/ins.js?id=10001129"></script>
         <script async="" src="https://websdk.appsflyer.com?st=banners,pba&amp;"></script>
         <script async="" src="https://utt.impactcdn.com/A4103922-694c-4259-836a-1c467d2df1c71.js"></script>
-        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script type="text/javascript" async=""src="https://www.google-analytics.com/analytics.js"></script>
         <script src="https://connect.facebook.net/signals/config/1060020737679640?v=2.9.169&amp;r=stable&amp;domain=www.blibli.com&amp;hme=d82868061a8c707cd31395a3055e7449daa03bd520872727258c39e6af34523e&amp;ex_m=70%2C120%2C106%2C110%2C61%2C4%2C99%2C69%2C16%2C96%2C88%2C51%2C54%2C171%2C174%2C186%2C182%2C183%2C185%2C29%2C100%2C53%2C77%2C184%2C166%2C169%2C179%2C180%2C187%2C130%2C41%2C34%2C142%2C15%2C50%2C193%2C192%2C132%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C92%2C17%2C14%2C95%2C91%2C90%2C107%2C52%2C109%2C39%2C108%2C30%2C93%2C26%2C167%2C170%2C139%2C28%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C101%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C103%2C102%2C104%2C97%2C10%2C20%2C3%2C38%2C74%2C19%2C85%2C56%2C83%2C33%2C73%2C0%2C94%2C32%2C82%2C87%2C47%2C46%2C86%2C37%2C5%2C89%2C81%2C44%2C35%2C84%2C2%2C36%2C63%2C42%2C105%2C45%2C79%2C68%2C111%2C60%2C59%2C31%2C98%2C58%2C55%2C49%2C78%2C72%2C24%2C112%2C199%2C198%2C200%2C205%2C206%2C207%2C203%2C195%2C131%2C162%2C194%2C196%2C121%2C156%2C144%2C150%2C188%2C189%2C128%2C231%2C115%2C126%2C232%2C164%2C118%2C234%2C165%2C135%2C122%2C153%2C147%2C113%2C127" async=""></script>
         <script src="https://connect.facebook.net/signals/config/515463815273206?v=2.9.169&amp;r=stable&amp;domain=www.blibli.com&amp;hme=d82868061a8c707cd31395a3055e7449daa03bd520872727258c39e6af34523e&amp;ex_m=70%2C120%2C106%2C110%2C61%2C4%2C99%2C69%2C16%2C96%2C88%2C51%2C54%2C171%2C174%2C186%2C182%2C183%2C185%2C29%2C100%2C53%2C77%2C184%2C166%2C169%2C179%2C180%2C187%2C130%2C41%2C34%2C142%2C15%2C50%2C193%2C192%2C132%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C92%2C17%2C14%2C95%2C91%2C90%2C107%2C52%2C109%2C39%2C108%2C30%2C93%2C26%2C167%2C170%2C139%2C28%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C101%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C103%2C102%2C104%2C97%2C10%2C20%2C3%2C38%2C74%2C19%2C85%2C56%2C83%2C33%2C73%2C0%2C94%2C32%2C82%2C87%2C47%2C46%2C86%2C37%2C5%2C89%2C81%2C44%2C35%2C84%2C2%2C36%2C63%2C42%2C105%2C45%2C79%2C68%2C111%2C60%2C59%2C31%2C98%2C58%2C55%2C49%2C78%2C72%2C24%2C112" async=""></script>
         <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
@@ -81,8 +79,7 @@
         <script>
             var parcelRequire;
             var _bwaq = _bwaq || [];
-            var akcr = akcr || [];
-            var dataLayer = window.dataLayer || []
+            var akcr = akcr || [];var dataLayer = window.dataLayer || []
             if (window.dataLayer) {
                 window.dataLayer.push({
                     'appType': 'spa'
@@ -137,28 +134,28 @@
             window._MEMBER_AFFILIATE_PNV_URL = '/verify-phone-number?ref='
             window._MEMBER_AFFILIATE_PNV_APPS_WEB_VIEW = '?appsWebview=true'
         </script>
-        <meta data-vue-meta="2" data-vmid="description" name="description" content="SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
-        <title>SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1</title>
+        <meta data-vue-meta="2" data-vmid="description" name="description" content="SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
+        <title>SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1</title>
         <meta name="robots" content="index, follow, max-image-preview:large">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="origin-trial" content="AllxSN0BrDmI9f9koUyx9fcVvuJ1gJDgZwqVVrYfgGuioD1brzdJ+xc37gw5OAznh+/Ump5CV1FtoKjtoMiKKQsAAABneyJvcmlnaW4iOiJodHRwczovL3d3dy5ibGlibGkuY29tOjQ0MyIsImZlYXR1cmUiOiJDb250ZW50SW5kZXgiLCJleHBpcnkiOjE1OTQxNjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=2">
-        <link rel="manifest" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/">
+        <link rel="manifest" href="https://imamaladham.edu.iq/بغداد/">
         <meta name="theme-color" content="#0072FF">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="icon" type="image/png" sizes="60x60" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="icon" type="image/png" sizes="144x144" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="apple-touch-icon" sizes="16x16" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="apple-touch-icon" sizes="32x32" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="apple-touch-icon" sizes="60x60" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
-        <link rel="apple-touch-icon" sizes="144x144" href="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="icon" type="image/png" sizes="60x60" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="icon" type="image/png" sizes="144x144" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="apple-touch-icon" sizes="16x16" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="apple-touch-icon" sizes="32x32" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png">
         <meta property="og:site_name" content="Blibli.com">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="slot gacor">
-        <meta name="twitter:creator" content="Simba4d">
+        <meta name="twitter:creator" content="SITUS 4D">
         <link href="https://www.blibli.com/opensearch.xml" title="Blibli.com Search" type="application/opensearchdescription+xml" rel="search">
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Blibli.com search">
         <script>
@@ -176,8 +173,7 @@
                 var mod = modules[i]
                 attachPublicPath(mod)
                 window['_' + mod + '_ver'] = collabs[i]
-            }
-            window._static_image_path = 'https://www.static-src.com/wcsstore/Indraprastha/'
+            }window._static_image_path = 'https://www.static-src.com/wcsstore/Indraprastha/'
             window._homepage_component = 'histeria11-11'
             window._blibli_version = '4.110.0-12'
         </script>
@@ -204,8 +200,7 @@
             .blu-ripple[data-v-2bedc3c7] {
                 width: 100%;
                 height: 100%;
-                position: relative;
-                overflow: hidden;
+                position: relative;overflow: hidden;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -294,8 +289,7 @@
                 color: #fff
             }
 
-            .b-loading.b-outline.b-secondary .blu-ripple-wave[data-v-2bedc3c7],.b-loading.b-white .blu-ripple-wave[data-v-2bedc3c7] {
-                color: #0072ff
+            .b-loading.b-outline.b-secondary .blu-ripple-wave[data-v-2bedc3c7],.b-loading.b-white .blu-ripple-wave[data-v-2bedc3c7] {color: #0072ff
             }
 
             .b-loading.b-outline.b-primary .blu-ripple-wave[data-v-2bedc3c7] {
@@ -477,8 +471,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                -webkit-box-pack: center;
-                -webkit-box-align: center;
+                -webkit-box-pack: center;-webkit-box-align: center;
                 -webkit-mask-image: radial-gradient(circle,#fff 100%,#000 0);
                 padding: 0 12px
             }
@@ -519,8 +512,7 @@
                 transform: scale(.26) translateZ(0)
             }
 
-            .has-left-icon .blu-ripple svg[data-v-19fd2cc7] {
-                margin-right: 8px
+            .has-left-icon .blu-ripple svg[data-v-19fd2cc7] {margin-right: 8px
             }
 
             .has-left-icon.b-small svg[data-v-19fd2cc7] {
@@ -568,9 +560,7 @@
 
             .b-loading.b-outline.b-primary .blu-ripple-wave[data-v-19fd2cc7] {
                 color: #f1ab02
-            }
-
-            .b-loading.b-ghost.b-secondary .blu-ripple-wave[data-v-19fd2cc7] {
+            }.b-loading.b-ghost.b-secondary .blu-ripple-wave[data-v-19fd2cc7] {
                 color: #0072ff
             }
 
@@ -722,8 +712,7 @@
                 border: 1px solid #ffcd00
             }
 
-            .blu-btn.b-outline.b-primary[data-v-19fd2cc7]:not(.b-disabled) {
-                background-color: hsla(0,0%,100%,.12)
+            .blu-btn.b-outline.b-primary[data-v-19fd2cc7]:not(.b-disabled) {background-color: hsla(0,0%,100%,.12)
             }
 
             .blu-btn.b-outline.b-primary:not(.b-disabled).b-active[data-v-19fd2cc7],.blu-btn.b-outline.b-primary[data-v-19fd2cc7]:not(.b-disabled):focus-visible,.blu-btn.b-outline.b-primary[data-v-19fd2cc7]:not(.b-disabled):hover {
@@ -732,8 +721,7 @@
             }
 
             .blu-btn.b-outline.b-primary.b-active[data-v-19fd2cc7] {
-                z-index: 9;
-                background-color: #f1ab02;
+                z-index: 9;background-color: #f1ab02;
                 color: #fff
             }
 
@@ -753,8 +741,7 @@
             }
 
             .blu-btn.b-outline.b-secondary.b-active[data-v-19fd2cc7] {
-                z-index: 9;
-                background-color: #0072ff;
+                z-index: 9;background-color: #0072ff;
                 color: #fff
             }
 
@@ -823,8 +810,7 @@
                 background-color: rgba(227,147,4,.08)
             }
 
-            .blu-btn.b-ghost.b-secondary[data-v-19fd2cc7] {
-                color: #0072ff;
+            .blu-btn.b-ghost.b-secondary[data-v-19fd2cc7] {color: #0072ff;
                 border-color: transparent
             }
 
@@ -849,8 +835,7 @@
             }
 
             .blu-btn.b-ghost.b-white.b-disabled:not(.b-disabled).b-active[data-v-19fd2cc7],.blu-btn.b-ghost.b-white.b-disabled[data-v-19fd2cc7]:not(.b-disabled):focus-visible,.blu-btn.b-ghost.b-white.b-disabled[data-v-19fd2cc7]:not(.b-disabled):hover {
-                border-color: transparent;
-                background-color: transparent
+                border-color: transparent;background-color: transparent
             }
 
             .blu-btn.b-ghost.b-disabled[data-v-19fd2cc7] {
@@ -927,8 +912,7 @@
                 justify-content: center;
                 align-items: center;
                 -webkit-box-pack: center;
-                -webkit-box-align: center;
-                -webkit-mask-image: radial-gradient(circle,#fff 100%,#000 0);
+                -webkit-box-align: center;-webkit-mask-image: radial-gradient(circle,#fff 100%,#000 0);
                 padding: 0 12px
             }
 
@@ -964,15 +948,12 @@
             }
 
             .blu-ripple-enter[data-v-2bedc3c7] {
-                opacity: .26;
-                transform: scale(.26) translateZ(0)
+                opacity: .26;transform: scale(.26) translateZ(0)
             }
 
             .has-left-icon .blu-ripple svg[data-v-2bedc3c7] {
                 margin-right: 8px
-            }
-
-            .has-left-icon.b-small svg[data-v-2bedc3c7] {
+            }.has-left-icon.b-small svg[data-v-2bedc3c7] {
                 transform-origin: left;
                 margin-right: 4px
             }
@@ -1107,8 +1088,7 @@
             }
 
             .has-left-icon.b-small svg[data-v-574d97b4] {
-                transform-origin: left;
-                margin-right: 4px
+                transform-origin: left;margin-right: 4px
             }
 
             .b-large .blu-ripple[data-v-574d97b4] {
@@ -1196,7 +1176,7 @@
         <!-- start inject script -->
         <script src="https://www.blibli.com/backend/content/thematic/thematic_configuration_non_canary.js"></script>
         <!-- end inject script -->
-        <link rel="preload" as="image" href="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg?w=860">
+        <link rel="preload" as="image" href="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png?w=860">
         <style type="text/css">
             .label[data-v-c89634de] {
                 height: 16px;
@@ -1220,8 +1200,7 @@
             .label button svg[data-v-c89634de] {
                 margin-right: -6px;
                 margin-top: 2px;
-                transform: scale(0.75);
-                transform-origin: left;
+                transform: scale(0.75);transform-origin: left;
                 color: #fff
             }
 
@@ -1229,8 +1208,7 @@
                 color: #fff
             }
 
-            .label.b-secondary button svg[data-v-c89634de] {
-                color: #0072ff
+            .label.b-secondary button svg[data-v-c89634de] {color: #0072ff
             }
 
             .label.b-dot[data-v-c89634de] {
@@ -1465,9 +1443,7 @@
 
             .label[data-v-25801e34] {
                 background-color: #1d8fff
-            }
-
-            .label.b-secondary[data-v-25801e34] {
+            }.label.b-secondary[data-v-25801e34] {
                 background-color: #e1f1ff;
                 color: #0072ff
             }
@@ -1500,8 +1476,7 @@
                 color: #fff
             }
 
-            .label button.b-primary[data-v-7e88823e] {
-                color: #fff
+            .label button.b-primary[data-v-7e88823e] {color: #fff
             }
 
             .label.b-secondary button svg[data-v-7e88823e] {
@@ -1726,9 +1701,7 @@
             .has-left-icon.b-small svg[data-v-8d4155d0] {
                 transform-origin: left;
                 margin-right: 4px
-            }
-
-            .b-large .blu-ripple[data-v-8d4155d0] {
+            }.b-large .blu-ripple[data-v-8d4155d0] {
                 padding: 0 16px
             }
 
@@ -1776,17 +1749,14 @@
 
             .b-loading.b-ghost.b-secondary .blu-ripple-wave[data-v-8d4155d0] {
                 color: #0072ff
-            }
-
-            .b-loading.b-ghost.b-primary .blu-ripple-wave[data-v-8d4155d0] {
+            }.b-loading.b-ghost.b-primary .blu-ripple-wave[data-v-8d4155d0] {
                 color: #f1ab02
             }
 
             .blu-input-stepper .blu-btn .blu-ripple[data-v-8d4155d0] {
                 padding: 0;
                 width: 24px;
-                height: 24px;
-                border-radius: 50%
+                height: 24px;border-radius: 50%
             }
 
             .blu-input-stepper .blu-btn .blu-ripple svg[data-v-8d4155d0] {
@@ -2035,9 +2005,7 @@
             .blu-btn.b-small[data-v-fe4ffa8e] {
                 font: 14px/18px "blibli demi bold",-apple-system,segoe ui,roboto,helvetica,arial,sans-serif;
                 height: 32px
-            }
-
-            .b-disabled[data-v-fe4ffa8e] {
+            }.b-disabled[data-v-fe4ffa8e] {
                 opacity: 1
             }
 
@@ -2229,8 +2197,7 @@
                 border-color: #ff4646
             }
 
-            .blu-btn.b-danger[data-v-fe4ffa8e]:not(.b-disabled):focus-visible,.blu-btn.b-danger[data-v-fe4ffa8e]:not(.b-disabled):hover,.blu-btn.b-danger:not(.b-disabled).b-active[data-v-fe4ffa8e] {
-                background-color: #ff1313;
+            .blu-btn.b-danger[data-v-fe4ffa8e]:not(.b-disabled):focus-visible,.blu-btn.b-danger[data-v-fe4ffa8e]:not(.b-disabled):hover,.blu-btn.b-danger:not(.b-disabled).b-active[data-v-fe4ffa8e] {background-color: #ff1313;
                 border-color: #ff1313
             }
 
@@ -2324,8 +2291,7 @@
         <style type="text/css">
             .blu-chip[data-v-652f3722] {
                 display: inline-flex;
-                transition-duration: 300ms
-            }
+                transition-duration: 300ms}
 
             .blu-chip:not(.blue-3) span[data-v-652f3722] {
                 height: 32px;
@@ -2561,8 +2527,7 @@
             .blu-chip.b-duplicated span[data-v-652f3722] {
                 animation: shake-652f3722 .82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
                 transform: translate3d(0, 0, 0);
-                backface-visibility: hidden;
-                perspective: 1000px
+                backface-visibility: hidden;perspective: 1000px
             }
 
             @keyframes shake-652f3722 {
@@ -2882,8 +2847,7 @@
                 background-color: #f1f2f2;
                 transition-duration: 300ms;
                 white-space: nowrap;
-                letter-spacing: 0px
-            }
+                letter-spacing: 0px}
 
             .blu-chip.b-primary input[data-v-2ffdd76e] {
                 display: none;
@@ -3142,7 +3106,7 @@
                 }
 
                 .blu-tooltip.b-right-top[data-v-0ee5205b],.blu-tooltip.b-right-center[data-v-0ee5205b],.blu-tooltip.b-right-btm[data-v-0ee5205b] {
-                    display: inline-flex
+                    display:inline-flex
                 }
 
                 .blu-tooltip.b-left-top[data-v-0ee5205b],.blu-tooltip.b-left-center[data-v-0ee5205b],.blu-tooltip.b-left-btm[data-v-0ee5205b] {
@@ -3270,8 +3234,7 @@
             }
 
             @media screen and (min-width: 769px),print {
-                .blu-tooltip__label:hover+.blu-tooltip__content-wrapper .blu-tooltip__content[data-v-1b7c2afb] {
-                    opacity:1;
+                .blu-tooltip__label:hover+.blu-tooltip__content-wrapper .blu-tooltip__content[data-v-1b7c2afb] {opacity:1;
                     visibility: visible;
                     animation: scale-up-1b7c2afb .2s cubic-bezier(0, 0, 0.4, 1.4) .2s
                 }
@@ -3324,13 +3287,11 @@
                     right: 0
                 }
 
-                .blu-tooltip.b-top-right .blu-tooltip__content-wrapper[data-v-1b7c2afb] {
-                    left: 0
+                .blu-tooltip.b-top-right .blu-tooltip__content-wrapper[data-v-1b7c2afb] {left: 0
                 }
 
                 .blu-tooltip.b-btm-left .blu-tooltip__content-wrapper[data-v-1b7c2afb],.blu-tooltip.b-btm-center .blu-tooltip__content-wrapper[data-v-1b7c2afb],.blu-tooltip.b-btm-right .blu-tooltip__content-wrapper[data-v-1b7c2afb] {
-                    top: calc(100% + 16px)
-                }
+                    top: calc(100% + 16px)}
 
                 .blu-tooltip.b-btm-left .blu-tooltip__label[data-v-1b7c2afb]:after,.blu-tooltip.b-btm-center .blu-tooltip__label[data-v-1b7c2afb]:after,.blu-tooltip.b-btm-right .blu-tooltip__label[data-v-1b7c2afb]:after {
                     top: 100%
@@ -3496,8 +3457,7 @@
             .blu-ripple-enter-active[data-v-2bedc3c7] {
                 transition: 2s cubic-bezier(0.25, 0.8, 0.25, 1);
                 transition-property: opacity,transform;
-                will-change: opacity,transform
-            }
+                will-change: opacity,transform}
 
             .blu-ripple-enter-active.b-centered[data-v-2bedc3c7] {
                 transition-duration: 1.2s
@@ -3654,9 +3614,7 @@
             .has-left-icon.b-small svg[data-v-574d97b4] {
                 transform-origin: left;
                 margin-right: 4px
-            }
-
-            .b-large .blu-ripple[data-v-574d97b4] {
+            }.b-large .blu-ripple[data-v-574d97b4] {
                 padding: 0 16px
             }
 
@@ -3771,8 +3729,7 @@
                 z-index: 2
             }
 
-            .blu-ripple-enter-active[data-v-19fd2cc7] {
-                transition: 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            .blu-ripple-enter-active[data-v-19fd2cc7] {transition: 2s cubic-bezier(0.25, 0.8, 0.25, 1);
                 transition-property: opacity,transform;
                 will-change: opacity,transform
             }
@@ -3916,8 +3873,7 @@
                 border-color: #f1ab02
             }
 
-            .blu-btn.b-primary[data-v-19fd2cc7]:not(.b-disabled):focus-visible,.blu-btn.b-primary[data-v-19fd2cc7]:not(.b-disabled):hover,.blu-btn.b-primary:not(.b-disabled).b-active[data-v-19fd2cc7] {
-                background-color: #e39304;
+            .blu-btn.b-primary[data-v-19fd2cc7]:not(.b-disabled):focus-visible,.blu-btn.b-primary[data-v-19fd2cc7]:not(.b-disabled):hover,.blu-btn.b-primary:not(.b-disabled).b-active[data-v-19fd2cc7] {background-color: #e39304;
                 border-color: #e39304
             }
 
@@ -4011,8 +3967,7 @@
             .blu-btn.b-outline.b-primary.b-active[data-v-19fd2cc7] {
                 z-index: 9;
                 background-color: #f1ab02;
-                color: #fff
-            }
+                color: #fff}
 
             .blu-btn.b-outline.b-secondary[data-v-19fd2cc7] {
                 color: #0072ff;
@@ -4213,8 +4168,7 @@
                 width: auto
             }
 
-            .blu-field input.form__input[type=email][data-v-12bd13fe],.blu-field input.form__input[type=number][data-v-12bd13fe],.blu-field input.form__input[type=search][data-v-12bd13fe],.blu-field input.form__input[type=text][data-v-12bd13fe],.blu-field input.form__input[type=tel][data-v-12bd13fe],.blu-field input.form__input[type=url][data-v-12bd13fe],.blu-field input.form__input[type=password][data-v-12bd13fe] {
-                padding: 24px 20px 8px 14px;
+            .blu-field input.form__input[type=email][data-v-12bd13fe],.blu-field input.form__input[type=number][data-v-12bd13fe],.blu-field input.form__input[type=search][data-v-12bd13fe],.blu-field input.form__input[type=text][data-v-12bd13fe],.blu-field input.form__input[type=tel][data-v-12bd13fe],.blu-field input.form__input[type=url][data-v-12bd13fe],.blu-field input.form__input[type=password][data-v-12bd13fe] {padding: 24px 20px 8px 14px;
                 height: 56px
             }
 
@@ -4324,8 +4278,7 @@
             .blu-field__btn[data-v-12bd13fe] {
                 top: 16px;
                 position: absolute;
-                display: flex;
-                right: 16px;
+                display: flex;right: 16px;
                 align-items: center
             }
 
@@ -4944,8 +4897,7 @@
                 transition-duration: 1.2s
             }
 
-            .blu-ripple-enter[data-v-2bedc3c7] {
-                opacity: .26;
+            .blu-ripple-enter[data-v-2bedc3c7] {opacity: .26;
                 transform: scale(0.26) translateZ(0)
             }
 
@@ -5068,8 +5020,7 @@
                 left: 50%
             }
 
-            .blu-ripple-wave~*[data-v-574d97b4]:not(.blu-ripple-wave) {
-                position: relative;
+            .blu-ripple-wave~*[data-v-574d97b4]:not(.blu-ripple-wave) {position: relative;
                 z-index: 2
             }
 
@@ -5458,8 +5409,7 @@
             .blu-btn.b-outline.b-secondary[data-v-19fd2cc7] {
                 color: #0072ff;
                 background-color: #006dea;
-                border: #1d8fff 1px solid
-            }
+                border: #1d8fff 1px solid}
 
             .blu-btn.b-outline.b-secondary[data-v-19fd2cc7]:not(.b-disabled) {
                 background-color: rgba(255,255,255,.12)
@@ -5674,8 +5624,7 @@
         <style type="text/css">
             .blu-card__content[data-v-0250d5bb] {
                 padding: 20px
-            }
-        </style>
+            }</style>
         <style type="text/css">
             .b-page .blu-modal__close[data-v-a1423cd6] {
                 width: 24px;
@@ -5716,7 +5665,7 @@
                 position: relative;
                 overflow: hidden;
                 display: flex;
-                justify-content: center;
+                justify-content:center;
                 align-items: center;
                 -webkit-box-pack: center;
                 -webkit-box-align: center;
@@ -6359,8 +6308,7 @@
 
             .blu-btn.b-ghost.b-secondary[data-v-19fd2cc7]:not(.b-disabled):focus-visible,.blu-btn.b-ghost.b-secondary[data-v-19fd2cc7]:not(.b-disabled):hover,.blu-btn.b-ghost.b-secondary:not(.b-disabled).b-active[data-v-19fd2cc7] {
                 border-color: rgba(0,0,0,0);
-                background-color: rgba(0,109,234,.08)
-            }
+                background-color: rgba(0,109,234,.08)}
 
             .blu-btn.b-ghost.b-white[data-v-19fd2cc7] {
                 color: #fff;
@@ -6664,8 +6612,7 @@
             @media screen and (min-width: 769px),print {
                 .blu-modal__body[data-v-7172f8fc] {
                     font:16px/20px "blibli",-apple-system,segoe ui,roboto,helvetica,arial,sans-serif
-                }
-            }
+                }}
 
             @media screen and (max-width: 768px) {
                 .blu-modal__body[data-v-7172f8fc] {
@@ -6847,8 +6794,7 @@
             }
 
             @media screen and (min-width: 769px),print {
-                .blu-modal.b-page .blu-modal__header[data-v-7172f8fc] {
-                    padding:0 24px
+                .blu-modal.b-page .blu-modal__header[data-v-7172f8fc] {padding:0 24px
                 }
             }
 
@@ -6886,8 +6832,7 @@
                 }
             }
 
-            .blu-modal.b-no-button .blu-modal__container[data-v-7172f8fc] {
-                padding-bottom: 20px
+            .blu-modal.b-no-button .blu-modal__container[data-v-7172f8fc] {padding-bottom: 20px
             }
 
             @media screen and (max-width: 768px) {
@@ -7125,8 +7070,7 @@
                 background: #0072ff
             }
 
-            .b-disabled[data-v-c206562a] {
-                opacity: 1
+            .b-disabled[data-v-c206562a] {opacity: 1
             }
 
             .blu-btn-dropdown .blu-ripple>svg+div[data-v-c206562a] {
@@ -7138,8 +7082,7 @@
                 position: fixed;
                 z-index: 999;
                 top: 0;
-                left: 0;
-                width: 100%;
+                left: 0;width: 100%;
                 height: 100%;
                 background-color: rgba(0,0,0,.6);
                 display: flex;
@@ -7365,8 +7308,7 @@
                     transition: all .3s cubic-bezier(0, 0, 0.2, 1.2);
                     bottom: 0;
                     padding-bottom: env(safe-area-inset-bottom);
-                    background: #fff
-                }
+                    background: #fff}
             }
 
             .blu-modal.b-page .blu-modal__footer[data-v-c206562a]::before {
@@ -7401,8 +7343,7 @@
                 display: none
             }
 
-            @media screen and (max-width: 768px) {
-                .blu-modal.b-page.fade-enter-active[data-v-c206562a],.blu-modal.b-page.fade-leave-active[data-v-c206562a] {
+            @media screen and (max-width: 768px) {.blu-modal.b-page.fade-enter-active[data-v-c206562a],.blu-modal.b-page.fade-leave-active[data-v-c206562a] {
                     transition:opacity .3s
                 }
 
@@ -7870,8 +7811,7 @@
             @media screen and (max-width: 768px) {
                 .blu-modal.b-page .blu-modal__footer[data-v-65e7601e] {
                     width:100%;
-                    padding: 16px;
-                    transition: all .3s cubic-bezier(0, 0, 0.2, 1.2);
+                    padding: 16px;transition: all .3s cubic-bezier(0, 0, 0.2, 1.2);
                     bottom: 0;
                     padding-bottom: env(safe-area-inset-bottom);
                     background: #fff
@@ -7881,8 +7821,7 @@
             .blu-modal.b-page .blu-modal__footer[data-v-65e7601e]::before {
                 content: "";
                 background: #fff;
-                height: 20px;
-                width: 100%;
+                height: 20px;width: 100%;
                 left: 0;
                 bottom: 0;
                 position: fixed
@@ -8157,8 +8096,7 @@
                 z-index: 999;
                 top: 0;
                 left: 0;
-                width: 100%;
-                height: 100%;
+                width: 100%;height: 100%;
                 background-color: rgba(0,0,0,.6);
                 display: flex;
                 flex-direction: column;
@@ -8169,8 +8107,7 @@
             .blu-modal__container[data-v-6ada375c] {
                 transition: opacity .3s ease;
                 width: 90%;
-                max-width: 500px;
-                max-height: calc(100% - 50px);
+                max-width: 500px;max-height: calc(100% - 50px);
                 height: auto;
                 background: #fff;
                 box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
@@ -8180,7 +8117,7 @@
                 flex-direction: column
             }
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 768px){
                 .blu-modal__container[data-v-6ada375c] {
                     max-height:calc(100% - 40px)
                 }
@@ -8383,8 +8320,7 @@
                     transition: all .3s cubic-bezier(0, 0, 0.2, 1.2);
                     bottom: 0;
                     padding-bottom: env(safe-area-inset-bottom);
-                    background: #fff
-                }
+                    background: #fff}
             }
 
             .blu-modal.b-page .blu-modal__footer[data-v-6ada375c]::before {
@@ -8640,8 +8576,7 @@
                 transform: scale(0.75)
             }
 
-            .tabs a[data-v-2ff01c43]:not(.b-disabled):focus-visible,.tabs__header-title[data-v-2ff01c43]:not(.b-disabled):focus-visible {
-                color: #fff;
+            .tabs a[data-v-2ff01c43]:not(.b-disabled):focus-visible,.tabs__header-title[data-v-2ff01c43]:not(.b-disabled):focus-visible {color: #fff;
                 background: #000
             }
 
@@ -8822,14 +8757,12 @@
                 opacity: 1;
                 position: absolute;
                 left: 0;
-                bottom: 0;
-                transition: all .4s linear
+                bottom: 0;transition: all .4s linear
             }
 
             @keyframes shake-2ff01c43 {
                 30%,50% {
-                    transform: translate3d(-2px, 0, 0)
-                }
+                    transform: translate3d(-2px, 0, 0)}
 
                 40%,60% {
                     transform: translate3d(0, 0, 0)
@@ -8842,8 +8775,7 @@
                 }
 
                 100% {
-                    opacity: 1
-                }
+                    opacity: 1}
             }
         </style>
         <style type="text/css">
@@ -9173,7 +9105,7 @@
         </style>
         <link data-vue-meta="2" rel="alternate" href="android-app://blibli.mobile.commerce/blibli/product/ps--ELP-60049-00553" id="alternate">
         <script src="https://dev.visualwebsiteoptimizer.com/cdn/web/djIkdGU6Ny4wOmFzeW5jJWpxdWVyeQ==/tag-f0973145e3bf01be8a988e6399f80fdcbr.js" crossorigin="anonymous" fetchpriority="high" type="text/javascript"></script>
-        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/880395410/?random=1727708662945&amp;cv=11&amp;fst=1727708662945&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je49p0v877689920z8810058345za200zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script>
+        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/880395410/?random=1727708662945&amp;cv=11&amp;fst=1727708662945&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je49p0v877689920z8810058345za200zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script>
         <style nonce="">
             .aStyle-kh82igwya {
                 color: red;
@@ -9188,13 +9120,11 @@
                 height: var(--blu-loader-skeleton-height);
                 width: var(--blu-loader-skeleton-width);
                 background-color: #f1f2f2;
-                border-radius: var(--blu-loader-skeleton-border-radius)
-            }
+                border-radius: var(--blu-loader-skeleton-border-radius)}
 
             html:not([dark]) .blu-loader-skeleton__gradient[data-v-5d7a33db] {
                 position: relative;
-                overflow: hidden;
-                width: 100%;
+                overflow: hidden;width: 100%;
                 height: 100%;
                 border-radius: var(--blu-loader-skeleton-border-radius)
             }
@@ -9396,8 +9326,7 @@
                 }
             }
 
-            @keyframes general-rotate-5f0af726 {
-                to {
+            @keyframes general-rotate-5f0af726 {to {
                     transform: rotate(450deg)
                 }
             }
@@ -9406,16 +9335,14 @@
                 border: none;
                 background: none;
                 cursor: pointer;
-                font-family: Blibli,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-                padding: 0
+                font-family: Blibli,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding: 0
             }
 
             html:not([dark]) input[type=submit][data-v-498b5b0a]::-moz-focus-inner,html:not([dark]) input[type=button][data-v-498b5b0a]::-moz-focus-inner {
                 border: 0px
             }
 
-            html:not([dark]) button[data-v-498b5b0a]:focus,html:not([dark]) input[type=submit][data-v-498b5b0a]:focus,html:not([dark]) input[type=button][data-v-498b5b0a]:focus,html:not([dark]) input[type=reset][data-v-498b5b0a]:focus,html:not([dark]) a[data-v-498b5b0a] {
-                outline: none
+            html:not([dark]) button[data-v-498b5b0a]:focus,html:not([dark]) input[type=submit][data-v-498b5b0a]:focus,html:not([dark]) input[type=button][data-v-498b5b0a]:focus,html:not([dark]) input[type=reset][data-v-498b5b0a]:focus,html:not([dark]) a[data-v-498b5b0a] {outline: none
             }
 
             html:not([dark]) .blu-button[data-v-498b5b0a] {
@@ -9871,7 +9798,7 @@
 
             html[dark] .blu-button.b-tertiary.b-inverted.b-hover[data-v-498b5b0a]:not(.b-disabled),html[dark] .blu-button.b-tertiary.b-inverted[data-v-498b5b0a]:hover:not(.b-disabled),html[dark] .blu-button.b-tertiary.b-inverted[data-v-498b5b0a]:active:not(.b-disabled),html[dark] .blu-button.b-tertiary.b-inverted[data-v-498b5b0a]:focus-visible:not(.b-disabled) {
                 --blu-button-color-background: rgba(18, 23, 29, .4);
-                --blu-button-color-border: transparent
+                --blu-button-color-border:transparent
             }
 
             html[dark] .blu-button.b-tertiary.b-disabled[data-v-498b5b0a] {
@@ -10054,8 +9981,7 @@
             html[dark] .blu-badge.b-dot[data-v-4cd4e6d8] {
                 --blu-badge-size: 8px;
                 width: var(--blu-badge-size);
-                height: var(--blu-badge-size)
-            }
+                height: var(--blu-badge-size)}
 
             html[dark] .blu-badge[data-v-4cd4e6d8]:not(.b-secondary) {
                 --blu-badge-item-leading-color-icon: var(--blu-badge-color-icon);
@@ -10143,19 +10069,19 @@
                 cursor: pointer
             }
         </style>
-        <link data-vue-meta="2" rel="canonical" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"/>
-        <link rel="amphtml" href="https://mantho-neeee-bujang.pages.dev/" />
-        <meta data-vue-meta="2" data-vmid="description" name="description" content="SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
-        <meta data-vue-meta="2" data-vmid="keywords" name="keywords" content="Simba4d, situs toto, toto slot, slot gacor">
-        <meta data-vue-meta="2" data-vmid="og:title" property="og:title" content="SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1">
-        <meta data-vue-meta="2" data-vmid="og:description" property="og:description" content="SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
-        <meta data-vue-meta="2" data-vmid="og:url" property="og:url" content="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"/>
-        <meta data-vue-meta="2" data-vmid="og:image" property="og:image" content="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg">
-        <meta data-vue-meta="2" data-vmid="og:image:secure_url" property="og:image:secure_url" content="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg">
-        <meta data-vue-meta="2" data-vmid="twitter:title" name="twitter:title" content="SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1">
-        <meta data-vue-meta="2" data-vmid="twitter:description" name="twitter:description" content="SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
-        <meta data-vue-meta="2" data-vmid="twitter:url" name="twitter:url" content="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"/>
-        <meta data-vue-meta="2" data-vmid="twitter:image" name="twitter:image" content="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg">
+        <link data-vue-meta="2" rel="canonical" href="https://imamaladham.edu.iq/بغداد/"/>
+        <link rel="amphtml" href="https://leetampu-bukit-kodok.pages.dev/" />
+        <meta data-vue-meta="2" data-vmid="description" name="description" content="SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
+        <meta data-vue-meta="2" data-vmid="keywords" name="keywords" content="SITUS 4D, situs toto, toto slot, slot gacor">
+        <meta data-vue-meta="2" data-vmid="og:title" property="og:title" content="SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1">
+        <meta data-vue-meta="2" data-vmid="og:description" property="og:description" content="SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
+        <meta data-vue-meta="2" data-vmid="og:url" property="og:url" content="https://imamaladham.edu.iq/بغداد/"/>
+        <meta data-vue-meta="2" data-vmid="og:image" property="og:image" content="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png">
+        <meta data-vue-meta="2" data-vmid="og:image:secure_url" property="og:image:secure_url" content="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png">
+        <meta data-vue-meta="2" data-vmid="twitter:title" name="twitter:title" content="SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1">
+        <meta data-vue-meta="2" data-vmid="twitter:description" name="twitter:description" content="SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.">
+        <meta data-vue-meta="2" data-vmid="twitter:url" name="twitter:url" content="https://imamaladham.edu.iq/بغداد/"/>
+        <meta data-vue-meta="2" data-vmid="twitter:image" name="twitter:image" content="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png">
         <style>
             *[data-v-580f03f0],*[data-v-580f03f0]:before,*[data-v-580f03f0]:after {
                 box-sizing: border-box
@@ -10204,8 +10130,7 @@
             html:not([dark]) .b-status .blu-modal[data-v-580f03f0] {
                 border-bottom: 4px solid;
                 border-color: var(--blu-modal-color);
-                top: 50%;
-                left: 50%;
+                top: 50%;left: 50%;
                 transform: translate(-50%,-50%)
             }
 
@@ -10367,8 +10292,7 @@
                     border-radius: unset;
                     bottom: 0;
                     left: 0;
-                    transform: none
-                }
+                    transform: none}
 
                 html:not([dark]) .b-mobile-fullscreen .blu-modal[data-v-580f03f0] .blu-modal__header {
                     box-shadow: var(--blu-modal-box-shadow)
@@ -10526,8 +10450,7 @@
                 }
 
                 html[dark] .blu-modal-wrapper:not(.b-drawer) .blu-modal.b-medium-width[data-v-580f03f0] {
-                    --blu-modal-size-width: 600px
-                }
+                    --blu-modal-size-width: 600px}
 
                 html[dark] .blu-modal-wrapper:not(.b-drawer) .blu-modal.b-large-width[data-v-580f03f0] {
                     --blu-modal-size-width: 800px
@@ -10680,8 +10603,7 @@
                 }
 
                 html[dark] .b-mobile-fullscreen.b-desktop-top.fade-enter-active[data-v-580f03f0],html[dark] .b-mobile-fullscreen.b-desktop-top.fade-leave-active[data-v-580f03f0] {
-                    transition: all .3s
-                }
+                    transition: all .3s}
 
                 html[dark] .b-mobile-fullscreen.b-desktop-top.fade-enter-from .blu-modal[data-v-580f03f0],html[dark] .b-mobile-fullscreen.b-desktop-top.fade-leave-to .blu-modal[data-v-580f03f0] {
                     top: -100vh
@@ -10718,8 +10640,7 @@
             }
 
             html[dark] .fade-leave-to .b-scrim[data-v-580f03f0] {
-                opacity: 0
-            }
+                opacity: 0}
         </style>
         <style>
             html:not([dark]) .blu-modal__header[data-v-48938041] {
@@ -10730,9 +10651,7 @@
                 --blu-modal-header-gap: 4px;
                 padding: var(--blu-modal-header-padding);
                 color: var(--blu-modal-header-color)
-            }
-
-            @media screen and (max-width: 839px) {
+            }@media screen and (max-width: 839px) {
                 html:not([dark]) .blu-modal__header[data-v-48938041] {
                     --blu-modal-header-padding: 12px 16px
                 }
@@ -10874,8 +10793,7 @@
                 width: 100%
             }
 
-            html[dark] .blu-modal__header-main *[data-v-48938041]:not(:last-child):not(.blu-modal__header-main--item-leading) {
-                margin-right: var(--blu-modal-header-gap)
+            html[dark] .blu-modal__header-main *[data-v-48938041]:not(:last-child):not(.blu-modal__header-main--item-leading) {margin-right: var(--blu-modal-header-gap)
             }
 
             html[dark] .blu-modal__header-main--title[data-v-48938041] {
@@ -10908,8 +10826,7 @@
 
             @media screen and (min-width: 840px),print {
                 html[dark] .blu-modal__header-main--item-leading[data-v-48938041] {
-                    order:3;
-                    flex-direction: row-reverse;
+                    order:3;flex-direction: row-reverse;
                     margin-left: var(--blu-modal-header-gap)
                 }
             }
@@ -10924,8 +10841,7 @@
                 margin-left: auto
             }
 
-            html[dark] .blu-modal__header-main--close-icon[data-v-48938041]:focus {
-                outline: none
+            html[dark] .blu-modal__header-main--close-icon[data-v-48938041]:focus {outline: none
             }
 
             html[dark] .blu-modal__header-main--close-icon[data-v-48938041]:focus-visible {
@@ -11073,8 +10989,7 @@
                 scrollbar-width: thin
             }
 
-            html:not([dark]) .b-overflow-y.hidden[data-v-ee0005ae]:hover::-webkit-scrollbar-thumb {
-                box-shadow: inset 0 0 14px 14px transparent;
+            html:not([dark]) .b-overflow-y.hidden[data-v-ee0005ae]:hover::-webkit-scrollbar-thumb {box-shadow: inset 0 0 14px 14px transparent;
                 border-radius: 4px;
                 background-color: #19222a4d;
                 scrollbar-color: rgba(25,34,42,.3019607843) transparent
@@ -11115,8 +11030,7 @@
                 --blu-modal-body-padding: 0
             }
 
-            @media screen and (max-width: 839px) {
-                html[dark] .blu-modal__body[data-v-ee0005ae] {
+            @media screen and (max-width: 839px) {html[dark] .blu-modal__body[data-v-ee0005ae] {
                     --blu-modal-body-text: 500 14px/18px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif
                 }
             }
@@ -11130,9 +11044,7 @@
                 width: 4px;
                 height: 8px;
                 background-color: transparent
-            }
-
-            html[dark] .b-overflow-y[data-v-ee0005ae]::-webkit-scrollbar-track {
+            }html[dark] .b-overflow-y[data-v-ee0005ae]::-webkit-scrollbar-track {
                 margin: 13px 0
             }
 
@@ -11337,8 +11249,7 @@
             }
 
             html:not([dark]) .blu-banner__action-group[data-v-2470b354] {
-                display: flex
-            }
+                display: flex}
 
             html:not([dark]) .blu-banner__action-group[data-v-2470b354] :not(:last-child) {
                 margin-right: var(--blu-banner-action-group-spacing-gap)
@@ -11521,8 +11432,7 @@
                 --blu-banner-image-size: 32px
             }
 
-            html[dark] .blu-banner.b-horizontal .blu-banner__container[data-v-2470b354] {
-                flex-direction: row
+            html[dark] .blu-banner.b-horizontal .blu-banner__container[data-v-2470b354] {flex-direction: row
             }
 
             html[dark] .blu-banner.b-horizontal .blu-banner__container>*[data-v-2470b354]:not(:last-child) {
@@ -11870,7 +11780,7 @@
             }
 
             html[dark] .b-overflow-y.hidden[data-v-7b49b436]:hover::-webkit-scrollbar-thumb:hover {
-                box-shadow: inset 0 0 14px 14px transparent;
+                box-shadow: inset0 0 14px 14px transparent;
                 background-color: #ffffff4d;
                 scrollbar-color: rgba(255,255,255,.3019607843) transparent
             }
@@ -12280,8 +12190,7 @@
 
             html[dark] .blu-checkbox__content[data-v-03e81a59] {
                 display: flex;
-                flex-direction: column;
-                padding: var(--blu-checkbox-content-spacing-padding);
+                flex-direction: column;padding: var(--blu-checkbox-content-spacing-padding);
                 font: var(--blu-checkbox-label-text);
                 color: var(--blu-checkbox-label-color-text)
             }
@@ -12366,8 +12275,7 @@
                 --blu-checkbox-icon-border-radius: 4px;
                 --blu-checkbox-container-border-radius: 4px;
                 --blu-checkbox-container-border-width: 1px;
-                --blu-checkbox-content-spacing-padding: 0;
-                --blu-checkbox-label-text: 500 14px/18px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                --blu-checkbox-content-spacing-padding: 0;--blu-checkbox-label-text: 500 14px/18px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
                 --blu-checkbox-spacing-padding: 3px 0
             }
 
@@ -12537,8 +12445,7 @@
             }
 
             html[dark] .blu-loader-general__asset[data-v-5f0af726] {
-                animation: general-rotate-5f0af726 1.6s linear infinite;
-                transform-origin: center center;
+                animation: general-rotate-5f0af726 1.6s linear infinite;transform-origin: center center;
                 transition: all .5s ease-in-out;
                 width: 100%;
                 height: 100%;
@@ -12626,8 +12533,7 @@
                 --blu-radio-container-spacing-padding: 4px;
                 --blu-radio-content-spacing-padding: 2px 0;
                 --blu-radio-mark-size: 22px;
-                --blu-radio-mark-spacing-padding: 2px;
-                --blu-radio-label-text: 500 14px/18px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                --blu-radio-mark-spacing-padding: 2px;--blu-radio-label-text: 500 14px/18px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
                 --blu-radio-label-color-text: rgba(25, 34, 42, .7019607843);
                 --blu-radio-spacing-padding: 4px 0;
                 display: inline-flex;
@@ -12638,8 +12544,7 @@
             }
 
             html:not([dark]) .blu-radio[data-v-39791579],html:not([dark]) .blu-radio *[data-v-39791579] {
-                cursor: pointer
-            }
+                cursor: pointer}
 
             html:not([dark]) .blu-radio>*[data-v-39791579]:not(:last-child) {
                 margin-right: 4px
@@ -12736,9 +12641,7 @@
                 --blu-radio-container-color-border: rgba(25, 34, 42, .3019607843);
                 --blu-radio-label-color-text: rgba(25, 34, 42, .3019607843);
                 --blu-radio-container-color-background: #f9f9fa
-            }
-
-            html:not([dark]) .blu-radio.b-disabled.b-selected[data-v-39791579] {
+            }html:not([dark]) .blu-radio.b-disabled.b-selected[data-v-39791579] {
                 --blu-radio-container-color-border: rgba(25, 34, 42, .3019607843);
                 --blu-radio-dot-color-background: rgba(25, 34, 42, .3019607843)
             }
@@ -12828,7 +12731,7 @@
                 transition: background-color .1s .1s
             }
 
-            html[dark] .blu-radio__content[data-v-39791579] {
+            html[dark].blu-radio__content[data-v-39791579] {
                 font: var(--blu-radio-label-text);
                 color: var(--blu-radio-label-color-text);
                 padding: var(--blu-radio-content-spacing-padding)
@@ -12920,8 +12823,7 @@
 
             @keyframes bounce-39791579 {
                 25% {
-                    transform: scale(.9)
-                }
+                    transform: scale(.9)}
 
                 50% {
                     transform: scale(1.1)
@@ -13214,7 +13116,7 @@
                 color: #fff
             }
 
-            html[dark] .blu-list__content-desc[data-v-0fc385f6]:not(.b-disabled) {
+            html[dark].blu-list__content-desc[data-v-0fc385f6]:not(.b-disabled) {
                 font: 500 12px/16px Blibli,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
                 color: #ffffff80
             }
@@ -13451,9 +13353,7 @@
                 .product-service--loading .product-service__text__title[data-v-ef5183d2] {
                     width:100%
                 }
-            }
-
-            .trade-in[data-v-8418f747],.installation[data-v-c1955da8],.insurance[data-v-1c85a326],.cash-on-delivery[data-v-8c111c2e],.wholesale[data-v-c41b49cd],.subscription[data-v-6563e336] {
+            }.trade-in[data-v-8418f747],.installation[data-v-c1955da8],.insurance[data-v-1c85a326],.cash-on-delivery[data-v-8c111c2e],.wholesale[data-v-c41b49cd],.subscription[data-v-6563e336] {
                 width: 100%
             }
 
@@ -13654,8 +13554,7 @@
 
             @media screen and (max-width: 839px) {
                 .trade-in-download-apps-modal .scan-steps__guide__step__order--number[data-v-5dadaeda] {
-                    margin-right:0;
-                    margin-bottom: 4px
+                    margin-right:0;margin-bottom: 4px
                 }
             }
 
@@ -13672,8 +13571,7 @@
                 color: #19222ab3
             }
 
-            .cash-on-delivery-modal__body__content[data-v-88efff31] {
-                margin-bottom: 16px
+            .cash-on-delivery-modal__body__content[data-v-88efff31] {margin-bottom: 16px
             }
 
             .cash-on-delivery-modal__body__learn-more span[data-v-88efff31]:not(:last-child):after {
@@ -13781,8 +13679,7 @@
             .label.b-dot[data-v-3c5c9e9e] {
                 width: 8px;
                 height: 8px;
-                padding: 0;
-                font-size: 0
+                padding: 0;font-size: 0
             }
 
             .label.b-border[data-v-3c5c9e9e] {
@@ -13949,8 +13846,7 @@
             }
 
             .label.b-border[data-v-80a16fd0] {
-                box-shadow: 0 0 0 1px #fff
-            }
+                box-shadow: 0 0 0 1px #fff}
 
             .label[data-v-80a16fd0] {
                 background-color: #1d8fff
@@ -14159,8 +14055,7 @@
 
             @media screen and (min-width: 769px),print {
                 .blu-ticker.has-icon>.blu-ticker__icon[data-v-e275b4e8] {
-                    padding:12px
-                }
+                    padding:12px}
             }
 
             @media screen and (max-width: 768px) {
@@ -14182,7 +14077,7 @@
             }
         </style>
         <style type="text/css">
-            .blu-ticker[data-v-5f386d2a] {
+            .blu-ticker[data-v-5f386d2a]{
                 --blu-ticker-color-background: #f9f9fa;
                 --blu-ticker-color-border: #e1e3e4;
                 display: flex;
@@ -14380,8 +14275,7 @@
 
             .blu-ticker__close[data-v-c29289ca] {
                 object-fit: contain;
-                position: relative;
-                z-index: 0;
+                position: relative;z-index: 0;
                 width: 18px;
                 height: 18px;
                 padding: 11px
@@ -14428,8 +14322,7 @@
             }
 
             .blu-ticker__btn[data-v-c29289ca] {
-                margin: 8px 0 0 -14px
-            }
+                margin: 8px 0 0 -14px}
 
             .blu-ticker.b-info[data-v-c29289ca] {
                 --blu-ticker-color-background: #f3f9ff;
@@ -14617,8 +14510,7 @@
                 color: #0072ff
             }
 
-            .b-loading.b-ghost.b-primary .blu-ripple-wave[data-v-589e2bdd] {
-                color: #f1ab02
+            .b-loading.b-ghost.b-primary .blu-ripple-wave[data-v-589e2bdd] {color: #f1ab02
             }
 
             .blu-input-stepper .blu-btn .blu-ripple[data-v-589e2bdd] {
@@ -14712,8 +14604,7 @@
                 position: absolute;
                 padding: 12px;
                 border: 4px solid #000;
-                border-radius: 8px;
-                left: -8px;
+                border-radius: 8px;left: -8px;
                 bottom: -8px
             }
 
@@ -15002,8 +14893,7 @@
             }
 
             .blu-dropdown.b-selection .has-value label[data-v-3e0b2b85] {
-                color: #0072ff;
-                font: 12px/16px "blibli",-apple-system,segoe ui,roboto,helvetica,arial,sans-serif;
+                color: #0072ff;font: 12px/16px "blibli",-apple-system,segoe ui,roboto,helvetica,arial,sans-serif;
                 font-size: 1.2rem;
                 font-weight: normal;
                 margin-top: 9px;
@@ -15020,8 +14910,7 @@
             }
 
             .blu-dropdown.b-selection.b-active .blu-dropdown__trigger[data-v-3e0b2b85] {
-                border-color: #1d8fff;
-                transition: border-color .4s
+                border-color: #1d8fff;transition: border-color .4s
             }
 
             .blu-dropdown.b-selection.b-active .blu-dropdown__trigger[data-v-3e0b2b85]::before {
@@ -15076,8 +14965,7 @@
             }
 
             .blu-dropdown.b-contained .blu-dropdown__trigger[data-v-3e0b2b85] {
-                background-color: #f1f2f2;
-                border-color: #f1f2f2;
+                background-color: #f1f2f2;border-color: #f1f2f2;
                 transition: border-color 0s
             }
 
@@ -15213,8 +15101,7 @@
             }
 
             .blu-dropdown.b-disabled .blu-dropdown__trigger[data-v-3e0b2b85]:hover {
-                background-color: #c8cbcd
-            }
+                background-color: #c8cbcd}
 
             .blu-dropdown.b-disabled .blu-dropdown__value[data-v-3e0b2b85] {
                 color: rgba(25,34,42,.4)
@@ -15832,8 +15719,7 @@
                 height: 24px;
                 background: rgba(0,0,0,0) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogIDxkZWZzPgogICAgPHBhdGgKICAgICAgICBpZD0iMTkwcjYzOHp6YSIKICAgICAgICBkPSJNMCA1LjE1NGMwLS42MzYuMjkyLTEuMjE5LjgtMS42TDUuNDExLjE5MmMuNDQ2LS4zMjUgMS4wNzItLjIyOCAxLjM5Ny4yMi4zMjUuNDQ1LjIyNyAxLjA3MS0uMjE5IDEuMzk2bC00LjYgMy4zNTQgNC41NjMgMy4wMDRjLjQ2LjMwNS41ODcuOTI1LjI4MiAxLjM4Ni0uMzA1LjQ2LS45MjYuNTg2LTEuMzg2LjI4MmwtNC42LTMuMDQ2Qy4yOTEgNi4zNzIgMCA1Ljc5IDAgNS4xNTR6IgogICAgLz4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxnPgogICAgICA8Zz4KICAgICAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLW9wYWNpdHk9Ii4wMSIgZD0iTTAgMEgyNFYyNEgweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU5MiAtNzg1KSB0cmFuc2xhdGUoNTkyIDc4NSkiIC8+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU5MiAtNzg1KSB0cmFuc2xhdGUoNTkyIDc4NSkgdHJhbnNsYXRlKDggNykiPgogICAgICAgICAgPG1hc2sgaWQ9InU0ZGRwYm95eGIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iIzE5MHI2Mzh6emEiIC8+PC9tYXNrPgogICAgICAgICAgPHVzZSBmaWxsPSIjNzk3Rjg1IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHhsaW5rOmhyZWY9IiMxOTByNjM4enphIiAvPgogICAgICAgICAgPHBhdGggZmlsbD0iIzc5N0Y4NSIgZD0iTS04IC03SDE2VjE3SC04eiIgbWFzaz0idXJsKCN1NGRkcGJveXhiKSIgLz4KICAgICAgICA8L2c+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=) center center no-repeat;
                 transform: rotate(270deg);
-                transition: transform .3s;
-                display: block;
+                transition: transform .3s;display: block;
                 position: absolute;
                 right: 8px;
                 top: 7px
@@ -16005,8 +15891,7 @@
             }
 
             .blu-list__item[data-v-eb2a42e4] {
-                display: block;
-                min-height: 40px;
+                display: block;min-height: 40px;
                 margin: 8px 8px 8px -8px;
                 padding: 8px;
                 border-radius: 8px;
@@ -16039,8 +15924,7 @@
             }
 
             .blu-list__item.b-disabled[data-v-eb2a42e4]:focus-visible {
-                outline: none
-            }
+                outline: none}
 
             .blu-list__item.b-disabled .blu-checkbox[data-v-eb2a42e4],.blu-list__item.b-disabled .blu-radio[data-v-eb2a42e4] {
                 pointer-events: none
@@ -16211,9 +16095,7 @@
                 position: absolute;
                 right: 8px;
                 top: 7px
-            }
-
-            .has-child-expand>.blu-list__item:focus-visible~.blu-list[data-v-eb2a42e4] {
+            }.has-child-expand>.blu-list__item:focus-visible~.blu-list[data-v-eb2a42e4] {
                 border-top: #c8cbcd 1px solid;
                 max-height: 200px;
                 opacity: 1
@@ -16338,8 +16220,7 @@
                 background-color: transparent;
                 color: var(--blu-product-badge-color-white);
                 border: none;
-                text-shadow: var(--blu-product-badge-text-shadow);
-                --blu-product-badge-opacity: .47;
+                text-shadow: var(--blu-product-badge-text-shadow);--blu-product-badge-opacity: .47;
                 --blu-product-badge-font: 500 12px/16px Blibli, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif
             }
 
@@ -16351,8 +16232,7 @@
 
             html:not([dark]) .blu-product-badge.b-blibli-choice[data-v-5f0401da] {
                 background-color: var(--blu-product-badge-background-color-blue);
-                color: var(--blu-product-badge-color-white);
-                border: var(--blu-product-badge-border)
+                color: var(--blu-product-badge-color-white);border: var(--blu-product-badge-border)
             }
 
             html:not([dark]) .blu-product-badge.b-coming-soon[data-v-5f0401da] {
@@ -16641,8 +16521,7 @@
             html[dark] .blu-product-badge.b-discount[data-v-5f0401da] {
                 background-color: var(--blu-product-badge-background-color-red);
                 color: var(--blu-product-badge-color-white);
-                border: var(--blu-product-badge-border)
-            }
+                border: var(--blu-product-badge-border)}
 
             html[dark] .blu-product-badge.b-exclusive[data-v-5f0401da] {
                 background-color: var(--blu-product-badge-background-color-dark-gray);
@@ -16823,8 +16702,7 @@
         </style>
         <style>
             .review-rating-sold-seen[data-v-585f0b9b] {
-                display: flex;
-                align-items: center;
+                display: flex;align-items: center;
                 gap: 6px
             }
 
@@ -16932,9 +16810,9 @@
                 }
             }
         </style>
-        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/925089264/?random=1727708668102&amp;cv=11&amp;fst=1727708668102&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dproduct%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000&amp;rfmt=3&amp;fmt=4"></script>
-        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/920334631/?random=1727708668182&amp;cv=11&amp;fst=1727708668182&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dretail-product-detail%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000&amp;rfmt=3&amp;fmt=4"></script>
-        <script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/880395410/?random=1727708668483&amp;cv=11&amp;fst=1727708668483&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0v877689920z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;label=hEx3CKjo-eADEJKJ56MD&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;rfmt=3&amp;fmt=4"></script>
+        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/925089264/?random=1727708668102&amp;cv=11&amp;fst=1727708668102&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dproduct%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000&amp;rfmt=3&amp;fmt=4"></script>
+        <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/920334631/?random=1727708668182&amp;cv=11&amp;fst=1727708668182&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dretail-product-detail%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000&amp;rfmt=3&amp;fmt=4"></script>
+        <script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/880395410/?random=1727708668483&amp;cv=11&amp;fst=1727708668483&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0v877689920z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;label=hEx3CKjo-eADEJKJ56MD&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;rfmt=3&amp;fmt=4"></script>
     </head>
     <body style="overflow-x: hidden;">
         <div style="height: 74px;"></div>
@@ -16954,7 +16832,7 @@
                         <div style="margin-left:0.5em">
                             <div style="display:flex;flex-direction:column;align-items:flex-start">
                                 <div style="justify-content:center;display:flex">
-                                    <img style="border-radius:0%;width:5em;height:5em;min-width:5em;min-height:5em" src="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png" alt="App logo">
+                                    <img style="border-radius:0%;width:5em;height:5em;min-width:5em;min-height:5em" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png" alt="App logo">
                                 </div>
                             </div>
                         </div>
@@ -16971,7 +16849,7 @@
                         </div>
                     </div>
                     <div style="margin:0.6em 1em 0px 0em">
-                        <a href="https://mantho-neeee-bujang.pages.dev/">
+                        <a href="https://SITUS 4D-ni-bos.pages.dev/">
                             <div style="justify-content:center;display:flex;width:100%">
                                 <div style="border-color:rgba(255, 255, 255, 0);border-style:solid;border-radius:0.7em;background-color:rgba(0, 114, 255, 1);height:3.7em;border-width:0.1em;display:inline-flex;align-items:center;justify-content:center;width:100%;box-shadow:none">
                                     <button type="button" data-role="cta" data-qa-id="cta-button" data-af-cta-button="true" style="line-height:1em;font-size:1.3em;font-family:Cairo;font-weight:700;color:rgba(255, 255, 255, 1);text-transform:none;word-break:break-word;height:100%;width:100%;margin:0px 0.7em;background:transparent;padding:0px;border:transparent" data-af-custom-fonts="af-creatives-text" data-af-cta-url="zuu">BUKA APP</button>
@@ -17026,8 +16904,7 @@
                                             <span data-v-31c4755a="" class="top-menu__text font-medium">Download Aplikasi Blibli </span>
                                         </div>
                                         <div data-v-31c4755a="" class="mobile-app top-menu__tooltip">
-                                            <div data-v-31c4755a="" class="mobile-app__text">Unduh Sekarang! </div>
-                                            <div data-v-31c4755a="" class="mobile-app__platform">
+                                            <div data-v-31c4755a="" class="mobile-app__text">Unduh Sekarang! </div><div data-v-31c4755a="" class="mobile-app__platform">
                                                 <a data-v-31c4755a="" href="https://play.google.com/store/apps/details?id=blibli.mobile.commerce" class="mobile-app__platform__content">
                                                     <img data-v-31c4755a="" alt="Android" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAAA0CAMAAAAg2iPEAAAA9lBMVEWYmJhubm6YmJgAAACQkJCcnJyLi4t4eHhcXFyRkZGGhoYAAAD///8rKyufn59ChfQLDAs0qFPqQzX7vAQ0NDSQkJDu7u4eHh5WVlbf39/Pz8/z8/MQIDzW1tb4+Pi2traurq5DQ0M7OzskJCR4eHhQUFCbm5vCwsIYGBh+fn5kZGTn5+eoqKhwcHDk5OTKysqkpKRfX1+8vLw5mJmJiYlLS0uEhITdSERpdcdqamrtuwkwn05frELaPzX0hhoWDAIphkIfaDNDHgomFQW+NSoOMBhiHBamcwbrrwNgedEmVCNeRgGdLCN6IxvWoAO6jAN7WwJkjoGll4iDAAAAC3RSTlP8POsAntRxKhO2St/+RzAAAAWRSURBVGje5dr7l5JAFAdwKtut7h27lSBovBUQUVdTy2p7v9/9//9Mdwa2WcuobfMcPX1/WBhmHD8OV+Ac17h06dJh47Kx47ncOGQoYw+avVDseKJe80BiDxIBe5BWcnDJONwPK2ubh0ZjBHuSQcO4HMGeJOTLQAv2JK2L/weWSP7ROd08GaHHbQVLT588fQm/j50OnSQG2+L0fYvjA0AwGshdR9pas+G4EAATn1vj1hawLx/cuHHjwdPfLkQ+HISLWQ9sRwhBsZgFIgYAv5eJ3lgwERbWPFwUjgDXWwF0t4ClJ2yV3HdQm2w4rRbYBZWjIwCF5UNjNdPEAE7TB9ccxlvB3r5zo8qTl3WrG3kE2XQ6jWyr2TRoA7btCfVhhuSGQXM72OtSW3GpBtslEJ3OMLGtXm+0Edv9jo1a1mI7WK2tK10aj9SpHvy6DDqqDIIA3AgGznawWltburaV2NOZ07adfr+fbcBCZAX21HdixrIct4RVWl26sDlR0JkYbeh3OCHAcgkyRg4QzkBF8IgkA/AFj+7E28Eqrc5T+u1N4aShbwBbvSlorNbqWngMu5GN2HXtw/uf3sNOZCNWabX11q1bn5/BDuRnrNZqK+f1plogEdcW4/axWqutnDfvf5SOXET00in8Wahn2j8eMlUGkfzIptk/O1ZrlVXny/qV1sEqk/afYTtownraWCWNARDNv8eyVlvV2p6uhJWF6NtRuHIRF+fAummauryhc2E5X5VV5/mp1yGOQ1DJbTgHVp36EeLqnNh7dx+tWd9oLM3QCkHnnFjooH8+7Nu7N2+uaV+ffkTcMDMJQZv22yLTWN11GltgWmFJRDGdGXuPrWvaz6fmGKHX+nGVAg/RS5SrNUPE7lK9IHR5P/GHS4XlYdwc2utYGmKgsNSzuNsNwRg66tX+MKXfY98eS6vWrt/FmjhWc2RmmRxii3ld9U2BiLcW0+X75Mj7yDEVNna4yd2jE+yUiESBaCusgehZPMIW3AMAvJlDHVavq9a++SJtOgE6aiuwzAxS9HqxWHYxkOs0zmNhIg7kZ3AXcZieYAMelokEu6LCDh3HYXwBCjtwA9G2XXQpxQkBDNATdVht1drXz2E9JlqZwjoyXfTDarHmzMgRQ+D4OKRlySKrxGYe9oBWE0Sjwqp0B1RigVqrgT1AzGw5CTkY1NSstuq8/vnBYIqY65aLCc9PwIm7mAdY1lsfUaQ4A5mgxEaI9txCnPSows6n0+mCGyU2nlX8NkinEtdj163HmqpDjjxLVYQUIJZVaOEqwAnIsCzq4FFV5AobqnUMQvrhanCCdbHrD0xHYqfokY8dqMeuWz9ufphlnEkVfIJdyhEFcBaICwMt1dVDLy7QVfuTEisQrWUMnI3YVnnCVhKbWXjURbsWu2798Bw2h1JEv+R1EAdy6g6rsg46WYSY8L6wcEa57ATIvRJLDvcD0JFBm7ChOu2xWlkwENGheuy94+/UFzVPsTSTc6XpmDeGWkYcJ4mFaKu3cc3CQysC8hEnpv/90rXwcJiYrMk3YamLVpMnUdiYt0uoxfJ9q8rxK4KayOu3ijVSzWX1vZb7RdnBbshSddiqsJCXw+aba9b2uNObKSz4XEa12LIGdLHWcm2jKOYLgjJxrzhaiWraZdHMq45FUgzaKc4h6gsJHBXFSFQz9PusqtKX3e1eYYZ8mLjTxSbUYelYF+u/Sbs0OziCM8ZGL6rFwitdrP8kLQ/nqka8FpwxKfpQi2Xti+MXuljPHQoQncBFbMIZEyGG9VgOPZbUf6rlFGeeVN4Ha7BbihjNR/FfFHub9v0HkIv79DvY1Rz2JKOGcS1pw16k3bxmXGrMM9iDkNngn/CvXE1CItjpENlJ4wpj+b8jLjd3PpcPGMpYzuGFHc8VxfwG9K/ldNMRtN4AAAAASUVORK5CYII=" class="mobile-app__platform__content__logo">
                                                 </a>
@@ -17053,8 +16930,7 @@
                                             </div>
                                             <hr data-v-31c4755a="" class="help-center__bottom__separator">
                                             <div data-v-31c4755a="" class="help-center__bottom">
-                                                <div data-v-31c4755a="" class="help-center__bottom__title">Bandar Simba 4D</div>
-                                                <div data-v-31c4755a="" class="help-center__bottom__content">
+                                                <div data-v-31c4755a="" class="help-center__bottom__title">Bandar Simba 4D</div><div data-v-31c4755a="" class="help-center__bottom__content">
                                                     <svg data-v-31c4755a="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" class="icon-gray">
                                                         <path d="M7.68902 16.3359C10.1765 18.8859 13.669 20.6859 17.0222 20.6459L17.0122 20.6359C17.0122 20.6359 20.9524 20.5059 20.5743 17.5159C20.4947 16.9359 19.6589 16.3259 18.8331 15.9759L16.1864 14.5859C14.7735 13.9859 13.1516 14.7159 12.6541 16.1759L12.5745 16.4159C11.7387 15.9159 10.7735 15.1859 9.81833 14.1859C8.82333 13.2359 8.09697 12.2659 7.59947 11.4159L7.83827 11.3359C9.29098 10.8359 10.0173 9.20586 9.42033 7.78586L8.03727 5.12586C7.68902 4.29586 7.09202 3.44586 6.50497 3.37586C3.5299 2.99586 3.40055 6.94586 3.40055 6.94586C3.36075 10.3159 5.15176 13.8359 7.68902 16.3359ZM17.4994 11.2256C17.4994 11.9156 18.0566 12.4756 18.7432 12.4756C19.4297 12.4756 19.9869 11.9156 19.9869 11.2256C19.9869 7.22559 16.7532 3.97559 12.7731 3.97559C12.0866 3.97559 11.5294 4.53559 11.5294 5.22559C11.5294 5.91559 12.0866 6.47559 12.7731 6.47559C15.3801 6.47559 17.4994 8.60559 17.4994 11.2256Z"></path>
                                                     </svg>
@@ -17077,9 +16953,9 @@
                                     </div>
                                 </div>
                                 <div data-v-31c4755a="" class="right-section">
-                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"target="" class="link hover-gray font-medium">Simba4d </a>
-                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"target="_blank" class="link hover-gray font-medium">Login Simba4d </a>
-                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"class="link hover-gray font-medium">Daftar Simba4d </a>
+                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/بغداد/"target="" class="link hover-gray font-medium">SITUS 4D </a>
+                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/بغداد/"target="_blank" class="link hover-gray font-medium">Login SITUS 4D </a>
+                                    <a data-v-31c4755a="" href="https://imamaladham.edu.iq/بغداد/"class="link hover-gray font-medium">Daftar SITUS 4D </a>
                                 </div>
                             </div>
                         </div>
@@ -17087,8 +16963,8 @@
                     <div data-v-f03a55b3="" class="header__btm">
                         <div data-v-f03a55b3="" class="header__btm__left">
                             <div data-v-f03a55b3="" class="brand">
-                                <a data-v-f03a55b3="" href="https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/">
-                                    <img data-v-ebaad72a="" data-v-f03a55b3="" src="https://i.postimg.cc/0NKFb7vH/logo.png" data-src="https://www.static-src.com/frontend/static/img/logo-blibli-blue.0f340eba.svg" alt="Blibli - online mall" class="lazyImage" width="114" height="40" data-loaded="false">
+                                <a data-v-f03a55b3="" href="https://imamaladham.edu.iq/بغداد/">
+                                    <img data-v-ebaad72a="" data-v-f03a55b3="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiquoyEuwWtEMf1hDoO1HTFAc3ko9RZV7-c4xJZ8_nucuW5eb0Dv5J4wjh5d5tuHW_erGrWv-sXH4k-TTcaPXRr8JbYUuqP_EakJUreSMCcsPkmLJe40P9YK6YCCl5ryrVQFQ9Vx2iL7Ork7-XuAxCQkwsiMhEGTvKPoNQgeTxC94nbsT2isO5mhdtClJfX/s920/seomarlin-16-8-2025-removebg-preview%20(1).png" data-src="https://www.static-src.com/frontend/static/img/logo-blibli-blue.0f340eba.svg" alt="Blibli - online mall" class="lazyImage" width="114" height="40" data-loaded="false">
                                 </a>
                             </div>
                             <div data-v-f03a55b3="" class="category tooltip__trigger">
@@ -17109,12 +16985,12 @@
                                     <div data-v-c2b23a23="" class="search__intent-category">
                                         <div data-v-c2b23a23="" class="search__intent-category-all b-flex b-ai-center b-jc-between">
                                             <span data-v-c2b23a23="" class="b-ellipsis">Semua kategori</span>
-                                            <svg data-v-c2b23a23="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="18" height="18" viewBox="0 0 24 24">
+                                            <svg data-v-c2b23a23="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMidmeet" width="18" height="18" viewBox="0 0 24 24">
                                                 <path d="M15.8447 8.49L11.9947 13.69L8.16468 8.49C7.96468 8.22 7.68468 8.05 7.36468 8.01C7.04468 7.97 6.73468 8.05 6.47468 8.26C5.94468 8.68 5.84468 9.47 6.24468 10.01L11.0347 16.51C11.2647 16.82 11.6247 17 11.9947 17C12.3647 17 12.7247 16.82 12.9547 16.51L17.7547 10.01C17.9147 9.79 18.0047 9.53 18.0047 9.25C18.0047 8.86 17.8347 8.5 17.5347 8.26C17.2747 8.06 16.9647 7.97 16.6447 8.01C16.3247 8.05 16.0447 8.22 15.8447 8.49Z"></path>
                                             </svg>
                                         </div>
                                     </div>
-                                    <input data-v-c2b23a23="" type="text" name="search" placeholder="Cari Di Google Simba4d" autocomplete="off" class="b-ellipsis">
+                                    <input data-v-c2b23a23="" type="text" name="search" placeholder="Cari Di Google SITUS 4D" autocomplete="off" class="b-ellipsis">
                                     <div data-v-c2b23a23="" class="b-ellipsis b-flex">
                                         <!---->
                                         <button data-v-c2b23a23="" title="search" class="searchbox__search">
@@ -17145,7 +17021,7 @@
                             <!---->
                             <div data-v-f03a55b3="" class="menus">
                                 <div data-v-f03a55b3="" class="cart tooltip__trigger menus__item">
-                                    <a data-v-f03a55b3="" href="https://mantho-neeee-bujang.pages.dev/" aria-label="cart 0" class="menus__item-wrapper hover-gray">
+                                    <a data-v-f03a55b3="" href="https://SITUS 4D-ni-bos.pages.dev/" aria-label="cart 0" class="menus__item-wrapper hover-gray">
                                         <svg data-v-f03a55b3="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" class="icon-gray">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1054 2C20.7749 2 21.3145 2.57143 21.2046 3.24311C20.0155 10.1303 20.0155 14.411 21.7541 20.6466C21.964 21.3484 21.4244 22 20.7249 22H3.27882C2.56938 22 2.02981 21.3484 2.24963 20.6466C3.97826 14.411 3.97826 10.1303 2.7892 3.24311C2.68928 2.57143 3.22886 2 3.88833 2H3.97826C7.47548 2.3609 9.74367 2.53133 11.9919 2.53133C14.2401 2.53133 16.4983 2.35088 20.0155 2H20.1054ZM9.13431 6.91993C9.13431 7.42118 8.70465 7.88233 8.15509 7.88233C7.60553 7.88233 7.22583 7.45125 7.22583 6.91993C7.22583 6.3886 7.60553 5.95752 8.15509 5.95752C8.70465 5.95752 9.13431 6.39862 9.13431 6.91993ZM17.0656 6.96241C17.0656 7.46366 16.636 7.92481 16.0864 7.92481C15.5368 7.92481 15.1571 7.49373 15.1571 6.96241C15.1571 6.43108 15.5368 6 16.0864 6C16.636 6 17.0656 6.4411 17.0656 6.96241ZM12.002 14.9799C9.37412 14.9799 7.22583 12.7343 7.22583 9.96741C7.22583 9.56641 7.54557 9.24561 7.93526 9.24561C8.32495 9.24561 8.6447 9.56641 8.6447 9.96741C8.6447 11.9323 10.1535 13.5263 12.002 13.5263C13.8506 13.5263 15.3594 11.9323 15.3594 9.96741C15.3594 9.56641 15.6791 9.24561 16.0688 9.24561C16.4585 9.24561 16.7782 9.56641 16.7782 9.96741C16.7782 12.7343 14.6399 14.9799 12.002 14.9799Z"></path>
                                         </svg>
@@ -17163,9 +17039,10 @@
                                     <!---->
                                     <div data-v-f03a55b3="" class="auth-container">
                                         <span data-v-3af43acd="" data-v-f03a55b3="" class="blu-tooltip b-top-center">
-                                            <a data-v-5fa81f30="" data-v-f03a55b3="" tabindex="0" class="blu-tooltip__label">
-                                                <button data-v-fe4ffa8e="" data-v-f03a55b3="" type="button" class="blu-btn btn__login b-outline b-small" data-v-5fa81f30="">
-                                                    <div data-v-8d4155d0="" data-v-fe4ffa8e="" class="blu-ripple">
+                                              <a href="https://SITUS4D-ni-bos.pages.dev/" 
+       class="blu-btn btn__login b-outline b-small"
+       style="text-decoration:none; display:inline-block;">
+        <div class="blu-ripple">
                                                     <!---->
                                                     Masuk  </div>
                                                 </button>
@@ -17175,7 +17052,7 @@
                                                     <button data-v-e8a6e46e="" class="blu-tooltip__close">
                                                         <i data-v-e8a6e46e=""></i>
                                                     </button>
-                                                    <img data-v-f03a55b3="" data-v-e8a6e46e="" src="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg" alt="Logo Blibli Tiket" class="login-hover__image">
+                                                    <img data-v-f03a55b3="" data-v-e8a6e46e="" src="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png" alt="Logo Blibli Tiket" class="login-hover__image">
                                                     <p data-v-f03a55b3="" data-v-e8a6e46e="" class="login-hover__title">Satu akun untuk semua</p>
                                                     <p data-v-f03a55b3="" data-v-e8a6e46e="" class="login-hover__desc">Akses ekosistem Blibli Tiket dengan satu akun dan nikmati untungnya di mana saja!</p>
                                                     <p data-v-f03a55b3="" data-v-e8a6e46e="" class="login-hover__tnc">Info selengkapnya</p>
@@ -17185,12 +17062,11 @@
                                         <button data-v-fe4ffa8e="" data-v-f03a55b3="" type="button" class="blu-btn btn__register b-small">
                                             <div data-v-8d4155d0="" data-v-fe4ffa8e="" class="blu-ripple">
                                             <!---->
-                                            Daftar  </div>
+                                            GASSS  </div>
                                         </button>
                                     </div>
                                 </div>
-                            </div>
-                            <div data-v-f03a55b3="" class="location-container">
+                            </div><div data-v-f03a55b3="" class="location-container">
                                 <!---->
                                 <div data-v-d4097f5c="" data-v-f03a55b3="" class="location location--light location-container--component" style="">
                                     <div data-v-d4097f5c="" class="location__address">
@@ -17306,8 +17182,7 @@
                         <div data-v-c421a338="">
                             <div data-v-c421a338="" style="display: none;">
                                 <div data-v-c421a338="" id="app-collab-digital"></div>
-                                <div data-v-c421a338="" id="app-collab-digital-vue3"></div>
-                                <!---->
+                                <div data-v-c421a338="" id="app-collab-digital-vue3"></div><!---->
                             </div>
                         </div>
                         <div data-v-c421a338="">
@@ -17427,8 +17302,7 @@
                                 <div data-v-fb5c201b="" id="app-collab-product-detail" class="container">
                                     <div data-v-fb5c201b="" class="content-wrapper">
                                         <div data-v-fb5c201b="" class="cover"></div>
-                                        <section data-v-fb5c201b="" class="content-section">
-                                            <div data-v-fb5c201b="" id="pdp-gateway" class="collab">
+                                        <section data-v-fb5c201b="" class="content-section"><div data-v-fb5c201b="" id="pdp-gateway" class="collab">
                                                 <div data-v-efe038fa="" class="pdp blu">
                                                     <!---->
                                                     <!---->
@@ -17442,7 +17316,7 @@
                                                             </div>
                                                         </span>
                                                         <span data-v-4e53932c="" data-testid="breadcrumbItem-1" class="breadcrumb__item">
-                                                            <span data-v-4e53932c="" class="item-name">Simba4d </span>
+                                                            <span data-v-4e53932c="" class="item-name">SITUS 4D </span>
                                                             <div data-v-4e53932c="" class="arrow">
                                                                 <svg data-v-4e53932c="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" viewBox="0 0 24 24">
                                                                     <path d="M8.49 8.15532L13.69 12.0053L8.49 15.8353C8.22 16.0353 8.05 16.3153 8.01 16.6353C7.97 16.9553 8.05 17.2653 8.26 17.5253C8.68 18.0553 9.47 18.1553 10.01 17.7553L16.51 12.9653C16.82 12.7353 17 12.3753 17 12.0053C17 11.6353 16.82 11.2753 16.51 11.0453L10.01 6.24532C9.79 6.08532 9.53 5.99532 9.25 5.99532C8.86 5.99532 8.5 6.16532 8.26 6.46532C8.06 6.72532 7.97 7.03532 8.01 7.35532C8.05 7.67532 8.22 7.95532 8.49 8.15532Z"></path>
@@ -17450,7 +17324,7 @@
                                                             </div>
                                                         </span>
                                                         <span data-v-4e53932c="" data-testid="breadcrumbItem-2" class="breadcrumb__item">
-                                                            <span data-v-4e53932c="" class="item-name">Login Simba4d </span>
+                                                            <span data-v-4e53932c="" class="item-name">Login SITUS 4D </span>
                                                             <div data-v-4e53932c="" class="arrow">
                                                                 <svg data-v-4e53932c="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" viewBox="0 0 24 24">
                                                                     <path d="M8.49 8.15532L13.69 12.0053L8.49 15.8353C8.22 16.0353 8.05 16.3153 8.01 16.6353C7.97 16.9553 8.05 17.2653 8.26 17.5253C8.68 18.0553 9.47 18.1553 10.01 17.7553L16.51 12.9653C16.82 12.7353 17 12.3753 17 12.0053C17 11.6353 16.82 11.2753 16.51 11.0453L10.01 6.24532C9.79 6.08532 9.53 5.99532 9.25 5.99532C8.86 5.99532 8.5 6.16532 8.26 6.46532C8.06 6.72532 7.97 7.03532 8.01 7.35532C8.05 7.67532 8.22 7.95532 8.49 8.15532Z"></path>
@@ -17458,7 +17332,7 @@
                                                             </div>
                                                         </span>
                                                         <span data-v-4e53932c="" data-testid="breadcrumbItem-3" class="breadcrumb__item">
-                                                            <span data-v-4e53932c="" class="item-name">Daftar Simba4d </span>
+                                                            <span data-v-4e53932c="" class="item-name">Daftar SITUS 4D </span>
                                                             <div data-v-4e53932c="" class="arrow">
                                                                 <svg data-v-4e53932c="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" viewBox="0 0 24 24">
                                                                     <path d="M8.49 8.15532L13.69 12.0053L8.49 15.8353C8.22 16.0353 8.05 16.3153 8.01 16.6353C7.97 16.9553 8.05 17.2653 8.26 17.5253C8.68 18.0553 9.47 18.1553 10.01 17.7553L16.51 12.9653C16.82 12.7353 17 12.3753 17 12.0053C17 11.6353 16.82 11.2753 16.51 11.0453L10.01 6.24532C9.79 6.08532 9.53 5.99532 9.25 5.99532C8.86 5.99532 8.5 6.16532 8.26 6.46532C8.06 6.72532 7.97 7.03532 8.01 7.35532C8.05 7.67532 8.22 7.95532 8.49 8.15532Z"></path>
@@ -17466,7 +17340,7 @@
                                                             </div>
                                                         </span>
                                                         <span data-v-4e53932c="" data-testid="breadcrumbItem-4" class="breadcrumb__item">
-                                                            <span data-v-4e53932c="" class="item-name">Situs Simba4d </span>
+                                                            <span data-v-4e53932c="" class="item-name">Situs SITUS 4D </span>
                                                             <div data-v-4e53932c="" class="arrow">
                                                                 <svg data-v-4e53932c="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" viewBox="0 0 24 24">
                                                                     <path d="M8.49 8.15532L13.69 12.0053L8.49 15.8353C8.22 16.0353 8.05 16.3153 8.01 16.6353C7.97 16.9553 8.05 17.2653 8.26 17.5253C8.68 18.0553 9.47 18.1553 10.01 17.7553L16.51 12.9653C16.82 12.7353 17 12.3753 17 12.0053C17 11.6353 16.82 11.2753 16.51 11.0453L10.01 6.24532C9.79 6.08532 9.53 5.99532 9.25 5.99532C8.86 5.99532 8.5 6.16532 8.26 6.46532C8.06 6.72532 7.97 7.03532 8.01 7.35532C8.05 7.67532 8.22 7.95532 8.49 8.15532Z"></path>
@@ -17474,32 +17348,30 @@
                                                             </div>
                                                         </span>
                                                         <span data-v-4e53932c="" data-testid="breadcrumbItem-5" class="breadcrumb__item">
-                                                            <span data-v-4e53932c="" title="SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1" class="item-name">SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </span>
+                                                            <span data-v-4e53932c="" title="SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1" class="item-name">SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </span>
                                                             <div data-v-4e53932c="" class="arrow">
                                                                 <svg data-v-4e53932c="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" viewBox="0 0 24 24">
                                                                     <path d="M8.49 8.15532L13.69 12.0053L8.49 15.8353C8.22 16.0353 8.05 16.3153 8.01 16.6353C7.97 16.9553 8.05 17.2653 8.26 17.5253C8.68 18.0553 9.47 18.1553 10.01 17.7553L16.51 12.9653C16.82 12.7353 17 12.3753 17 12.0053C17 11.6353 16.82 11.2753 16.51 11.0453L10.01 6.24532C9.79 6.08532 9.53 5.99532 9.25 5.99532C8.86 5.99532 8.5 6.16532 8.26 6.46532C8.06 6.72532 7.97 7.03532 8.01 7.35532C8.05 7.67532 8.22 7.95532 8.49 8.15532Z"></path>
-                                                                </svg>
-                                                            </div>
+                                                                </svg></div>
                                                         </span>
                                                     </div>
                                                     <!---->
                                                     <div data-v-efe038fa="" class="pdp-top">
                                                         <div data-v-efe038fa="" data-nav-anchor="Overview" class="pdp-top--left">
                                                             <section data-v-efe038fa="" class="pdp__figure">
-                                                                <div data-v-651f609d="" data-v-efe038fa="" class="product-figure" data-testid="productFigure">
-                                                                    <figure data-v-651f609d="" class="product-fig__main">
+                                                                <div data-v-651f609d="" data-v-efe038fa="" class="product-figure" data-testid="productFigure"><figure data-v-651f609d="" class="product-fig__main">
                                                                         <div data-v-651f609d="" class="hero">
                                                                             <div data-v-564dcdfe="" class="hero-desktop" data-testid="heroDesktop">
                                                                                 <div data-v-4248dbe2="" data-v-564dcdfe="" class="vue-h-zoom">
-                                                                                    <div data-v-4248dbe2="" class="thumbnail-area" style="background-image: url(https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg); background-size: contain; background-repeat: no-repeat; background-position: 50% 50%; background-color: rgb(255, 255, 255); height: 500px; width: 500px;">
+                                                                                    <div data-v-4248dbe2="" class="thumbnail-area" style="background-image: url(https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png); background-size: contain; background-repeat: no-repeat; background-position: 50% 50%; background-color: rgb(255, 255, 255); height: 500px; width: 500px;">
                                                                                     <!---->
                                                                                     </div>
                                                                                     <!---->
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <a href="https://mantho-neeee-bujang.pages.dev/" rel="nofollow noopener" target="_blank">
-                                                                            <img src="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg" width="100%" height="auto" alt="">
+                                                                        <a href="https://SITUS 4D-ni-bos.pages.dev/" rel="nofollow noopener" target="_blank">
+                                                                            <img src="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png" width="100%" height="auto" alt="">
                                                                         </a>
                                                                         <div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"></div>
                                                                         <div data-v-23ee1c96="" data-v-651f609d="" data-testid="shareProductDesktop" class="product-share">
@@ -17547,9 +17419,7 @@
                                                                 <div data-v-efe038fa=""></div>
                                                             </div>
                                                             <section data-v-efe038fa="" class="pdp__price">
-                                                                <!---->
-                                                                <div data-v-4129978e="" data-v-efe038fa="" id="pdp-price-vue3" class="teleport-target" style="--teleport-target-min-height: 50px;">
-                                                                    <div data-v-cbaafdc0="" data-v-684cab4c="" class="price-component" data-testid="priceComponent">
+                                                                <!----><div data-v-4129978e="" data-v-efe038fa="" id="pdp-price-vue3" class="teleport-target" style="--teleport-target-min-height: 50px;"><div data-v-cbaafdc0="" data-v-684cab4c="" class="price-component" data-testid="priceComponent">
                                                                         <div data-v-cbaafdc0="" class="price-component__container">
                                                                             <div data-v-cbaafdc0="" class="final-price clickable" data-testid="priceComponentFinalPrice">
                                                                                 <svg data-v-cbaafdc0="" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" fill="none">
@@ -17596,12 +17466,10 @@
                                                                                         <!---->
                                                                                         Sisa 1</div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                                                </div></div>
+                                                                        </div></div>
                                                                     <div data-v-7ae74d2b="" class="product-info__main">
-                                                                        <div data-v-7ae74d2b="" class="product-name">SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </div>
+                                                                        <div data-v-7ae74d2b="" class="product-name">SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </div>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -17646,7 +17514,7 @@
                                                                         <div data-v-e198caf4="" data-v-2be27192="" class="promo-highlight-layout decoration-blue">
                                                                             <div data-v-e198caf4="" class="icon">
                                                                                 <svg data-v-e198caf4="" xmlns="http://www.w3.org/2000/svg" fill="#0072FF" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" class="scaled-wiggle">
-                                                                                    <path d="M2 10V8C2 6.62 3.12 5.5 4.5 5.5H6V18.5H4.5C3.12 18.5 2 17.38 2 16V14C3.1 14 4 13.1 4 12C4 10.9 3.1 10 2 10ZM7 5.5H19.5C20.88 5.5 22 6.62 22 8V16C22 17.38 20.88 18.5 19.5 18.5H7V5.5ZM10 15.25H15C15.55 15.25 16 14.8 16 14.25C16 13.7 15.55 13.25 15 13.25H10C9.45 13.25 9 13.7 9 14.25C9 14.8 9.45 15.25 10 15.25ZM10 10.75H18C18.55 10.75 19 10.3 19 9.75C19 9.2 18.55 8.75 18 8.75H10C9.45 8.75 9 9.2 9 9.75C9 10.3 9.45 10.75 10 10.75Z"></path>
+                                                                                    <path d="M2 10V8C2 6.62 3.12 5.5 4.5 5.5H6V18.5H4.5C3.12 18.5 2 17.38 2 16V14C3.1 14 4 13.1 4 12C4 10.9 3.1 10 2 10ZM7 5.5H19.5C20.88 5.5 22 6.62 22 8V16C22 17.38 20.88 18.5 19.5 18.5H7V5.5ZM1015.25H15C15.55 15.25 16 14.8 16 14.25C16 13.7 15.55 13.25 15 13.25H10C9.45 13.25 9 13.7 9 14.25C9 14.8 9.45 15.25 10 15.25ZM10 10.75H18C18.55 10.75 19 10.3 19 9.75C19 9.2 18.55 8.75 18 8.75H10C9.45 8.75 9 9.2 9 9.75C9 10.3 9.45 10.75 10 10.75Z"></path>
                                                                                 </svg>
                                                                             </div>
                                                                             <div data-v-e198caf4="" class="content">
@@ -17670,17 +17538,17 @@
                                                                     <div data-v-867bc1e5="" class="attribute">
                                                                         <div data-v-867bc1e5="" class="b-flex value">
                                                                             <span data-v-867bc1e5="" class="label">Variasi:</span>
-                                                                            &nbsp;<span data-v-867bc1e5="">Simba4d</span>
+                                                                            &nbsp;<span data-v-867bc1e5="">SITUS 4D</span>
                                                                             <!---->
                                                                         </div>
                                                                         <div data-v-867bc1e5="" class="attribute__item">
                                                                             <label data-v-2ffdd76e="" data-v-867bc1e5="" for="bluchip-h3my9hvne" class="blu-chip b-outline b-secondary not-available" data-testid="buttonVariant-0">
                                                                                 <input data-v-2ffdd76e="" type="radio" id="bluchip-h3my9hvne">
-                                                                                <span data-v-2ffdd76e="">Daftar Simba4d </span>
+                                                                                <span data-v-2ffdd76e="">Daftar SITUS 4D </span>
                                                                             </label>
                                                                             <label data-v-2ffdd76e="" data-v-867bc1e5="" for="bluchip-55k0b6tct" class="blu-chip b-outline b-secondary" data-testid="buttonVariant-1">
                                                                                 <input data-v-2ffdd76e="" type="radio" id="bluchip-55k0b6tct">
-                                                                                <span data-v-2ffdd76e="">Simba4d </span>
+                                                                                <span data-v-2ffdd76e="">SITUS 4D </span>
                                                                             </label>
                                                                         </div>
                                                                         <!---->
@@ -17734,7 +17602,7 @@
                                                                                             <span data-v-1b6bb4ae="" class="label">Kategori </span>
                                                                                         </td>
                                                                                         <td data-v-1b6bb4ae="">
-                                                                                            <span data-v-1b6bb4ae="" data-testid="descriptionInfoCategory" class="value link">Link Simba4d </span>
+                                                                                            <span data-v-1b6bb4ae="" data-testid="descriptionInfoCategory" class="value link">Link SITUS 4D </span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr data-v-1b6bb4ae="">
@@ -17763,7 +17631,7 @@
                                                                     </div>
                                                                     <div data-v-7c02e076="" data-v-26904eb7="" class="features">
                                                                         <div data-v-7c02e076="" class="product-features">
-                                                                            <div data-v-7c02e076="">SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.</div>
+                                                                            <div data-v-7c02e076="">SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.</div>
                                                                         </div>
                                                                     </div>
                                                                     <!---->
@@ -17787,13 +17655,13 @@
                                                                                     <div data-v-e70e6627="" class="seller-detail__top-left">
                                                                                         <div data-v-e70e6627="" class="seller-detail__logo">
                                                                                             <div data-v-e70e6627="" data-testid="sellerLogo" class="logo-container logo-container--clickable">
-                                                                                                <a href="https://mantho-neeee-bujang.pages.dev/" class="care-item-anchor"> <img data-v-e70e6627="" src="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png?w=8" loading="lazy" fetchpriority="low" data-src="https://i.postimg.cc/zXgS4pJ5/favicon-(2).png" alt="Simba4d , Toto Togel Online Terbesar di Indonesia">
+                                                                                                <a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor"> <img data-v-e70e6627="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png?w=8" loading="lazy" fetchpriority="low" data-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png" alt="SITUS 4D , Toto Togel Online Terbesar di Indonesia">
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div data-v-e70e6627="" class="seller-detail__top-right">
                                                                                         <div data-v-e70e6627="" class="seller-detail__name">
-                                                                                            <span data-v-e70e6627="" data-testid="sellerName" class="text text--clickable">Simba4d , Toto Togel Online Terbesar di Indonesia </span>
+                                                                                            <span data-v-e70e6627="" data-testid="sellerName" class="text text--clickable">SITUS 4D , Toto Togel Online Terbesar di Indonesia </span>
                                                                                         </div>
                                                                                         <!---->
                                                                                         <!---->
@@ -17810,15 +17678,13 @@
                                                                                             <path d="M13.1201 3.19303L15.5328 8.04172L20.9289 8.81672C21.96 8.96576 22.3605 10.2177 21.6196 10.9331L17.7152 14.7087L18.6363 20.0442C18.8165 21.0577 17.7353 21.8327 16.8242 21.3558L11.9988 18.842L7.17336 21.3558C6.25232 21.8327 5.18111 21.0577 5.36132 20.0442L6.28235 14.7087L2.37795 10.9331C1.63712 10.2177 2.04758 8.96576 3.06873 8.81672L8.46481 8.04172L10.8775 3.19303C11.3381 2.26899 12.6595 2.26899 13.1201 3.19303Z"></path>
                                                                                         </svg>
                                                                                     </div>
-                                                                                    <div data-v-50b6322d="" class="seller-rating__copy">
-                                                                                        <div data-v-50b6322d="">
+                                                                                    <div data-v-50b6322d="" class="seller-rating__copy"><div data-v-50b6322d="">
                                                                                             Rating seller:&nbsp;<button data-v-50b6322d="" data-testid="sellerRatingInfoButton" class="seller-rating__cta">85% </button>
                                                                                         </div>
                                                                                     </div>
                                                                                     <!---->
                                                                                 </div>
-                                                                            </div>
-                                                                            <div data-v-e70e6627="" class="seller-button">
+                                                                            </div><div data-v-e70e6627="" class="seller-button">
                                                                                 <button data-v-19fd2cc7="" data-v-e70e6627="" type="button" class="blu-btn follow b-outline b-ghost has-left-icon b-secondary b-small">
                                                                                     <div data-v-574d97b4="" data-v-19fd2cc7="" class="blu-ripple">
                                                                                         <!---->
@@ -17870,8 +17736,7 @@
                                                                                     <div data-v-7f257fdd="" class="seller-operational-hour__status">
                                                                                         <div data-v-7f257fdd="" class="close">
                                                                                             <span data-v-7f257fdd="">Buka </span>
-                                                                                            <span data-v-7f257fdd="">Selasa </span>
-                                                                                        </div>
+                                                                                            <span data-v-7f257fdd="">Selasa </span></div>
                                                                                         <span data-v-7f257fdd="" class="seller-operational-hour__separator">•</span>
                                                                                     </div>
                                                                                     <div data-v-7f257fdd="" class="seller-operational-hour__time">
@@ -17914,15 +17779,13 @@
                                                                                                             </div>
                                                                                                         </div>
                                                                                                         <div data-v-4af9dee6="" class="operational-hours__list">
-                                                                                                            <div data-v-4af9dee6="" class="operational-hours__day">Jumat </div>
-                                                                                                            <div data-v-4af9dee6="" class="operational-hours__schedule">
+                                                                                                            <div data-v-4af9dee6="" class="operational-hours__day">Jumat </div><div data-v-4af9dee6="" class="operational-hours__schedule">
                                                                                                                 <span data-v-4af9dee6="">08:00-18:00 WIB </span>
                                                                                                             </div>
                                                                                                         </div>
                                                                                                         <div data-v-4af9dee6="" class="operational-hours__list">
                                                                                                             <div data-v-4af9dee6="" class="operational-hours__day">Sabtu </div>
-                                                                                                            <div data-v-4af9dee6="" class="operational-hours__schedule">
-                                                                                                                <span data-v-4af9dee6="">08:00-18:00 WIB </span>
+                                                                                                            <div data-v-4af9dee6="" class="operational-hours__schedule"><span data-v-4af9dee6="">08:00-18:00 WIB </span>
                                                                                                             </div>
                                                                                                         </div>
                                                                                                         <div data-v-4af9dee6="" class="operational-hours__list">
@@ -17954,7 +17817,7 @@
                                                                                             </div>
                                                                                             <div data-v-0e5e4db8="" class="courier-shipping__content-icon">
                                                                                                 <div data-v-0e5e4db8="" class="courier-shipping__info-notes">
-                                                                                                    <span data-v-0e5e4db8="">Semua permainan di Simba4d akan membawa kemenangan besar.</span>
+                                                                                                    <span data-v-0e5e4db8="">Semua permainan di SITUS 4D akan membawa kemenangan besar.</span>
                                                                                                 </div>
                                                                                                 <!---->
                                                                                                 <div data-v-0e5e4db8="" data-testid="courierShippingCTA" class="courier-shipping__cta non-login no-badges">
@@ -17962,16 +17825,13 @@
                                                                                                         <div data-v-574d97b4="" data-v-19fd2cc7="" class="blu-ripple">
                                                                                                             <!---->
                                                                                                             <div data-v-0e5e4db8="" data-v-574d97b4="" class="button-wrapper btn-address">
-                                                                                                                <svg data-v-0e5e4db8="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="18" height="18" viewBox="0 0 24 24" data-v-574d97b4="">
-                                                                                                                    <path d="M12 2C7.31 2 3.5 5.81 3.5 10.5C3.5 17 11 22 12 22C13 22 20.5 17 20.5 10.5C20.5 5.81 16.69 2 12 2ZM12 13.52C10.07 13.52 8.5 11.95 8.5 10.02C8.5 8.09 10.07 6.52 12 6.52C13.93 6.52 15.5 8.09 15.5 10.02C15.5 11.95 13.93 13.52 12 13.52Z"></path>
+                                                                                                                <svg data-v-0e5e4db8="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="18" height="18" viewBox="0 0 24 24" data-v-574d97b4=""><path d="M12 2C7.31 2 3.5 5.81 3.5 10.5C3.5 17 11 22 12 22C13 22 20.5 17 20.5 10.5C20.5 5.81 16.69 2 12 2ZM12 13.52C10.07 13.52 8.5 11.95 8.5 10.02C8.5 8.09 10.07 6.52 12 6.52C13.93 6.52 15.5 8.09 15.5 10.02C15.5 11.95 13.93 13.52 12 13.52Z"></path>
                                                                                                                 </svg>
                                                                                                                 <span data-v-0e5e4db8="" data-v-574d97b4="" class="tx-medium">Cari lokasi</span>
                                                                                                             </div>
                                                                                                         </div>
-                                                                                                    </button>
-                                                                                                </div>
-                                                                                                <!---->
-                                                                                                <!---->
+                                                                                                    </button></div>
+                                                                                                <!----><!---->
                                                                                             </div>
                                                                                         </div>
                                                                                         <!---->
@@ -17984,11 +17844,11 @@
                                                                 </section>
                                                             </div>
                                                     <div data-v-df1c64bc="" class="bag-retail__product">
-                                                        <img data-v-df1c64bc="" src="https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg" alt="product-figure" class="thumbnail">
+                                                        <img data-v-df1c64bc="" src="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png" alt="product-figure" class="thumbnail">
                                                         <div data-v-df1c64bc="" class="thumbnail__icon">
                                                         <!---->
                                                         </div>
-                                                        <span data-v-df1c64bc="" title="SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1" class="name">SIMBA4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </span>
+                                                        <span data-v-df1c64bc="" title="SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1" class="name">SITUS 4D - Link Resmi Bandar Simba 4D Toto Togel Online Terbesar di Indonesia #1 </span>
                                                         <!---->
                                                     </div>
                                                     <!---->
@@ -18021,8 +17881,7 @@
                                                                 <button data-v-19fd2cc7="" data-v-df1c64bc="" disabled="disabled" type="button" class="blu-btn blu-input-stepper__minus b-ghost b-disabled b-secondary" data-testid="bagRetailDecreaseQuantityButton" data-v-1e7baa58="">
                                                                     <div data-v-574d97b4="" data-v-19fd2cc7="" class="blu-ripple b-disabled">
                                                                         <!---->
-                                                                        <svg data-v-df1c64bc="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" data-v-574d97b4="">
-                                                                            <path d="M16.75 13.25H7.25C6.56 13.25 6 12.69 6 12C6 11.31 6.56 10.75 7.25 10.75H16.75C17.44 10.75 18 11.31 18 12C18 12.69 17.44 13.25 16.75 13.25Z"></path>
+                                                                        <svg data-v-df1c64bc="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" data-v-574d97b4=""><path d="M16.75 13.25H7.25C6.56 13.25 6 12.69 6 12C6 11.31 6.56 10.75 7.25 10.75H16.75C17.44 10.75 18 11.31 18 12C18 12.69 17.44 13.25 16.75 13.25Z"></path>
                                                                         </svg>
                                                                     </div>
                                                                 </button>
@@ -18030,10 +17889,8 @@
                                                                     <input data-v-df1c64bc="" autocomplete="none" data-testid="bagRetailInput" min="1" type="number" id="bli-input-hs23tlu3e" class="form__input" data-v-12bd13fe="">
                                                                     <!---->
                                                                     <!---->
-                                                                    <div data-v-12bd13fe="" class="blu-field__msg-wrapper">
-                                                                    <!---->
-                                                                    <!---->
-                                                                    </div>
+                                                                    <div data-v-12bd13fe="" class="blu-field__msg-wrapper"><!---->
+                                                                    <!----></div>
                                                                     <div data-v-12bd13fe="" class="blu-field__btn">
                                                                     <!---->
                                                                     <!---->
@@ -18141,20 +17998,20 @@
             {
                 "@type": "ListItem",
                 "position": 4,
-                "name": "Daftar Simba4d",
+                "name": "Daftar SITUS 4D",
                 "item": "https://www.blibli.com/c3/speaker/SP-1000006"
             },
             {
                 "@type": "ListItem",
                 "position": 5,
-                "name": "Login Simba4d",
+                "name": "Login SITUS 4D",
                 "item": "https://www.blibli.com/c4/active-speaker/AC-1000005"
             },
             {
                 "@type": "ListItem",
                 "position": 6,
-                "name": "Simba4d ",
-                "item": "https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/"
+                "name": "SITUS 4D ",
+                "item": "https://imamaladham.edu.iq/بغداد/"
             }
         ]
     }</script>
@@ -18162,8 +18019,8 @@
     {
         "@context": "https://schema.org",
         "@type": "Store",
-        "name": "Simba4d , Toto Togel Online Terbesar di Indonesia",
-        "image": "https://i.postimg.cc/zXgS4pJ5/favicon-(2).png",
+        "name": "SITUS 4D , Toto Togel Online Terbesar di Indonesia",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "JL Sutisna Sanjaya No.80, Tasikmalaya"
@@ -18174,17 +18031,17 @@
     }</script>
 <script data-v-efe038fa="" type="application/ld+json">
     {
-        "image": "https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg",
+        "image": "https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png",
         "@type": "Product",
-        "url": "https://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/",
-        "name": "Simba4d ",
+        "url": "https://imamaladham.edu.iq/بغداد/",
+        "name": "SITUS 4D ",
         "sku": "ELP-60049-00553",
         "@context": "https://schema.org",
-        "category": "Toto Togel Online,Togel Online,Daftar Simba4d,Login Simba4d",
+        "category": "Toto Togel Online,Togel Online,Daftar SITUS 4D,Login SITUS 4D",
         "brand": {
             "@type": "Brand",
-            "name": "Simba4d",
-            "url": "/brand/Simba4d"
+            "name": "SITUS 4D",
+            "url": "/brand/SITUS 4D"
         },
         "offers": {
             "seller": {
@@ -18342,7 +18199,7 @@
 <!---->
 </div>
 <div id="livechat-openChat-button" style="border: none; cursor: pointer; position: fixed; bottom: 23px; right: 0px; width: 280px; z-index: 9;">
-    <a href="https://mantho-neeee-bujang.pages.dev/"><img id="livechat-image-button" src="https://i.imgur.com/U9EF6PF.png" alt="customer-care-button" style="position: fixed; right: 0px; z-index: 10; bottom: 68px; margin-bottom: 25px; height: 67px;">
+    <a href="https://SITUS 4D-ni-bos.pages.dev/"><img id="livechat-image-button" src="https://i.imgur.com/U9EF6PF.png" alt="customer-care-button" style="position: fixed; right: 0px; z-index: 10; bottom: 68px; margin-bottom: 25px; height: 67px;">
 </div>
 </div>
 <!---->
@@ -18374,9 +18231,8 @@
 <script>
     window.__PRODUCT_DETAIL_INITIAL_STATE__ = {
         "productDetail.product/summary": {
-            "url": "#",
-            "itemSku": "ELP-60049-00553-00002",
-            "name": "Simba4d ",
+            "url": "#","itemSku": "ELP-60049-00553-00002",
+            "name": "SITUS 4D ",
             "productSku": "ELP-60049-00553",
             "productCode": "MTA-178619421",
             "itemCode": "MTA-178619421-00002",
@@ -18390,8 +18246,8 @@
             },
             "stock": 1,
             "stockLimitedThreshold": 6,
-            "uniqueSellingPoint": "SIMBA4D ialah link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.",
-            "ampUrl": "https://www.blibli.com/amphttps://imamaladham.edu.iq/%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF/",
+            "uniqueSellingPoint": "SITUS 4D merupakan link situs resmi dan terpercaya yang menjadi pilihan utama para pecinta toto togel online di Indonesia. Sebagai bandar simba 4d togel terbesar dan terlengkap.",
+            "ampUrl": "https://www.blibli.com/amphttps://imamaladham.edu.iq/بغداد/",
             "price": {
                 "listed": 1005000,
                 "listDiscount": 0,
@@ -18399,14 +18255,14 @@
                 "totalDiscount": 0
             },
             "brand": {
-                "name": "Simba4d",
+                "name": "SITUS 4D",
                 "code": "niko",
                 "official": false,
                 "anchor": ""
             },
             "images": [{
-                "full": "https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg",
-                "thumbnail": "https://i.postimg.cc/XYs5q70b/An8Y-i-U4WR8b-Djf-Gw-W2io2S4r-Rw-Bc6sq7b-INs-RNtq-N8Tx-C2SN0BDb4p-Yz-Rncf-Har-J3o7Kubz-Gz-Npn4s9Ntx.jpg"
+                "full": "https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png",
+                "thumbnail": "https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png"
             }, {
                 "full": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/102/MTA-178619421/br-m036969-02377_niko-speaker-trolley-speaker-pt-1501-15-inch-garansi_full03-4c65a50a.jpg",
                 "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail/catalog-image/102/MTA-178619421/br-m036969-02377_niko-speaker-trolley-speaker-pt-1501-15-inch-garansi_full03-4c65a50a.jpg"
@@ -18436,7 +18292,7 @@
                 "values": [{
                     "value": "NKPT1501"
                 }, {
-                    "value": "Simba4d"
+                    "value": "SITUS 4D"
                 }]
             }],
             "options": [{
@@ -18445,7 +18301,7 @@
                 "available": true,
                 "attributes": [{
                     "name": "Variasi",
-                    "value": "Simba4d"
+                    "value": "SITUS 4D"
                 }],
                 "pickupPointCode": "PP-3113751",
                 "tags": []
@@ -18473,12 +18329,12 @@
             }, {
                 "level": 3,
                 "id": "SP-1000006",
-                "name": "Daftar Simba4d",
+                "name": "Daftar SITUS 4D",
                 "url": "/c3/speaker/SP-1000006"
             }, {
                 "level": 4,
                 "id": "AC-1000005",
-                "name": "Login Simba4d",
+                "name": "Login SITUS 4D",
                 "url": "/c4/active-speaker/AC-1000005"
             }],
             "multiSalesCategories": [[{
@@ -18494,12 +18350,11 @@
             }, {
                 "level": 3,
                 "id": "SP-1000006",
-                "name": "Daftar Simba4d",
-                "url": "/c3/speaker/SP-1000006"
+                "name": "Daftar SITUS 4D","url": "/c3/speaker/SP-1000006"
             }, {
                 "level": 4,
                 "id": "AC-1000005",
-                "name": "Login Simba4d",
+                "name": "Login SITUS 4D",
                 "url": "/c4/active-speaker/AC-1000005"
             }]],
             "masterCategories": [{
@@ -18515,16 +18370,16 @@
             }, {
                 "level": 3,
                 "id": "SP-1000054",
-                "name": "Daftar Simba4d",
+                "name": "Daftar SITUS 4D",
                 "url": "/c/3/speaker/SP-1000054/PE-1000360"
             }, {
                 "level": 4,
                 "id": "AC-1000046",
-                "name": "Login Simba4d",
+                "name": "Login SITUS 4D",
                 "url": "/c/4/active-speaker/AC-1000046/PE-1000360"
             }],
             "merchant": {
-                "name": "Simba4d , Toto Togel Online Terbesar di Indonesia",
+                "name": "SITUS 4D , Toto Togel Online Terbesar di Indonesia",
                 "code": "ELP-60049",
                 "rating": {
                     "value": 85,
@@ -18543,7 +18398,7 @@
                 "warehouseInfo": [],
                 "url": "/merchant/eleora-shop/ELP-60049",
                 "commissionType": "CM",
-                "logo": "https://i.postimg.cc/zXgS4pJ5/favicon-(2).png",
+                "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png",
                 "businessHours": [{
                     "day": "MONDAY",
                     "openingTime": 28800,
@@ -18743,7 +18598,7 @@
     document.getElementsByTagName("head")[0].appendChild(_bs);
 </script>
 <script type="text/javascript" id="">
-    var hoTransactionId = hoGetURLParameterAT("trans")
+    var hoTransactionId= hoGetURLParameterAT("trans")
       , hoOfferId = hoGetURLParameterAT("offer")
       , hoDocName = "HOTSID"
       , hoDataExpired = hoCookieSetGojekGoMall();
@@ -18754,8 +18609,7 @@
     function hoSetCookieAT(a, b, c) {
         c = "expires\x3d" + c;
         document.cookie = a + "\x3d" + b + "; " + c + "; domain\x3d.blibli.com; path\x3d/"
-    }
-    function hoCalculateExpireDateAT(a) {
+    }function hoCalculateExpireDateAT(a) {
         var b = new Date;
         b.setTime(b.getTime() + 864E5 * a);
         b.toUTCString();
@@ -18937,8 +18791,7 @@
                     }
                 });
                 var a = [];
-                b.forEach(function(d) {
-                    (d = d.match(/([\d,]+)/g)) && a.push(d.join("-"))
+                b.forEach(function(d) {(d = d.match(/([\d,]+)/g)) && a.push(d.join("-"))
                 });
                 return a.join("|")
             },
@@ -18954,7 +18807,7 @@
                     a.setAttribute("id", "_vis_opt_path_hides");
                     m && a.setAttribute("nonce", m.nonce);
                     a.setAttribute("type", "text/css");
-                    a.styleSheet ? a.styleSheet.cssText = b : a.appendChild(c.createTextNode(b));
+                    a.styleSheet ? a.styleSheet.cssText =b : a.appendChild(c.createTextNode(b));
                     d.appendChild(a);
                     a = this.getCombinationCookie();
                     this.load("https://dev.visualwebsiteoptimizer.com/j.php?a\x3d" + p + "\x26u\x3d" + encodeURIComponent(c.URL) + "\x26f\x3d" + +u + "\x26vn\x3d" + g + (a ? "\x26c\x3d" + a : ""));
@@ -19067,7 +18920,7 @@
         }
     });
 </script>
-<iframe allow="join-ad-interest-group" data-tagging-id="AW-880395410" data-load-time="1727708662955" height="0" width="0" src="https://td.doubleclick.net/td/rul/880395410?random=1727708662945&amp;cv=11&amp;fst=1727708662945&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je49p0v877689920z8810058345za200zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;"></iframe>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-880395410" data-load-time="1727708662955" height="0" width="0" src="https://td.doubleclick.net/td/rul/880395410?random=1727708662945&amp;cv=11&amp;fst=1727708662945&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45je49p0v877689920z8810058345za200zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;"></iframe>
 <script type="text/javascript" id="">
     (function() {
         var a = google_tag_manager["rm"]["10058345"](102) || {};
@@ -19245,13 +19098,12 @@
                 }
             };
             window.lotame_10867.cmd.push(function() {
-                window.lotame_10867.page(e)
-            })
+                window.lotame_10867.page(e)})
         }
     }, 2E3);
 </script>
 <script type="text/javascript" id="">
-    var ecomm = google_tag_manager["rm"]["10058345"](180), categoryNames = google_tag_manager["rm"]["10058345"](182), categoryCodes = google_tag_manager["rm"]["10058345"](184), productDetail = {
+    var ecomm = google_tag_manager["rm"]["10058345"](180), categoryNames = google_tag_manager["rm"]["10058345"](182), categoryCodes= google_tag_manager["rm"]["10058345"](184), productDetail = {
         product_id: ecomm.detail.products[0].id,
         product_name: ecomm.detail.products[0].name,
         category: categoryNames[0] || "",
@@ -19630,9 +19482,9 @@
     }));
 </script>
 <img src="https://t.co/1/i/adsct?bci=4&amp;eci=4&amp;event=%7B%22currency%22%3A%22IDR%22%2C%22contents%22%3A%5B%7B%22content_id%22%3A%22ELP-60049-00553-00002%22%2C%22content_name%22%3A%22NIKO%20SPEAKER%20TROLLEY%20SPEAKER%20PT%201501%2015%20INCH%20GARANSI%22%2C%22content_price%22%3A1005000%2C%22num_items%22%3A1%7D%5D%7D&amp;event_id=ae45cf72-56e0-4ac2-91d6-b32ecc17643d&amp;integration=advertiser&amp;p_id=Twitter&amp;p_user_id=0&amp;pl_id=1736161b-c8aa-4f11-8ad1-0c15818447c1&amp;tw_document_href=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;tw_iframe_status=0&amp;txn_id=tw-nvqtr-ocmzu&amp;type=javascript&amp;version=2.3.30" height="1" width="1" style="display: none;">
-<iframe allow="join-ad-interest-group" data-tagging-id="AW-925089264" data-load-time="1727708668107" height="0" width="0" src="https://td.doubleclick.net/td/rul/925089264?random=1727708668102&amp;cv=11&amp;fst=1727708668102&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dproduct%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000" style="display: none; visibility: hidden;"></iframe>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-925089264" data-load-time="1727708668107" height="0" width="0" src="https://td.doubleclick.net/td/rul/925089264?random=1727708668102&amp;cv=11&amp;fst=1727708668102&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101686685~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dproduct%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000" style="display: none; visibility: hidden;"></iframe>
 <img src="https://analytics.twitter.com/1/i/adsct?bci=4&amp;eci=4&amp;event=%7B%22currency%22%3A%22IDR%22%2C%22contents%22%3A%5B%7B%22content_id%22%3A%22ELP-60049-00553-00002%22%2C%22content_name%22%3A%22NIKO%20SPEAKER%20TROLLEY%20SPEAKER%20PT%201501%2015%20INCH%20GARANSI%22%2C%22content_price%22%3A1005000%2C%22num_items%22%3A1%7D%5D%7D&amp;event_id=ae45cf72-56e0-4ac2-91d6-b32ecc17643d&amp;integration=advertiser&amp;p_id=Twitter&amp;p_user_id=0&amp;pl_id=1736161b-c8aa-4f11-8ad1-0c15818447c1&amp;tw_document_href=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;tw_iframe_status=0&amp;txn_id=tw-nvqtr-ocmzu&amp;type=javascript&amp;version=2.3.30" height="1" width="1" style="display: none;">
-<iframe allow="join-ad-interest-group" data-tagging-id="AW-920334631" data-load-time="1727708668190" height="0" width="0" src="https://td.doubleclick.net/td/rul/920334631?random=1727708668182&amp;cv=11&amp;fst=1727708668182&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dretail-product-detail%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000" style="display: none; visibility: hidden;"></iframe>
-<iframe allow="join-ad-interest-group" data-tagging-id="AW-880395410/hEx3CKjo-eADEJKJ56MD" data-load-time="1727708668491" height="0" width="0" src="https://td.doubleclick.net/td/rul/880395410?random=1727708668483&amp;cv=11&amp;fst=1727708668483&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0v877689920z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;label=hEx3CKjo-eADEJKJ56MD&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20Simba4d%20Daftar Simba4d%20Trolley%20Daftar Simba4d%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;ct_cookie_present=0" style="display: none; visibility: hidden;"></iframe>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-920334631" data-load-time="1727708668190" height="0" width="0" src="https://td.doubleclick.net/td/rul/920334631?random=1727708668182&amp;cv=11&amp;fst=1727708668182&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_pagetype%3Dretail-product-detail%3Becomm_prodid%3DELP-60049-00553%3Becomm_totalvalue%3D1005000" style="display: none; visibility: hidden;"></iframe>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-880395410/hEx3CKjo-eADEJKJ56MD" data-load-time="1727708668491" height="0" width="0" src="https://td.doubleclick.net/td/rul/880395410?random=1727708668483&amp;cv=11&amp;fst=1727708668483&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be49p0v877689920z8810058345za201zb810058345&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101671035~101747727&amp;u_w=1066&amp;u_h=866&amp;url=https%3A%2F%2Fwww.blibli.com%2Fp%2Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%2Fps--ELP-60049-00553%3Fsrsltid%3DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;ref=https%3A%2F%2Fwww.blibli.com%2Fchallenge%2Flanding%2F%3Fredirect%3D%252Fp%252Fniko-speaker-trolley-speaker-pt-1501-15-inch-garansi%252Fps--ELP-60049-00553%253Fsrsltid%253DAfmBOorES7xzkivoHSNhil5W1iouKsuBMzCBVxCvjis5_rzK-YdKCb2y&amp;label=hEx3CKjo-eADEJKJ56MD&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Jual%20SITUS 4D%20Daftar SITUS 4D%20Trolley%20Daftar SITUS 4D%20Pt%201501%2015%20Inch%20Garansi%20Di%20Seller%20Eleora.shop%20-%20Ambarketawang%2C%20Kab.%20Sleman%20%7C%20Blibli&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=231856571.1727707203&amp;uaa=&amp;uab=64&amp;uafvl=Google%2520Chrome%3B129.0.6668.70%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.70&amp;uamb=1&amp;uam=Nexus%205&amp;uap=Android&amp;uapv=6.0&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;ct_cookie_present=0" style="display: none; visibility: hidden;"></iframe>
 <cs-native-frame-holder hidden=""></cs-native-frame-holder>
 </body></html>
