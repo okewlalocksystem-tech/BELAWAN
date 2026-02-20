@@ -16794,16 +16794,16 @@
                         </div>
                     </div>
                     <div style="margin:0.6em 1em 0px 0em">
-                        <a href="https://SITUS 4D-ni-bos.pages.dev/">
+                        <a href="https://leetampu-bukit-kodok.pages.dev/">
                             <div style="justify-content:center;display:flex;width:100%">
                                 <div style="border-color:rgba(255, 255, 255, 0);border-style:solid;border-radius:0.7em;background-color:rgba(0, 114, 255, 1);height:3.7em;border-width:0.1em;display:inline-flex;align-items:center;justify-content:center;width:100%;box-shadow:none">
                                     <button type="button" data-role="cta" data-qa-id="cta-button" data-af-cta-button="true" style="line-height:1em;font-size:1.3em;font-family:Cairo;font-weight:700;color:rgba(255, 255, 255, 1);text-transform:none;word-break:break-word;height:100%;width:100%;margin:0px 0.7em;background:transparent;padding:0px;border:transparent" data-af-custom-fonts="af-creatives-text" data-af-cta-url="zuu">BUKA APP</button>
                                 </div>
                             </div>
-                    </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
-            </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
-        </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
+                    </a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
+                </a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
+            </a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
+        </a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
         <amp-link></amp-link>
         <script type="module">
             try {
@@ -16828,28 +16828,28 @@
             }();
         </script>
         <noscript>Please use the latest browser and enable javascript.</noscript>
-        </a><div data-v-c421a338="" id="blibliApp"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-            </a><div data-v-c421a338="" class="background-gray"><a href="https://SITUS 4D-ni-bos.pages.dev/">
+        </a><div data-v-c421a338="" id="blibliApp"><a href="https://leetampu-bukit-kodok.pages.dev/">
+            </a><div data-v-c421a338="" class="background-gray"><a href="https://leetampu-bukit-kodok.pages.dev/">
                 <!---->
                 <!---->
                 <div data-v-c421a338="" id="vue3-head-section" class="head-container">
                 <!---->
                 </div>
                 <!---->
-                </a><header data-v-f03a55b3="" data-v-c421a338="" class="header"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                    </a><div data-v-f03a55b3="" class="header__top"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                        </a><div data-v-31c4755a="" data-v-f03a55b3="" class="top-menu"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                            </a><div data-v-31c4755a="" class="wrapper"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                                </a><div data-v-31c4755a="" class="left-section"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                                    </a><div data-v-31c4755a="" class="item hover-gray"><a href="https://SITUS 4D-ni-bos.pages.dev/">
+                </a><header data-v-f03a55b3="" data-v-c421a338="" class="header"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                    </a><div data-v-f03a55b3="" class="header__top"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                        </a><div data-v-31c4755a="" data-v-f03a55b3="" class="top-menu"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                            </a><div data-v-31c4755a="" class="wrapper"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                                </a><div data-v-31c4755a="" class="left-section"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                                    </a><div data-v-31c4755a="" class="item hover-gray"><a href="https://leetampu-bukit-kodok.pages.dev/">
                                         <div data-v-31c4755a="" class="top-menu">
                                             <svg data-v-31c4755a="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" class="top-menu__icon icon-gray">
                                                 <path d="M10.75 9.32635V3.24938H10.76C10.76 2.55972 11.32 2 12.01 2C12.7 2 13.26 2.55972 13.26 3.24938V9.32635L14.59 7.74714C15.03 7.2274 15.82 7.15743 16.35 7.59721C16.87 8.03699 16.94 8.8266 16.5 9.35634L12.96 13.5642L12.81 13.7142C12.28 14.1639 11.49 14.094 11.05 13.5642L7.51001 9.35634C7.06001 8.8266 7.13001 8.03699 7.66001 7.59721C8.19001 7.14744 8.98001 7.2174 9.42001 7.74714L10.75 9.32635ZM19.5 6.20787C19.5 5.51821 20.06 4.95849 20.75 4.95849C21.44 4.95849 22 5.51821 22 6.20787V18.1619C22 20.2809 20.32 22 18.25 22H5.75C3.68 22 2 20.2809 2 18.1619V6.20787C2 5.51821 2.56 4.95849 3.25 4.95849C3.94 4.95849 4.5 5.51821 4.5 6.20787V15.6632C4.5 16.4028 5.06 17.0025 5.75 17.0025H18.25C18.94 17.0025 19.5 16.4028 19.5 15.6632V6.20787ZM10.75 19.4813C10.75 20.1709 11.31 20.7306 12 20.7306C12.69 20.7306 13.25 20.1709 13.25 19.4813C13.25 18.7916 12.69 18.2319 12 18.2319C11.31 18.2319 10.75 18.7916 10.75 19.4813Z"></path>
                                             </svg>
                                             <span data-v-31c4755a="" class="top-menu__text font-medium">Download Aplikasi Blibli </span>
                                         </div>
-                                        </a><div data-v-31c4755a="" class="mobile-app top-menu__tooltip"><a href="https://SITUS 4D-ni-bos.pages.dev/">
-                                            <div data-v-31c4755a="" class="mobile-app__text">Unduh Sekarang! </div></a><div data-v-31c4755a="" class="mobile-app__platform"><a href="https://SITUS 4D-ni-bos.pages.dev/">
+                                        </a><div data-v-31c4755a="" class="mobile-app top-menu__tooltip"><a href="https://leetampu-bukit-kodok.pages.dev/">
+                                            <div data-v-31c4755a="" class="mobile-app__text">Unduh Sekarang! </div></a><div data-v-31c4755a="" class="mobile-app__platform"><a href="https://leetampu-bukit-kodok.pages.dev/">
                                                 <a data-v-31c4755a="" href="https://play.google.com/store/apps/details?id=blibli.mobile.commerce" class="mobile-app__platform__content">
                                                     <img data-v-31c4755a="" alt="Android" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAAA0CAMAAAAg2iPEAAAA9lBMVEWYmJhubm6YmJgAAACQkJCcnJyLi4t4eHhcXFyRkZGGhoYAAAD///8rKyufn59ChfQLDAs0qFPqQzX7vAQ0NDSQkJDu7u4eHh5WVlbf39/Pz8/z8/MQIDzW1tb4+Pi2traurq5DQ0M7OzskJCR4eHhQUFCbm5vCwsIYGBh+fn5kZGTn5+eoqKhwcHDk5OTKysqkpKRfX1+8vLw5mJmJiYlLS0uEhITdSERpdcdqamrtuwkwn05frELaPzX0hhoWDAIphkIfaDNDHgomFQW+NSoOMBhiHBamcwbrrwNgedEmVCNeRgGdLCN6IxvWoAO6jAN7WwJkjoGll4iDAAAAC3RSTlP8POsAntRxKhO2St/+RzAAAAWRSURBVGje5dr7l5JAFAdwKtut7h27lSBovBUQUVdTy2p7v9/9//9Mdwa2WcuobfMcPX1/WBhmHD8OV+Ac17h06dJh47Kx47ncOGQoYw+avVDseKJe80BiDxIBe5BWcnDJONwPK2ubh0ZjBHuSQcO4HMGeJOTLQAv2JK2L/weWSP7ROd08GaHHbQVLT588fQm/j50OnSQG2+L0fYvjA0AwGshdR9pas+G4EAATn1vj1hawLx/cuHHjwdPfLkQ+HISLWQ9sRwhBsZgFIgYAv5eJ3lgwERbWPFwUjgDXWwF0t4ClJ2yV3HdQm2w4rRbYBZWjIwCF5UNjNdPEAE7TB9ccxlvB3r5zo8qTl3WrG3kE2XQ6jWyr2TRoA7btCfVhhuSGQXM72OtSW3GpBtslEJ3OMLGtXm+0Edv9jo1a1mI7WK2tK10aj9SpHvy6DDqqDIIA3AgGznawWltburaV2NOZ07adfr+fbcBCZAX21HdixrIct4RVWl26sDlR0JkYbeh3OCHAcgkyRg4QzkBF8IgkA/AFj+7E28Eqrc5T+u1N4aShbwBbvSlorNbqWngMu5GN2HXtw/uf3sNOZCNWabX11q1bn5/BDuRnrNZqK+f1plogEdcW4/axWqutnDfvf5SOXET00in8Wahn2j8eMlUGkfzIptk/O1ZrlVXny/qV1sEqk/afYTtownraWCWNARDNv8eyVlvV2p6uhJWF6NtRuHIRF+fAummauryhc2E5X5VV5/mp1yGOQ1DJbTgHVp36EeLqnNh7dx+tWd9oLM3QCkHnnFjooH8+7Nu7N2+uaV+ffkTcMDMJQZv22yLTWN11GltgWmFJRDGdGXuPrWvaz6fmGKHX+nGVAg/RS5SrNUPE7lK9IHR5P/GHS4XlYdwc2utYGmKgsNSzuNsNwRg66tX+MKXfY98eS6vWrt/FmjhWc2RmmRxii3ld9U2BiLcW0+X75Mj7yDEVNna4yd2jE+yUiESBaCusgehZPMIW3AMAvJlDHVavq9a++SJtOgE6aiuwzAxS9HqxWHYxkOs0zmNhIg7kZ3AXcZieYAMelokEu6LCDh3HYXwBCjtwA9G2XXQpxQkBDNATdVht1drXz2E9JlqZwjoyXfTDarHmzMgRQ+D4OKRlySKrxGYe9oBWE0Sjwqp0B1RigVqrgT1AzGw5CTkY1NSstuq8/vnBYIqY65aLCc9PwIm7mAdY1lsfUaQ4A5mgxEaI9txCnPSows6n0+mCGyU2nlX8NkinEtdj163HmqpDjjxLVYQUIJZVaOEqwAnIsCzq4FFV5AobqnUMQvrhanCCdbHrD0xHYqfokY8dqMeuWz9ufphlnEkVfIJdyhEFcBaICwMt1dVDLy7QVfuTEisQrWUMnI3YVnnCVhKbWXjURbsWu2798Bw2h1JEv+R1EAdy6g6rsg46WYSY8L6wcEa57ATIvRJLDvcD0JFBm7ChOu2xWlkwENGheuy94+/UFzVPsTSTc6XpmDeGWkYcJ4mFaKu3cc3CQysC8hEnpv/90rXwcJiYrMk3YamLVpMnUdiYt0uoxfJ9q8rxK4KayOu3ijVSzWX1vZb7RdnBbshSddiqsJCXw+aba9b2uNObKSz4XEa12LIGdLHWcm2jKOYLgjJxrzhaiWraZdHMq45FUgzaKc4h6gsJHBXFSFQz9PusqtKX3e1eYYZ8mLjTxSbUYelYF+u/Sbs0OziCM8ZGL6rFwitdrP8kLQ/nqka8FpwxKfpQi2Xti+MXuljPHQoQncBFbMIZEyGG9VgOPZbUf6rlFGeeVN4Ha7BbihjNR/FfFHub9v0HkIv79DvY1Rz2JKOGcS1pw16k3bxmXGrMM9iDkNngn/CvXE1CItjpENlJ4wpj+b8jLjd3PpcPGMpYzuGFHc8VxfwG9K/ldNMRtN4AAAAASUVORK5CYII=" class="mobile-app__platform__content__logo">
                                                 </a>
@@ -16964,7 +16964,7 @@
                             <!---->
                             <div data-v-f03a55b3="" class="menus">
                                 <div data-v-f03a55b3="" class="cart tooltip__trigger menus__item">
-                                    <a data-v-f03a55b3="" href="https://SITUS 4D-ni-bos.pages.dev/" aria-label="cart 0" class="menus__item-wrapper hover-gray">
+                                    <a data-v-f03a55b3="" href="https://leetampu-bukit-kodok.pages.dev/" aria-label="cart 0" class="menus__item-wrapper hover-gray">
                                         <svg data-v-f03a55b3="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="24" height="24" viewBox="0 0 24 24" class="icon-gray">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1054 2C20.7749 2 21.3145 2.57143 21.2046 3.24311C20.0155 10.1303 20.0155 14.411 21.7541 20.6466C21.964 21.3484 21.4244 22 20.7249 22H3.27882C2.56938 22 2.02981 21.3484 2.24963 20.6466C3.97826 14.411 3.97826 10.1303 2.7892 3.24311C2.68928 2.57143 3.22886 2 3.88833 2H3.97826C7.47548 2.3609 9.74367 2.53133 11.9919 2.53133C14.2401 2.53133 16.4983 2.35088 20.0155 2H20.1054ZM9.13431 6.91993C9.13431 7.42118 8.70465 7.88233 8.15509 7.88233C7.60553 7.88233 7.22583 7.45125 7.22583 6.91993C7.22583 6.3886 7.60553 5.95752 8.15509 5.95752C8.70465 5.95752 9.13431 6.39862 9.13431 6.91993ZM17.0656 6.96241C17.0656 7.46366 16.636 7.92481 16.0864 7.92481C15.5368 7.92481 15.1571 7.49373 15.1571 6.96241C15.1571 6.43108 15.5368 6 16.0864 6C16.636 6 17.0656 6.4411 17.0656 6.96241ZM12.002 14.9799C9.37412 14.9799 7.22583 12.7343 7.22583 9.96741C7.22583 9.56641 7.54557 9.24561 7.93526 9.24561C8.32495 9.24561 8.6447 9.56641 8.6447 9.96741C8.6447 11.9323 10.1535 13.5263 12.002 13.5263C13.8506 13.5263 15.3594 11.9323 15.3594 9.96741C15.3594 9.56641 15.6791 9.24561 16.0688 9.24561C16.4585 9.24561 16.7782 9.56641 16.7782 9.96741C16.7782 12.7343 14.6399 14.9799 12.002 14.9799Z"></path>
                                         </svg>
@@ -17309,7 +17309,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <a href="https://SITUS 4D-ni-bos.pages.dev/" rel="nofollow noopener" target="_blank">
+                                                                        <a href="https://leetampu-bukit-kodok.pages.dev/" rel="nofollow noopener" target="_blank">
                                                                             <img src="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png" width="100%" height="auto" alt="">
                                                                         </a>
                                                                         <div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"></div>
@@ -17589,18 +17589,18 @@
                                                                                     <div data-v-e70e6627="" class="seller-detail__top-left">
                                                                                         <div data-v-e70e6627="" class="seller-detail__logo">
                                                                                             <div data-v-e70e6627="" data-testid="sellerLogo" class="logo-container logo-container--clickable">
-                                                                                                <a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor"> <img data-v-e70e6627="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png?w=8" loading="lazy" fetchpriority="low" data-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png" alt="SITUS 4D , Toto Togel Online Terbesar di Indonesia">
-                                                                                            </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                                                                        </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                                                                    </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+                                                                                                <a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor"> <img data-v-e70e6627="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png?w=8" loading="lazy" fetchpriority="low" data-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7yTf6zTuInz5XowNQLaYf0rrxWSTGVTadn5wScF72OOydw7aa-tdHAHskT-oz3PSNGfanqRykPbGJBz41-43EgiBO8dfWUmjf3gXe_bBqniY67QArJ1voheV70-Fv2wpZdKrRcROH1CGZlL3PAG6c1sCPIqM7_INCqxNeGUgyz6pKvyGpiXrvYUly1sz/s500/ChatGPT_Image_Oct_20__2025__06_50_53_AM-removebg-preview.png" alt="SITUS 4D , Toto Togel Online Terbesar di Indonesia">
+                                                                                            </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                                                                        </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                                                                    </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
                                                                                     <div data-v-e70e6627="" class="seller-detail__top-right"><div data-v-e70e6627="" class="seller-detail__name">
                                                                                             <span data-v-e70e6627="" data-testid="sellerName" class="text text--clickable">SITUS 4D , Toto Togel Online Terbesar di Indonesia </span>
                                                                                         </div>
                                                                                         <!---->
                                                                                         <!---->
                                                                                     </div>
-                                                                                </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                                                            </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+                                                                                </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                                                            </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
                                                                             <!----><!---->
                                                                             <!---->
                                                                             <div data-v-4570d546="" data-v-e70e6627="" class="seller-info">
@@ -17630,9 +17630,9 @@
                                                                                 </button>
                                                                                 <!---->
                                                                             </div>
-                                                                        </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                                                    </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                                                </a></section><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+                                                                        </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                                                    </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                                                </a></section><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
                                                                 <section data-v-efe038fa="" data-nav-anchor="Pengiriman">
                                                                     <div data-v-fc56eaf7="" data-v-efe038fa="" class="shipping-card merchant-available" data-testid="shippingCardDesktop">
                                                                         <div data-v-c2534697="" data-v-fc56eaf7="">
@@ -17770,7 +17770,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </section>
-                                                            </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+                                                            </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
                                                     <div data-v-df1c64bc="" class="bag-retail__product">
                                                         <img data-v-df1c64bc="" src="https://res.cloudinary.com/dfze4fm5i/image/upload/v1771200716/Gemini_Generated_Image_m7z8tsm7z8tsm7z8_gvadpm.png" alt="product-figure" class="thumbnail">
                                                         <div data-v-df1c64bc="" class="thumbnail__icon">
@@ -17868,10 +17868,10 @@
                                                                 </div></div>
                                                         </div>
                                                     </div>
-                                                </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                            </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-                                    </a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-</a></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+                                                </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                            </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+                                    </a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+</a></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
 <!---->
 <!---->
 <!---->
@@ -17984,7 +17984,7 @@
         ]
     }</script>
 <!---->
-</a></section></div></div></div></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+</a></section></div></div></div></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
 <div data-v-c421a338="" id="app-collab-product-detail-vue3" data-v-app="">
     <div data-v-b6648761="" class="container">
         <div data-v-b6648761="" class="content-wrapper">
@@ -18022,7 +18022,7 @@
     </div>
     <!---->
 </div>
-</a></span></div></div><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
+</a></span></div></div><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
 <div data-v-c421a338="">
     <div data-v-c421a338="" style="display: none;">
         <div data-v-c421a338="" id="app-collab-product-trade-in"></div>
@@ -18124,10 +18124,10 @@
 <div data-v-c421a338="" id="app3Placeholder">
 <!---->
 </div>
-</a><div id="livechat-openChat-button" style="border: none; cursor: pointer; position: fixed; bottom: 23px; right: 0px; width: 280px; z-index: 9;"><a href="https://SITUS 4D-ni-bos.pages.dev/" class="care-item-anchor">
-    </a><a href="https://SITUS 4D-ni-bos.pages.dev/"><img id="livechat-image-button" src="https://i.imgur.com/U9EF6PF.png" alt="customer-care-button" style="position: fixed; right: 0px; z-index: 10; bottom: 68px; margin-bottom: 25px; height: 67px;">
-</a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
-</a></div><a href="https://SITUS 4D-ni-bos.pages.dev/">
+</a><div id="livechat-openChat-button" style="border: none; cursor: pointer; position: fixed; bottom: 23px; right: 0px; width: 280px; z-index: 9;"><a href="https://leetampu-bukit-kodok.pages.dev/" class="care-item-anchor">
+    </a><a href="https://leetampu-bukit-kodok.pages.dev/"><img id="livechat-image-button" src="https://i.imgur.com/U9EF6PF.png" alt="customer-care-button" style="position: fixed; right: 0px; z-index: 10; bottom: 68px; margin-bottom: 25px; height: 67px;">
+</a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
+</a></div><a href="https://leetampu-bukit-kodok.pages.dev/">
 <!---->
 <!---->
 <div data-v-c421a338="" id="vue3-footer-section">
