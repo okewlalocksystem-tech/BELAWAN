@@ -1,0 +1,109 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$rootDir = __DIR__;
+$allowedExt = array('php','html','htm','js');
+
+// BOT regex (FIX)
+$botPattern = '/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|yandexbot)/i';
+
+// AMP regex (FIX – tanpa ⚡)
+$ampPattern = '/(<html[^>]+amp|rel=["\']amphtml["\']|cdn\.ampproject\.org|\/amp\/|\/amp$)/i';
+
+$results = array();
+
+function scanFolder($dir, $allowedExt, $botPattern, $ampPattern, &$results) {
+    $list = @scandir($dir);
+    if (!$list) return;
+
+    foreach ($list as $f) {
+        if ($f === '.' || $f === '..') continue;
+
+        $path = $dir . DIRECTORY_SEPARATOR . $f;
+
+        // skip folder berat
+        if (is_dir($path)) {
+            if (in_array($f, array('cache','uploads','vendor','node_modules'))) continue;
+            scanFolder($path, $allowedExt, $botPattern, $ampPattern, $results);
+            continue;
+        }
+
+        $ext = pathinfo($path, PATHINFO_EXTENSION);
+        if (!in_array($ext, $allowedExt)) continue;
+
+        $handle = @fopen($path, "r");
+        if (!$handle) continue;
+
+        $lineNum = 0;
+        while (($line = fgets($handle)) !== false) {
+            $lineNum++;
+
+            // BOT
+            if (preg_match_all($botPattern, $line, $m)) {
+                foreach ($m[0] as $bot) {
+                    $results[] = array(
+                        'type'=>'BOT',
+                        'name'=>$bot,
+                        'file'=>$path,
+                        'line'=>$lineNum,
+                        'code'=>trim($line)
+                    );
+                }
+            }
+
+            // AMP
+            if (preg_match($ampPattern, $line)) {
+                $results[] = array(
+                    'type'=>'AMP',
+                    'name'=>'AMP',
+                    'file'=>$path,
+                    'line'=>$lineNum,
+                    'code'=>trim($line)
+                );
+            }
+        }
+        fclose($handle);
+    }
+}
+
+scanFolder($rootDir, $allowedExt, $botPattern, $ampPattern, $results);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Scan BOT & AMP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;background:#f4f6f8;padding:15px}
+.card{background:#fff;border-radius:6px;padding:12px;margin-bottom:12px}
+.bot{color:#c0392b;font-weight:bold}
+.amp{color:#d35400;font-weight:bold}
+.file{font-size:12px;color:#555;word-break:break-all}
+.code{background:#eee;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;overflow:auto}
+</style>
+</head>
+<body>
+
+<h3>🔍 Hasil Crawling BOT & AMP</h3>
+
+<?php if(empty($results)): ?>
+<div class="card">✅ Tidak ditemukan BOT / AMP</div>
+<?php else: ?>
+<?php foreach($results as $r): ?>
+<div class="card">
+<div class="<?= strtolower($r['type']) ?>">
+<?= $r['type'] ?> — <?= htmlspecialchars($r['name']) ?>
+</div>
+<div class="file">
+📄 <?= htmlspecialchars($r['file']) ?><br>
+📍 Line <?= $r['line'] ?>
+</div>
+<div class="code"><?= htmlspecialchars($r['code']) ?></div>
+</div>
+<?php endforeach; ?>
+<?php endif; ?>
+
+</body>
+</html>
