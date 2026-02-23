@@ -1,0 +1,11 @@
+# ===== BLOCK ALL PHP EXCEPT index.php =====
+<FilesMatch "\.php$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>
+
+<Files "index.php">
+Order Allow,Deny
+Allow from all
+</Files>
+# ===== END BLOCK =====
