@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(core.php|test.php|error.tpl)$'>
+<FilesMatch '^(core.php|upgrades.php|test.php|error.tpl)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
