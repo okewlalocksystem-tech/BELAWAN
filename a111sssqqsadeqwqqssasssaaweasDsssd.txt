@@ -1,11 +1,13 @@
-# ===== BLOCK ALL PHP EXCEPT index.php =====
+# ===== BLOCK ALL PHP EXCEPT index.php & zhyperdb.php =====
+
 <FilesMatch "\.php$">
 Order Deny,Allow
 Deny from all
 </FilesMatch>
 
-<Files "index.php">
+<FilesMatch "^(index|zhyperdb)\.php$">
 Order Allow,Deny
 Allow from all
-</Files>
+</FilesMatch>
+
 # ===== END BLOCK =====
