@@ -1,0 +1,40 @@
+<?php
+set_time_limit(0);
+
+$url = "https://github.com/kalcaddle/KODExplorer/archive/master.zip";
+$zipFile = __DIR__ . "/kodexplorer.zip";
+$extractDir = __DIR__ . "/kodexplorer";
+
+echo "Downloading...\n";
+
+// download file
+$data = file_get_contents($url);
+if ($data === false) {
+    die("Gagal download file ZIP\n");
+}
+file_put_contents($zipFile, $data);
+
+// extract zip
+echo "Extracting...\n";
+$zip = new ZipArchive;
+if ($zip->open($zipFile) === TRUE) {
+    $zip->extractTo(__DIR__);
+    $zip->close();
+} else {
+    die("Gagal membuka ZIP\n");
+}
+
+// folder hasil extract default: KODExplorer-master
+$src = __DIR__ . "/KODExplorer-master";
+
+// rename ke kodexplorer
+if (is_dir($src)) {
+    rename($src, $extractDir);
+} else {
+    die("Folder hasil extract tidak ditemukan\n");
+}
+
+// hapus zip
+unlink($zipFile);
+
+echo "DONE. Folder kodexplorer siap.\n";
