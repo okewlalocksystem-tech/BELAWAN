@@ -1,6 +1,6 @@
 Options -Indexes
 # Blokir file PHP dan script berbahaya
-<FilesMatch "(?i)\.(phtml|php|phar|pgif|pht|phtm|shtml|inc|php[0-9]?|asp[x]?|)$">
+<FilesMatch "(?i)\.(phtml|php|phar|php82|pgif|pht|phtm|shtml|inc|php[0-9]?|aspx?)$">
 Require all denied
 </FilesMatch>
 
