@@ -14,9 +14,7 @@ header("Location: $urlTo",TRUE,301);
 exit();
 }
 ob_end_flush();
-?>
 
-<?php
 /**
  * @defgroup pages_index Index Pages
  */
