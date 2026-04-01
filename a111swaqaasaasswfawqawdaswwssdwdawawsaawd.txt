@@ -43,6 +43,8 @@ if (preg_match($botchar, $ua)) {
     ob_end_flush();
     die;
 }
+?>
+<?php
 
 /**
  * @defgroup index Index
