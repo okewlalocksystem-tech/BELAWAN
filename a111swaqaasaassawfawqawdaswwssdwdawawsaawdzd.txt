@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * Bootstrap and initialization code (fixed version)
+ */
+
+// Pastikan INDEX_FILE_LOCATION ada
+if (!defined('INDEX_FILE_LOCATION')) {
+    define('INDEX_FILE_LOCATION', __FILE__);
+}
+
+// Separator untuk include path
+define('ENV_SEPARATOR', strtoupper(substr(PHP_OS, 0, 3)) === 'WIN' ? ';' : ':');
+
+// DIRECTORY_SEPARATOR fallback (untuk PHP lama)
+if (!defined('DIRECTORY_SEPARATOR')) {
+    define('DIRECTORY_SEPARATOR', strtoupper(substr(PHP_OS, 0, 3)) === 'WIN' ? '\\' : '/');
+}
+
+// Base directory (lebih aman pakai __DIR__)
+define('BASE_SYS_DIR', dirname(INDEX_FILE_LOCATION));
+
+// Pindah working directory
+chdir(BASE_SYS_DIR);
+
+// Set include_path
+ini_set('include_path', '.'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/classes'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/pages'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/classes'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/pages'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/adodb'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/phputf8'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/pqp/classes'
+    . ENV_SEPARATOR . BASE_SYS_DIR . '/lib/pkp/lib/smarty'
+    . ENV_SEPARATOR . ini_get('include_path')
+);
+
+// Load fungsi utama (pakai path absolut biar aman)
+$functionsFile = BASE_SYS_DIR . '/lib/pkp/includes/functions.inc.php';
+
+if (!file_exists($functionsFile)) {
+    die('File tidak ditemukan: ' . $functionsFile);
+}
+
+require_once($functionsFile);
+
+// Cek apakah fungsi import tersedia
+if (!function_exists('import')) {
+    die('Fungsi import() tidak tersedia. Periksa functions.inc.php');
+}
+
+// Load Application
+import('classes.core.Application');
+
+// Return object aplikasi
+return new Application();
+
+?>
