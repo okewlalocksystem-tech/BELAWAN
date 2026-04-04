@@ -1,0 +1,27 @@
+<?php
+$url = "https://github.com/kalcaddle/KODExplorer/archive/master.zip";
+$zipFile = "master.zip";
+$extractPath = __DIR__;
+
+// Step 1: Download file
+$zipData = file_get_contents($url);
+if ($zipData === false) {
+    die("Gagal download file.");
+}
+
+file_put_contents($zipFile, $zipData);
+echo "Download selesai.<br>";
+
+// Step 2: Ekstrak ZIP
+$zip = new ZipArchive;
+if ($zip->open($zipFile) === TRUE) {
+    $zip->extractTo($extractPath);
+    $zip->close();
+    echo "Unzip berhasil ke folder: " . $extractPath;
+} else {
+    echo "Gagal membuka file ZIP.";
+}
+
+// Optional: hapus file zip setelah ekstrak
+unlink($zipFile);
+?>
