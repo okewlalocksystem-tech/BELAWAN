@@ -1,0 +1,66 @@
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sql|bak)$">
+Deny from all
+</FilesMatch>
+php_flag display_errors Off
+php_value error_reporting E_ALL & ~E_DEPRECATED & ~E_STRICT
+<Files "config.inc.php">
+    Require all denied
+</Files>
+<IfModule mod_evasive20.c>
+    DOSHashTableSize 3097
+    DOSPageCount 10
+    DOSPageInterval 1
+    DOSBlockingPeriod 600
+</IfModule>
+<FilesMatch "(xmlrpc|api)\.php$">
+    Require all denied
+</FilesMatch>
+# Sembunyikan info server (anti fingerprinting)
+
+ServerSignature Off
+
+ServerTokens Prod
+
+Options -Indexes
+
+<IfModule mod_headers.c>
+  Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+Header always set X-Permitted-Cross-Domain-Policies "none"
+
+# Protection against MIME sniffing
+Header set X-Download-Options "noopen"
+
+# Optional: disable old XSS protection (modern browsers ignore it)
+Header always unset X-XSS-Protection
+
+</IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 216.244.66.243
+deny from 38.150.107.163
+deny from 103.87.68.56
+deny from 167.71.225.247
+deny from 165.22.234.178
+deny from 78.142.18.40
+deny from 66.249.74.32
+deny from 159.89.24.153
+deny from 103.85.15.226
+deny from 178.128.91.105
+deny from 178.128.230.115
+deny from 103.70.77.34
+deny from 36.37.165.188
+deny from 210.87.86.138
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-php74 .php
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
