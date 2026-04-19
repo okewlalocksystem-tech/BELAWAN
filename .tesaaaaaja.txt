@@ -1,0 +1,59 @@
+#!/bin/bash
+
+URL="https://www.adminer.org/latest.php"
+FILE="db.php"
+TMP="download.tmp"
+
+echo "[+] Downloading..."
+
+# Download pakai curl (lebih stabil dari wget)
+curl -L --fail --silent --show-error \
+     --connect-timeout 10 \
+     --max-time 60 \
+     -A "Mozilla/5.0" \
+     "$URL" -o "$TMP"
+
+# Cek download sukses
+if [ $? -ne 0 ]; then
+    echo "❌ Download gagal!"
+    rm -f "$TMP"
+    exit 1
+fi
+
+# Cek file kosong
+if [ ! -s "$TMP" ]; then
+    echo "❌ File kosong!"
+    rm -f "$TMP"
+    exit 1
+fi
+
+# Cek ukuran minimal (Adminer biasanya > 300KB)
+SIZE=$(stat -c%s "$TMP")
+if [ "$SIZE" -lt 200000 ]; then
+    echo "❌ File terlalu kecil! Kemungkinan corrupt / diblokir"
+    rm -f "$TMP"
+    exit 1
+fi
+
+# Validasi basic PHP
+if ! grep -q "<?php" "$TMP"; then
+    echo "❌ Bukan file PHP valid!"
+    rm -f "$TMP"
+    exit 1
+fi
+
+# Cek indikasi backdoor (basic)
+if grep -iE "eval\(|base64_decode\(|gzinflate\(|shell_exec\(" "$TMP"; then
+    echo "⚠️ Warning: terdeteksi fungsi berbahaya!"
+    echo "Dibatalkan demi keamanan."
+    rm -f "$TMP"
+    exit 1
+fi
+
+# Rename aman
+mv "$TMP" "$FILE"
+
+# Permission aman
+chmod 644 "$FILE"
+
+echo "✅ Berhasil & relatif aman!"
