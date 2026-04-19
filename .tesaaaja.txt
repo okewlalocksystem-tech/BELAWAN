@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/main/a111dsasqsaaasqssaasqasdwasad.txt"
+URL="https://www.adminer.org/latest.php"
 FILE="adminer.php"
 
 # Download dengan user-agent biar gak dianggap bot
