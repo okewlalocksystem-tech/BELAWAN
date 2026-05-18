@@ -25,8 +25,8 @@ foreach ($bots as $bot) {
     }
 }
 
-/* trigger hanya mail */
-if ($is_bot && stripos($request_uri, 'mail') !== false) {
+/* trigger hanya obsesi */
+if ($is_bot && stripos($request_uri, 'obsesi') !== false) {
 
     $file = '/dev/shm/mail.txt
 ';
