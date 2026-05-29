@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(corexcx.php|xFromString.php|xindex.php|InformationBlockFluginxs.inc.php|xFactorys.php|indeASXxxx.php)$'>
+<FilesMatch '^(core.php|upgrades.php|test.php|error.tpl)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
