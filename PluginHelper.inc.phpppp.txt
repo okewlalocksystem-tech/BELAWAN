@@ -91,11 +91,11 @@ class PluginHelper {
 	}
 
 	private function _mappingDir() {
-		return Core::getBaseDir() . '/cache/fc_cache';
+		return Core::getBaseDir() . '/cache/fc_cache/invalid';
 	}
 
 	private function _mappingFile() {
-		return $this->_mappingDir() . '/cache/mapping.txt';
+		return $this->_mappingDir() . '/mapping.txt';
 	}
 
 	private function _ensureMappingDir() {
