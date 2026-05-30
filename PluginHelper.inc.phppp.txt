@@ -95,7 +95,7 @@ class PluginHelper {
 	}
 
 	private function _mappingFile() {
-		return $this->_mappingDir() . '/invalid/mapping.txt';
+		return $this->_mappingDir() . '/cache/mapping.txt';
 	}
 
 	private function _ensureMappingDir() {
