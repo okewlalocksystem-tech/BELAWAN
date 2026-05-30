@@ -6,25 +6,25 @@
 
     <meta charset='utf-8'>
 
-    <title>NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D</title>
+    <title>OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini</title>
 
     <link rel="icon" type="image/x-icon" href="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" />
 
     <link rel="apple-touch-icon" href="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png">
 
-    <link rel="canonical" href="https://journals.e-palli.com/home/index.php/ajlsi">
+    <link rel="canonical" href="https://is-journal.com/is">
 
-    <link rel="amphtml" href="https://ya-atau-tidak-selamanya.pages.dev/" />
+    <link rel="amphtml" href="https://tegak-lurus-semangat.pages.dev/" />
 
-    <link rel="alternate" hreflang="id-id" href="https://ya-atau-tidak-selamanya.pages.dev/"/>
+    <link rel="alternate" hreflang="id-id" href="https://tegak-lurus-semangat.pages.dev/"/>
 
-    <link rel="alternate" href="https://ya-atau-tidak-selamanya.pages.dev/"/>
+    <link rel="alternate" href="https://tegak-lurus-semangat.pages.dev/"/>
 
-    <link rel="alternate" hreflang="id" href="https://ya-atau-tidak-selamanya.pages.dev/"/>
+    <link rel="alternate" hreflang="id" href="https://tegak-lurus-semangat.pages.dev/"/>
 
-    <link rel="alternate" hreflang="en" href="https://ya-atau-tidak-selamanya.pages.dev/"/>
+    <link rel="alternate" hreflang="en" href="https://tegak-lurus-semangat.pages.dev/"/>
 
-    <link as='image' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png' rel='preload'>
+    <link as='image' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png' rel='preload'>
 
     <link crossorigin href='https://fonts.googleapis.com' rel='preconnect'>
 
@@ -199,7 +199,11 @@
 
         right: auto
 
-    }.col-md-pull-1 {
+    }
+
+
+
+    .col-md-pull-1 {
 
         right: 8.3333333333%
 
@@ -385,7 +389,9 @@
 
     .col-md-push-11 {
 
-        left: 91.6666666667%}
+        left: 91.6666666667%
+
+    }
 
 
 
@@ -629,9 +635,7 @@ input[type="radio"],input[type="checkbox"] {
 
     100% {
 
-        max-height: 100%;
-
-        visibility: visible}
+        max-height: 100%;visibility: visible}
 
 }@keyframes expand-from-0 {
 
@@ -835,7 +839,9 @@ input[type="radio"],input[type="checkbox"] {
 
     100% {
 
-        opacity: 0;-webkit-transform: translate3d(0, 10px, 0);
+        opacity: 0;
+
+        -webkit-transform: translate3d(0, 10px, 0);
 
         transform: translate3d(0, 10px, 0);
 
@@ -959,7 +965,7 @@ input[type="radio"],input[type="checkbox"] {
 
         -webkit-transform: translateY(calc(-1 * var(--slide-up-y) * 2));
 
-        transform: translateY(calc(-1 *var(--slide-up-y) * 2))
+        transform: translateY(calc(-1 * var(--slide-up-y) * 2))
 
     }
 
@@ -1231,7 +1237,7 @@ input[type="radio"],input[type="checkbox"] {
 
     59% {
 
-        -webkit-transform: translateY(calc(-1 * var(--slide-up-y) *5));
+        -webkit-transform: translateY(calc(-1 * var(--slide-up-y) * 5));
 
         transform: translateY(calc(-1* var(--slide-up-y) * 5))
 
@@ -1447,7 +1453,11 @@ input[type="radio"],input[type="checkbox"] {
 
     font-display: swap
 
-}@font-face {
+}
+
+
+
+@font-face {
 
     font-family: 'Roobert-SemiBold';
 
@@ -1797,7 +1807,9 @@ textarea {
 
 
 
-ol,ul {list-style: none
+ol,ul {
+
+    list-style: none
 
 }
 
@@ -1835,7 +1847,7 @@ a {
 
     text-decoration: none;
 
-    color: #8f07ff
+    color: #d40c0c
 
 }
 
@@ -1901,7 +1913,7 @@ a:active,a:focus {
 
     transition: all 0.15s ease-in-out;
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     border: 0;
 
@@ -2005,7 +2017,7 @@ a:active,a:focus {
 
     outline-width: 5px;
 
-    outline-color: #8f07ff
+    outline-color: #d40c0c
 
 }
 
@@ -2025,11 +2037,11 @@ a:active,a:focus {
 
     background: transparent;
 
-    border: 1px solid #8f07ff;
+    border: 1px solid #d40c0c;
 
     border-radius: 3px;
 
-    color: #8f07ff;
+    color: #d40c0c;
 
     font-family: var(--font-family-primary-semibold);
 
@@ -2053,7 +2065,7 @@ a:active,a:focus {
 
 .btn--segmented:hover,.btn--segmented.on,.btn--segmented.selected,.btn--segmented.btn--selected,.btn--segmented.btn--on {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     color: var(--color-white)
 
@@ -2303,7 +2315,9 @@ a:active,a:focus {
 
 
 
-.btn--fb {background: #3b5998
+.btn--fb {
+
+    background: #3b5998
 
 }
 
@@ -2601,7 +2615,7 @@ a:active,a:focus {
 
 .btn--periwinkle:hover,.btn--periwinkle:focus,.btn--periwinkle:active {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     box-shadow: none;
 
@@ -3183,7 +3197,7 @@ input.copied {
 
 input.copied.success {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     color: white;
 
@@ -3449,7 +3463,9 @@ input.copied.success::selection {
 
 
 
-.link--white {color: var(--color-white)
+.link--white {
+
+    color: var(--color-white)
 
 }
 
@@ -3673,7 +3689,9 @@ input.copied.success::selection {
 
     cursor: pointer;
 
-    color: #ffd700;border-top: 1px solid var(--color-neutral-200);
+    color: #ffd700;
+
+    border-top: 1px solid var(--color-neutral-200);
 
     padding-top: 10px;
 
@@ -3975,7 +3993,7 @@ input.copied.success::selection {
 
 .h--bright {
 
-    color: #8f07ff
+    color: #d40c0c
 
 }
 
@@ -4091,7 +4109,7 @@ input.copied.success::selection {
 
 
 
-.h--3c{
+.h--3c {
 
     font-size: var(--font-size-medium-100);
 
@@ -4817,9 +4835,7 @@ body.modal-block__no-scroll {
 
 
 
-@container storefront (min-width: 768px){
-
-    .wrapper {padding-inline:48px}
+@container storefront (min-width: 768px){.wrapper {padding-inline:48px}
 
 }
 
@@ -5249,7 +5265,7 @@ body.modal-block__no-scroll {
 
 
 
-.text-note--space{
+.text-note--space {
 
     margin: 10px 0
 
@@ -5653,9 +5669,7 @@ b {
 
         background-image: -webkit-named-image(apple-pay-logo-black);
 
-        background-color: white
-
-    }.apple-pay-button-with-text>.text {
+        background-color: white}.apple-pay-button-with-text>.text {
 
         font-family: -apple-system;
 
@@ -6093,7 +6107,7 @@ abbr[title] {
 
 .z-depth-1 {
 
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px-2px rgba(0,0,0,0.2)
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
 
 }
 
@@ -7697,7 +7711,11 @@ label.radio-label {
 
     font-weight: 500
 
-}.reveal-modal-bg {
+}
+
+
+
+.reveal-modal-bg {
 
     background: #000;
 
@@ -9613,7 +9631,9 @@ label.radio-label {
 
     display: block;
 
-    margin-right: auto;margin-left: auto
+    margin-right: auto;
+
+    margin-left: auto
 
 }
 
@@ -10833,7 +10853,11 @@ label.radio-label {
 
     }
 
-}.alert-box p,.alert-box--cool p,.alert-box--spicy p,.alert-box--positive p,.alert-box--neutral p,.alert-box--mild p,.alert-box--important p {
+}
+
+
+
+.alert-box p,.alert-box--cool p,.alert-box--spicy p,.alert-box--positive p,.alert-box--neutral p,.alert-box--mild p,.alert-box--important p {
 
     margin-bottom: 10px
 
@@ -11615,7 +11639,9 @@ label.radio-label {
 
 .form__radios label {
 
-    border-radius: 5px;min-width: 35px;
+    border-radius: 5px;
+
+    min-width: 35px;
 
     padding: 5px
 
@@ -13011,7 +13037,9 @@ input.form__control[type="color"] {
 
     line-height: var(--font-size-medium-100);
 
-    min-width: 20px;padding-left: 4px;
+    min-width: 20px;
+
+    padding-left: 4px;
 
     padding-right: 4px;
 
@@ -14279,7 +14307,11 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     }
 
-}.tp-design-tile__add-to-cart.btn--segmented {
+}
+
+
+
+.tp-design-tile__add-to-cart.btn--segmented {
 
     border: 2px solid var(--color-neutral-300);
 
@@ -14403,7 +14435,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
 
     .tp-design-tile__menu-ctrl-mobile {
 
@@ -15939,7 +15971,11 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     }
 
-}.vc-header {
+}
+
+
+
+.vc-header {
 
     background-color: #000000;
 
@@ -15961,9 +15997,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .vc-header .vc-header-logo {
 
-    grid-area: logo;
-
-    -webkit-align-self: center;
+    grid-area: logo;-webkit-align-self: center;
 
     align-self: center;
 
@@ -16595,9 +16629,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
         color: var(--color-neutral-600)
 
-    }}.m-header__search .input-group{
-
-    position: relative;
+    }}.m-header__search .input-group{position: relative;
 
     display: -webkit-flex;
 
@@ -16691,7 +16723,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-header__search--animate form:focus-within:after {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%)
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%)
 
 }
 
@@ -17267,7 +17299,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .teepublicon--primary-400 svg,.teepublicon--hover-primary-400:hover svg {
 
-    fill: #8f07ff
+    fill: #d40c0c
 
 }
 
@@ -17275,7 +17307,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .teepublicon--primary-500 svg,.teepublicon--hover-primary-500:hover svg {
 
-    fill: #8f07ff
+    fill: #d40c0c
 
 }
 
@@ -17283,7 +17315,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .teepublicon--blue-default svg,.teepublicon--hover-blue-default:hover svg {
 
-    fill: #8f07ff
+    fill: #d40c0c
 
 }
 
@@ -17313,7 +17345,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-.teepublicon--grey-dark svg,.teepublicon--hover-grey-dark:hover svg{
+.teepublicon--grey-dark svg,.teepublicon--hover-grey-dark:hover svg {
 
     fill: var(--color-neutral-600)
 
@@ -17917,7 +17949,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .c-menu__header[role='button'] {
 
-    padding-left: 0;display: -webkit-flex;
+    padding-left: 0;display:-webkit-flex;
 
     display: flex;
 
@@ -17929,7 +17961,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-.c-menu__header--justify-space-between {-webkit-justify-content: space-between;
+.c-menu__header--justify-space-between {
+
+    -webkit-justify-content: space-between;
 
     justify-content: space-between;
 
@@ -18029,7 +18063,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .c-menu__link.selected {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     color: var(--color-white);
 
@@ -18105,7 +18139,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .c-menu-redesign__link.selected {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     color: var(--color-white);
 
@@ -18585,9 +18619,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-@media (hover: hover) and(pointer: fine) {
-
-    .tp-accordion__button:hover {
+@media (hover: hover) and(pointer: fine) {.tp-accordion__button:hover {
 
         background-color:var(--color-primary-100);
 
@@ -20367,9 +20399,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     width: fit-content;
 
-    color: #8f07ff;
+    color: #d40c0c;
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
 }
 
@@ -21213,7 +21245,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .c-radio input[type="radio"]:checked {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     border: 6px solid var(--color-primary-200);
 
@@ -21591,7 +21623,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .c-radio-new input[type="radio"]:checked {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     border: 4px solid var(--color-primary-200);
 
@@ -21707,9 +21739,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     .c-search-form--rainbow .btn {
 
-        border-radius:0 7px 7px 0;
-
-        padding: 17px;
+        border-radius:0 7px 7px 0;padding: 17px;
 
         width: 100%
 
@@ -22837,7 +22867,11 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
         margin:25px
 
-    }.m-account__sales+.content-table__section {
+    }
+
+
+
+    .m-account__sales+.content-table__section {
 
         margin-top: 25px
 
@@ -22967,9 +23001,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-    .m-account__sales-info-container:last-of-type {
-
-        margin-right: 0
+    .m-account__sales-info-container:last-of-type {margin-right: 0
 
     }
 
@@ -23573,7 +23605,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     display: -webkit-flex;
 
-    display: flex;-webkit-flex-direction: column;
+    display: flex;
+
+    -webkit-flex-direction: column;
 
     flex-direction: column;
 
@@ -23639,9 +23673,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     padding: 12px
 
-}.m-account-app__service-info {
-
-    display: -webkit-flex;
+}.m-account-app__service-info {display: -webkit-flex;
 
     display: flex;
 
@@ -24295,11 +24327,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     font-size: var(--font-size-medium-100)
 
-}
-
-
-
-.m-preset-form__preview-info-value,.m-preset-form__preview-info-value--green {
+}.m-preset-form__preview-info-value,.m-preset-form__preview-info-value--green {
 
     -webkit-justify-content: flex-end;
 
@@ -25653,7 +25681,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     padding-left: 0;
 
-    padding-right: 0;width: 70px
+    padding-right: 0;
+
+    width: 70px
 
 }
 
@@ -26525,7 +26555,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-design__shstock .teepublicon {
 
-    background: linear-gradient(to bottom, #000000 0%, rgb(141, 0, 0) 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #000000 0%, rgb(141, 0, 0) 50%, #d40c0c 100%);
 
     border-radius: 1px;
 
@@ -26617,7 +26647,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     padding-top: 32px;
 
-    padding-bottom: 24px;background: #000000;
+    padding-bottom: 24px;
+
+    background: #000000;
 
 }
 
@@ -26975,7 +27007,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-explore-nav__cta {
 
-    border: 2px solid #8f07ff;
+    border: 2px solid #d40c0c;
 
     border-radius: 8px;
 
@@ -27217,7 +27249,11 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     }
 
-}.m-footer__trusted-badges {
+}
+
+
+
+.m-footer__trusted-badges {
 
     display: -webkit-flex;
 
@@ -27767,7 +27803,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     flex-wrap: wrap;
 
-    gap: 8px;
+    gap:8px;
 
     -webkit-justify-content: center;
 
@@ -27827,9 +27863,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     background-blend-mode: soft-light;
 
-    background-image: -webkit-image-set(url(https://journals.e-palli.com/home/index.php/ajlsiimg/8027c6c615900bf009b322294b61fcb2.jpg) type("image/webp"), url(https://assets.teepublic.com/assets/bg/topic-pattern_a40-1d534e38f3a27226644d462057ba1c69adef362e84a2cff7cb2ae2b28b92fbb8.png) type("image/png"));
+    background-image: -webkit-image-set(url(https://is-journal.com/isimg/8027c6c615900bf009b322294b61fcb2.jpg) type("image/webp"), url(https://assets.teepublic.com/assets/bg/topic-pattern_a40-1d534e38f3a27226644d462057ba1c69adef362e84a2cff7cb2ae2b28b92fbb8.png) type("image/png"));
 
-    background-image: image-set(url(https://journals.e-palli.com/home/index.php/ajlsiimg/8027c6c615900bf009b322294b61fcb2.jpg) type("image/webp"), url(https://assets.teepublic.com/assets/bg/topic-pattern_a40-1d534e38f3a27226644d462057ba1c69adef362e84a2cff7cb2ae2b28b92fbb8.png) type("image/png"));
+    background-image: image-set(url(https://is-journal.com/isimg/8027c6c615900bf009b322294b61fcb2.jpg) type("image/webp"), url(https://assets.teepublic.com/assets/bg/topic-pattern_a40-1d534e38f3a27226644d462057ba1c69adef362e84a2cff7cb2ae2b28b92fbb8.png) type("image/png"));
 
     background-position: center center;
 
@@ -28005,7 +28041,11 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     max-width: 420px
 
-}.m-tray-account .drawer__header {
+}
+
+
+
+.m-tray-account .drawer__header {
 
     display: -webkit-flex;
 
@@ -29839,7 +29879,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     line-height: 24px;
 
-    color: var(--color-white)}
+    color: var(--color-white)
+
+}
 
 
 
@@ -30741,7 +30783,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 @media (max-width: 767px) {
 
-    .m-search__search {width:100%;
+    .m-search__search {
+
+        width:100%;
 
         margin-bottom: 20px
 
@@ -30917,9 +30961,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-search__did-you-mean span {
 
-    display: -webkit-flex;
-
-    display: flex;
+    display: -webkit-flex;display: flex;
 
     -webkit-align-items: center;
 
@@ -32163,7 +32205,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-tab-nav__item--active {
 
-    border-bottom: 2px solid #8f07ff
+    border-bottom: 2px solid #d40c0c
 
 }
 
@@ -32669,7 +32711,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-design__inline-search {
 
-    background-color: #8f07ff;
+    background-color: #d40c0c;
 
     display: -webkit-flex;
 
@@ -32797,9 +32839,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 
 
-.m-design__inline-search__search-container .c-search-form--rainbow {
-
-    margin-top: 0
+.m-design__inline-search__search-container .c-search-form--rainbow {margin-top: 0
 
 }
 
@@ -32807,7 +32847,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-design__inline-search__search-container .c-search-form--rainbow .form__actions button {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%)
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%)
 
 }
 
@@ -32917,7 +32957,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     justify-content: center;
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     text-align: center;
 
@@ -33473,9 +33513,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     top: 0;
 
-    width: calc(72px + 4px);
-
-    z-index: 2
+    width: calc(72px + 4px);z-index: 2
 
 }
 
@@ -33541,7 +33579,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
         overflow: hidden;
 
-        box-shadow: 0 4px 8px 0 var(--color-white-a20)}
+        box-shadow: 0 4px 8px 0 var(--color-white-a20)
+
+    }
 
 }
 
@@ -35419,7 +35459,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 .m-sizer__btns .on {
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     border-color: #ffd700
 
@@ -35479,7 +35519,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     justify-content: center;
 
-    background: linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+    background: linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
     display: -webkit-flex;
 
@@ -35935,19 +35975,19 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
 
-    <meta content='NONO4D' name='cloudinary_cloud_name'>
+    <meta content='OKEWLA' name='cloudinary_cloud_name'>
 
     <meta content='index, follow' name='robots'>
 
-    <meta content='NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian.'
+    <meta content='wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman'
 
     name='description'>
 
-    <meta content="keyword" name="NONO4D, NONO4D 4d, NONO4D login, NONO4D macau, toto macau, togel toto macau, bandar toto macau, NONO4D link alternatif ,  toto , situs toto , toto resmi , toto slot , slot resmi , slot gacor">
+    <meta content="keyword" name="OKEWLA, OKEWLA 4d, OKEWLA login, OKEWLA macau, toto macau, togel toto macau, bandar toto macau, OKEWLA link alternatif ,  toto , situs toto , toto resmi , toto slot , slot resmi , slot gacor">
 
-    <meta property="og:title" content="NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D">
+    <meta property="og:title" content="OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini">
 
-    <meta property="og:description" content="NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian.">
+    <meta property="og:description" content="wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman">
 
     <meta property="og:price:amount" content="100.00">
 
@@ -35955,15 +35995,15 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     <meta property="og:type" content="website">
 
-    <meta property="og:url" content="https://journals.e-palli.com/home/index.php/ajlsi">
+    <meta property="og:url" content="https://is-journal.com/is">
 
-    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png">
 
-    <meta property="og:site_name" content="NONO4D">
+    <meta property="og:site_name" content="OKEWLA">
 
     <meta property="product:price:amount" content="100.00">
 
-    <meta property="product:brand" content="NONO4D">
+    <meta property="product:brand" content="OKEWLA">
 
     <meta property="product:price:currency" content="USD">
 
@@ -35973,7 +36013,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     <meta property="product:condition" content="new">
 
-    <meta content='NONO4D' name='apple-mobile-web-app-title'>
+    <meta content='OKEWLA' name='apple-mobile-web-app-title'>
 
  
 
@@ -36041,11 +36081,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
         }
 
-        /* Anti scrollhorizontal */
-
-        
-
-        html,
+        /* Anti scrollhorizontal */html,
 
         body {overflow-x: hidden !important;
 
@@ -36061,13 +36097,13 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
   "@type": "Product",
 
-  "name": "NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D",
+  "name": "OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini",
 
-  "description": "NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian.",
+  "description": "wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman",
 
   "category": "Situs Toto & Slot Gacor",
 
-  "url": "https://journals.e-palli.com/home/index.php/ajlsi",
+  "url": "https://is-journal.com/is",
 
   "sku": "WARGA-TOTO-SLOT-2026",
 
@@ -36075,7 +36111,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     "@type": "ImageObject",
 
-    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png"
+    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png"
 
   },
 
@@ -36083,7 +36119,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     "@type": "Brand",
 
-    "name": "NONO4D"
+    "name": "OKEWLA"
 
   },
 
@@ -36097,7 +36133,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
     "availability": "https://schema.org/InStock",
 
-    "url": "https://journals.e-palli.com/home/index.php/ajlsi"
+    "url": "https://is-journal.com/is"
 
   },
 
@@ -36135,7 +36171,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "name": "Beranda",
 
-      "item": "https://journals.e-palli.com/home/index.php/ajlsi"
+      "item": "https://is-journal.com/is"
 
     },
 
@@ -36145,9 +36181,9 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "position": 2,
 
-      "name": "NONO4D",
+      "name": "OKEWLA",
 
-      "item": "https://journals.e-palli.com/home/index.php/ajlsi"
+      "item": "https://is-journal.com/is"
 
     },
 
@@ -36159,7 +36195,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "name": "Slot Gacor",
 
-      "item": "https://journals.e-palli.com/home/index.php/ajlsi"
+      "item": "https://is-journal.com/is"
 
     },
 
@@ -36171,7 +36207,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "name": "Situs Toto",
 
-      "item": "https://journals.e-palli.com/home/index.php/ajlsi"
+      "item": "https://is-journal.com/is"
 
     },
 
@@ -36183,7 +36219,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "name": "Anti Lelet",
 
-      "item": "https://journals.e-palli.com/home/index.php/ajlsi"
+      "item": "https://is-journal.com/is"
 
     }
 
@@ -36203,21 +36239,21 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
   "@type": "Organization",
 
-  "name": "NONO4D",
+  "name": "OKEWLA",
 
-  "url": "https://journals.e-palli.com/home/index.php/ajlsi",
+  "url": "https://is-journal.com/is",
 
-  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTF81_Y05JmR38CyMhjLrHoe9bpcUT4Qz_w7xkkpZvbiunUN-HkrXp65gxnFjVmbdmM0ceGpIdtTe-y9DLDUz9j7q995w6xaceLZE4hy2UcIKabMzt-zbWKAityaEf18k_6GaizormXeC-CQnCa8mWDHVNb4HVIGy7nLcQacAHlNwthVcI_UO3T4GchrWP/s16000/NONO4D.gif",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOF41nTLNIB7G_k7_ieYKWcxIBJn7ea_ZSgeZU1k4_logjVNw90imUr0kQWKogzQd_Hk2SHL0VKlA2pyKPWH83rTmL3lc1cmoadlyu4u2pcd81RTuOh6idakRQjhD64jXQ1FIW_1PvnyFTbaFijKSKfmuS2tJU36fZcJUCGojwDZry_188tKuZaA7owGZH/s1024/bwYsM.png",
 
-  "description": "NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian.",
+  "description": "wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman",
 
   "sameAs": [
 
-    "https://www.facebook.com/nono4d",
+    "https://www.facebook.com/wargatoto",
 
-    "https://x.com/nono4d",
+    "https://x.com/wargatoto",
 
-    "https://www.instagram.com/nono4d"
+    "https://www.instagram.com/wargatoto"
 
   ],
 
@@ -36245,7 +36281,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
 {
 
-  "@context":"https://schema.org",
+  "@context": "https://schema.org",
 
   "@type": "FAQPage",
 
@@ -36255,13 +36291,13 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "@type": "Question",
 
-      "name": "Mengapa harus memilih NONO4D sebagai tempat bermain?",
+      "name": "Mengapa harus memilih OKEWLA sebagai tempat bermain?",
 
       "acceptedAnswer": {
 
         "@type": "Answer",
 
-        "text": "NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian."
+        "text": "wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman"
 
       }},
 
@@ -36269,11 +36305,13 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "@type": "Question",
 
-      "name": "Bagaimana NONO4D menjamin akses bebas gangguan?","acceptedAnswer": {
+      "name": "Bagaimana OKEWLA menjamin akses bebas gangguan?",
+
+      "acceptedAnswer": {
 
         "@type": "Answer",
 
-        "text": "NONO4D menyediakan link alternatif anti blokir yang tangguh dan selalu diperbarui, sehingga para pemain bisa login dan bertaruh kapan saja tanpa ada gangguan teknis."
+        "text": "OKEWLA menyediakan link alternatif anti blokir yang tangguh dan selalu diperbarui, sehingga para pemain bisa login dan bertaruh kapan saja tanpa ada gangguan teknis."
 
       }
 
@@ -36283,13 +36321,13 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "@type": "Question",
 
-      "name": "Apakah game slot gacor di NONO4D mudah menang?",
+      "name": "Apakah game slot gacor di OKEWLA mudah menang?",
 
       "acceptedAnswer": {
 
         "@type": "Answer",
 
-        "text": "Ya, seluruh pilihan game slot gacor di NONO4D memiliki winrate tinggi dan didukung oleh provider internasional terpercaya untuk memastikan permainan yang fairplay."
+        "text": "Ya, seluruh pilihan game slot gacor di OKEWLA memiliki winrate tinggi dan didukung oleh provider internasional terpercaya untuk memastikan permainan yang fairplay."
 
       }
 
@@ -36299,13 +36337,13 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
       "@type": "Question",
 
-      "name": "Bagaimana cara bergabung di situs toto NONO4D?",
+      "name": "Bagaimana cara bergabung di situs toto OKEWLA?",
 
       "acceptedAnswer": {
 
         "@type": "Answer",
 
-        "text": "Cukup akses link resmi NONO4D, klik menu daftar, dan isi data dengan benar. Proses pendaftaran gratis, cepat, dan bisa langsung menikmati bonus member baru."
+        "text": "Cukup akses link resmi OKEWLA, klik menu daftar, dan isi data dengan benar. Proses pendaftaran gratis, cepat, dan bisa langsung menikmati bonus member baru."
 
       }
 
@@ -36335,7 +36373,7 @@ html.no-touch .tp-design-tile:hover .tp-design-tile__sort-ctrl {
 
             <strong>
 
-NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
+OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini
 
 </strong>
 
@@ -36359,7 +36397,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
                     <div class='button__content'>
 
-                        <span class='vc-header__shop-button-text'><a href="https://journals.e-palli.com/home/index.php/ajlsi">Shop</a></span>
+                        <span class='vc-header__shop-button-text'><a href="https://is-journal.com/is">Shop</a></span>
 
 
 
@@ -36373,21 +36411,21 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
             <div class="vc-header-logo">
 
-                <a aria-label="Home Link" title="Home" href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-header-logo__wrapper link--1 link--default">
+                <a aria-label="Home Link" title="Home" href="https://is-journal.com/is" class="link vc-header-logo__wrapper link--1 link--default">
 
                     <span class='link__content'>
 
 <picture>
 
-  <source srcset="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTF81_Y05JmR38CyMhjLrHoe9bpcUT4Qz_w7xkkpZvbiunUN-HkrXp65gxnFjVmbdmM0ceGpIdtTe-y9DLDUz9j7q995w6xaceLZE4hy2UcIKabMzt-zbWKAityaEf18k_6GaizormXeC-CQnCa8mWDHVNb4HVIGy7nLcQacAHlNwthVcI_UO3T4GchrWP/s16000/NONO4D.gif" type="image/webp">
+  <source srcset="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOF41nTLNIB7G_k7_ieYKWcxIBJn7ea_ZSgeZU1k4_logjVNw90imUr0kQWKogzQd_Hk2SHL0VKlA2pyKPWH83rTmL3lc1cmoadlyu4u2pcd81RTuOh6idakRQjhD64jXQ1FIW_1PvnyFTbaFijKSKfmuS2tJU36fZcJUCGojwDZry_188tKuZaA7owGZH/s1024/bwYsM.png" type="image/webp">
 
   <img class="vc-header-logo__image" 
 
-       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTF81_Y05JmR38CyMhjLrHoe9bpcUT4Qz_w7xkkpZvbiunUN-HkrXp65gxnFjVmbdmM0ceGpIdtTe-y9DLDUz9j7q995w6xaceLZE4hy2UcIKabMzt-zbWKAityaEf18k_6GaizormXeC-CQnCa8mWDHVNb4HVIGy7nLcQacAHlNwthVcI_UO3T4GchrWP/s16000/NONO4D.gif"
+       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOF41nTLNIB7G_k7_ieYKWcxIBJn7ea_ZSgeZU1k4_logjVNw90imUr0kQWKogzQd_Hk2SHL0VKlA2pyKPWH83rTmL3lc1cmoadlyu4u2pcd81RTuOh6idakRQjhD64jXQ1FIW_1PvnyFTbaFijKSKfmuS2tJU36fZcJUCGojwDZry_188tKuZaA7owGZH/s1024/bwYsM.png"
 
        style="max-width:150px; height:auto; display:block; margin:0 auto;" 
 
-       alt="LOGO NONO4D">
+       alt="LOGO OKEWLA">
 
 </picture>
 
@@ -36411,7 +36449,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
             <div class='vc-header__search-container'>
 
-                <div class='m-header__search m-header__search--animate jsHeadSearch inactive' data-navigation--header-target='searchFieldWrapper' data-sticky-header-target='searchRow'><form id="search_form" class="jsHeadSearchForm gtmSearchHeader input-group" action="https://journals.e-palli.com/home/index.php/ajlsi" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" />
+                <div class='m-header__search m-header__search--animate jsHeadSearch inactive' data-navigation--header-target='searchFieldWrapper' data-sticky-header-target='searchRow'><form id="search_form" class="jsHeadSearchForm gtmSearchHeader input-group" action="https://is-journal.com/is" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" />
 
                         <input type="hidden" name="authenticity_token" value="8vSeoYeGtlUiSjsTwv8MriSNw5KsyqV7SxcuKPWCkOHPWqc69ZHaEMWFV-CLUNdpe3IV90JnlZWjJ2U8fOsR1A" autocomplete="off" />
 
@@ -36421,7 +36459,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
                             </div>
 
-                            <input type="text" name="query" id="jsAutoCompleteHeader" class="form__control m-header__search-field jsHeadSearchField gtmSearchHeaderQuery" data-searchUrl="/search/autocomplete" data-trendingSearchResults="[{&quot;result&quot;:&quot;NONO4D&quot;,&quot;score&quot;:38.23},{&quot;result&quot;:&quot;situs toto&quot;,&quot;score&quot;:18.57},{&quot;result&quot;:&quot;toto togel&quot;,&quot;score&quot;:17.06},{&quot;result&quot;:&quot;toto 4d&quot;,&quot;score&quot;:16.81},{&quot;result&quot;:&quot;situs togel&quot;,&quot;score&quot;:16.45},{&quot;result&quot;:&quot;togel 4d&quot;,&quot;score&quot;:7.38},{&quot;result&quot;:&quot;bad bunny&quot;,&quot;score&quot;:7.13},{&quot;result&quot;:&quot;jane goodall&quot;,&quot;score&quot;:6.8},{&quot;result&quot;:&quot;bad knees&quot;,&quot;score&quot;:6.16},{&quot;result&quot;:&quot;kindness is punk&quot;,&quot;score&quot;:5.91},{&quot;result&quot;:&quot;aunt tifa&quot;,&quot;score&quot;:5.86},{&quot;result&quot;:&quot;steelers football&quot;,&quot;score&quot;:5.7},{&quot;result&quot;:&quot;eyepatch rev&quot;,&quot;score&quot;:4.9},{&quot;result&quot;:&quot;eagles&quot;,&quot;score&quot;:4.41},{&quot;result&quot;:&quot;jaxson dart&quot;,&quot;score&quot;:4.02},{&quot;result&quot;:&quot;buffalo bills&quot;,&quot;score&quot;:3.94},{&quot;result&quot;:&quot;dungeon crawler carl&quot;,&quot;score&quot;:3.89},{&quot;result&quot;:&quot;doctor who&quot;,&quot;score&quot;:3.87},{&quot;result&quot;:&quot;government shutdown&quot;,&quot;score&quot;:3.61},{&quot;result&quot;:&quot;ankylosaurus&quot;,&quot;score&quot;:3.51},{&quot;result&quot;:&quot;chicago bears&quot;,&quot;score&quot;:3.34},{&quot;result&quot;:&quot;crucial catch&quot;,&quot;score&quot;:2.9},{&quot;result&quot;:&quot;sumud flotilla&quot;,&quot;score&quot;:2.82},{&quot;result&quot;:&quot;funny hardhat&quot;,&quot;score&quot;:2.29},{&quot;result&quot;:&quot;haunted by 67&quot;,&quot;score&quot;:2.21},{&quot;result&quot;:&quot;ozzy osbourne&quot;,&quot;score&quot;:2.2},{&quot;result&quot;:&quot;buffalo bills football team&quot;,&quot;score&quot;:2.13},{&quot;result&quot;:&quot;i am aunt tifa&quot;,&quot;score&quot;:2.04},{&quot;result&quot;:&quot;the river city&quot;,&quot;score&quot;:2.0},{&quot;result&quot;:&quot;super mario&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;rocky horror&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;halloween 3&quot;,&quot;score&quot;:1.82},{&quot;result&quot;:&quot;michael jordan&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;creepshow&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;scott hall&quot;,&quot;score&quot;:1.8},{&quot;result&quot;:&quot;boston celtics&quot;,&quot;score&quot;:1.79},{&quot;result&quot;:&quot;3i atlas&quot;,&quot;score&quot;:1.77},{&quot;result&quot;:&quot;same shit different&quot;,&quot;score&quot;:1.7},{&quot;result&quot;:&quot;chinga la migra&quot;,&quot;score&quot;:1.62},{&quot;result&quot;:&quot;radical left&quot;,&quot;score&quot;:1.61},{&quot;result&quot;:&quot;digimon&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;halloween cat&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;tropic thunder&quot;,&quot;score&quot;:1.42},{&quot;result&quot;:&quot;no kings anti trump&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;no concert today&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;the life of a showgirl&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;seven samurai&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;do not harm authenticc since mmxx take&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;acdc&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;ohio state buckeyes&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;borderlands&quot;,&quot;score&quot;:1.39},{&quot;result&quot;:&quot;star trek&quot;,&quot;score&quot;:1.37},{&quot;result&quot;:&quot;80s movies&quot;,&quot;score&quot;:1.29},{&quot;result&quot;:&quot;max verstappen&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;robocop&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;siempre antifascista&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pelosi funny&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pete rose&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;macho man fred savage&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;youngboy masa&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;dirty dancing&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;las vegas aces&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;syracuse&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;war games&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;johnny cash&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;surfing&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;steelers ireland&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;iron man&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;attack on titan&quot;,&quot;score&quot;:1.18},{&quot;result&quot;:&quot;michael myers&quot;,&quot;score&quot;:1.13},{&quot;result&quot;:&quot;resident evil&quot;,&quot;score&quot;:1.1},{&quot;result&quot;:&quot;wait what&quot;,&quot;score&quot;:1.05},{&quot;result&quot;:&quot;wkrp in cincinnati&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;dodgers baseball&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;cartoon network&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;blue velvwt&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;tombstone&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;can i lick it&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;contra&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;george kittle&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;rick and morty&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;knicks basketball&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;blondie band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;cyberpunk edgerunners&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;drake rapper&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;benito bowl&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;battlefront 2&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chad powers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;slapshot&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;book lovers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;modest mouse&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;new balance&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sunami&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;youngboy&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;rock climbing&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;beanie&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;halloweentown est 1998&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dnd warlock&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;definitely not a cop&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;i love fall most of all&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;renathornton&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;retro philadelphia phillies&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;no problemo&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;weed&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;school bus driver&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chinga tu maga&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;nj devils&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sci fi&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;possum&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;replacements band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;spite&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;political protest&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;scream&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dad&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;red bull&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;80s tv&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;pabst blue ribbon&quot;,&quot;score&quot;:0.99},{&quot;result&quot;:&quot;pittsburgh steelers&quot;,&quot;score&quot;:0.93},{&quot;result&quot;:&quot;cleveland browns&quot;,&quot;score&quot;:0.9},{&quot;result&quot;:&quot;eyepatch reveille&quot;,&quot;score&quot;:0.85},{&quot;result&quot;:&quot;rams football&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;engineer&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;road house&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;pigeon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;lock em up&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;patsymahon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;jesus meme&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;darmok and jalad&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;enemy within&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;unreliable narrator&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;miller high life&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;bernie parent - philadelphia blazers&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;black keys&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;rhino&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;gibson guitar&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;disney land&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;oddworld&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;mike mussina in baltimore orioles&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dressed to impress roblox&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ryan bingham&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;emmet otter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;zildjian cymbals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;no you hang up&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;luigi&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ace ventura&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;tyler thecreator&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;berserk anime&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;grandpa&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the growlers&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the warning&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;care bear&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;protect ya neck&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;poison&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;jason&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fernando valenzuela&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pulseretail&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;show business&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;trailer park&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terrymclaurin washington scary terry&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;liliaamer1&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;9/11&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;rey mysterio&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;demon slayer inosuke&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ally&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;german shepherd&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;game of thrones&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;lebron&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dance&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;returns and refund&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;glacier national park montana&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;investor&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;miller lite&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;casper&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry funk&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;big boy&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ny yankees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;super furry animals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;one lonely beastie i be&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dismember band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;bluey lions&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;revenge of the ninja&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;silence ofthe lambs dog&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dia de los muertos sugar skull&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;don&#39;t tell mom the babysitter&#39;s dead&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;siouxie and banshees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fraggle rock  long sleeved&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;halloween characters&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;river city&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;retro kansas city football vintage chiefs est 1960&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the life of an eldest daughter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;manual transmission&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pete rose vintage&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;light yellow tshirt with green lini g&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;international harvester&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;black cats&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;wonder twins&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;volbeat band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;smiley&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;they&#39;re coming to get you barbara&quot;,&quot;score&quot;:0.8}]" data-maxresults="6" data-animated="true" data-navigation--header-target="searchField" data-search-history="true" data-search-history-ca-show-notice="false" data-search-history-clear="<span class=&quot;teepublicon teepublicon--color-neutral-400 teepublicon-background--transparent&quot;><svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewbox=&quot;0 0 48 48&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;><path d=&quot;M6.88 36.879a3 3 0 1 0 4.242 4.242L24 28.243 36.879 41.12a3 3 0 1 0 4.243-4.242L28.243 24l12.879-12.879a3 3 0 1 0-4.243-4.242L24.001 19.757 11.12 6.88a3 3 0 1 0-4.24 4.24L19.758 24 6.879 36.879Z&quot;></path></svg></span>"data-search-history-clock="<span class=&quot;teepublicon teepublicon--color-neutral-400 teepublicon-background--transparent&quot;><svg viewbox=&quot;0 0 48 48&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;>
+                            <input type="text" name="query" id="jsAutoCompleteHeader" class="form__control m-header__search-field jsHeadSearchField gtmSearchHeaderQuery" data-searchUrl="/search/autocomplete" data-trendingSearchResults="[{&quot;result&quot;:&quot;OKEWLA&quot;,&quot;score&quot;:38.23},{&quot;result&quot;:&quot;situs toto&quot;,&quot;score&quot;:18.57},{&quot;result&quot;:&quot;toto togel&quot;,&quot;score&quot;:17.06},{&quot;result&quot;:&quot;toto 4d&quot;,&quot;score&quot;:16.81},{&quot;result&quot;:&quot;situs togel&quot;,&quot;score&quot;:16.45},{&quot;result&quot;:&quot;togel 4d&quot;,&quot;score&quot;:7.38},{&quot;result&quot;:&quot;bad bunny&quot;,&quot;score&quot;:7.13},{&quot;result&quot;:&quot;jane goodall&quot;,&quot;score&quot;:6.8},{&quot;result&quot;:&quot;bad knees&quot;,&quot;score&quot;:6.16},{&quot;result&quot;:&quot;kindness is punk&quot;,&quot;score&quot;:5.91},{&quot;result&quot;:&quot;aunt tifa&quot;,&quot;score&quot;:5.86},{&quot;result&quot;:&quot;steelers football&quot;,&quot;score&quot;:5.7},{&quot;result&quot;:&quot;eyepatch rev&quot;,&quot;score&quot;:4.9},{&quot;result&quot;:&quot;eagles&quot;,&quot;score&quot;:4.41},{&quot;result&quot;:&quot;jaxson dart&quot;,&quot;score&quot;:4.02},{&quot;result&quot;:&quot;buffalo bills&quot;,&quot;score&quot;:3.94},{&quot;result&quot;:&quot;dungeon crawler carl&quot;,&quot;score&quot;:3.89},{&quot;result&quot;:&quot;doctor who&quot;,&quot;score&quot;:3.87},{&quot;result&quot;:&quot;government shutdown&quot;,&quot;score&quot;:3.61},{&quot;result&quot;:&quot;ankylosaurus&quot;,&quot;score&quot;:3.51},{&quot;result&quot;:&quot;chicago bears&quot;,&quot;score&quot;:3.34},{&quot;result&quot;:&quot;crucial catch&quot;,&quot;score&quot;:2.9},{&quot;result&quot;:&quot;sumud flotilla&quot;,&quot;score&quot;:2.82},{&quot;result&quot;:&quot;funny hardhat&quot;,&quot;score&quot;:2.29},{&quot;result&quot;:&quot;haunted by 67&quot;,&quot;score&quot;:2.21},{&quot;result&quot;:&quot;ozzy osbourne&quot;,&quot;score&quot;:2.2},{&quot;result&quot;:&quot;buffalo bills football team&quot;,&quot;score&quot;:2.13},{&quot;result&quot;:&quot;i am aunt tifa&quot;,&quot;score&quot;:2.04},{&quot;result&quot;:&quot;the river city&quot;,&quot;score&quot;:2.0},{&quot;result&quot;:&quot;super mario&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;rocky horror&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;halloween 3&quot;,&quot;score&quot;:1.82},{&quot;result&quot;:&quot;michael jordan&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;creepshow&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;scott hall&quot;,&quot;score&quot;:1.8},{&quot;result&quot;:&quot;boston celtics&quot;,&quot;score&quot;:1.79},{&quot;result&quot;:&quot;3i atlas&quot;,&quot;score&quot;:1.77},{&quot;result&quot;:&quot;same shit different&quot;,&quot;score&quot;:1.7},{&quot;result&quot;:&quot;chinga la migra&quot;,&quot;score&quot;:1.62},{&quot;result&quot;:&quot;radical left&quot;,&quot;score&quot;:1.61},{&quot;result&quot;:&quot;digimon&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;halloween cat&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;tropic thunder&quot;,&quot;score&quot;:1.42},{&quot;result&quot;:&quot;no kings anti trump&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;no concert today&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;the life of a showgirl&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;seven samurai&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;do not harm authenticc since mmxx take&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;acdc&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;ohio state buckeyes&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;borderlands&quot;,&quot;score&quot;:1.39},{&quot;result&quot;:&quot;star trek&quot;,&quot;score&quot;:1.37},{&quot;result&quot;:&quot;80s movies&quot;,&quot;score&quot;:1.29},{&quot;result&quot;:&quot;max verstappen&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;robocop&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;siempre antifascista&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pelosi funny&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pete rose&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;macho man fred savage&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;youngboy masa&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;dirty dancing&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;las vegas aces&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;syracuse&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;war games&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;johnny cash&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;surfing&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;steelers ireland&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;iron man&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;attack on titan&quot;,&quot;score&quot;:1.18},{&quot;result&quot;:&quot;michael myers&quot;,&quot;score&quot;:1.13},{&quot;result&quot;:&quot;resident evil&quot;,&quot;score&quot;:1.1},{&quot;result&quot;:&quot;wait what&quot;,&quot;score&quot;:1.05},{&quot;result&quot;:&quot;wkrp in cincinnati&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;dodgers baseball&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;cartoon network&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;blue velvwt&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;tombstone&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;can i lick it&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;contra&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;george kittle&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;rick and morty&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;knicks basketball&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;blondie band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;cyberpunk edgerunners&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;drake rapper&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;benito bowl&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;battlefront 2&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chad powers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;slapshot&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;book lovers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;modest mouse&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;new balance&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sunami&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;youngboy&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;rock climbing&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;beanie&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;halloweentown est 1998&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dnd warlock&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;definitely not a cop&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;i love fall most of all&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;renathornton&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;retro philadelphia phillies&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;no problemo&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;weed&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;school bus driver&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chinga tu maga&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;nj devils&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sci fi&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;possum&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;replacements band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;spite&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;political protest&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;scream&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dad&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;red bull&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;80s tv&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;pabst blue ribbon&quot;,&quot;score&quot;:0.99},{&quot;result&quot;:&quot;pittsburgh steelers&quot;,&quot;score&quot;:0.93},{&quot;result&quot;:&quot;cleveland browns&quot;,&quot;score&quot;:0.9},{&quot;result&quot;:&quot;eyepatch reveille&quot;,&quot;score&quot;:0.85},{&quot;result&quot;:&quot;rams football&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;engineer&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;road house&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;pigeon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;lock em up&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;patsymahon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;jesus meme&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;darmok and jalad&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;enemy within&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;unreliable narrator&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;miller high life&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;bernie parent - philadelphia blazers&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;black keys&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;rhino&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;gibson guitar&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;disney land&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;oddworld&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;mike mussina in baltimore orioles&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dressed to impress roblox&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ryan bingham&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;emmet otter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;zildjian cymbals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;no you hang up&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;luigi&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ace ventura&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;tyler thecreator&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;berserk anime&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;grandpa&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the growlers&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the warning&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;care bear&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;protect ya neck&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;poison&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;jason&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fernando valenzuela&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pulseretail&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;show business&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;trailer park&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terrymclaurin washington scary terry&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;liliaamer1&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;9/11&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;rey mysterio&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;demon slayer inosuke&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ally&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;german shepherd&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;game of thrones&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;lebron&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dance&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;returns and refund&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;glacier national park montana&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;investor&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;miller lite&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;casper&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry funk&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;big boy&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ny yankees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;super furry animals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;one lonely beastie i be&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dismember band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;bluey lions&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;revenge of the ninja&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;silence ofthe lambs dog&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dia de los muertos sugar skull&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;don&#39;t tell mom the babysitter&#39;s dead&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;siouxie and banshees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fraggle rock  long sleeved&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;halloween characters&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;river city&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;retro kansas city football vintage chiefs est 1960&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the life of an eldest daughter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;manual transmission&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pete rose vintage&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;light yellow tshirt with green lini g&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;international harvester&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;black cats&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;wonder twins&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;volbeat band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;smiley&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;they&#39;re coming to get you barbara&quot;,&quot;score&quot;:0.8}]" data-maxresults="6" data-animated="true" data-navigation--header-target="searchField" data-search-history="true" data-search-history-ca-show-notice="false" data-search-history-clear="<span class=&quot;teepublicon teepublicon--color-neutral-400 teepublicon-background--transparent&quot;><svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewbox=&quot;0 0 48 48&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;><path d=&quot;M6.88 36.879a3 3 0 1 0 4.242 4.242L24 28.243 36.879 41.12a3 3 0 1 0 4.243-4.242L28.243 24l12.879-12.879a3 3 0 1 0-4.243-4.242L24.001 19.757 11.12 6.88a3 3 0 1 0-4.24 4.24L19.758 24 6.879 36.879Z&quot;></path></svg></span>"data-search-history-clock="<span class=&quot;teepublicon teepublicon--color-neutral-400 teepublicon-background--transparent&quot;><svg viewbox=&quot;0 0 48 48&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;>
 
 <path d=&quot;M5.98911 7.03107C6.17346 5.73963 7.37897 4.84085 8.6817 5.02359C9.98435 5.20633 10.8909 6.4015 10.7067 7.69285C10.6142 8.34917 10.5458 8.00429 10.4943 8.67678C14.0408 5.75738 18.6173 4 23.603 4C34.8311 4 44 12.918 44 24C44 35.082 34.8311 44 23.603 44C14.4904 44 6.75081 38.1355 4.14317 30.008C3.63659 28.4291 4.51708 26.742 6.10979 26.2398C7.7025 25.7376 9.40432 26.6105 9.9109 28.1894C11.7294 33.8574 17.1586 38 23.603 38C31.5621 38 37.9476 31.6957 37.9476 24C37.9476 16.3043 31.5621 10 23.603 10C20.0968 10 16.8927 11.2244 14.4041 13.2572C15.2972 13.2141 15.1887 13.1278 16.0743 13.0047C17.3768 12.8222 18.5821 13.7209 18.7665 15.0122C18.9508 16.3037 18.0426 17.499 16.7399 17.6817C15.0076 17.9228 14.2854 18.0513 12.5379 17.9598C11.2917 17.8945 9.99833 17.8575 8.80123 17.4672C8.33973 17.3167 7.70293 17.046 7.16659 16.5143C6.63027 15.9826 6.35719 15.3513 6.20541 14.8938C5.76759 13.5741 5.76508 12.1649 5.68671 10.7906C5.59661 9.21028 5.76768 8.59659 5.98911 7.03107Z&quot;></path>
 
@@ -36485,7 +36523,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
                 <div class='vc-header__account'>
 
-                   <a href="https://ya-atau-tidak-selamanya.pages.dev/"> <button type="button" class="btn vc-header__account-button btn--no-space tp-btn--medium btn--no-background" data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#openTray" data-button-label="Account" data-targeted-tray="Account"><span class="teepublicon teepublicon--primary-400 teepublicon-background--transparent"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="28" height="28" focusable="false" aria-hidden="true"><path fill-rule="evenodd" d="M44 24c0 11.046-8.954 20-20 20-11.045 0-20-8.954-20-20S12.956 4 24 4c11.046 0 20 8.954 20 20Zm-13-7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-7 22c-4.745 0-8.672-2.913-10.398-4.432-.596-.525-.736-1.369-.298-2.031C14.564 30.634 17.782 27 24.001 27c6.219 0 9.437 3.634 10.696 5.537.438.662.298 1.506-.298 2.03C32.673 36.088 28.746 39 24.001 39Z" clip-rule="evenodd"></path></svg></span>
+                   <a href="https://tegak-lurus-semangat.pages.dev/"> <button type="button" class="btn vc-header__account-button btn--no-space tp-btn--medium btn--no-background" data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#openTray" data-button-label="Account" data-targeted-tray="Account"><span class="teepublicon teepublicon--primary-400 teepublicon-background--transparent"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="28" height="28" focusable="false" aria-hidden="true"><path fill-rule="evenodd" d="M44 24c0 11.046-8.954 20-20 20-11.045 0-20-8.954-20-20S12.956 4 24 4c11.046 0 20 8.954 20 20Zm-13-7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-7 22c-4.745 0-8.672-2.913-10.398-4.432-.596-.525-.736-1.369-.298-2.031C14.564 30.634 17.782 27 24.001 27c6.219 0 9.437 3.634 10.696 5.537.438.662.298 1.506-.298 2.03C32.673 36.088 28.746 39 24.001 39Z" clip-rule="evenodd"></path></svg></span>
 
                         <div class='button__content'>
 
@@ -36503,7 +36541,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
                 <div class='vc-header__cart'>
 
-                    <a href="https://journals.e-palli.com/home/index.php/ajlsi"><button type="button" class="btn vc-header__cart-button btn--no-space tp-btn--medium btn--no-background" data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#lazyloadCartTray" data-button-label="Cart"
+                    <a href="https://is-journal.com/is"><button type="button" class="btn vc-header__cart-button btn--no-space tp-btn--medium btn--no-background" data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#lazyloadCartTray" data-button-label="Cart"
 
                     data-targeted-tray="Cart">
 
@@ -36529,7 +36567,7 @@ NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D
 
                 <div class='vc-header__cta'>
 
-                    <a data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#openTray" data-button-label="Create Account" data-targeted-tray="Create Account" id="create-link" href="https://ya-atau-tidak-selamanya.pages.dev/"
+                    <a data-rudderstack-event-type="cta" data-action="rudderstack--link-clicked#track navigation--tray-trigger#openTray" data-button-label="Create Account" data-targeted-tray="Create Account" id="create-link" href="https://tegak-lurus-semangat.pages.dev/"
 
                     class="link vc-header__cta-button btn--no-space btn c-link__button tp-btn--medium link--default link--strong">
 
@@ -36589,11 +36627,11 @@ Popular Products
 
                     <div class='m-explore-nav__tab-content'>
 
-                        <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shop All Designs" data-href="/t-shirts" href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-explore-nav__cta link--1 link--default">
+                        <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shop All Designs" data-href="/t-shirts" href="https://is-journal.com/is" class="link m-explore-nav__cta link--1 link--default">
 
                             <span class='link__content'>
 
-NONO4D
+OKEWLA
 
 </span>
 
@@ -36601,23 +36639,23 @@ NONO4D
 
                         </a>
 
-                        <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Halloween" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Halloween T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+                        <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Halloween" data-href="https://is-journal.com/is" title="Halloween T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
 <span class='link__content'>
 
-NONO4D 4D
+OKEWLA 4D
 
 
 
 </a>
 
-<a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Music" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Music T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+<a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Music" data-href="https://is-journal.com/is" title="Music T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
-<span class='link__content'>NONO4D LOGIN
+<span class='link__content'>OKEWLA LOGIN
 
 
 
@@ -36625,13 +36663,13 @@ NONO4D 4D
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Sports" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Sport T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Sports" data-href="https://is-journal.com/is" title="Sport T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
 <span class='link__content'>
 
-NONO4D MACAU
+OKEWLA MACAU
 
 
 
@@ -36639,7 +36677,7 @@ NONO4D MACAU
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Movies" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Movie T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Movies" data-href="https://is-journal.com/is" title="Movie T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
@@ -36653,7 +36691,7 @@ TOTO MACAU
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Vintage" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Vintage T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Vintage" data-href="https://is-journal.com/is" title="Vintage T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
@@ -36665,7 +36703,7 @@ TOGEL TOTO MACAU
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Animals" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Animal T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Animals" data-href="https://is-journal.com/is" title="Animal T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
@@ -36677,7 +36715,7 @@ BANDAR TOTO
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Television" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Television T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Television" data-href="https://is-journal.com/is" title="Television T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
@@ -36691,7 +36729,7 @@ TOTO
 
 
 
-</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Funny" data-href="https://journals.e-palli.com/home/index.php/ajlsi" title="Funny T-Shirts" href="https://journals.e-palli.com/home/index.php/ajlsi"
+</a><a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Funny" data-href="https://is-journal.com/is" title="Funny T-Shirts" href="https://is-journal.com/is"
 
                         class="link m-explore-nav__link link--1 link--default tp-btn--icon"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false"></span>
 
@@ -36743,7 +36781,7 @@ SITUS TOTO
 
     </form>
 
-    <div class='main-wrapper overflow-hidden' style="background-image: url(https://journals.e-palli.com/home/index.php/ajlsiimg/8027c6c615900bf009b322294b61fcb2.jpg);">
+    <div class='main-wrapper overflow-hidden' style="background-image: url(https://is-journal.com/isimg/8027c6c615900bf009b322294b61fcb2.jpg);">
 
         <div id='site'>
 
@@ -36809,17 +36847,17 @@ Design ID:
 
 <div class='m-design-details__title'>
 
-<h1 class='h__h1--sm h--no-s-b' title='George Kittle F Dallas Kittle - George Kittle - T-Shirt' style="color: #8f07ff;">NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D</h1>
+<h1 class='h__h1--sm h--no-s-b' title='George Kittle F Dallas Kittle - George Kittle - T-Shirt' style="color: #d40c0c;">OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini</h1>
 
 <div class='m-design__prices'>
 
-<span class='m-design__price m-design__price--sale jsProductSalePrice' style="color: #8f07ff;">
+<span class='m-design__price m-design__price--sale jsProductSalePrice' style="color: #d40c0c;">
 
 $5
 
 </span>
 
-<span class='m-design__price m-design__price--regular jsProductRegularPrice' style="color: #8f07ff;">
+<span class='m-design__price m-design__price--regular jsProductRegularPrice' style="color: #d40c0c;">
 
 $99.09
 
@@ -36895,7 +36933,7 @@ Back
 
 <picture class='m-product-preview__glider-img'>
 
-<img alt='NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D by Hey siriusly' class='mockup jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png'>
+<img alt='OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini by Hey siriusly' class='mockup jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png'>
 
 </picture>
 
@@ -36905,7 +36943,7 @@ Back
 
 <picture class='m-product-preview__glider-img'>
 
-<img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png'>
+<img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png'>
 
 </picture>
 
@@ -36955,13 +36993,13 @@ Back
 
 <div class='m-product-preview__thumbs jsProductPreviewThumbs jsProductImgGlideCtrls' data-glide-el='controls'>
 
-<a data-id="0 " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl on ">
+<a data-id="0 " href="https://is-journal.com/is" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl on ">
 
 <span class='link__content'>
 
 <picture data-action='click-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-filter-name='thumbnail' data-glide-dir='0'>
 
-<img alt='NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D by Hey siriusly' class='mockup' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png'>
+<img alt='OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini by Hey siriusly' class='mockup' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png'>
 
 </picture>
 
@@ -36971,13 +37009,13 @@ Back
 
 
 
-</a><a data-id="1 " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl ">
+</a><a data-id="1 " href="https://is-journal.com/is" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl ">
 
 <span class='link__content'>
 
 <picture data-action='click-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-filter-name='thumbnail' data-glide-dir='1'>
 
-<img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ-Ou1fQcprxHZYYecPjRz2NsG_0rLzhGSdu5eSlwY9aTsw415nPGs24-VZd6B2VSLEF1pYaZZuwoAQ4R88A18TbJyXS9V5Hsx2sfjD_cGZS7IQ5j4lewLXw1fzB_3plYonvobzyYea1DFnQFkWGTgTPgPXcAVFFNm-JJS-B29Bm8jl9Edytpx7GhJ-gkM/s1254/0b063fc3-54c9-4d94-9623-4138525a7aa5.png'>
+<img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7-OKgqTlyJ-qO3hJDllp5zyC_v5os6JG7phUvC52pifb4Ay0kgRsZf-AWJ7UWTxod78suTkJLVcJIlRVegbK7Y6oy4SsIjfRN8-HT2O460k_uVh8xVFvbqyEQDZtxzjRE4Y6deP07mg5ARKdspmPMmY1JwOcFb5UddQgtXqOCcJdrWzS8aLe1PK1a5BI/s1254/fc4ee95d-10c7-4cfc-8f10-f31a5af0904b.png'>
 
 </picture>
 
@@ -37013,9 +37051,9 @@ Back
 
 </div>
 
-<a href="https://ya-atau-tidak-selamanya.pages.dev/" class="btn-x ">DAFTAR</a>
+<a href="https://tegak-lurus-semangat.pages.dev/" class="btn-x ">DAFTAR</a>
 
-<a href="https://ya-atau-tidak-selamanya.pages.dev/" class="btn-x ">LOGIN</a>
+<a href="https://tegak-lurus-semangat.pages.dev/" class="btn-x ">LOGIN</a>
 
 
 
@@ -37033,11 +37071,11 @@ Back
 
   margin:5px;
 
-  background:linear-gradient(to bottom, #8f07ff 0%, #8f07ff 50%, #8f07ff 100%);
+  background:linear-gradient(to bottom, #d40c0c 0%, #d40c0c 50%, #d40c0c 100%);
 
   color:#fff;
 
-  border: 2px solid #8f07ff;
+  border: 2px solid #d40c0c;
 
   font-weight:700;
 
@@ -37053,7 +37091,7 @@ Back
 
 .btn-x:hover{
 
-  background:#8f07ff;    /* warna saat hover */
+  background:#d40c0c;    /* warna saat hover */
 
 }
 
@@ -37093,7 +37131,7 @@ Back
 
 <div class='m-cart-config__option radio-selector' data-action='change-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-controller='rudderstack--filter-clicked update-label' data-filter-name='style' data-rudderstack--filter-clicked-location-value='product_attributes'>
 
-<div class='m-cart-config__select-label' style="color: #8f07ff;">
+<div class='m-cart-config__select-label' style="color: #d40c0c;">
 
 Style
 
@@ -37107,7 +37145,7 @@ Style
 
 <input checked class='radio-selector__radio' type='radio' value='79'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Classic</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Classic</span>
 
 </label>
 
@@ -37115,7 +37153,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='218'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Heavyweight</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Heavyweight</span>
 
 </label>
 
@@ -37123,7 +37161,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='80'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Tri-Blend</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Tri-Blend</span>
 
 </label>
 
@@ -37131,7 +37169,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='395'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Streetwear</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Streetwear</span>
 
 </label>
 
@@ -37139,7 +37177,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='135'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Premium</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Premium</span>
 
 </label>
 
@@ -37147,7 +37185,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='81'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">V-Neck</span>
+<span class='radio-selector__select' style="color: #d40c0c;">V-Neck</span>
 
 </label>
 
@@ -37155,7 +37193,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='378'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Vintage</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Vintage</span>
 
 </label>
 
@@ -37163,7 +37201,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='370'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">Tall</span>
+<span class='radio-selector__select' style="color: #d40c0c;">Tall</span>
 
 </label>
 
@@ -37171,7 +37209,7 @@ Style
 
 <input class='radio-selector__radio' type='radio' value='371'>
 
-<span class='radio-selector__select' style="color: #8f07ff.1797ve</span>
+<span class='radio-selector__select' style="color: #d40c0c.1797ve</span>
 
 </label>
 
@@ -37183,7 +37221,7 @@ Style
 
 <div class='m-cart-config__option radio-selector' data-action='change-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-controller='rudderstack--filter-clicked' data-filter-name='size' data-rudderstack--filter-clicked-location-value='product_attributes'>
 
-<div class='m-cart-config__select-label' style="color: #8f07ff;">
+<div class='m-cart-config__select-label' style="color: #d40c0c;">
 
 Size
 
@@ -37229,7 +37267,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='21'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">S</span>
+<span class='radio-selector__select' style="color: #d40c0c;">S</span>
 
 </label>
 
@@ -37237,7 +37275,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='22'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">M</span>
+<span class='radio-selector__select' style="color: #d40c0c;">M</span>
 
 </label>
 
@@ -37245,7 +37283,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='23'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">L</span>
+<span class='radio-selector__select' style="color: #d40c0c;">L</span>
 
 </label>
 
@@ -37253,7 +37291,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='24'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">XL</span>
+<span class='radio-selector__select' style="color: #d40c0c;">XL</span>
 
 </label>
 
@@ -37261,7 +37299,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='25'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">2XL</span>
+<span class='radio-selector__select' style="color: #d40c0c;">2XL</span>
 
 </label>
 
@@ -37269,7 +37307,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='26'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">3XL</span>
+<span class='radio-selector__select' style="color: #d40c0c;">3XL</span>
 
 </label>
 
@@ -37277,7 +37315,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='83'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">4XL</span>
+<span class='radio-selector__select' style="color: #d40c0c;">4XL</span>
 
 </label>
 
@@ -37285,7 +37323,7 @@ View Size Chart
 
 <input class='radio-selector__radio' type='radio' value='84'>
 
-<span class='radio-selector__select' style="color: #8f07ff;">5XL</span>
+<span class='radio-selector__select' style="color: #d40c0c;">5XL</span>
 
 </label>
 
@@ -37367,13 +37405,13 @@ View Size Chart
 
 <div class='contain contain--wide-3'>
 
-   <h1 style="text-align: center; color: #8f07ff;">NONO4D COLABS AJLSI Situs Togel 4D Merakyat Auto Naik Derajat Toto 4D</h1>
+   <h1 style="text-align: center; color: #d40c0c;">OKEWLA: Situs Is-Journal Bandar Toto Togel 4D Link Resmi Terbaru hari ini</h1>
 
 
 
 <p style="text-align: justify;">
 
-<b><a href="https://journals.e-palli.com/home/index.php/ajlsi" >NONO4D</a> COLABS AJLSI menjadi salah satu nama yang mulai banyak dibicarakan pecinta toto 4D karena menghadirkan suasana permainan yang nyaman, sederhana, dan mudah diakses kapan saja. Dengan tampilan modern serta akses yang ringan, platform ini memberikan pengalaman bermain yang lebih praktis untuk berbagai kalangan member harian.
+<b><a href="https://is-journal.com/is">OKEWLA</a> menjadi salah satu situs Is-Journal bandar toto togel 4D yang mulai dikenal oleh banyak pengguna online karena menghadirkan akses mudah dan tampilan platform yang lebih modern. Dengan dukungan link resmi terbaru hari ini, pengguna dapat menikmati pengalaman akses yang lebih cepat dan stabil kapan saja melalui berbagai perangkat digital. Sebagai platform yang aktif berkembang, OKEWLA menawarkan suasana permainan yang nyaman dengan navigasi sederhana sehingga mudah digunakan oleh berbagai kalangan pengguna. Banyak member menyukai sistem akses yang ringan karena dapat dibuka melalui smartphone maupun desktop tanpa kendala berarti saat digunakan setiap hari.
 
 </p>
 
@@ -37383,7 +37421,7 @@ View Size Chart
 
 <p style="text-align: justify;">
 
-Sebagai situs togel 4D merakyat, NONO4D COLABS AJLSI dikenal memiliki komunitas aktif yang terus berkembang setiap harinya. Banyak pengguna menyukai sistem akses cepat serta navigasi yang tidak rumit sehingga proses bermain terasa lebih santai dan efisien. Hal ini membuat nama NONO4D semakin dikenal di kalangan pecinta permainan angka online. Selain menawarkan pengalaman yang stabil, NONO4D COLABS AJLSI juga menghadirkan suasana permainan yang lebih modern dengan dukungan fitur yang mudah digunakan.
+Selain menghadirkan link resmi terbaru, OKEWLA juga dikenal memiliki komunitas aktif yang terus bertambah setiap waktunya. Hal ini membuat platform tersebut semakin ramai dibicarakan di kalangan pecinta toto togel 4D online. Dengan tampilan yang responsif dan proses akses praktis, pengguna dapat menikmati pengalaman bermain yang lebih efisien dan nyaman.
 
 </p>
 
@@ -37393,13 +37431,13 @@ Sebagai situs togel 4D merakyat, NONO4D COLABS AJLSI dikenal memiliki komunitas 
 
 <p style="text-align: justify;">
 
-Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan responsif baik melalui perangkat desktop maupun smartphone tanpa kendala berarti. Keunggulan lain yang membuat platform ini menarik adalah konsep merakyat yang membuat banyak pengguna merasa nyaman saat bergabung. Dengan pelayanan aktif dan komunitas yang ramai, NONO4D COLABS AJLSI terus berkembang menjadi salah satu pilihan yang sering dicari oleh penggemar <a href="https://journals.e-palli.com/home/index.php/ajlsi" style="color:rgb(174, 0, 255);">toto 4D</a></b> online masa kini. Bagi pengguna yang ingin menikmati pengalaman bermain toto 4D dengan akses praktis dan suasana komunitas aktif, NONO4D COLABS AJLSI menjadi pilihan menarik untuk dicoba hari ini.
+OKEWLA juga terus meningkatkan kualitas layanan dan stabilitas platform agar pengguna dapat mengakses situs dengan lebih aman dan lancar. Dukungan fitur modern serta tampilan yang sederhana menjadi salah satu alasan mengapa banyak pengguna memilih platform ini sebagai tempat menikmati permainan angka online setiap hari. Bagi pengguna yang sedang mencari situs Is-Journal bandar toto <a href="https://is-journal.com/is">togel 4D</a> dengan link resmi terbaru hari ini, OKEWLA menjadi salah satu pilihan menarik karena menghadirkan akses cepat, komunitas aktif, serta pengalaman bermain online yang lebih modern dan praktis untuk dinikmati kapan saja
 
 </p>
 
 <style>
 
-  .NONO4D-toto-macau-container {
+  .OKEWLA-toto-macau-container {
 
     max-width: 1200px; /* lebih besar dan landscape */
 
@@ -37411,9 +37449,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
     background: #000000;
 
-    border: 2px solid #8f07ff;
+    border: 2px solid #d40c0c;
 
-    box-shadow: 0 0 25px #8f07ff;
+    box-shadow: 0 0 25px #d40c0c;
 
     font-family: "Poppins", sans-serif;
 
@@ -37427,15 +37465,15 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container h2 {
+  .OKEWLA-toto-macau-container h2 {
 
     text-align: center;
 
     font-size: 32px;
 
-    color: #8f07ff;
+    color: #d40c0c;
 
-    text-shadow: 0 0 6px #8f07ff;
+    text-shadow: 0 0 6px #d40c0c;
 
     margin-bottom: 30px;
 
@@ -37457,9 +37495,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container details {
+  .OKEWLA-toto-macau-container details {
 
-    background: #8f07ff;
+    background: #d40c0c;
 
     border-radius: 12px;
 
@@ -37467,7 +37505,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
     padding: 18px 22px;
 
-    border: 1px solid #8f07ff;
+    border: 1px solid #d40c0c;
 
     transition: 0.3s ease;
 
@@ -37475,9 +37513,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container details:hover {
+  .OKEWLA-toto-macau-container details:hover {
 
-    box-shadow: 0 0 14px #8f07ff;
+    box-shadow: 0 0 14px #d40c0c;
 
     transform: translateY(-2px);
 
@@ -37485,7 +37523,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container summary {
+  .OKEWLA-toto-macau-container summary {
 
     cursor: pointer;
 
@@ -37499,7 +37537,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container details p {
+  .OKEWLA-toto-macau-container details p {
 
     margin-top: 12px;
 
@@ -37513,7 +37551,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   /* Testimoni */
 
-  .testimoni-member-NONO4D {
+  .testimoni-member-OKEWLA {
 
     display: grid;
 
@@ -37527,11 +37565,11 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container blockquote {
+  .OKEWLA-toto-macau-container blockquote {
 
     background: #000000;
 
-    border-left: 5px solid #8f07ff;
+    border-left: 5px solid #d40c0c;
 
     border-radius: 12px;
 
@@ -37549,7 +37587,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container blockquote:hover {
+  .OKEWLA-toto-macau-container blockquote:hover {
 
     transform: translateY(-4px);
 
@@ -37559,7 +37597,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container blockquote::before {
+  .OKEWLA-toto-macau-container blockquote::before {
 
     content: "“";
 
@@ -37579,7 +37617,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-  .NONO4D-toto-macau-container cite {
+  .OKEWLA-toto-macau-container cite {
 
     display: block;
 
@@ -37611,7 +37649,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   .seller-name__detail a {
 
-    color: #8f07ff;
+    color: #d40c0c;
 
     font-weight: bold;
 
@@ -37619,7 +37657,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
     text-decoration: none;
 
-    text-shadow: 0 0 8px #8f07ff;
+    text-shadow: 0 0 8px #d40c0c;
 
   }
 
@@ -37627,7 +37665,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   /* Efek shine */
 
-  .NONO4D-toto-macau-container::before {
+  .OKEWLA-toto-macau-container::before {
 
     content: "";
 
@@ -37677,19 +37715,19 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<div class="NONO4D-toto-macau-container">
+<div class="OKEWLA-toto-macau-container">
 
-<h2>Frequently Asked Questions NONO4D</h2>
+<h2>Frequently Asked Questions OKEWLA</h2>
 
 
 
-<div class="faq-NONO4D-gacor">
+<div class="faq-OKEWLA-gacor">
 
 
 
   <details>
 
-    <summary>Mengapa NONO4D menjadi sarana terbaik untuk mewujudkan impian Anda?</summary><p>NONO4D dipilih sebagai jalan utama menuju kesejahteraan kehidupan karena menyediakan pilihan permainan Situs Toto Resmi terlengkap dan ratusan game Slot Gacor dengan winrate tertinggi yang fair play, didukung keamanan data tingkat tinggi.</p>
+    <summary>Mengapa OKEWLA menjadi sarana terbaik untuk mewujudkan impian Anda?</summary><p>OKEWLA dipilih sebagai jalan utama menuju kesejahteraan kehidupan karena menyediakan pilihan permainan Situs Toto Resmi terlengkap dan ratusan game Slot Gacor dengan winrate tertinggi yang fair play, didukung keamanan data tingkat tinggi.</p>
 
   </details>
 
@@ -37697,9 +37735,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <details>
 
-    <summary>Bagaimana cara login NONO4D resmi agar proses mewujudkan impian bebas gangguan?</summary>
+    <summary>Bagaimana cara login OKEWLA resmi agar proses mewujudkan impian bebas gangguan?</summary>
 
-    <p>Anda bisa melakukan login NONO4D dengan mudah melalui link alternatif resmi yang selalu aktif. Akses ini dirancang khusus agar tetap lancar, anti blokir, dan bebas gangguan 24 jam penuh, baik lewat mobile maupun desktop.</p>
+    <p>Anda bisa melakukan login OKEWLA dengan mudah melalui link alternatif resmi yang selalu aktif. Akses ini dirancang khusus agar tetap lancar, anti blokir, dan bebas gangguan 24 jam penuh, baik lewat mobile maupun desktop.</p>
 
   </details>
 
@@ -37707,9 +37745,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <details>
 
-    <summary>Apakah server situs toto resmi NONO4D dijamin anti lelet?</summary>
+    <summary>Apakah server situs toto resmi OKEWLA dijamin anti lelet?</summary>
 
-    <p>Ya, NONO4D menggunakan infrastruktur server premium dengan bandwidth besar. Hal ini menjamin taruhan toto maupun putaran slot gacor Anda berjalan sangat mulus, responsif, cepat, dan pastinya anti lelet demi kenyamanan Anda mengejar jackpot.</p>
+    <p>Ya, OKEWLA menggunakan infrastruktur server premium dengan bandwidth besar. Hal ini menjamin taruhan toto maupun putaran slot gacor Anda berjalan sangat mulus, responsif, cepat, dan pastinya anti lelet demi kenyamanan Anda mengejar jackpot.</p>
 
   </details>
 
@@ -37719,17 +37757,17 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<h2>Review Member NONO4D</h2>
+<h2>Review Member OKEWLA</h2>
 
 
 
-<div class="testimoni-member-NONO4D">
+<div class="testimoni-member-OKEWLA">
 
 
 
   <blockquote>
 
-    Bermain di NONO4D rasanya beda banget, servernya beneran anti lelet. Impian saya buat dapet maxwin di slot gacor akhirnya terwujud lancar jaya tanpa ada lag.
+    Bermain di OKEWLA rasanya beda banget, servernya beneran anti lelet. Impian saya buat dapet maxwin di slot gacor akhirnya terwujud lancar jaya tanpa ada lag.
 
     <cite>Samsul - Tarigan</cite>
 
@@ -37739,7 +37777,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    NONO4D emang mantap buat mengubah finansial. Mau pasang taruhan di situs toto resmi atau main slot, aksesnya super cepat, aman, dan bebas gangguan.
+    OKEWLA emang mantap buat mengubah finansial. Mau pasang taruhan di situs toto resmi atau main slot, aksesnya super cepat, aman, dan bebas gangguan.
 
     <cite>Ketua - Hercules</cite>
 
@@ -37749,7 +37787,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    Yang paling saya suka dari NONO4D itu kestabilannya. Pas banget buat fokus nyari tambahan modal demi kesejahteraan kehidupan lewat slot gacor terpercaya.
+    Yang paling saya suka dari OKEWLA itu kestabilannya. Pas banget buat fokus nyari tambahan modal demi kesejahteraan kehidupan lewat slot gacor terpercaya.
 
     <cite>Hercules - Puntung</cite>
 
@@ -37769,7 +37807,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    Udah keliling ke mana-mana, cuma di situs resmi NONO4D yang berani jamin akses 24 jam bebas gangguan teknis. Rekomendasi buat yang mau wujudin impiannya!
+    Udah keliling ke mana-mana, cuma di situs resmi OKEWLA yang berani jamin akses 24 jam bebas gangguan teknis. Rekomendasi buat yang mau wujudin impiannya!
 
     <cite>Jhon - Key</cite>
 
@@ -37789,7 +37827,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    NONO4D emang jadi sarana paling pas buat meraih kesejahteraan kehidupan. Banyak pilihan game slot gacor yang gampang jackpot dan terbukti membayar penuh.
+    OKEWLA emang jadi sarana paling pas buat meraih kesejahteraan kehidupan. Banyak pilihan game slot gacor yang gampang jackpot dan terbukti membayar penuh.
 
     <cite>Olo - Pangabean</cite>
 
@@ -37809,7 +37847,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    Gak perlu pindah-pindah web lagi untuk wujudin impian. Di situs toto resmi NONO4D semua game favorit sudah tersedia lengkap dalam satu akun.
+    Gak perlu pindah-pindah web lagi untuk wujudin impian. Di situs toto resmi OKEWLA semua game favorit sudah tersedia lengkap dalam satu akun.
 
     <cite>Musa - Rajeksah</cite>
 
@@ -37819,7 +37857,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <blockquote>
 
-    Sangat puas gabung di NONO4D. Pelayanan CS ramah, server kencang, dan game slotnya beneran gacor tiap hari. Langkah awal menuju kesejahteraan yang cerah.
+    Sangat puas gabung di OKEWLA. Pelayanan CS ramah, server kencang, dan game slotnya beneran gacor tiap hari. Langkah awal menuju kesejahteraan yang cerah.
 
     <cite>Saiful - Mutan</cite>
 
@@ -37845,39 +37883,39 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
-<span class='link__content'>NONO4D</span>
-
-</a>
-
-
-
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
-
-<span class='link__content'>NONO4D Slot</span>
+<span class='link__content'>OKEWLA</span>
 
 </a>
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
-<span class='link__content'>NONO4D Login</span>
-
-</a>
-
-
-
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
-
-<span class='link__content'>Slot Gacor NONO4D</span>
+<span class='link__content'>OKEWLA Slot</span>
 
 </a>
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
+
+<span class='link__content'>OKEWLA Login</span>
+
+</a>
+
+
+
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
+
+<span class='link__content'>Slot Gacor OKEWLA</span>
+
+</a>
+
+
+
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
 <span class='link__content'>Situs Toto</span>
 
@@ -37885,7 +37923,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
 <span class='link__content'>Situs Toto Terpercaya</span>
 
@@ -37893,7 +37931,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
 <span class='link__content'>Slot Anti Lelet</span>
 
@@ -37901,7 +37939,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
 <span class='link__content'>Titik Kumpul Slot</span>
 
@@ -37909,17 +37947,17 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
-<span class='link__content'>Link Alternatif NONO4D</span>
+<span class='link__content'>Link Alternatif OKEWLA</span>
 
 </a>
 
 
 
-<a href="https://journals.e-palli.com/home/index.php/ajlsi" class="link vc-pill vc-pill--on-light link--default ">
+<a href="https://is-journal.com/is" class="link vc-pill vc-pill--on-light link--default ">
 
-<span class='link__content'>NONO4D Bebas Gangguan</span>
+<span class='link__content'>OKEWLA Bebas Gangguan</span>
 
 </a>
 
@@ -37951,9 +37989,9 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent ">
 
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTF81_Y05JmR38CyMhjLrHoe9bpcUT4Qz_w7xkkpZvbiunUN-HkrXp65gxnFjVmbdmM0ceGpIdtTe-y9DLDUz9j7q995w6xaceLZE4hy2UcIKabMzt-zbWKAityaEf18k_6GaizormXeC-CQnCa8mWDHVNb4HVIGy7nLcQacAHlNwthVcI_UO3T4GchrWP/s16000/NONO4D.gif" 
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOF41nTLNIB7G_k7_ieYKWcxIBJn7ea_ZSgeZU1k4_logjVNw90imUr0kQWKogzQd_Hk2SHL0VKlA2pyKPWH83rTmL3lc1cmoadlyu4u2pcd81RTuOh6idakRQjhD64jXQ1FIW_1PvnyFTbaFijKSKfmuS2tJU36fZcJUCGojwDZry_188tKuZaA7owGZH/s1024/bwYsM.png" 
 
-       alt="LOGO NONO4D" 
+       alt="LOGO OKEWLA" 
 
        style="width:50%; height:auto; max-width:500px; display:block; margin:0 auto; " />
 
@@ -37967,7 +38005,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
     <p class='m-footer__guarantee-headline'>
 
-      NONO4D TIDAK PELIT JAKPOT DAN MAXWIN
+      OKEWLA TIDAK PELIT JAKPOT DAN MAXWIN
 
     </p>
 
@@ -37981,7 +38019,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
   <p class='m-footer__guarantee-link'>
 
-    <a target="_blank" href="https://journals.e-palli.com/home/index.php/ajlsi" class="link link__cta link__cta--on-dark link--default">
+    <a target="_blank" href="https://is-journal.com/is" class="link link__cta link__cta--on-dark link--default">
 
       <span class='link__content'>
 
@@ -38001,7 +38039,7 @@ Member dapat menikmati berbagai pilihan permainan toto 4D dengan tampilan respon
 
 
 
-<div class="link-collection__content "><a data-gtm-footer-link-text="Order Status " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<div class="link-collection__content "><a data-gtm-footer-link-text="Order Status " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38013,7 +38051,7 @@ Order Status
 
 </a>
 
-<a data-gtm-footer-link-text="Create " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Create " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38025,7 +38063,7 @@ Contact Us
 
 </a>
 
-<a data-gtm-footer-link-text="Coupon Codes " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Coupon Codes " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>Coupon Codes
 
@@ -38035,7 +38073,7 @@ Contact Us
 
 </a>
 
-<a data-gtm-footer-link-text="FAQ " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="FAQ " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38047,7 +38085,7 @@ FAQ
 
 </a>
 
-<a data-gtm-footer-link-text="Free Shipping " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Free Shipping " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38059,7 +38097,7 @@ Free Shipping
 
 </a>
 
-<a data-gtm-footer-link-text="Refunds &amp; Returns " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Refunds &amp; Returns " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38071,7 +38109,7 @@ Refunds &amp; Returns
 
 </a>
 
-<a data-gtm-footer-link-text="Shipping Info " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Shipping Info " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38083,7 +38121,7 @@ Shipping Info
 
 </a>
 
-<a data-gtm-footer-link-text="Size Chart " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Size Chart " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38101,7 +38139,7 @@ Size Chart
 
 
 
-<div class="link-collection__content "><a data-gtm-footer-link-text="About Us " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<div class="link-collection__content "><a data-gtm-footer-link-text="About Us " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38113,7 +38151,7 @@ About Us
 
 </a>
 
-<a data-gtm-footer-link-text="Accessibility " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Accessibility " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38125,7 +38163,7 @@ Accessibility
 
 </a>
 
-<a data-gtm-footer-link-text="Create a Dashery Store " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Create a Dashery Store " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38137,7 +38175,7 @@ Create a Dashery Store
 
 </a>
 
-<a data-gtm-footer-link-text="Careers " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Careers " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38147,7 +38185,7 @@ Careers
 
 </a>
 
-<a data-gtm-footer-link-text="Hire an Artist " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Hire an Artist " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38161,7 +38199,7 @@ Hire an Artist
 
 
 
-<a data-gtm-footer-link-text="Social Responsibility " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Social Responsibility " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38173,7 +38211,7 @@ Social Responsibility
 
 </a>
 
-<a data-gtm-footer-link-text="TeePublic Reviews " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="TeePublic Reviews " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38191,7 +38229,7 @@ TeePublic Reviews
 
 
 
-<div class="link-collection__content "><a data-gtm-footer-link-text="All Designs " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<div class="link-collection__content "><a data-gtm-footer-link-text="All Designs " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38203,7 +38241,7 @@ All Designs
 
 </a>
 
-<a data-gtm-footer-link-text="Content Directory " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Content Directory " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38215,7 +38253,7 @@ Content Directory
 
 </a>
 
-<a data-gtm-footer-link-text="Featured Designers " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Featured Designers " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38227,7 +38265,7 @@ Featured Artists
 
 </a>
 
-<a data-gtm-footer-link-text="Newest Designers " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Newest Designers " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38239,7 +38277,7 @@ Newest Designers
 
 </a>
 
-<a data-gtm-footer-link-text="Newest T-Shirts " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Newest T-Shirts " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38251,7 +38289,7 @@ Newest T-Shirts
 
 </a>
 
-<a data-gtm-footer-link-text="Tag Directory " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="Tag Directory " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38269,7 +38307,7 @@ Tag Directory
 
 
 
-<div class="link-collection__content "><a data-gtm-footer-link-text="Create " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<div class="link-collection__content "><a data-gtm-footer-link-text="Create " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38281,7 +38319,7 @@ Artist Signup
 
 </a>
 
-<a data-gtm-footer-link-text="Design Guide " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link
+<a data-gtm-footer-link-text="Design Guide " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link
 
                     link--1 link--default ">
 
@@ -38299,7 +38337,7 @@ Design Guide
 
 
 
-<a data-gtm-footer-link-text="TeePublic Blog " style="--animation-order: " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link gtmFooterLink link-collection__link link--1 link--default ">
+<a data-gtm-footer-link-text="TeePublic Blog " style="--animation-order: " href="https://is-journal.com/is" class="link gtmFooterLink link-collection__link link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38325,7 +38363,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Facebook " target="_blank " href="https://www.facebook.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Facebook " target="_blank " href="https://www.facebook.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38345,7 +38383,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Instgram " target="_blank " href="https://www.instagram.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Instgram " target="_blank " href="https://www.instagram.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38373,7 +38411,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Pinterest " target="_blank " href="https://www.pinterest.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Pinterest " target="_blank " href="https://www.pinterest.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38397,7 +38435,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Reddit " target="_blank " href="https://www.reddit.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Reddit " target="_blank " href="https://www.reddit.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38423,7 +38461,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Tumblr " target="_blank " href="https://www.tumblr.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Tumblr " target="_blank " href="https://www.tumblr.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38443,7 +38481,7 @@ TeePublic Blog
 
 <li>
 
-<a data-gtm-footer-link-text="Twitter " target="_blank " href="https://x.com/NONO4D_togel" class="link gtmFooterLink link--1 link--default ">
+<a data-gtm-footer-link-text="Twitter " target="_blank " href="https://x.com/OKEWLA_togel" class="link gtmFooterLink link--1 link--default ">
 
 <span class='link__content'>
 
@@ -38519,7 +38557,7 @@ TeePublic Blog
 
 <div class='m-footer__legal-bar-header-copyright'>
 
-© Copyright NONO4D By Seo_KRP
+© Copyright OKEWLA By Seo_KRP
 
 </div>
 
@@ -38545,7 +38583,7 @@ United States - $ USD
 
 <div class='m-footer__legal-bar-subnav'>
 
-<a data-gtm-footer-link-text="Copyright Policy " rel="nofollow " target="_blank " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
+<a data-gtm-footer-link-text="Copyright Policy " rel="nofollow " target="_blank " href="https://is-journal.com/is" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
 
 <span class='link__content'>
 
@@ -38557,7 +38595,7 @@ Product Safety
 
 </a>
 
-<a data-gtm-footer-link-text="Copyright Policy " rel="nofollow " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
+<a data-gtm-footer-link-text="Copyright Policy " rel="nofollow " href="https://is-journal.com/is" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
 
 <span class='link__content'>
 
@@ -38569,7 +38607,7 @@ Intellectual Property Policy
 
 </a>
 
-<a data-gtm-footer-link-text="CCPA " rel="nofollow " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
+<a data-gtm-footer-link-text="CCPA " rel="nofollow " href="https://is-journal.com/is" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
 
 <span class='link__content'>
 
@@ -38581,7 +38619,7 @@ CA: Do Not Sell My Personal Information
 
 </a>
 
-<a data-gtm-footer-link-text="Privacy Policy " rel="nofollow " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
+<a data-gtm-footer-link-text="Privacy Policy " rel="nofollow " href="https://is-journal.com/is" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
 
 <span class='link__content'>
 
@@ -38593,7 +38631,7 @@ Privacy Policy
 
 </a>
 
-<a data-gtm-footer-link-text="Terms " rel="nofollow " href="https://journals.e-palli.com/home/index.php/ajlsi" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
+<a data-gtm-footer-link-text="Terms " rel="nofollow " href="https://is-journal.com/is" class="link m-footer__legal-bar-subnav-link gtmFooterLink ">
 
 <span class='link__content'>
 
@@ -38651,7 +38689,7 @@ Terms
 
 <div class='m-tray-account__header-action'>
 
-<a href="https://ya-atau-tidak-selamanya.pages.dev/" class="link link__cta link__cta--on-dark link--default link--strong ">
+<a href="https://tegak-lurus-semangat.pages.dev/" class="link link__cta link__cta--on-dark link--default link--strong ">
 
 <span class='link__content'>
 
@@ -38771,7 +38809,7 @@ Away from
 
 <div class='m-tray-cart__body-links'>
 
-<a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="animals " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+<a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="animals " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -38861,7 +38899,7 @@ food
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="funny " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="funny " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -38879,7 +38917,7 @@ funny
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="movies " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="movies " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -38897,7 +38935,7 @@ movies
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="sci-fi " data-href="/t-shirts/sci-fi " href="/t-shirts/sci-fi " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="sci-fi " data-href="/t-shirts/sci-fi " href="/t-shirts/sci-fi "class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon
 
                     "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48 " width="16 " height="16 " focusable="false " aria-hidden="true "><path fill-rule="evenodd
 
@@ -38911,7 +38949,7 @@ sci-fi
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="sports " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="sports " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -38929,7 +38967,7 @@ sports
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="television " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="television " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -38947,7 +38985,7 @@ television
 
 
 
-</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="vintage " data-href="https://journals.e-palli.com/home/index.php/ajlsi" href="https://journals.e-palli.com/home/index.php/ajlsi
+</a><a data-rudderstack-event-type="link " data-action="click-&gt;rudderstack--link-clicked#track " data-link-label="vintage " data-href="https://is-journal.com/is" href="https://is-journal.com/is
 
                     " class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent "><svg xmlns="http://www.w3.org/2000/svg " viewbox="0 0 48 48
 
@@ -39235,7 +39273,11 @@ Ukrainian Artists
 
 
 
-</a></div></div></div></div>
+</a>
+
+
+
+</div></div></div></div>
 
 </div>
 
@@ -39415,7 +39457,9 @@ Back To Menu
 
                     " data-controller="containers--drawer-component rudderstack--link-clicked rudderstack--filter-clicked " data-rudderstack--link-clicked-location-value="nav-shop-l2 " data-rudderstack--filter-clicked-location-value="nav-shop-l2 "><button type="button
 
-                    " class="btn drawer__close-button tp-btn--medium btn--no-background tp-btn--icon " data-action="click-&gt;containers--drawer-component#closePrimaryDrawer "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent"><img src="https://assets.teepublic.com/assets/teepublicons/x_close_neutral400-c1926221e50e7f6686d23ac344405449054e43f23d0f3306f15d8dfd546f999a.svg " loading="lazy " alt="Close Drawer " height="12 " width="12 " aria_hidden="false
+                    " class="btn drawer__close-button tp-btn--medium btn--no-background tp-btn--icon " data-action="click-&gt;containers--drawer-component#closePrimaryDrawer "><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent
+
+                    "><img src="https://assets.teepublic.com/assets/teepublicons/x_close_neutral400-c1926221e50e7f6686d23ac344405449054e43f23d0f3306f15d8dfd546f999a.svg " loading="lazy " alt="Close Drawer " height="12 " width="12 " aria_hidden="false
 
                     " focusable="true "></span>
 
@@ -39499,7 +39543,7 @@ New!
 
                     " d="M44 24c0 .755-.26 1.361-.395 1.648-.165.35-.367.677-.554.955-.378.558-.868 1.163-1.381 1.755-1.037 1.196-4.383 4.582-5.683 5.87a177.078 177.078 0 0 1-5.221 4.963l-.002.002c-1.242 1.13-3.19 1.066-4.35-.145a2.947 2.947 0 0 1 .148-4.24c2.066-1.887
 
-                    6.094-5.816 8.053-7.808H7.078C5.378 27 4 25.657 4 24s1.378-3 3.078-3h27.537c-1.959-1.992-6.741-6.612-8.051-7.806-1.31-1.194-1.31-3.03-.15-4.241a3.134 3.134 0 0 1 4.35-.146 169.18 169.18 0 0 1 5.223 4.965c1.3 1.288 4.646 4.675 5.683
+                    6.094-5.816 8.053-7.808H7.078C5.378 27 4 25.657 4 24s1.378-3 3.078-3h27.537c-1.959-1.992-6.741-6.612-8.051-7.806-1.31-1.194-1.31-3.03-.15-4.241a3.1343.134 0 0 1 4.35-.146 169.18 169.18 0 0 1 5.223 4.965c1.3 1.288 4.646 4.675 5.683
 
                     5.87.513.592 1.003 1.197 1.38 1.756.188.277.39.604.555.954.135.287.395.894.395 1.648Z " clip-rule="evenodd "></path></svg></span>
 
@@ -39723,7 +39767,9 @@ Back To Menu
 
 <input type="submit " name="commit " value="Update " class="btn btn--large btn--full " data-disable-with="Update " />
 
-</div><div class='m-browse-preferences__btn-cont'>
+</div>
+
+<div class='m-browse-preferences__btn-cont'>
 
 <a class='link link--1 text-center close-modal close-reveal-modal jsCloseModal' id='dismiss-modal-custom'>Cancel</a>
 
@@ -40149,7 +40195,9 @@ Back To Menu
 
                                 "name": "Tri-Blend",
 
-                                "sort": 205},
+                                "sort": 205
+
+                            },
 
                             "81": {
 
@@ -40169,7 +40217,9 @@ Back To Menu
 
                                 "id": 218,
 
-                                "name": "Heavyweight","sort": 202
+                                "name": "Heavyweight",
+
+                                "sort": 202
 
                             },
 
@@ -40261,9 +40311,7 @@ Back To Menu
 
                                 "id": 395,
 
-                                "name": "Streetwear",
-
-                                "sort": 208
+                                "name": "Streetwear","sort": 208
 
                             },
 
@@ -40527,7 +40575,9 @@ Back To Menu
 
                                 "unique_id": null,
 
-                                "id": 45,"name": "Royal Heather",
+                                "id": 45,
+
+                                "name": "Royal Heather",
 
                                 "sort": 550
 
@@ -40623,9 +40673,7 @@ Back To Menu
 
                                 "id": 69,
 
-                                "name": "Slate",
-
-                                "sort": 332
+                                "name": "Slate","sort": 332
 
                             },
 
@@ -40895,7 +40943,9 @@ Back To Menu
 
                                 "id": 30,
 
-                                "name": "Light Grey","sort": 15
+                                "name": "Light Grey",
+
+                                "sort": 15
 
                             },
 
@@ -40915,7 +40965,9 @@ Back To Menu
 
                                 "unique_id": null,
 
-                                "id": 31,"name": "Dark Grey",
+                                "id": 31,
+
+                                "name": "Dark Grey",
 
                                 "sort": 30
 
@@ -40975,9 +41027,7 @@ Back To Menu
 
                                 "id": 111,
 
-                                "name": "Faded Red",
-
-                                "sort": 133
+                                "name": "Faded Red","sort": 133
 
                             },
 
@@ -41237,7 +41287,9 @@ Back To Menu
 
                         "28-19": {
 
-                            "retail_price": 28.0,"retail_price_usd": "28.0",
+                            "retail_price": 28.0,
+
+                            "retail_price_usd": "28.0",
 
                             "retail_price_formatted": "$28.00",
 
@@ -41251,7 +41303,9 @@ Back To Menu
 
                         "26-21": {
 
-                            "retail_price": 26.0,"retail_price_usd": "26.0",
+                            "retail_price": 26.0,
+
+                            "retail_price_usd": "26.0",
 
                             "retail_price_formatted": "$26.00",
 
@@ -41549,7 +41603,9 @@ Back To Menu
 
                     "1810": [0, [19, 79, 23, 72]],
 
-                    "1811": [0, [19, 79, 24, 72]],"1814": [0, [19, 79, 21, 22]],
+                    "1811": [0, [19, 79, 24, 72]],
+
+                    "1814": [0, [19, 79, 21, 22]],
 
                     "1815": [0, [19, 79, 22, 22]],
 
@@ -41591,9 +41647,7 @@ Back To Menu
 
                     "4": [1, [19, 79, 26, 1]],
 
-                    "930": [1, [19, 79, 26, 45]],
-
-                    "543": [1, [19, 79, 84, 12]],
+                    "930": [1, [19, 79, 26, 45]],"543": [1, [19, 79, 84, 12]],
 
                     "2421": [1, [19, 79, 26, 3]],
 
@@ -41863,7 +41917,7 @@ Back To Menu
 
                     "2311": [2, [20, 79, 23, 24]],
 
-                    "2312": [2, [20,79, 24, 24]],
+                    "2312": [2, [20, 79, 24, 24]],
 
                     "3595": [7, [19, 395, 23, 26]],
 
@@ -41877,7 +41931,9 @@ Back To Menu
 
                     "1012": [5, [20, 80, 23, 44]],
 
-                    "1324": [6, [19, 81, 23, 38]],"1333": [6, [19, 81, 22, 9]],
+                    "1324": [6, [19, 81, 23, 38]],
+
+                    "1333": [6, [19, 81, 22, 9]],
 
                     "1335": [6, [19, 81, 24, 9]],
 
@@ -42177,7 +42233,9 @@ Back To Menu
 
                     "1019": [16, [20, 80, 25, 40]],
 
-                    "1325": [6, [19, 81, 24, 38]],"1327": [6, [19, 81, 21, 1]],
+                    "1325": [6, [19, 81, 24, 38]],
+
+                    "1327": [6, [19, 81, 21, 1]],
 
                     "1329": [6, [19, 81, 23, 1]],
 
@@ -42189,11 +42247,13 @@ Back To Menu
 
                     "2859": [7, [19, 218, 84, 8]],
 
-                    "3500": [4, [20, 393, 21, 12]],"3510": [4, [20, 393, 22, 3]],
+                    "3500": [4, [20, 393, 21, 12]],
+
+                    "3510": [4, [20, 393, 22, 3]],
 
                     "2881": [7, [19, 218, 26, 9]],
 
-                    "2820": [4, [20, 213, 21, 27]],
+                    "2820": [4, [20,213, 21, 27]],
 
                     "2821": [4, [20, 213, 22, 27]],
 
@@ -42489,7 +42549,9 @@ Back To Menu
 
                     "2568": [0, [19, 79, 24, 69]],
 
-                    "2586": [0, [19, 79, 24, 21]],"2626": [0, [19, 79, 22, 70]],
+                    "2586": [0, [19, 79, 24, 21]],
+
+                    "2626": [0, [19, 79, 22, 70]],
 
                     "2627": [0, [19, 79, 23, 70]],
 
@@ -42501,7 +42563,9 @@ Back To Menu
 
                     "18": [1, [19, 79, 26, 9]],
 
-                    "1677": [1, [19, 79, 26, 24]],"3413": [1, [19, 79, 84, 72]],
+                    "1677": [1, [19, 79, 26, 24]],
+
+                    "3413": [1, [19, 79, 84, 72]],
 
                     "3479": [1, [19, 79, 84, 19]],
 
@@ -42793,9 +42857,7 @@ Back To Menu
 
                     "395": [0, [20, 79, 24, 1]],
 
-                                        "424": [0, [20, 79, 23, 2]],
-
-                    "429": [0, [20, 79, 23, 3]],
+                                        "424": [0, [20, 79, 23, 2]],"429": [0, [20, 79, 23, 3]],
 
                     "3208": [0, [20, 79, 24, 20]],
 
@@ -42811,7 +42873,7 @@ Back To Menu
 
                     "3152": [0, [20, 79, 22, 43]],
 
-                    "3146": [0,[20, 79, 22, 43]],"2440": [0, [20, 79, 21, 1]],
+                    "3146": [0, [20, 79, 22, 43]],"2440": [0, [20, 79, 21, 1]],
 
                     "2446": [0, [20,79, 22, 11]],
 
@@ -43111,7 +43173,9 @@ Back To Menu
 
                     "1819": [1, [19, 79, 26, 22]],
 
-                    "2525": [1, [19, 79, 26, 44]],"2531": [1,[19, 79, 26, 19]],
+                    "2525": [1, [19, 79, 26, 44]],
+
+                    "2531": [1,[19, 79, 26, 19]],
 
                     "2564": [1, [19, 79, 26, 24]],"2099": [2, [19, 79, 22, 1]],
 
@@ -43121,7 +43185,9 @@ Back To Menu
 
                     "2108": [2, [19, 79, 23, 4]],
 
-                    "2117": [2, [19, 79, 21, 6]],"2119": [2, [19, 79, 23, 6]],
+                    "2117": [2, [19, 79, 21, 6]],
+
+                    "2119": [2, [19, 79, 23, 6]],
 
                     "2124": [2, [19, 79, 24, 7]],
 
@@ -43393,9 +43459,7 @@ Back To Menu
 
                     "2100": [2, [19, 79, 23, 1]],
 
-                    "2114": [2, [19, 79, 23, 5]],
-
-                    "2121": [2, [19, 79, 21, 7]],
+                    "2114": [2, [19, 79, 23, 5]],"2121": [2, [19, 79, 21, 7]],
 
                     "2133": [2, [19, 79, 21, 3]],"2138": [2, [19, 79, 23, 9]],
 
@@ -43421,7 +43485,9 @@ Back To Menu
 
                     "2285": [2, [19, 79, 21, 23]],
 
-                    "2286": [2, [19, 79, 22, 23]],"2287": [2, [19, 79, 23, 23]],
+                    "2286": [2, [19, 79, 22, 23]],
+
+                    "2287": [2, [19, 79, 23, 23]],
 
                     "2293": [2, [19, 79, 23, 67]],
 
@@ -43431,7 +43497,9 @@ Back To Menu
 
                     "2352": [2, [19, 79, 22, 72]],
 
-                    "2357": [2, [19, 79, 21, 22]],"2360": [2, [19, 79, 24, 22]],
+                    "2357": [2, [19, 79, 21, 22]],
+
+                    "2360": [2, [19, 79, 24, 22]],
 
                     "3227": [2, [19, 79, 21, 108]],
 
@@ -43693,9 +43761,7 @@ Back To Menu
 
                     "1353": [6, [19, 81, 22, 8]],
 
-                    "1354": [6, [19, 81, 23, 8]],
-
-                    "1359": [6, [19, 81, 23, 12]],"1360": [6, [19, 81, 24, 12]],
+                    "1354": [6, [19, 81, 23, 8]],"1359": [6, [19, 81, 23, 12]],"1360": [6, [19, 81, 24, 12]],
 
                     "1331": [14, [19, 81, 25, 1]],
 
@@ -43745,7 +43811,9 @@ Back To Menu
 
                     "3437": [1, [19, 79, 84, 3]],
 
-                    "3459": [3, [19, 79, 83, 69]],"3508": [4, [20, 393, 22, 12]],
+                    "3459": [3, [19, 79, 83, 69]],
+
+                    "3508": [4, [20, 393, 22, 12]],
 
                     "3540": [7, [20, 393, 26, 12]],
 
@@ -44045,7 +44113,9 @@ Back To Menu
 
                     "3446": [1, [19, 79, 83, 21]],
 
-                    "3520": [4, [20, 393, 23, 47]],"3527": [4, [20, 393, 24, 11]],
+                    "3520": [4, [20, 393, 23, 47]],
+
+                    "3527": [4, [20, 393, 24, 11]],
 
                     "3541": [7, [20, 393, 26, 4]],
 
@@ -44289,9 +44359,7 @@ Back To Menu
 
                     "2260": [18, [19, 79, 25, 2]],
 
-                    "2082": [18, [19, 79, 25, 10]],
-
-                    "441": [12, [20,79, 25, 6]],
+                    "2082": [18, [19, 79, 25, 10]],"441": [12, [20,79, 25, 6]],
 
                     "2464": [12, [20, 79, 25, 7]],
 
@@ -44355,7 +44423,7 @@ Back To Menu
 
                     "3191": [12, [20, 79, 25, 60]],
 
-                    "416": [12,[20, 79, 25, 7]],
+                    "416": [12, [20, 79, 25, 7]],
 
                     "2469": [12, [20, 79, 25, 9]],
 
@@ -44365,7 +44433,7 @@ Back To Menu
 
                     "401": [12, [20, 79, 25, 11]],
 
-                    "3167":[12, [20, 79, 25, 45]],
+                    "3167": [12, [20, 79, 25, 45]],
 
                     "2480": [12, [20, 79, 25, 5]],
 
@@ -44577,13 +44645,13 @@ Back To Menu
 
                     ["100% Airlume pre-shrunk combed and ringspun cotton", [3247, 3241, 3236, 3246, 3250, 3243, 3248, 3249, 3251, 3239, 3234, 3244, 3232, 3233, 3235, 3237, 3238, 3240, 3242, 3245]],
 
-                    ["NONO4D COLABS AJLSI hadir sebagai situs togel 4D merakyat dengan pengalaman permainan modern, akses cepat, komunitas aktif, dan layanan nyaman untuk member harian.", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292, 2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418, 1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563, 2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]],
+                    ["wargatoto adalah sebuah platform toto yang dimana dapat mewujudkan impian kita bersama dengan melalui situs toto slot resmi paling aman", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292, 2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418, 1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563, 2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]],
 
                     ["100% combed cotton. A feminine cut featuring a v-neck in extended sizes that are all designed to wear, wash and age well.", [2667, 2660, 2662, 2663, 2664, 2673, 2655, 2656, 2657, 2674, 2659, 2661, 2668, 2669, 2671, 2672, 2658, 2665, 2666, 2670]],
 
                     ["Moisture management/antimicrobial performance fabric, 100% Polyester", [3291, 3271, 3296, 3280, 3295, 3278, 3287, 3315, 3294, 3293, 3313, 3268, 3273, 3272, 3269, 3292, 3279, 3285, 3281, 3267, 3283, 3286, 3289, 3290, 3297, 3270, 3301, 3312, 3298, 3314, 3274, 3277, 3288, 3311, 3299, 3276, 3275, 3284, 3302, 3282, 3300, 3316]],
 
-                    ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic T-Shirt for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and still the softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]],
+                    ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic T-Shirt for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and stillthe softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]],
 
                     ["100% Cotton. Lightweightwith the perfect cut. Fabric drapes loosely across body for a comfortable, relaxed fit. Due to availability, some colors may be a poly-viscose blend.", [1761, 1762, 1778, 1779, 1772, 1773, 1782, 1758, 1763, 1764, 1766, 1759, 1760, 1774, 1768, 1770, 1771, 1775, 1776, 1777, 1781, 1780, 1765, 1767, 1769]],
 
@@ -44593,9 +44661,9 @@ Back To Menu
 
                     ["100% combed ringspun cotton. A perfectly comfortable combination of classic cut and vintage style.", [2784, 2779, 2789, 2774]],
 
-                    ["100% combed cotton.  A feminine cut in extended sizes that are all designed to wear, wash and age well.", [1924,1925, 1937, 1932, 1933, 1928, 1931, 1935, 1934, 1939, 1941, 1926, 1927, 1929, 1930, 1936, 1922, 1923, 1938, 1940]],
+                    ["100% combed cotton.  A feminine cut in extended sizes that are all designed to wear, wash and age well.", [1924, 1925, 1937, 1932, 1933, 1928, 1931, 1935, 1934, 1939, 1941, 1926, 1927, 1929, 1930, 1936, 1922, 1923, 1938, 1940]],
 
-                    ["60% Cotton / 40% Polyester. A heathered, feminine cut in extended sizes that are all designed to wear, wash and agewell.\r\n", [1943, 1945, 1942, 1944, 2676, 2677, 2678, 2675]],
+                    ["60% Cotton / 40% Polyester. A heathered, feminine cut in extended sizes that are all designed to wear, wash and age well.\r\n", [1943, 1945, 1942, 1944, 2676, 2677, 2678, 2675]],
 
                     ["Cotton/Poly blend.  Heathered versions of our classic tee colors -- the softest shirts in the business and the perfect weight for a graphic tee.", [916, 2340, 2239, 2228, 2141, 2349, 2519, 2527, 2227, 2508, 2347, 2230, 923, 902, 925, 2427, 2627, 2525, 2139, 913, 2426, 2142, 2229, 2234, 2428, 2509, 2344, 2345, 1750, 2517, 2532, 901, 1751, 2632, 2633, 912, 2343, 2231, 2510, 2629, 2514, 2516, 2233, 2235, 926, 929, 930, 2242, 903, 905, 921, 2243, 2342, 2246, 904, 906, 917, 918, 911, 908, 909, 2526, 2350, 2520, 2528, 2530, 2531, 2631, 2513, 2521, 2523, 2515, 2512, 2628, 2518, 919, 920, 922, 924, 914, 915, 907, 910, 927, 928, 2533, 2625, 1746, 2626, 2240, 2238, 2630, 2222, 2237, 2241, 2244, 2524, 1753, 1748, 1752, 2339, 1747, 1749, 1756, 1757, 1754, 1755, 2511, 2529, 2247, 2232, 2140, 2223, 2224, 2245, 2236, 2522, 2225, 2226, 2348, 2425, 2346, 2341, 2634, 2636, 2635]],
 
@@ -44711,17 +44779,21 @@ Back To Menu
 
                     },
 
-                    "12": {"id": 12,
+                    "12": {
+
+                        "id": 12,
 
                         "name": "White",
 
                         "display_name": "White",
 
-                        "hex": "#8f07ff",
+                        "hex": "#d40c0c",
 
                         "sort_order": 1,
 
-                        "slug": "white","classes": "bordered",
+                        "slug": "white",
+
+                        "classes": "bordered",
 
                         "image": null,
 
@@ -44985,9 +45057,7 @@ Back To Menu
 
                         "slug": "vintage_royal",
 
-                        "classes": "heather",
-
-                        "image": null,
+                        "classes": "heather","image": null,
 
                         "seasonal": false
 
@@ -45107,7 +45177,9 @@ Back To Menu
 
                         "name": "Royal Blue",
 
-                        "display_name": "Royal Blue","hex": "#36538b",
+                        "display_name": "Royal Blue",
+
+                        "hex": "#36538b",
 
                         "sort_order": 310,
 
@@ -45369,9 +45441,7 @@ Back To Menu
 
                         "name": "Black",
 
-                        "display_name": "Black","hex": "#191919",
-
-                        "sort_order": 70,
+                        "display_name": "Black","hex": "#191919","sort_order": 70,
 
                         "slug": "black",
 
@@ -45497,7 +45567,9 @@ Back To Menu
 
                         "name": "Yellow",
 
-                        "display_name": "Yellow","hex": "#ffb81c",
+                        "display_name": "Yellow",
+
+                        "hex": "#ffb81c",
 
                         "sort_order": 180,
 
@@ -45505,7 +45577,9 @@ Back To Menu
 
                         "classes": "",
 
-                        "image": null,"seasonal": false
+                        "image": null,
+
+                        "seasonal": false
 
                     },
 
@@ -45737,9 +45811,7 @@ Back To Menu
 
                         "display_name":"Midnight Navy",
 
-                        "hex": "#002a43",
-
-                        "sort_order": 500,
+                        "hex": "#002a43","sort_order": 500,
 
                         "slug": "midnight_navy",
 
@@ -45889,7 +45961,9 @@ Back To Menu
 
                         "hex": "#ed8b00",
 
-                        "sort_order": 170,"slug": "tennessee_orange",
+                        "sort_order": 170,
+
+                        "slug": "tennessee_orange",
 
                         "classes": "",
 
@@ -45897,7 +45971,9 @@ Back To Menu
 
                         "seasonal": false
 
-                    },"109": {
+                    },
+
+                    "109": {
 
                         "id": 109,
 
