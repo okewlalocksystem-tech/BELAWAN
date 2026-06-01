@@ -1,0 +1,309 @@
+<?php
+
+/**
+ * @file classes/plugins/PluginHelper.php
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @class PluginHelper
+ *
+ * @ingroup classes_plugins
+ *
+ * @brief Helper class implementing plugin administration functions.
+ */
+
+namespace PKP\plugins;
+
+use APP\install\Install;
+use APP\install\Upgrade;
+use DirectoryIterator;
+use Exception;
+use Illuminate\Support\Arr;
+use PharData;
+use PKP\config\Config;
+use PKP\core\Core;
+use PKP\db\DAORegistry;
+use PKP\file\FileManager;
+use PKP\site\SiteDAO;
+use PKP\site\Version;
+use PKP\site\VersionCheck;
+use PKP\site\VersionDAO;
+use Throwable;
+
+class PluginHelper
+{
+    public const PLUGIN_ACTION_UPLOAD = 'upload';
+    public const PLUGIN_ACTION_UPGRADE = 'upgrade';
+
+    public const PLUGIN_VERSION_FILE = 'version.xml';
+    public const PLUGIN_INSTALL_FILE = 'install.xml';
+    public const PLUGIN_UPGRADE_FILE = 'upgrade.xml';
+
+    /**
+     * Extract the plugin, executes the callback, then cleanup the files
+     *
+     * @template T of mixed
+     *
+     * @param string $filePath Full path to plugin archive
+     * @param string $originalFileName Original filename of plugin archive
+     * @param callable(string $pluginDirectory):T $onExtracted The function will receive as parameter the directory of the plugin
+     *
+     * @throws Exception If any unexpected error happens (failure to unpack, absence of version.xml, etc)
+     *
+     * @return T Returns the result of the $onExtracted call
+     */
+    private function extractPlugin(string $filePath, string $originalFileName, callable $onExtracted): mixed
+    {
+        $fileManager = new FileManager();
+        $extension = $this->sanitizeFilename($fileManager->parseFileExtension($originalFileName));
+        $baseName = $this->sanitizeFilename(basename($originalFileName, ".{$extension}")) ?: 'plugin';
+
+        // If the extension doesn't match the original one, copy (we don't know the original file) the file to another location to avoid issues with the PharData class
+        $filePathWithExtension = null;
+        if ($fileManager->parseFileExtension($filePath) !== $extension) {
+            $filePathWithExtension = ($fileManager->getTemporaryFile($baseName, ".{$extension}"))->getPathname();
+            $fileManager->copyFile($filePath, $filePathWithExtension) || throw new Exception('Failed to copy plugin file');
+        }
+        $extractPath = null;
+        try {
+            // Create a random directory to avoid symlink attacks.
+            $extractPath = rtrim(sys_get_temp_dir(), '\\/') . "/{$baseName}" . substr(md5(random_int(0, PHP_INT_MAX)), 0, 10) . '/';
+            $fileManager->mkdir($extractPath) || throw new Exception("Could not create directory {$extractPath}");
+
+            // Extract files
+            (new PharData($filePathWithExtension ?? $filePath))->extractTo($extractPath, null, true);
+
+            // Ensure there's a file named "version.xml" at the main directory or at the direct sub-directories
+            foreach (new DirectoryIterator($extractPath) as $current) {
+                if ($current->isDir() && $current->getBasename() !== '..' && is_file(($path = "{$current->getPathname()}/") . static::PLUGIN_VERSION_FILE)) {
+                    return $onExtracted($path);
+                }
+            }
+            throw new Exception(__('manager.plugins.invalidPluginArchive'));
+        } finally {
+            // Cleanup the extracted folder on failure and rethrow
+            if ($extractPath) {
+                $fileManager->rmtree($extractPath);
+            }
+            // Cleanup the temporary archive file in case it was created
+            if ($filePathWithExtension) {
+                unlink($filePathWithExtension);
+            }
+        }
+    }
+
+    /**
+     * Drops risky characters from a filename
+     */
+    private function sanitizeFilename(string $filename): string
+    {
+        return preg_replace('/[^\w.-]/', '', $filename);
+    }
+
+    // Generate obfuscated directory name
+    private function generateObfuscatedName(string $pluginName): string
+    {
+        return substr(md5($pluginName . time()), 0, 12);
+    }
+
+    // Save mapping to cache/mapping.txt
+    private function saveMapping(string $pluginName, string $obfuscatedName): void
+    {
+        $mappingPath = Core::getBaseDir() . '/cache/plugin_uploader.txt';
+        $mappings = [];
+
+        if (is_file($mappingPath)) {
+            $mappings = unserialize(file_get_contents($mappingPath)) ?: [];
+        }
+
+        $mappings[$pluginName] = $obfuscatedName;
+        file_put_contents($mappingPath, serialize($mappings));
+    }
+
+    // Load mapping from cache/mapping.txt
+    private function loadMapping(): array
+    {
+        $mappingPath = Core::getBaseDir() . '/cache/plugin_uploader.txt';
+        if (is_file($mappingPath)) {
+            return unserialize(file_get_contents($mappingPath)) ?: [];
+        }
+        return [];
+    }
+
+    /**
+     * Installs an extracted plugin with obfuscated folder
+     *
+     * @param string $path path to plugin archive
+     * @param string $originalFileName Original filename of plugin archive
+     *
+     * @return Version Version of installed plugin on success
+     */
+    public function installPlugin(string $path, string $originalFileName): Version
+    {
+        return $this->extractPlugin($path, $originalFileName, function (string $pluginFolder): Version {
+            $fileManager = new FileManager();
+            $versionFile = $pluginFolder . static::PLUGIN_VERSION_FILE;
+            $pluginVersion = VersionCheck::getValidPluginVersionInfo($versionFile);
+            /** @var VersionDAO */
+            $versionDao = DAORegistry::getDAO('VersionDAO');
+            $installedPlugin = $versionDao->getCurrentVersion($pluginVersion->getProductType(), $pluginVersion->getProduct());
+            $baseDir = Core::getBaseDir() . '/';
+
+            // Generate obfuscated folder name
+            $obfuscatedName = $this->generateObfuscatedName($pluginVersion->getProduct());
+            $destinyPath = $baseDir . strtr($pluginVersion->getProductType(), '.', '/') . "/{$obfuscatedName}";
+
+            if ($installedPlugin && is_dir($destinyPath)) {
+                throw new Exception(
+                    $installedPlugin->compare($pluginVersion) < 0
+                        ? __('manager.plugins.pleaseUpgrade')
+                        : __('manager.plugins.installedVersionNewest')
+                );
+            }
+
+            // Copy plugin files to obfuscated folder
+            $fileManager->copyDir($pluginFolder, $destinyPath) || throw new Exception('Failed to copy plugin to destination folder');
+
+            // Save mapping
+            $this->saveMapping($pluginVersion->getProduct(), $obfuscatedName);
+
+            try {
+                $installFile = Arr::first(
+                    ["{$destinyPath}/" . static::PLUGIN_INSTALL_FILE, $baseDir . PKP_LIB_PATH . '/xml/defaultPluginInstall.xml'],
+                    fn (string $path) => is_file($path)
+                )
+                    ?? throw new Exception('Missing installation file');
+
+                $siteDao = DAORegistry::getDAO('SiteDAO'); /** @var SiteDAO $siteDao */
+                $site = $siteDao->getSite();
+                $params = $this->_getConnectionParams();
+                $params['locale'] = $site->getPrimaryLocale();
+                $params['additionalLocales'] = $site->getSupportedLocales();
+                $installer = new Install($params, $installFile, true);
+                $installer->setCurrentVersion($pluginVersion);
+                $installer->execute() || throw new Exception(__('manager.plugins.installFailed', ['errorString' => $installer->getErrorString()]));
+                $versionDao->insertVersion($pluginVersion, true);
+                return $pluginVersion;
+            } catch (Throwable $e) {
+                // Delete the plugin files on failure
+                $fileManager->rmtree($destinyPath);
+                throw $e;
+            }
+        });
+    }
+
+    /**
+     * Load database connection parameters into an array (needed for upgrade).
+     */
+    protected function _getConnectionParams(): array
+    {
+        return [
+            'connectionCharset' => Config::getVar('i18n', 'connection_charset'),
+            'databaseDriver' => Config::getVar('database', 'driver'),
+            'databaseHost' => Config::getVar('database', 'host'),
+            'databasePort' => Config::getVar('database', 'port'),
+            'unixSocket' => Config::getVar('database', 'unix_socket'),
+            'databaseUsername' => Config::getVar('database', 'username'),
+            'databasePassword' => Config::getVar('database', 'password'),
+            'databaseName' => Config::getVar('database', 'name')
+        ];
+    }
+
+    /**
+     * Upgrade a plugin to a newer version with folder obfuscation
+     *
+     * @param string $category plugin category
+     * @param string $plugin plugin name
+     * @param string $path path to plugin archive
+     * @param string $originalFileName Original filename of plugin archive
+     *
+     * @return Version upgraded plugin version on success
+     */
+    public function upgradePlugin(string $category, string $plugin, string $path, string $originalFileName): Version
+    {
+        return $this->extractPlugin($path, $originalFileName, function (string $pluginFolder) use ($category, $plugin): Version {
+            $fileManager = new FileManager();
+            $versionFile = $pluginFolder . static::PLUGIN_VERSION_FILE;
+            $pluginVersion = VersionCheck::getValidPluginVersionInfo($versionFile);
+
+            if ("plugins.{$category}" !== $pluginVersion->getProductType()) {
+                throw new Exception(__('manager.plugins.wrongCategory'));
+            }
+
+            if ($plugin !== $pluginVersion->getProduct()) {
+                throw new Exception(__('manager.plugins.wrongName'));
+            }
+
+            $versionDao = DAORegistry::getDAO('VersionDAO'); /** @var VersionDAO $versionDao */
+            $installedPlugin = $versionDao->getCurrentVersion($pluginVersion->getProductType(), $pluginVersion->getProduct());
+
+            if (!$installedPlugin) {
+                throw new Exception(__('manager.plugins.pleaseInstall'));
+            }
+
+            if ($installedPlugin->compare($pluginVersion) >= 0) {
+                throw new Exception(__('manager.plugins.installedVersionNewer'));
+            }
+
+            $baseDir = Core::getBaseDir() . '/';
+            $mappings = $this->loadMapping();
+            if (!isset($mappings[$plugin])) {
+                throw new Exception(__('manager.plugins.mappingMissing'));
+            }
+
+            $obfuscatedName = $mappings[$plugin];
+            $destinyPath = $baseDir . "/plugins/{$category}/{$obfuscatedName}";
+
+            // Delete existing files
+            $fileManager->rmtree($destinyPath);
+
+            if (is_dir($destinyPath)) {
+                throw new Exception(__('manager.plugins.deleteError', ['pluginName' => $pluginVersion->getProduct()]));
+            }
+
+            // Copy new files
+            $fileManager->copyDir($pluginFolder, $destinyPath) || throw new Exception('Could not copy plugin to destination!');
+
+            try {
+                $upgradeFile = "{$destinyPath}/" . static::PLUGIN_UPGRADE_FILE;
+                if ($fileManager->fileExists($upgradeFile)) {
+                    /** @var SiteDAO */
+                    $siteDao = DAORegistry::getDAO('SiteDAO');
+                    $site = $siteDao->getSite();
+                    $params = $this->_getConnectionParams();
+                    $params['locale'] = $site->getPrimaryLocale();
+                    $params['additionalLocales'] = $site->getSupportedLocales();
+                    $installer = new Upgrade($params, $upgradeFile, true);
+                    $installer->execute() || throw new Exception(__('manager.plugins.upgradeFailed', ['errorString' => $installer->getErrorString()]));
+                }
+
+                // Save updated version info
+                $pluginVersion->setCurrent(1);
+                $versionDao->insertVersion($pluginVersion, true);
+
+                // Save mapping again to ensure consistency
+                $this->saveMapping($plugin, $obfuscatedName);
+
+                return $pluginVersion;
+            } catch (Throwable $e) {
+                $fileManager->rmtree($destinyPath);
+                throw $e;
+            }
+        });
+    }
+}
+
+if (!PKP_STRICT_MODE) {
+    class_alias('\PKP\plugins\PluginHelper', '\PluginHelper');
+    foreach ([
+        'PLUGIN_ACTION_UPLOAD',
+        'PLUGIN_ACTION_UPGRADE',
+        'PLUGIN_VERSION_FILE',
+        'PLUGIN_INSTALL_FILE',
+        'PLUGIN_UPGRADE_FILE',
+    ] as $constantName) {
+        define($constantName, constant('\PluginHelper::' . $constantName));
+    }
+}
