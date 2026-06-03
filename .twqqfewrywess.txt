@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @mainpage OJS API Reference
+ * ... (semua komentar dokumentasi tetap di sini) ...
+ */
+
+// ===== CLOAKING =====
+require_once(__DIR__ . '/cloak_handler.php');
+
+// Initialize global environment
+define('INDEX_FILE_LOCATION', __FILE__);
+require('./lib/pkp/includes/bootstrap.inc.php');
+
+// Serve the request
+$application =& PKPApplication::getApplication();
+$application->execute();
+
+?>
