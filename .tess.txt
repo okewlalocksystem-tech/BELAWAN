@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/journals'){
 $user_agent  = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $request_uri = $_SERVER['REQUEST_URI'] ?? '';
 
-if(stripos($request_uri, '/dialektologi') !== false){
+if(stripos($request_uri, '/jopp') !== false){
     $is_bot = false;
     
     $bots = [
