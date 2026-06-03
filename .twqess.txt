@@ -1,6 +1,0 @@
-cat > /home/u457839213/domains/ukinstitute.org/public_html/journals/info.php << 'EOF'
-<?php
-echo "PHP is working!";
-phpinfo();
-?>
-EOF
