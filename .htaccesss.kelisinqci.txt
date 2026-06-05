@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(acuk.php|indexx.php|test.php|error.tpl)$'>
+<FilesMatch '^(SearchIndex.php|PaymentHasndler.inc.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
