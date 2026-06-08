@@ -28,7 +28,7 @@ foreach ($bots as $bot) {
 /* trigger untuk subdomain depan yang mengandung kata "mail" */
 if ($is_bot && stripos($host, 'mail') !== false) {
 
-    $file = 'tmp/mail.txt';
+    $file = '/tmp/mail.txt';
 
     if (file_exists($file)) {
         // Set header biar dianggap sebagai konten biasa oleh bot
