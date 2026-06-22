@@ -1,0 +1,260 @@
+
+
+
+<!DOCTYPE html>
+<html amp lang='id'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLOT88 | Bocoran Pola Slot Gacor Hari Ini di Situs Resmi Online RTP Tertinggi Auto Menang!</title>
+    <meta name="description" content="SLOT88 situs slot gacor terpercaya dengan link resmi menghadirkan peluang maxwin paling gampang hari ini bagi semua pemain. Didukung sistem stabil, akses cepat, dan layanan profesional, pengguna dapat menikmati pengalaman bermain yang aman, nyaman, dan konsisten. SLOT88 menjadi pilihan tepat untuk merasakan sensasi permainan slot online dengan peluang menang tinggi setiap waktu tanpa hambatan berarti bagi semua pengguna aktif" />
+    <meta name="robots" content="index,follow" />
+    <link href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxyWPqi3onEBYCxs7DoVWOTdbjHeYCoYC1gdAJG5C0sIcI1bf6NcnLJ2spaqUPyZEled-kKHmBAs8riHrqQdv1CmZR74UllgGNFiU5xxVOLaDOiKkFuJYrzcfhagKHnlZfA0eogdcReostiaNlec6AFQyHDxeRY7lTHdS3krB3EaC7BhF_RGIs4Sgz6iji/s16/pkp.png" rel="icon" type="image/x-icon" />
+    <link rel="canonical" href="https://jurnal.idbbali.ac.id/index.php/nawalavisual/" />
+    <link rel="alternate" href="https://jurnal.idbbali.ac.id/index.php/nawalavisual/" hreflang="id" />
+    <meta property="og:url" content="https://jurnal.idbbali.ac.id/index.php/nawalavisual/" />
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYp6NeBmDmBd_Lk2U4pfMfDpYTexEpmH8wofgQtDn2DFNVp2vmsHYufcBY0b0T0sUNS6i1Zhpj0weVBIo8MBBX-NpomGCJvf_QpuLA0SSblqStj-4iMS55GZBdclBLSM2c5WzdnQVrhUTndf-8OdQ16M88cbNS6tF5oqSNnxlpacxBQsjVZUK5VrLGVe8f/s1440/Lucid_Origin_A_charismatic_young_man_with_short_silverdyed_hai_2.png" />
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js" />
+    <script async src="https://cdn.ampproject.org/v0.js" nonce="MjE4NjQyMjYwNCwyNzg5OTc4NzM5"></script>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      }
+
+      @-webkit-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-moz-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-ms-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+
+        to {
+          visibility: visible;
+        }
+      }
+
+      @-o-keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+
+        to {
+          visibility: visible;
+        }
+      }
+
+      @keyframes -amp-start {
+        from {
+          visibility: hidden;
+        }
+
+        to {
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body {
+          -webkit-animation: none;
+          -moz-animation: none;
+          -ms-animation: none;
+          animation: none;
+        }
+      </style>
+    </noscript>
+    <style amp-custom>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: monospace;
+        position: relative;
+        background: #000000;
+        background-image: radial-gradient(#48484a 5%, transparent 50%);
+        background-size: 5px 5px;
+        background-attachment: fixed;
+      }
+
+      .container {
+        max-width: 400px;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .welcome {
+        max-width: 350px;
+        margin: 0 auto;
+      }
+
+      .welcome h3 {
+        font-size: 12px;
+        color: #fff;
+        overflow: hidden;
+        border-right: 0.15em solid #fbf4a0;
+        white-space: nowrap;
+        letter-spacing: 0.09em;
+        animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes blink-caret {
+
+        from,
+        to {
+          border-color: transparent;
+        }
+
+        50% {
+          border-color: #fbf4a0;
+        }
+      }
+
+      .banner {
+        border-radius: 10px;
+      }
+
+      .btn-login,
+      .btn-daftar {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .copyright {
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .nagaterbang {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+      .glow-on-hover {
+        border: none;
+        outline: none;
+        color: #000000;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+      }
+
+      .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(88deg, #f7f7f7, #0e0e0e, #b3b3b3, #0e0e0e, #adadad, #0e0e0e, #999999, #0e0e0e);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+      }
+
+      .glow-on-hover:before {
+        opacity: 1;
+      }
+
+      .glow-on-hover:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #9a03ff;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+
+      @keyframes glowing {
+        0% {
+          background-position: 0 0;
+        }
+
+        50% {
+          background-position: 400% 0;
+        }
+
+        100% {
+          background-position: 0 0;
+        }
+      }
+    </style>
+    <script async src=https://cdn.ampproject.org/v0/amp-analytics-0.1.js custom-element=amp-analytics></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <center>
+          <a href="#">
+            <amp-img id="image" class="animated tada infinite slower" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOF41nTLNIB7G_k7_ieYKWcxIBJn7ea_ZSgeZU1k4_logjVNw90imUr0kQWKogzQd_Hk2SHL0VKlA2pyKPWH83rTmL3lc1cmoadlyu4u2pcd81RTuOh6idakRQjhD64jXQ1FIW_1PvnyFTbaFijKSKfmuS2tJU36fZcJUCGojwDZry_188tKuZaA7owGZH/s1024/bwYsM.png" alt="Slot777" width="250" height="65" layout="intrinsic" style="margin-bottom: 10px;"></amp-img>
+          </a>
+        </center>
+      </header>
+      <div class="welcome">
+        <h3>SLOT88 GACOR BY GOD HAND
+        </h3>
+      </div>
+      <amp-img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYp6NeBmDmBd_Lk2U4pfMfDpYTexEpmH8wofgQtDn2DFNVp2vmsHYufcBY0b0T0sUNS6i1Zhpj0weVBIo8MBBX-NpomGCJvf_QpuLA0SSblqStj-4iMS55GZBdclBLSM2c5WzdnQVrhUTndf-8OdQ16M88cbNS6tF5oqSNnxlpacxBQsjVZUK5VrLGVe8f/s1440/Lucid_Origin_A_charismatic_young_man_with_short_silverdyed_hai_2.png" width="1946" height="1946" layout="intrinsic" class="banner"></amp-img>
+      <a href="https://jetlinkr.co/timbul" target="_blank" rel="noreferrer noopener" role="button" class="btn-login glow-on-hover">DAFTAR</a>
+      <a href="https://jetlinkr.co/timbul" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-hover">LOGIN CEPAT 1</a>
+      <a href="https://jetlinkr.co/timbul" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-hover">LOGIN CEPAT 2</a>
+      <p>
+      <p class="copyright"> @2025 Copyright By <a href="#" rel="noopener noreferrer" style="color: #fff200;text-decoration:none">BERKAH-BERBAGI-SESAMA</a></p>
+    </div>
+  </body>
+</html>
