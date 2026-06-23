@@ -1,0 +1,30 @@
+<?php
+/**
+ * Script untuk menampilkan daftar akun FTP via UAPI
+ * Perintah: uapi Ftp list_ftp
+ */
+
+// Jalankan perintah
+$command = 'uapi Ftp list_ftp';
+exec($command . ' 2>&1', $output, $return_code);
+
+echo "========================\n";
+echo "  LIST FTP ACCOUNTS    \n";
+echo "========================\n\n";
+
+if ($return_code === 0) {
+    echo "✅ DAFTAR AKUN FTP:\n\n";
+    foreach ($output as $line) {
+        echo $line . "\n";
+    }
+} else {
+    echo "❌ GAGAL MENAMPILKAN DAFTAR FTP!\n";
+    echo "Error Code: {$return_code}\n";
+    echo "Pesan Error:\n";
+    foreach ($output as $line) {
+        echo "  {$line}\n";
+    }
+}
+
+echo "\n========================\n";
+?>
