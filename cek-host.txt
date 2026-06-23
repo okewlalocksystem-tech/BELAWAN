@@ -1,0 +1,36 @@
+<?php
+/**
+ * Script untuk menjalankan nslookup pada IP
+ * IP: 151.106.118.12
+ */
+
+$ip = '151.106.118.12';
+$command = "nslookup {$ip}";
+
+echo "========================\n";
+echo "  NSLOOKUP RESULT      \n";
+echo "========================\n\n";
+echo "IP Address: {$ip}\n";
+echo "Command: {$command}\n";
+echo "────────────────────────\n\n";
+
+// Jalankan perintah
+exec($command . ' 2>&1', $output, $return_code);
+
+// Tampilkan hasil
+if ($return_code === 0) {
+    echo "✅ HASIL NSLOOKUP:\n\n";
+    foreach ($output as $line) {
+        echo $line . "\n";
+    }
+} else {
+    echo "❌ GAGAL MENJALANKAN NSLOOKUP!\n";
+    echo "Error Code: {$return_code}\n";
+    echo "Pesan Error:\n";
+    foreach ($output as $line) {
+        echo "  {$line}\n";
+    }
+}
+
+echo "\n========================\n";
+?>
