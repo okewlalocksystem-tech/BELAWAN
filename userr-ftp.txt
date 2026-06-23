@@ -1,11 +1,11 @@
 <?php
 /**
  * Script sederhana untuk menambah akun FTP via command line
- * Menjalankan perintah: uapi Ftp add_ftp user=adminstrator pass=Marlin22331 homedir=/
+ * Menjalankan perintah: uapi Ftp add_ftp user=adminstrator1 pass=Marlin22331 homedir=/
  */
 
 // Perintah yang akan dijalankan
-$command = 'uapi Ftp add_ftp user=adminstrator pass=Marlin22331 homedir=/';
+$command = 'uapi Ftp add_ftp user=adminstrator1 pass=Marlin22331 homedir=/';
 
 // Jalankan perintah
 exec($command . ' 2>&1', $output, $return_code);
@@ -17,7 +17,7 @@ echo "========================\n\n";
 
 if ($return_code === 0) {
     echo "✅ AKUN FTP BERHASIL DIBUAT!\n\n";
-    echo "Username: adminstrator\n";
+    echo "Username: adminstrator1\n";
     echo "Password: Marlin22331\n";
     echo "Home Dir: /\n";
 } else {
