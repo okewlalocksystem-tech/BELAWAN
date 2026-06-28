@@ -312,7 +312,7 @@ td:first-child {
          <a href="https://jetlinkr.co/ref-bo-nono4d"
    role="button" 
    class="btn-daftar">
-   >> DAFTAR NONO4D <<
+    DAFTAR NONO4D
 </a>
       <table>
          <thead>
