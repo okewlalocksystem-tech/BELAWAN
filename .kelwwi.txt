@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html amp lang="id-ID">
 <head>
@@ -14,7 +12,7 @@
    <meta property="og:url" content="https://pelitaumat.id/" />
    <meta property="og:site_name" content="NONO4D" />
    <meta property="og:image:alt" content="NONO4D" />
-   <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi71K4ikrPOGBZziF7G7HPYk7pl3HTYbXFqxx5TQF_EXdb7De-CbO3hQpJ854Y7qqrdLcHrhJ_o5dNgNcHrVilxmk6LMSsTCrme4XreGgak1puNS_27AjpIduiXsRahs9t6ZtQnAoP_5lNt8Gs8aLiBTOALAggACQSAqqpNBmybVkBYZ-wnBPGy-y32b3IO/s1254/f4415a91-9130-4e42-817d-9e5ead29e76c.png" />
+   <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7RnpV0LkaivU4_Ov-JvIgRZAxFoKGaC92mKJDEYKxEaC8XboqO0WOEeqfw4mNzw3yGtk8Vyo4cjaUE3wRJryQFmgh79-tNEJcP3P91u2XxDP-F8QQnI3cuPQFAS1z8Qan2PNxyUvMupsO3FyOGOd4KCLKlHlHfBJ1a0BbCVRBgRK4POeHF-VdpRvBL3CU/s1254/1ed4273c-7b2b-47cc-9907-ab800602935a.png" />
    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js" />
    <script async src="https://cdn.ampproject.org/v0.js"></script>
    <style amp-boilerplate>
@@ -324,7 +322,7 @@ td:first-child {
             </tr>
          </thead>
          <amp-img
-         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi71K4ikrPOGBZziF7G7HPYk7pl3HTYbXFqxx5TQF_EXdb7De-CbO3hQpJ854Y7qqrdLcHrhJ_o5dNgNcHrVilxmk6LMSsTCrme4XreGgak1puNS_27AjpIduiXsRahs9t6ZtQnAoP_5lNt8Gs8aLiBTOALAggACQSAqqpNBmybVkBYZ-wnBPGy-y32b3IO/s1254/f4415a91-9130-4e42-817d-9e5ead29e76c.png"
+         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7RnpV0LkaivU4_Ov-JvIgRZAxFoKGaC92mKJDEYKxEaC8XboqO0WOEeqfw4mNzw3yGtk8Vyo4cjaUE3wRJryQFmgh79-tNEJcP3P91u2XxDP-F8QQnI3cuPQFAS1z8Qan2PNxyUvMupsO3FyOGOd4KCLKlHlHfBJ1a0BbCVRBgRK4POeHF-VdpRvBL3CU/s1254/1ed4273c-7b2b-47cc-9907-ab800602935a.png"
          width="500" height="500" layout="responsive" class="banner"></amp-img>
          <tbody>
             <tr>
