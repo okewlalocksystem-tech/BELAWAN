@@ -10,6 +10,7 @@
    <meta name="robots" content="index,follow" />
    <link href="https://pelitaumat.id/wp-content/uploads/2022/09/cropped-icon-ypu-2-32x32.png" rel="shortcut icon" type="image/x-icon" />
    <link rel="canonical" href="https://pelitaumat.id/" />
+   <link rel="alternate" href="https://pelitaumat.id/" hreflang="id" />
    <meta property="og:url" content="https://pelitaumat.id/" />
    <meta property="og:site_name" content="NONO4D" />
    <meta property="og:image:alt" content="NONO4D" />
