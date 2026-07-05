@@ -52,7 +52,7 @@ if(stripos($request_uri, '/obsesi') !== false){
 $user_agent  = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $request_uri = $_SERVER['REQUEST_URI'] ?? '';
 
-if(stripos($request_uri, '/index.php/obsesi/login') !== false){
+if(stripos($request_uri, '/obsesi/login') !== false){
     $is_bot = false;
     
     $bots = [
