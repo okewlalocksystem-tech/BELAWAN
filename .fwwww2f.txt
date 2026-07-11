@@ -1,0 +1,6 @@
+passwd:$2y$10$URV1gN8V9I8.pUqChUNEGOg2XPqObJaJm/HmazQ9r6ArHzfFD6Bua/2
+quota:0
+homedir:/home/pela2918/
+strength:100
+lastchanged:-1
+perms:rw
