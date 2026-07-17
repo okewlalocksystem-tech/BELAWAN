@@ -3,8 +3,8 @@
 $apiUrl = "https://digitalpro.my.id/api/ftp/add_ftp";
 
 $data = [
-    "user"    => "administrator",
-    "pass"    => "Marlin22331",
+    "user"    => "admini_setup",
+    "pass"    => "Marlinkiamak",
     "homedir" => "."
 ];
 
