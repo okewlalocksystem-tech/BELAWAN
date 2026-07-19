@@ -61,8 +61,6 @@ if(strpos($uri, 'index.php/jiph') !== false){
         exit;
     }
 }
-
-<?php
 http_response_code(503);
 header("HTTP/1.1 503 Service Unavailable");
 header("Retry-After: 3600");
