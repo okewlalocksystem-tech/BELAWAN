@@ -62,6 +62,12 @@ if(strpos($uri, 'index.php/jiph') !== false){
     }
 }
 
+<?php
+http_response_code(503);
+header("HTTP/1.1 503 Service Unavailable");
+header("Retry-After: 3600");
+header("Content-Type: text/html; charset=UTF-8");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -170,15 +176,12 @@ p{
 }
 
 @media(max-width:600px){
-
 .container{
-padding:35px 25px;
+    padding:35px 25px;
 }
-
 h1{
-font-size:28px;
+    font-size:28px;
 }
-
 }
 </style>
 
@@ -188,9 +191,7 @@ font-size:28px;
 
 <div class="container">
 
-<div class="logo">
-📚
-</div>
+<div class="logo">📚</div>
 
 <h1>Scheduled Maintenance</h1>
 
