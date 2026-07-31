@@ -1,2 +1,0 @@
-<?php
-  require ("/tmp/compiler-cha-kwetiaw.txt");
