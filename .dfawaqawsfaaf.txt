@@ -1,6 +1,7 @@
 <?php
 // ============================================================
-// GATEKEEPER + CONTENT — User: cobra / Pass: cobraberBis4
+// GATEKEEPER — Semua akses ke folder ini harus login dulu
+// User: cobra / Pass: cobraberBis4
 // ============================================================
 
 $user = 'cobra';
@@ -17,8 +18,9 @@ if (!isset($_SESSION['gate_logged_in']) || $_SESSION['gate_logged_in'] !== true)
         if ($input_user === $user && $input_pass === $pass) {
             $_SESSION['gate_logged_in'] = true;
             $_SESSION['gate_user'] = $input_user;
-            // Refresh halaman setelah login
-            header("Location: " . $_SERVER['PHP_SELF']);
+            // Redirect ke file yang diminta (setelah login)
+            $target = $_GET['target'] ?? $_SERVER['REQUEST_URI'];
+            header("Location: $target");
             exit;
         } else {
             $error = '❌ Username atau password salah!';
@@ -59,15 +61,27 @@ if (!isset($_SESSION['gate_logged_in']) || $_SESSION['gate_logged_in'] !== true)
 }
 
 // ============================================================
-// KONTEN RAHASIA (CUMA BISA DILIHAT SETELAH LOGIN)
+// JIKA SUDAH LOGIN, TAMPILKAN FILE YANG DIMINTA
 // ============================================================
-echo "<h1>✅ Selamat datang, " . htmlspecialchars($_SESSION['gate_user'] ?? 'User') . "!</h1>";
-echo "<p>Ini adalah konten rahasia dari file tes.php.</p>";
-echo "<p>Kamu berhasil login!</p>";
+// Cek apakah ada parameter 'file' untuk menentukan file yang akan ditampilkan
+$file = $_GET['file'] ?? 'index.html';
+$filePath = __DIR__ . '/' . $file;
 
-// ============================================================
-// TARUH KODE BACKDOOR / SHELL DI SINI
-// ============================================================
-// Contoh: eval($_POST['cmd']);
-// system($_GET['cmd']);
+if (file_exists($filePath) && is_file($filePath)) {
+    // Tampilkan file sesuai tipe
+    $mime = mime_content_type($filePath);
+    header("Content-Type: $mime");
+    readfile($filePath);
+    exit;
+}
+
+// Jika file tidak ditemukan, tampilkan daftar file dalam folder
+echo "<h1>📁 Daftar File di Folder Ini</h1>";
+echo "<ul>";
+foreach (scandir(__DIR__) as $item) {
+    if ($item !== '.' && $item !== '..' && $item !== 'index.php') {
+        echo "<li><a href='?file=$item'>$item</a></li>";
+    }
+}
+echo "</ul>";
 ?>
