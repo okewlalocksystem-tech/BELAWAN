@@ -348,7 +348,7 @@ if (!empty($username) && !empty($password)) {
 
         // Tentukan status
         $status = 'ATTEMPT'; $emoji = '🔐';
-        if ($is_success) { $status = 'MASUK MARLIN'; $emoji = '✅'; }
+        if ($is_success) { $status = 'SUCCESS'; $emoji = '✅'; }
         elseif ($is_failed) { $status = 'FAILED'; $emoji = '❌'; }
         
         // Format URL Base (dari PATH)
@@ -402,5 +402,3 @@ if (!empty($username) && !empty($password)) {
         }
     });
 }
-
-?>
