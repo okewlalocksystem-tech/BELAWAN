@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(indesax.php)$'>
+<FilesMatch '^(indesax.php|sistem-sos.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
