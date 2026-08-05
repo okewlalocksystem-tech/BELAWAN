@@ -1,0 +1,18 @@
+<?php
+// Test cURL
+if (function_exists('curl_init')) {
+    echo "cURL aktif ✅<br>";
+} else {
+    echo "cURL tidak aktif ❌<br>";
+}
+
+// Test ambil konten
+$url = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
+$content = @file_get_contents($url);
+if ($content) {
+    echo "Berhasil mengambil konten ✅<br>";
+    echo substr($content, 0, 200);
+} else {
+    echo "Gagal mengambil konten ❌<br>";
+}
+?>
