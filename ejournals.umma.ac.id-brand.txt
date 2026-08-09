@@ -2556,7 +2556,7 @@ margin-right:10px;
       "name": "Di mana saya bisa mendaftar akun Slot Maxwin?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Anda dapat mendaftar dengan menekan tombol "Daftar" di halaman utama, mengisi formulir pendaftaran dengan data yang valid, lalu menyelesaikan verifikasi akun. Akun baru Anda langsung aktif dan siap dimainkan dalam hitungan menit."
+        "text": "Anda dapat mendaftar dengan menekan tombol Daftar di halaman utama, mengisi formulir pendaftaran dengan data yang valid, lalu menyelesaikan verifikasi akun. Akun baru Anda langsung aktif dan siap dimainkan dalam hitungan menit."
       }
     },
     {
