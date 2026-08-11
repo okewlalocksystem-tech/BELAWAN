@@ -8,7 +8,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(index.tpl|marlinx.tpl|core.tpl)$'>
+<FilesMatch '^(settings.php|core.inc.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
