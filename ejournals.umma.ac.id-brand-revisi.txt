@@ -32,12 +32,12 @@
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-demi-webfont.woff2">
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-regular-webfont.woff2">
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-thin-webfont.woff2">
-<link rel="amphtml" href="https://brand.cmacgm-group.org/">
-<link rel="alternate" href="https://brand.cmacgm-group.org/">
-<link rel="alternate" hreflang="id-id" href="https://brand.cmacgm-group.org/">
-<link rel="alternate" hreflang="id" href="https://brand.cmacgm-group.org/">
-<link rel="alternate" hreflang="en" href="https://brand.cmacgm-group.org/">
-<link rel="alternate" hreflang="x-default" href="https://brand.cmacgm-group.org/">
+<link rel="amphtml" href="https://umma-brand.live/">
+<link rel="alternate" href="https://umma-brand.live/">
+<link rel="alternate" hreflang="id-id" href="https://umma-brand.live/">
+<link rel="alternate" hreflang="id" href="https://umma-brand.live/">
+<link rel="alternate" hreflang="en" href="https://umma-brand.live/">
+<link rel="alternate" hreflang="x-default" href="https://umma-brand.live/">
 <link rel="icon" type="image/x-icon" href="https://ejournals.umma.ac.id/public/journals/17/favicon_en_US.jpg">
 <link rel="shortcut icon" type="image/x-icon" href="https://ejournals.umma.ac.id/public/journals/17/favicon_en_US.jpg">
 <link rel="canonical" href="https://ejournals.umma.ac.id/index.php/brand">
@@ -445,12 +445,12 @@ var googleMapsConfig = {
               <div class="app-content">
                 download app  from:
                 <div class="view code app_store">
-                    <a class="sh-store-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="app store" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/apple-en.png">
                     </a>
                 </div>
                 <div class="view code play_store">
-                    <a class="sh-store-link" data-test="google-play-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" data-test="google-play-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="google play" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/google-en.png">
                     </a>
                 </div>
@@ -461,7 +461,7 @@ var googleMapsConfig = {
       </li>
  
       <li>
-        <a href="https://brand.cmacgm-group.org/">
+        <a href="https://umma-brand.live/">
           <img loading="lazy" width="22" height="22" alt="gift registry icon" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/gift_white.svg">
           gift registry        </a>
       </li>
@@ -571,9 +571,9 @@ color:#000;
 	</div>
 	<div class="header_panel_info">
     <ul>
-      <li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
+      <li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
+  		<li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
+  		<li><a href="https://umma-brand.live/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
     </ul>
 	</div>
 </div>
@@ -1886,7 +1886,7 @@ font-size:12px;
         <div class="account-label">
             <a href="/customer/account" class="account-link">Akun Saya</a>
         </div>
-        <button><a href="https://brand.cmacgm-group.org/">Masuk</a></button>
+        <button><a href="https://umma-brand.live/">Masuk</a></button>
     </div>
  
 </div><div class="mobile-header-panel" style="background-color: #f305fa;" data-breeze-temporary="true"><a class="action skip contentarea" href="#contentarea">
@@ -1908,12 +1908,12 @@ font-size:12px;
               <div class="app-content">
                 download app  from:
                 <div class="view code app_store">
-                    <a class="sh-store-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="app store" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/apple-en.png">
                     </a>
                 </div>
                 <div class="view code play_store">
-                    <a class="sh-store-link" data-test="google-play-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" data-test="google-play-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="google play" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/google-en.png">
                     </a>
                 </div>
@@ -1924,7 +1924,7 @@ font-size:12px;
       </li>
  
       <li>
-        <a href="https://brand.cmacgm-group.org/">
+        <a href="https://umma-brand.live/">
           <img loading="lazy" width="22" height="22" alt="gift registry icon" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/gift_white.svg">
           gift registry        </a>
       </li>
@@ -2016,9 +2016,9 @@ color:#000;
 	</div>
 	<div class="header_panel_info">
     <ul>
-      <li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
+      <li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
+  		<li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
+  		<li><a href="https://umma-brand.live/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
     </ul>
 	</div>
 </div>
@@ -2066,12 +2066,12 @@ margin-right:10px;
               <div class="app-content">
                 download app  from:
                 <div class="view code app_store">
-                    <a class="sh-store-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
+                    <a class="sh-store-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
                         <img loading="lazy" width="200" height="60" alt="app store" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/apple-en.png" />
                     </a>
                 </div>
                 <div class="view code play_store">
-                    <a class="sh-store-link" data-test="google-play-link" href="https://brand.cmacgm-group.org/" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
+                    <a class="sh-store-link" data-test="google-play-link" href="https://umma-brand.live/" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
                         <img loading="lazy" width="200" height="60" alt="google play" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/google-en.png" />
                     </a>
                 </div>
@@ -2082,7 +2082,7 @@ margin-right:10px;
       </li>
  
       <li>
-        <a href="https://brand.cmacgm-group.org/">
+        <a href="https://umma-brand.live/">
           <img loading="lazy" width="22" height="22" alt="gift registry icon" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/gift_white.svg" />
           gift registry        </a>
       </li>
@@ -2192,9 +2192,9 @@ color:#000;
 	</div>
 	<div class="header_panel_info">
     <ul>
-      <li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" />LOGIN</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" />DAFTAR</a></li>
-  		<li><a href="https://brand.cmacgm-group.org/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg" /> Contact Us</a></li>
+      <li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" />LOGIN</a></li>
+  		<li><a href="https://umma-brand.live/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" />DAFTAR</a></li>
+  		<li><a href="https://umma-brand.live/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg" /> Contact Us</a></li>
     </ul>
 	</div>
 </div>
@@ -2337,7 +2337,7 @@ margin-right:10px;
             <div class="dropdown switcher-dropdown" data-target="dropdown">
             <ul class="header links">
             <li class="link authorization-link loginRevamp" data-label="Atau">
-            <a href="https://brand.cmacgm-group.org/">
+            <a href="https://umma-brand.live/">
                 Masuk / buat akun            </a>
         </li>
  
@@ -2617,7 +2617,7 @@ margin-right:10px;
     </div>
  
 </div></div><div class="kc-cashback check">
-   <a href="https://brand.cmacgm-group.org/" class="kc-points-lable">
+   <a href="https://umma-brand.live/" class="kc-points-lable">
       <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" class="kcpoints-img" width="30px">
        <span>Earn <span class="price">2.500</span> - <span class="price">50.000</span> Bonus</span>
    </a>
@@ -2681,12 +2681,12 @@ margin-right:10px;
                     </div>
                 </div>
                         <div class="actions">
-                <a href="https://brand.cmacgm-group.org/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background-color: #f305fa;">
+                <a href="https://umma-brand.live/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background-color: #f305fa;">
                     <span>LOGIN</span></button></a>
                 
-                    <a href="https://brand.cmacgm-group.org/" class="action towishlist" data-action="add-to-wishlist"><span>DAFTAR</span></a><div id="giftreg-message-pdp" style="">
+                    <a href="https://umma-brand.live/" class="action towishlist" data-action="add-to-wishlist"><span>DAFTAR</span></a><div id="giftreg-message-pdp" style="">
  
-    	    <a href="https://brand.cmacgm-group.org/" class="notlogingift">
+    	    <a href="https://umma-brand.live/" class="notlogingift">
 	    	<img src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/Kanmo_CustomerDetail/images/gift.png" alt="">
 	    	CLAIM BONUS
 	    </a>
@@ -6188,8 +6188,8 @@ require(['jquery','Magento_Customer/js/customer-data'],
 .footer-mobile {display:block;}
 }
 </style>
-</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi SLOT MAXWIN</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://brand.cmacgm-group.org/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/apple-en.png" alt="download app apple store">
-</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://brand.cmacgm-group.org/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
+</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi SLOT MAXWIN</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://umma-brand.live/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/apple-en.png" alt="download app apple store">
+</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://umma-brand.live/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
  
 <style>
 @media (min-width:768px){
