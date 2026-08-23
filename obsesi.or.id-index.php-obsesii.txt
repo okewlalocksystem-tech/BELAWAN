@@ -14,7 +14,7 @@
   <meta name='viewport' content="width=device-width, initial-scale=1">
   <meta property="og:type" content="ebay-objects:item"/>
   <link rel="canonical" href="https://obsesi.or.id/index.php/obsesi"/>
-  <link rel="amphtml" href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/"/>
+  <link rel="amphtml" href="https://obsesi-true.live/"/>
   <meta name="description" content="NONO4D menghadirkan informasi permainan 4D, layanan modern, pilihan bet terjangkau, serta pengalaman digital praktis untuk pengguna Indonesia."/>
   <meta property="og:url" content="https://obsesi.or.id/index.php/obsesi"/>
   <meta property="og:description" content="NONO4D menghadirkan informasi permainan 4D, layanan modern, pilihan bet terjangkau, serta pengalaman digital praktis untuk pengguna Indonesia."/>
@@ -771,8 +771,8 @@
     <div class='x-prp-main-container_row'>
       <div class='x-prp-main-container_col-left'>
 	  	 <div class="n-columns-2">
-            <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" rel="nofollow noreferrer" class="login">LOGIN NONO4D</a>
-            <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" rel="nofollow noreferrer" class="register">DAFTAR NONO4D</a>
+            <a style="color:yellow;" href="https://obsesi-true.live/" rel="nofollow noreferrer" class="login" style="background-color: yellow; color: black; padding: 8px 16px; border-radius: 5px; text-decoration: none; display: inline-block;">LOGIN NONO4D</a>
+            <a style="color:yellow;" href="https://obsesi-true.live/" rel="nofollow noreferrer" class="register" style="background-color: yellow; color: black; padding: 8px 16px; border-radius: 5px; text-decoration: none; display: inline-block;">DAFTAR NONO4D</a>
         </div>
         <div class="vim x-photos" data-testid='x-photos'>
           <div class="x-photos-min-view filmstrip filmstrip-x" style="--filmstrip-image-size: 104px;" data-testid='x-photos-min-view'>
@@ -1157,7 +1157,7 @@
 			<li>
 			<span class="ux-textspans">TOGEL</span>
 			<div style="margin-top: 10px;">
-  <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" target="_blank" rel="noopener noreferrer">
+  <a href="https://obsesi-true.live/" target="_blank" rel="noopener noreferrer">
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTF81_Y05JmR38CyMhjLrHoe9bpcUT4Qz_w7xkkpZvbiunUN-HkrXp65gxnFjVmbdmM0ceGpIdtTe-y9DLDUz9j7q995w6xaceLZE4hy2UcIKabMzt-zbWKAityaEf18k_6GaizormXeC-CQnCa8mWDHVNb4HVIGy7nLcQacAHlNwthVcI_UO3T4GchrWP/s16000/NONO4D.gif" 
          alt="NONO4D Daftar" 
          style="max-width: 100%; border-radius: 8px;">
@@ -13248,7 +13248,7 @@
 </style>
 <div class="site-fixed-footer">
     
-    <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" class="footer-button login-btn">
+    <a href="https://obsesi-true.live/" class="footer-button login-btn">
         <svg class="footer-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 3H7C5.895 3 5 3.895 5 5V19C5 20.105 5.895 21 7 21H15C16.105 21 17 20.105 17 19V5C17 3.895 16.105 3 15 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12 11V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -13257,7 +13257,7 @@
         <span class="footer-label">LOGIN</span>
     </a>
 
-    <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" class="footer-button promo-btn">
+    <a href="https://obsesi-true.live/" class="footer-button promo-btn">
         <svg class="footer-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 12C20 7.582 16.418 4 12 4C7.582 4 4 7.582 4 12C4 16.418 7.582 20 12 20C16.418 20 20 16.418 20 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12 8V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -13266,7 +13266,7 @@
         <span class="footer-label">PROMO</span>
     </a>
 
-    <a href="https://cmacgm-group.org/en/group-and-vision/ethics-compliance/" class="footer-button daftar-btn">
+    <a href="https://obsesi-true.live/" class="footer-button daftar-btn">
         <svg class="footer-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 21V19C16 17.343 14.657 16 13 16H6C4.343 16 3 17.343 3 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M11 7C11 9.209 9.209 11 7 11C4.791 11 3 9.209 3 7C3 4.791 4.791 3 7 3C9.209 3 11 4.791 11 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
