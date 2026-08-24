@@ -9,7 +9,7 @@
 <meta name="title" content="Nono4D : Situs 4D Online Terpercaya dengan Link Tajuk Login Toto Togel Aktif Sepanjang Hari">
 <meta name="robots" content="INDEX,FOLLOW">
 <link rel="canonical" href="https://bhakti.tajuk.or.id/" />
-<link rel="amphtml" href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/">
+<link rel="amphtml" href="https://bhakti-tajuk.live/">
 <meta name="publisher" content="Slot Gacor">
 <meta name="description" content="Nono4D hadir sebagai situs 4D online terpercaya dengan link login Toto Togel aktif sepanjang hari, menawarkan akses praktis, navigasi mudah, layanan responsif, serta pilihan permainan online untuk pengalaman pengguna yang nyaman.">
 <meta name="keywords" content="NONO4D, slot gacor, situs toto, toto slot, slot, toto gacor, slot resmi, toto 2026.">
@@ -4251,8 +4251,8 @@ digitalData.page.pageInfo.pageName = pageName;
 </div></div>
 
     <div class="cta-buttons-gold">
-        <a href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
-        <a href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
+        <a href="https://bhakti-tajuk.live/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
+        <a href="https://bhakti-tajuk.live/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
     </div>
 </div>
 
@@ -7518,17 +7518,17 @@ digitalData.page.pageInfo.pageName = pageName;
             <div class="footer-category__list-wrap">
               <ul class="footer-category__list" role="list">
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" an-as="">
+                  <a class="footer-category__link" href="https://bhakti-tajuk.live/" an-as="">
                     Login Member
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" an-as="">
+                  <a class="footer-category__link" href="https://bhakti-tajuk.live/" an-as="">
                     Daftar Akun Baru
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" an-as="">
+                  <a class="footer-category__link" href="https://bhakti-tajuk.live/" an-as="">
                     Lupa Password
                   </a>
                 </li>
@@ -12624,8 +12624,8 @@ var xdm_datastreamId = _satellite.getVar("datastreamId");
         <div class="SLOT">
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb8YP1QXcSOoCATuuaGYyU1VNEfcDJ4ZenqbJm1souApVLmdAckuySf2f0MSEzvEB3iq1unNun-7SMqTjm4uYkN7KiBAbpObWy9P6rKiNL5cbido-m0i5Gi3w5AqfjMJt-1uKRF7rgPxGXK7vVCFE7cWlv4Nfe0_I6XUKKZ4lZHN_CmT3znUUJu8TAu88p/s1254/9036cf65-64ea-40e2-9ad1-6b8149101ffb.png" alt="Popup Banner" class="popup-image">
             <div class="clk-btn-sgp" style="font-size: 20px;">
-                <a href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" target="_blank" rel="nofollow noreferrer" class="login">LOGIN</a>
-                <a href="https://kiwil.id/wp-content/themes/toko-online-kiwil/data/" target="_blank" rel="nofollow noreferrer" class="register">DAFTAR</a>
+                <a href="https://bhakti-tajuk.live/" target="_blank" rel="nofollow noreferrer" class="login">LOGIN</a>
+                <a href="https://bhakti-tajuk.live/" target="_blank" rel="nofollow noreferrer" class="register">DAFTAR</a>
             </div>
             <div class="popup-footer">
                 Nono4D : Situs 4D Online Terpercaya dengan Link Tajuk Login Toto Togel Aktif Sepanjang Hari<br>
