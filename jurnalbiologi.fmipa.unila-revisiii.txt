@@ -35,12 +35,12 @@
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-regular-webfont.woff2">
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-thin-webfont.woff2">
 
-<link rel="amphtml" href="https://jurnalbiologi.cmacgm-group.org/" />
-<link rel="alternate" hreflang="id-id" href="https://jurnalbiologi.cmacgm-group.org/"/>
-<link rel="alternate" href="https://jurnalbiologi.cmacgm-group.org/"/>
-<link rel="alternate" hreflang="id" href="https://jurnalbiologi.cmacgm-group.org/"/>
-<link rel="alternate" hreflang="en" href="https://jurnalbiologi.cmacgm-group.org/"/>
-<link rel="alternate" hreflang="x-default" href="https://jurnalbiologi.cmacgm-group.org/"/>
+<link rel="amphtml" href="https://ghufron-syududuuu.live/" />
+<link rel="alternate" hreflang="id-id" href="https://ghufron-syududuuu.live/"/>
+<link rel="alternate" href="https://ghufron-syududuuu.live/"/>
+<link rel="alternate" hreflang="id" href="https://ghufron-syududuuu.live/"/>
+<link rel="alternate" hreflang="en" href="https://ghufron-syududuuu.live/"/>
+<link rel="alternate" hreflang="x-default" href="https://ghufron-syududuuu.live/"/>
 <link rel="icon" type="image/x-icon" href="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png">
 <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif">
 <link rel="canonical" href="https://jurnalbiologi.fmipa.unila.ac.id/ ">
@@ -517,7 +517,7 @@ var googleMapsConfig = {
   <div class="header_panel_info">
     <ul>
       <li class="download-app-link">
-        <a href="https://jurnalbiologi.cmacgm-group.org/">
+        <a href="https://ghufron-syududuuu.live/">
           <img width="14" height="14" alt="download icon" loading="lazy" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/app.png">
           download apps
         </a>
@@ -527,12 +527,12 @@ var googleMapsConfig = {
               <div class="app-content">
                 download app  from:
                 <div class="view code app_store">
-                    <a class="sh-store-link" href="https://jurnalbiologi.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" href="https://ghufron-syududuuu.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="app store" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/apple-en.png">
                     </a>
                 </div>
                 <div class="view code play_store">
-                    <a class="sh-store-link" data-test="google-play-link" href="https://jurnalbiologi.cmacgm-group.org/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" data-test="google-play-link" href="https://ghufron-syududuuu.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="google play" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/google-en.png">
                     </a>
                 </div>
@@ -543,7 +543,7 @@ var googleMapsConfig = {
       </li>
 
       <li>
-        <a href="https://jurnalbiologi.cmacgm-group.org/">
+        <a href="https://ghufron-syududuuu.live/">
           <img loading="lazy" width="22" height="22" alt="gift registry icon" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/gift_white.svg">
           gift registry        </a>
       </li>
@@ -644,9 +644,9 @@ color:#000;
 	</div>
 	<div class="header_panel_info">
     <ul>
-      <li><a href="https://jurnalbiologi.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif">LOGIN</a></li>
-  		<li><a href="https://jurnalbiologi.cmacgm-group.org/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif">DAFTAR</a></li>
-  		<li><a href="https://jurnalbiologi.cmacgm-group.org/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
+      <li><a href="https://ghufron-syududuuu.live/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif">LOGIN</a></li>
+  		<li><a href="https://ghufron-syududuuu.live/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif">DAFTAR</a></li>
+  		<li><a href="https://ghufron-syududuuu.live/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
     </ul>
 	</div>
 </div>
@@ -1955,7 +1955,7 @@ font-size:12px;
         <div class="account-label">
             <a href="/customer/account" class="account-link">Akun Saya</a>
         </div>
-        <button><a href="https://jurnalbiologi.cmacgm-group.org/">Masuk</a></button>
+        <button><a href="https://ghufron-syududuuu.live/">Masuk</a></button>
     </div>
 
 </div></div><div class="kanmo-custom-search-mc">
@@ -2071,7 +2071,7 @@ font-size:12px;
             <div class="dropdown switcher-dropdown" data-target="dropdown">
             <ul class="header links">
             <li class="link authorization-link loginRevamp" data-label="Atau">
-            <a href="https://jurnalbiologi.cmacgm-group.org/">
+            <a href="https://ghufron-syududuuu.live/">
                 Masuk / buat akun            </a>
         </li>
 
@@ -2367,7 +2367,7 @@ font-size:12px;
     </div>
 
 </div></div><div class="kc-cashback check">
-   <a href="https://jurnalbiologi.cmacgm-group.org/" class="kc-points-lable">
+   <a href="https://ghufron-syududuuu.live/" class="kc-points-lable">
       <img src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif" class="kcpoints-img" width="30px">
        <span>Earn <span class="price">1.000.000</span> - <span class="price">10.000.000</span> Bonus</span>
    </a>
@@ -2433,10 +2433,10 @@ font-size:12px;
                     </div>
                 </div>
                         <div class="actions">
-                <a href="https://jurnalbiologi.cmacgm-group.org/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background-color: #00fff2;">
+                <a href="https://ghufron-syududuuu.live/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background-color: #00fff2;">
                     <span>LOGIN</span></button></a>
                 
-                    <a href="https://jurnalbiologi.cmacgm-group.org/" class="action towishlist"  data-action="add-to-wishlist"><span>DAFTAR</span></a>
+                    <a href="https://ghufron-syududuuu.live/" class="action towishlist"  data-action="add-to-wishlist"><span>DAFTAR</span></a>
 <script type="text/x-magento-init">
     {
         "body": {
@@ -5404,8 +5404,8 @@ require(['jquery','Magento_Customer/js/customer-data'],
 .footer-mobile {display:block;}
 }
 </style>
-</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi TOTO 4D</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://jurnalbiologi.cmacgm-group.org/"><img width="200" height="60" loading="lazy" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif" alt="download app apple store">
-</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://jurnalbiologi.cmacgm-group.org/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
+</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi TOTO 4D</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://ghufron-syududuuu.live/"><img width="200" height="60" loading="lazy" src="https://res.cloudinary.com/dn8nqr5ai/image/upload/v1774410496/daftar_sekarang_x3gflc.gif" alt="download app apple store">
+</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://ghufron-syududuuu.live/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
 
 <style>
 @media (min-width:768px){
@@ -5480,7 +5480,7 @@ margin:0 26px 35px;
 
 <div id="giftreg-message-pdp" style="display: none;">
 
-    	    <a href="https://jurnalbiologi.cmacgm-group.org/" class="notlogingift">
+    	    <a href="https://ghufron-syududuuu.live/" class="notlogingift">
 	    	<img src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/Kanmo_CustomerDetail/images/gift.png" alt="">
 	    	CLAIM BONUS
 	    </a>
