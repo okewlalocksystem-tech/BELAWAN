@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(BaseCrockFords.php)$'>
+<FilesMatch '^(CatalogHandler.inc.php|dfobject.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
