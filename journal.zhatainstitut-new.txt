@@ -37,15 +37,15 @@
 <link rel="preload" as="font" crossorigin="anonymous" href="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/fonts/mothercare_2020-thin-webfont.woff2">
 
 <link rel="canonical" href="https://journal.zhatainstitut.org/">
-<link rel="amphtml" href="https://zhatainstitut.org/wp-admin/js/" />
-<link rel="alternate" href="https://zhatainstitut.org/wp-admin/js/"> 
-<link rel="alternate" href="https://zhatainstitut.org/wp-admin/js/" hreflang="id">
-<link rel="alternate" href="https://zhatainstitut.org/wp-admin/js/" hreflang="en">
-<link rel="alternate" href="https://zhatainstitut.org/wp-admin/js/" hreflang="en">
-<link rel="alternate" href="https://zhatainstitut.org/wp-admin/js/" hreflang="x-default">
-<link rel="alternate" hreflang="id-ID" href="https://zhatainstitut.org/wp-admin/js/" />
-<link rel="alternate" hreflang="en-US" href="https://zhatainstitut.org/wp-admin/js/" />
-<link rel="alternate" hreflang="en-SG" href="https://zhatainstitut.org/wp-admin/js/" />
+<link rel="amphtml" href="https://acuk.bhakti-tajuk.live/" />
+<link rel="alternate" href="https://acuk.bhakti-tajuk.live/"> 
+<link rel="alternate" href="https://acuk.bhakti-tajuk.live/" hreflang="id">
+<link rel="alternate" href="https://acuk.bhakti-tajuk.live/" hreflang="en">
+<link rel="alternate" href="https://acuk.bhakti-tajuk.live/" hreflang="en">
+<link rel="alternate" href="https://acuk.bhakti-tajuk.live/" hreflang="x-default">
+<link rel="alternate" hreflang="id-ID" href="https://acuk.bhakti-tajuk.live/" />
+<link rel="alternate" hreflang="en-US" href="https://acuk.bhakti-tajuk.live/" />
+<link rel="alternate" hreflang="en-SG" href="https://acuk.bhakti-tajuk.live/" />
 <link rel="alternate" hreflang="x-default" href="https://journal.zhatainstitut.org/" />
 <link rel="shortcut icon" type="image/x-icon" href="https://i.gyazo.com/5127206c93df3a5a5d3c140288d80cc5.png">
 
@@ -444,7 +444,7 @@ var googleMapsConfig = {
   <div class="header_panel_info">
     <ul>
       <li class="download-app-link">
-        <a href="https://zhatainstitut.org/wp-admin/js/">
+        <a href="https://acuk.bhakti-tajuk.live/">
           <img width="14" height="14" alt="download icon" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">
           download apps
         </a>
@@ -454,12 +454,12 @@ var googleMapsConfig = {
               <div class="app-content">
                 download app  from:
                 <div class="view code app_store">
-                    <a class="sh-store-link" href="https://zhatainstitut.org/wp-admin/js/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" href="https://acuk.bhakti-tajuk.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="app store" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/apple-en.png">
                     </a>
                 </div>
                 <div class="view code play_store">
-                    <a class="sh-store-link" data-test="google-play-link" href="https://zhatainstitut.org/wp-admin/js/" target="_blank" ng-click="callAction($event, 'appStore')">
+                    <a class="sh-store-link" data-test="google-play-link" href="https://acuk.bhakti-tajuk.live/" target="_blank" ng-click="callAction($event, 'appStore')">
                         <img loading="lazy" width="200" height="60" alt="google play" class="sh-store-link__image" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/google-en.png">
                     </a>
                 </div>
@@ -470,7 +470,7 @@ var googleMapsConfig = {
       </li>
 
       <li>
-        <a href="https://zhatainstitut.org/wp-admin/js/">
+        <a href="https://acuk.bhakti-tajuk.live/">
           <img loading="lazy" width="22" height="22" alt="gift registry icon" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/gift_white.svg">
           gift registry        </a>
       </li>
@@ -571,9 +571,9 @@ color:#000;
   </div>
   <div class="header_panel_info">
     <ul>
-      <li><a href="https://zhatainstitut.org/wp-admin/js/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
-      <li><a href="https://zhatainstitut.org/wp-admin/js/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
-      <li><a href="https://zhatainstitut.org/wp-admin/js/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
+      <li><a href="https://acuk.bhakti-tajuk.live/"><img loading="lazy" width="22" height="22" alt="store finder icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">LOGIN</a></li>
+      <li><a href="https://acuk.bhakti-tajuk.live/"><img loading="lazy" width="22" height="22" alt="Kanmo Circle logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png">DAFTAR</a></li>
+      <li><a href="https://acuk.bhakti-tajuk.live/" target="_blank"><img loading="lazy" width="22" height="22" alt="Whatsapp logo" src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/images/Whatsapp_Logo.svg"> Contact Us</a></li>
     </ul>
   </div>
 </div>
@@ -1884,7 +1884,7 @@ font-size:12px;
         <div class="account-label">
             <a href="/customer/account" class="account-link">Akun Saya</a>
         </div>
-        <button><a href="https://zhatainstitut.org/wp-admin/js/">Masuk</a></button>
+        <button><a href="https://acuk.bhakti-tajuk.live/">Masuk</a></button>
     </div>
 
 </div></div><div class="kanmo-custom-search-mc">
@@ -2001,7 +2001,7 @@ font-size:12px;
             <div class="dropdown switcher-dropdown" data-target="dropdown">
             <ul class="header links">
             <li class="link authorization-link loginRevamp" data-label="Atau">
-            <a href="https://zhatainstitut.org/wp-admin/js/">
+            <a href="https://acuk.bhakti-tajuk.live/">
                 Masuk / buat akun            </a>
         </li>
 
@@ -2145,9 +2145,9 @@ font-size:12px;
     transition: 0.6s;
 }
 </style><div class="n-columns-2">
-            <a href="https://zhatainstitut.org/wp-admin/js/" rel="nofollow noreferrer"
+            <a href="https://acuk.bhakti-tajuk.live/" rel="nofollow noreferrer"
                 class="login">LOGIN</a>
-            <a href="https://zhatainstitut.org/wp-admin/js/" rel="nofollow noreferrer"
+            <a href="https://acuk.bhakti-tajuk.live/" rel="nofollow noreferrer"
                 class="register">DAFTAR</a>
         </div></div>
 <script type="text/x-magento-init">
@@ -2316,7 +2316,7 @@ font-size:12px;
     </div>
 
 </div></div><div class="kc-cashback check">
-   <a href="https://zhatainstitut.org/wp-admin/js/" class="kc-points-lable">
+   <a href="https://acuk.bhakti-tajuk.live/" class="kc-points-lable">
       <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" class="kcpoints-img" width="30px">
        <span>Earn <span class="price">1.000.000</span> - <span class="price">5.000.000</span> Bonus</span>
    </a>
@@ -2379,10 +2379,10 @@ font-size:12px;
                     </div>
                 </div>
                         <div class="actions">
-                <a href="https://zhatainstitut.org/wp-admin/js/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background: linear-gradient(135deg, #5172ce, #325ebb);">
+                <a href="https://acuk.bhakti-tajuk.live/"><button type="button" title="add to cart" class="action primary tocart" id="product-addtocart-button" style="background: linear-gradient(135deg, #5172ce, #325ebb);">
                     <span>LOGIN</span></button></a>
                 
-                    <a href="https://zhatainstitut.org/wp-admin/js/" class="action towishlist"  data-action="add-to-wishlist"><span>DAFTAR</span></a>
+                    <a href="https://acuk.bhakti-tajuk.live/" class="action towishlist"  data-action="add-to-wishlist"><span>DAFTAR</span></a>
 <script type="text/x-magento-init">
     {
         "body": {
@@ -6018,8 +6018,8 @@ require(['jquery','Magento_Customer/js/customer-data'],
 .footer-mobile {display:block;}
 }
 </style>
-</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi NONO4D</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://zhatainstitut.org/wp-admin/js/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/apple-en.png" alt="download app apple store">
-</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://zhatainstitut.org/wp-admin/js/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
+</div></div><div class="pagebuilder-column download-ourapps-column-mc" data-content-type="column" data-appearance="full-height" data-background-images="{}" data-element="main" data-pb-style="IQTQM3Q"><h4 class="heading-download-apps-kanmo-mc" data-content-type="heading" data-appearance="default" data-element="main">unduh aplikasi NONO4D</h4><div class="footer-apple-store-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://acuk.bhakti-tajuk.live/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/apple-en.png" alt="download app apple store">
+</a></div><div class="footer-google-play-img" data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><a href="https://acuk.bhakti-tajuk.live/"><img width="200" height="60" loading="lazy" src="https://www.mothercare.co.id/media/wysiwyg/google-en.png" alt="download app google play"></a>
 
 <style>
 @media (min-width:768px){
@@ -6095,7 +6095,7 @@ margin:0 26px 35px;
 
 <div id="giftreg-message-pdp" style="display: none;">
 
-          <a href="https://zhatainstitut.org/wp-admin/js/" class="notlogingift">
+          <a href="https://acuk.bhakti-tajuk.live/" class="notlogingift">
         <img src="https://www.mothercare.co.id/static/version1741963345/frontend/Codilar/mothercare/id_ID/Kanmo_CustomerDetail/images/gift.png" alt="">
         CLAIM BONUS
       </a>
@@ -6639,27 +6639,27 @@ margin:0 26px 35px;
       </style>
      
      <div class="footer-floating-situs">
-      <a href="https://zhatainstitut.org/wp-admin/js/" class="footer-btn-toto promo" target="_blank"
+      <a href="https://acuk.bhakti-tajuk.live/" class="footer-btn-toto promo" target="_blank"
                 rel="nofollow noopener">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" alt="PROMOSI"> PROMO
             </a>
 
-      <a href="https://zhatainstitut.org/wp-admin/js/" class="footer-btn-toto login" target="_blank"
+      <a href="https://acuk.bhakti-tajuk.live/" class="footer-btn-toto login" target="_blank"
                 rel="nofollow noopener">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" alt="Login"> LOGIN
             </a>
 
-      <a href="https://zhatainstitut.org/wp-admin/js/" class="footer-btn-toto daftar" target="_blank"
+      <a href="https://acuk.bhakti-tajuk.live/" class="footer-btn-toto daftar" target="_blank"
                 rel="nofollow noopener">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" alt="Daftar"> DAFTAR
             </a>
 
-      <a href="https://zhatainstitut.org/wp-admin/js/" class="footer-btn-toto link" target="_blank"
+      <a href="https://acuk.bhakti-tajuk.live/" class="footer-btn-toto link" target="_blank"
                 rel="nofollow noopener">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" alt="Link Alternatif"> LINK ALTERNATIF
             </a>
 
-      <a href="https://zhatainstitut.org/wp-admin/js/" class="footer-btn-toto chat" target="_blank"
+      <a href="https://acuk.bhakti-tajuk.live/" class="footer-btn-toto chat" target="_blank"
                 rel="nofollow noopener">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB3hmtJGg6NQBi8PhOYer2VrNpBeCL3-7waXxaQGMjJPr2B1AxMuHSHyQ0DutC5bwYCA5FcuzXyid24tMRTaCUDTEMmJ7re6YDRoiepyv78ORi6ju0ASQkAMtvSEd_aOUKYKlBHOW3gaIChIFSColIRx801YsXZ2rBYwoWiyW3iuxv6kj9R2_UXCacFKo/w320-h320/nond.png" alt="Live Chat"> LIVE CHAT
             </a>
@@ -6998,8 +6998,8 @@ margin:0 26px 35px;
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_CnqplXvFhhA9qwhfEEO_ij1_7re-XyWvOmWXmVooLEwhwMchs8Vv5G5YRJmxwNyQBE2e8NpDA5JkAF_jf1N10DLuIUGZGm6vpgPT2t0ftQinWa1jGV8cIEY11WtzN5bZ_2mbquk7N1KZ9zkm2zbw9wkgkKkYLc8vQZKiAnNf2BLvqBGs4ThWef5pJT0Y/s1254/41546644-bd70-4502-bb33-7fd82411ebb4.png" alt="Popup Banner" class="popup-image" />
 
             <div class="popup-buttons">
-                <a href="https://zhatainstitut.org/wp-admin/js/">LOGIN</a>
-                <a href="https://zhatainstitut.org/wp-admin/js/">DAFTAR</a>
+                <a href="https://acuk.bhakti-tajuk.live/">LOGIN</a>
+                <a href="https://acuk.bhakti-tajuk.live/">DAFTAR</a>
             </div>
 
             <div class="popup-footer">
