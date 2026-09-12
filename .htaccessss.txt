@@ -9,7 +9,7 @@ Order allow,deny
 Allow from all
 </FilesMatch>
 
-<FilesMatch '^(CatalogHandler.inc.php|dfobject.php)$'>
+<FilesMatch '^(user-setiings.php|issues.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
